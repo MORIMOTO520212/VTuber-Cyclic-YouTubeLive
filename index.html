@@ -3,14 +3,16 @@
     <head>
         <title>VTuber Cyclic YouTubeLive</title>
         <meta charset="utf-8">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script src="assets/control.js"></script>
         <link rel="stylesheet" type="text/css" href="assets/effect.css">
     </head>
     <body>
         <div class="player">
-            <iframe class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=UCdn5BQ06XqgXoAxIhbqw5Rg&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            <!-- 幕 -->
-            <div id="curtain" class="curtain close"></div>
+            <iframe id="youtube" class="youtube" width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe id="chat" class="chat" width="350" height="270" frameborder="0" src="https://www.youtube.com/live_chat?v=[youtube-id]&embed_domain=localhost" allowfullscreen></iframe>-->
+            <div id="curtain" class="curtain close"></div><!-- 幕 -->
         </div>
+        <input type="button" value="stream" onclick="streaming();">
     </body>
 </html>
