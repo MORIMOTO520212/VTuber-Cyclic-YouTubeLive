@@ -22,17 +22,21 @@ function randomSetYouTube(){
 
         curtainOC(); // 幕を掛ける
 
+
         if (i < jsonData.length){ i += 1; }
         else{ i = 0; }
 
         console.log("stream: "+i);
         // 動画セット
-        element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+jsonData[i]+"&autoplay=1");
+        function sleep1(){
+            element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+jsonData[i]+"&autoplay=1");
+        }
+        setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける
         
-        function sleep(){
+        function sleep2(){
             curtainOC(); // 幕を開ける
         }
-        setTimeout(sleep, 3000); // 幕を掛ける時間
+        setTimeout(sleep2, 4500); // 幕を掛ける時間3.5秒
     }
 
     $.post('getData.php?mode=getStreaming', {}, function(data){ // jQuery Post
