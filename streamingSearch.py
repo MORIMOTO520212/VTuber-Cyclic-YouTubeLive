@@ -11,17 +11,18 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-# ユーザープロファイルを使う
+# ユーザープロファイルを使う 
 options = Options()
 options.add_argument("--headless")
+PROFILE_PATH = "UserData"
+options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
-driver.get("http://free-proxy.cz/ja/proxylist/main/1")
+driver.get("https://www.youtube.com/feed/subscriptions")
 source = driver.page_source
-driver.quit()
 
-soup = BeautifulSoup(res.text, 'html.parser')
+# open("subscribe.html", "w", encoding="utf-8").write(str(source))
 
+# soup = BeautifulSoup(source, 'html.parser')
+# details = soup.find_all("div", id="details")
 
-details = soup.find_all("div", id="details")
-
-print(details)
+# print(details)
