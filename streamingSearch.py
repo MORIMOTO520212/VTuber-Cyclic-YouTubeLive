@@ -11,18 +11,18 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-# ユーザープロファイルを使う 
-options = Options()
-options.add_argument("--headless")
+# ヘッドレスモードでユーザープロファイルを使う 
 PROFILE_PATH = "UserData"
+options = Options()
+# options.add_argument("--headless")
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
+# options.add_argument("--remote-debugging-port=9222")
 driver = webdriver.Chrome(chrome_options=options)
 driver.get("https://www.youtube.com/feed/subscriptions")
 source = driver.page_source
 
-# open("subscribe.html", "w", encoding="utf-8").write(str(source))
+soup = BeautifulSoup(source, 'html.parser')
+details = soup.find_all("div", id="details")
 
-# soup = BeautifulSoup(source, 'html.parser')
-# details = soup.find_all("div", id="details")
+input(details)
 
-# print(details)
