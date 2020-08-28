@@ -12,6 +12,8 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from time import sleep
 
+print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
+
 # ヘッドレスモードでユーザープロファイルを使う 
 PROFILE_PATH = "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data"
 options = Options()
@@ -21,7 +23,6 @@ options = Options()
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
 
-print("ライブ配信サーチ\n\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
 while True:
     try:
         driver.get("https://www.youtube.com/feed/subscriptions")
@@ -34,11 +35,20 @@ while True:
             channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
             channelId = channelLink.replace("/channel/", "")
             # document.querySelectorAll("#details")[0].getElementsByTagName("span")[2].innerText;
-            print(channelId)
-            streamingNow = detail.find("span").get_text() # ~人が視聴中
-            print(streamingNow)
+            
+            try:
+                streamingNow = detail.find_all("span", class_=["ytd-badge-supported-renderer"])
+                streamingNow = streamingNow[len(streamingNow)-1].get_text() # ライブ配信中
+            except:
+                streamingNow = False # 取得できなかった場合
+
+            if streamingNow == "ライブ配信中":
+                print(channelId)
+        print("-------------------------")
+            
         
-        sleep(180)
+        sleep(180) # 3分間待機
+
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
