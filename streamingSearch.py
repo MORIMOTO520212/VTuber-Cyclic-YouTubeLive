@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
 # ヘッドレスモードでユーザープロファイルを使う 
-PROFILE_PATH = "UserData"
+PROFILE_PATH = "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data"
 options = Options()
 # options.add_argument("--headless")
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
@@ -24,5 +24,5 @@ source = driver.page_source
 soup = BeautifulSoup(source, 'html.parser')
 details = soup.find_all("div", id="details")
 
-input(details)
+input(len(details))
 
