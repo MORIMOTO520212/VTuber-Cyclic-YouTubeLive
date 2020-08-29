@@ -11,6 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from time import sleep
+import json
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
 
@@ -24,6 +25,8 @@ options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
 
 while True:
+
+    streamingChannels = []
     try:
         driver.get("https://www.youtube.com/feed/subscriptions")
         source = driver.page_source
@@ -43,9 +46,10 @@ while True:
                 streamingNow = False # 取得できなかった場合
 
             if streamingNow == "ライブ配信中":
-                print(channelId)
-        print("-------------------------")
-            
+                streamingChannels.append(channelId)
+        
+        with open("assets/streaming.json", "w") as f:
+            json.dump(streamingChannels, f, indent=4)
         
         sleep(180) # 3分間待機
 
