@@ -58,6 +58,7 @@ div.status .box1{
 div.status .box1 div.list{
     display: inline-block;
     border: solid 1px #eee;
+    vertical-align: top;
     margin: 0;
     width: 43%;
 }
