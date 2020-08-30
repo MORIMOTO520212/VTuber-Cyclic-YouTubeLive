@@ -1,11 +1,16 @@
 body{
     background-color: #181818;
 }
-
+p{
+    color: #eee;
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    margin: 5px;
+}
 
 
 /* ------------- Player ------------- */
 div.player{
+    display: inline-block;
     position: relative;
     width: 1280px;
     height: 720px;
@@ -38,4 +43,21 @@ div.player .open{
 div.player .close{
     /* フェードアウト */
     animation: 1s fade-out forwards;
+}
+
+div.status{
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    height: 720px;
+}
+div.status .box1{
+    margin: auto 0;
+}
+
+div.status .box1 div.list{
+    display: inline-block;
+    border: solid 1px #eee;
+    margin: 0;
+    width: 43%;
 }

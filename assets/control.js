@@ -1,21 +1,25 @@
 // 幕の開閉
 function curtainOC(){
-    element = document.getElementById("curtain");
-    if(element.className == "curtain open"){
-        element.className = "curtain close";
+    element_curtain = document.getElementById("curtain");
+    if(element_curtain.className == "curtain open"){
+        element_curtain.className = "curtain close";
         console.log("curtain close");
     }else{
-        element.className = "curtain open";
+        element_curtain.className = "curtain open";
         console.log("curtain open");
     }
     return;
 }
 
 var i = 0;
+var element = document.getElementById("youtube");
+var element_streamingId = document.getElementById("streamingId");
+var element_streamings = document.getElementById("streamings");
+var element_channelId = document.getElementById("channelId");
+var element_userName = document.getElementById("userName");
+var element_twitterId = document.getElementById("twitterId");
 // ランダムに再生する
 function randomSetYouTube(){
-    
-    var element = document.getElementById("youtube");
 
     function changeStream(jsonData){
         console.log("changeStream");
@@ -23,13 +27,18 @@ function randomSetYouTube(){
         curtainOC(); // 幕を掛ける
 
 
-        if (i < jsonData.length){ i += 1; }
+        if (i < jsonData.length-1){ i += 1; }
         else{ i = 0; }
 
         console.log("stream: "+i);
         // 動画セット
         function sleep1(){
             element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+jsonData[i]+"&autoplay=1");
+            element_streamingId.innerHTML = i;
+            element_streamings.innerHTML = jsonData.length;
+            element_channelId.innerHTML = jsonData[i];
+            element_userName.innerHTML = "null";
+            element_twitterId.innerHTML = "null";
         }
         setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける
         

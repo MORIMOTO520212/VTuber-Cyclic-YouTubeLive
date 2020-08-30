@@ -3,8 +3,9 @@
     <head>
         <title>VTuber Cyclic YouTubeLive</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script src="assets/control.js"></script>
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/effect.css">
     </head>
     <body>
@@ -13,6 +14,28 @@
             <!--<iframe id="chat" class="chat" width="350" height="270" frameborder="0" src="https://www.youtube.com/live_chat?v=[youtube-id]&embed_domain=localhost" allowfullscreen></iframe>-->
             <div id="curtain" class="curtain close"></div><!-- 幕 -->
         </div>
+        <div class="status">
+            <div class="box1">
+                <div class="list"><p>streaming ID</p></div>
+                <div class="list"><p id="streamingId"></p></div>
+
+                <div class="list"><p>Channel ID</p></div>
+                <div class="list"><p id="channelId"></p></div>
+
+                <div class="list"><p>配信者数</p></div>
+                <div class="list"><p id="streamings"></p></div>
+
+                <div class="list"><p>ユーザー名</p></div>
+                <div class="list"><p id="userName"></p></div>
+
+                <div class="list"><p>Twitter ID</p></div>
+                <div class="list"><p id="twitterId"></p></div>
+
+                <div class="list"><p>同時接続者数</p></div>
+                <div class="list"><p></p></div>
+            </div>
+        </div>
         <input type="button" value="stream" onclick="streaming();">
+        <script src="assets/control.js"></script>
     </body>
 </html>
