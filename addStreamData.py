@@ -1,6 +1,6 @@
 import json
 
-print("VTuberの情報をストリームデータに追加します。\nCtrl + Cで終了します。")
+print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
 
 with open("database/streamdata.json", "r") as f:
     data = json.load(f)
@@ -9,6 +9,7 @@ userName = []
 for channelId in data:
         userName.append(data[channelId]["userName"])
 
+print("登録済ライバー数："+str(len(userName)))
 while True:
     try:
         userData = {}
