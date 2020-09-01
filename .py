@@ -5,8 +5,11 @@ with open("database/streamdata.json", "r") as f:
 
 try:
     for channelId in data:
-            link = input(data[channelId]["userName"]+" >")
-            data[channelId]["photo"] = link
+            try:
+                print(data[channelId]["userName"]+" >"+data[channelId]["photo"])
+            except:
+                link = input(data[channelId]["twitterId"]+" >")
+                data[channelId]["photo"] = link
 except KeyboardInterrupt:
     print("キーが押されたので終了します。")
 

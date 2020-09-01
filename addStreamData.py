@@ -18,8 +18,10 @@ while True:
             print("既に登録済みのユーザーです。\n")
             continue
         input_twitterId = input("Twitter ID：")
+        input_photo     = input("TwitterアイコンURL：")
         userData["userName"]  = input_userName
         userData["twitterId"] = input_twitterId
+        userData["photo"]     = input_photo
         data[input("チャンネルID：")] = userData
         userName.append(input_userName)
         print()
