@@ -16,6 +16,7 @@ import json
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
 
 # ヘッドレスモードでユーザープロファイルを使う 
+# C:\Users\kante\AppData\Local\Google\Chrome\User Data2
 PROFILE_PATH = "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
 options = Options()
 # ヘッドレスではプロファイル情報を読み込まない

@@ -14,9 +14,10 @@
             <!--<iframe id="chat" class="chat" width="350" height="270" frameborder="0" src="https://www.youtube.com/live_chat?v=[youtube-id]&embed_domain=localhost" allowfullscreen></iframe>-->
             <div id="curtain" class="curtain close"><!-- 幕 -->
                 <div class="profile"><img id="photo" src="profile.png"></div>
-                <div class="userName"><p id="main_userName">UserName</p></div>
-                <div class="title"><p id="main_videoTitle">Title</p></div>
+                <div class="userName"><p id="main_userName"></p></div>
+                <div class="title"><p id="main_videoTitle"></p></div>
             </div>
+            <div id="play" class="play"><a href="javascript:streaming();"><p>再生</p></a></div>
         </div>
         <div class="status">
             <div class="box1">
@@ -42,7 +43,6 @@
                 <div class="list"><p id="streamingNumber"></p></div>
             </div>
         </div>
-        <input type="button" value="stream" onclick="streaming();">
         <script src="assets/control.js"></script>
     </body>
 </html>

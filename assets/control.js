@@ -23,6 +23,7 @@ var element_streamingNumber = document.getElementById("streamingNumber");
 var element_main_userName = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo = document.getElementById("photo");
+var element_play = document.getElementById("play");
 
 // ランダムに再生する
 function randomSetYouTube(){
@@ -80,6 +81,7 @@ function randomSetYouTube(){
 
 // 1分毎に配信を切り替えながらストリーミングする
 function streaming(){
+    element_play.setAttribute("class", "play close");
     randomSetYouTube();
 }
 stop = setInterval(streaming, 60000);

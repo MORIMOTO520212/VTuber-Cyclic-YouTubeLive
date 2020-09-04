@@ -44,7 +44,7 @@ div.player div.open{
 }
 div.player div.close{
     /* フェードアウト */
-    animation: 1s fade-out forwards;
+    animation: 0.5s fade-out forwards;
 }
 
 div.status{
@@ -81,4 +81,22 @@ div.userName, div.title{
     margin-top: 13px;
     text-align: center;
     font-size: 30px;
+}
+
+/* Play Button */
+div.play{
+    position: absolute;
+    top: 683px;
+    left: 640px;
+}
+div.play a{
+    text-decoration: none;
+}
+div.play a p{
+    font-weight: bold;
+    text-decoration: none;
+}
+div.play.close{
+    /* フェードアウト */
+    animation: 0.5s fade-out forwards;
 }

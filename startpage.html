@@ -1,22 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <title>startpage.html</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <style>
+            body{
+                background-color: #181818;
+            }
             p{
                 color: #eee;
                 font-size: 40px;
                 text-align: center;
+                font-family: "Google Sans","Roboto","Arial",sans-serif;
             }
             div.msg{
                 margin: auto 0;
+            }
+            p.message{
+                font-size: 30px;
+            }
+            div.video{
+                margin: 0 auto;
+                width: 600px;
+            }
+            video{
+                width: 600px;
+                border-radius: 30px;
             }
         </style>
     </head>
     <body>
         <div class="msg">
             <p>VTuber Cyclic YouTubeLive</p>
+        </div>
+        <div class="msg">
+            <p class="message">ネット上で活躍する素晴らしいインフルエンサーたちをコアユーザーの人気にとどめてはいけません</p>
+        </div>
+        <div class="msg">
+            <p class="message">音声の許可を行ってください</p>
+        </div>
+        <div class="video">
+            <video src="database/guide.mp4" autoplay muted loop></video>
         </div>
     </body>
 </html>
