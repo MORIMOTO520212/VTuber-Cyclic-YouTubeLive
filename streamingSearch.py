@@ -25,6 +25,9 @@ options = Options()
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
 
+with open("database/streamdata.json") as f:
+    streamdata = json.load(f)
+
 while True:
 
     streamingChannels = []
@@ -34,7 +37,7 @@ while True:
 
         soup = BeautifulSoup(source, 'html.parser')
         details = soup.find_all("div", id="details")
-        print(len(details))
+        print("取得チャンネル数："+str(len(details)))
         for detail in details:
             channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
             channelId   = channelLink.replace("/channel/", "") # チャンネルID
@@ -55,6 +58,11 @@ while True:
                 streamingNow = False # 取得できなかった場合
 
             if streamingNow == "ライブ配信中":
+                for channelIdData in streamdata.keys():
+                    if channelIdData == channelId:
+                        break
+                else:
+                    print("未登録のライバー："+channelId)
                 streamingChannels.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle})
 
         if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する

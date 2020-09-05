@@ -12,6 +12,7 @@ function curtainOC(){
 }
 
 var i = 0;
+var streamingChannel = "";
 var element_youtube = document.getElementById("youtube");
 var element_streamingId = document.getElementById("streamingId");
 var element_streamings = document.getElementById("streamings");
@@ -46,7 +47,7 @@ function intervalStreamingData(){
         // ステータス画面の総配信者
         var imgSource = "";
         for(var j = 0; j < streamings.length; j++){
-            if(streamings[i]["channelId"] != streamings[j]["channelId"]){
+            if(streamingChannel != streamings[j]["channelId"]){
                 imgSource +=  "<a href=\"https://www.youtube.com/channel/"+streamings[j]["channelId"]+"\" target=\"_blank\"><img class=\"icon\" src=\"" + streamData[ streamings[j]["channelId"] ]["photo"] + "\"></a>";
             }else{
                 imgSource +=  "<a href=\"https://www.youtube.com/channel/"+streamings[j]["channelId"]+"\" target=\"_blank\"><img class=\"icon hilight\" src=\"" + streamData[ streamings[j]["channelId"] ]["photo"] + "\"></a>";
@@ -78,6 +79,7 @@ function randomSetYouTube(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1");
         element_streamingId.innerHTML      = i;                                  // ステータス画面のストリーミング番号
         element_channelId.innerHTML        = streamings[i]["channelId"];         // ステータス画面のチャンネルID
+        streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
         element_videoTitle.innerHTML       = streamings[i]["videoTitle"];        // ステータス画面の動画タイトル
         element_main_videoTitle.innerHTML  = streamings[i]["videoTitle"];        // メイン画面の動画タイトル
