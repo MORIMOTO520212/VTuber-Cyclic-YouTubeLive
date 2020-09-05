@@ -29,11 +29,18 @@ Chromeブラウザでは音声付き動画の自動再生が禁止されてい�
 OBSでソースにブラウザを設定し、altキーを押しながらクロップ（トリミング）を行う。
 
 ライブ配信埋め込み禁止ライバー一覧  
-夜白藍　    UC3G9ynwAEyiZU-87j6PkQLQ  
+夜白藍      UC3G9ynwAEyiZU-87j6PkQLQ  
 藤咲柊華    UC4P6fOfiK1lOED8CHoT9suw  
 ジーク      UClxLspCGOP9Fy5Dvd7Kc77Q  
+錫白レイ    UCuzEiEIsbACj56uLxxd-5Vw  
 星名レキ    UCQCJfZ3ClRFkf2Pgy5n2_NA  
 香月ネロ    UCrKFWIOpVNwpyzfoTH0w6bQ  
+音無ツバキ  UC6USecxNGku4qbOAa6hF1rA  
 桔梗ちはる  UCf6REJh1e1YUyYPKmDaz8Ig  
-ユノ       UC0OxbHy1_rtjTk946-hWTnA  
-戸越ぷらむ UCk7cMvrfvH98Bfng58N_Zzw  
+ユノ        UC0OxbHy1_rtjTk946-hWTnA  
+戸越ぷらむ  UCk7cMvrfvH98Bfng58N_Zzw  
+塩天使リエル UCE5rWcDxLPaaUFWOxzJFfNg  
+夜野とばり  UC2JMXD8btPtvJafM3dawF-Q  
+碧那アイル  UCpBCiBjOoZanFhj-49LgcDg  
+
+ライブ配信未登録者一覧

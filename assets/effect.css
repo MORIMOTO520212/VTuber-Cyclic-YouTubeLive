@@ -14,7 +14,7 @@ div.player{
     position: relative;
     width: 1280px;
     height: 720px;
-    border: solid 1px #eee;
+    border: solid 1px #2f2f2f00;
 }
 
 div.player .curtain{
@@ -26,7 +26,9 @@ div.player .curtain{
     left: 0px;
 
 }
-
+.youtube{
+    border-radius: 20px;
+}
 
 @keyframes fade-in {
     from {opacity: 0;}
@@ -86,11 +88,15 @@ div.userName, div.title{
 /* Play Button */
 div.play{
     position: absolute;
-    top: 683px;
-    left: 640px;
+    top: 670px;
+    left: 600px;
+    border: solid 2px #eee;
+    border-radius: 16px;
+    width: 55px;
 }
 div.play a{
     text-decoration: none;
+    text-align: center;
 }
 div.play a p{
     font-weight: bold;
@@ -99,4 +105,17 @@ div.play a p{
 div.play.close{
     /* フェードアウト */
     animation: 0.5s fade-out forwards;
+}
+
+/* icon */
+img.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+img.icon.hilight{
+    border: solid 2px #fcff2d;
+}
+div.streamings{
+    padding: 5px;
 }

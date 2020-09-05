@@ -39,23 +39,24 @@ while True:
             channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
             channelId   = channelLink.replace("/channel/", "") # チャンネルID
             try:
-                # [ライブ配信中]マークを検出
+                # [ライブ配信中]マークを抽出
                 streamingNow    = detail.find_all("span", class_=["ytd-badge-supported-renderer"])
                 streamingNow    = streamingNow[len(streamingNow)-1].get_text() # ライブ配信中
 
-                # 視聴者数を検出
+                # 視聴者数を抽出
                 streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
                 streamingNumber = streamingNumber[len(streamingNumber)-1].get_text() # 1.5万 人が視聴中
                 streamingNumber = streamingNumber.replace(" 人が視聴中", "人") # 同時接続者数
 
-                # 動画タイトルを検出
+                # 動画タイトルを抽出
                 videoTitle = detail.find_all("a", id="video-title")[0].get("title")
+
             except Exception as e:
                 streamingNow = False # 取得できなかった場合
 
             if streamingNow == "ライブ配信中":
                 streamingChannels.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle})
-        
+
         if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する
             print("ライブ配信者なし")
 
