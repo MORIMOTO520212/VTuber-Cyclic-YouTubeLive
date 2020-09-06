@@ -107,3 +107,13 @@ function streaming(){
     randomSetYouTube();
     setInterval(randomSetYouTube, 60000); // 60.000秒
 }
+
+
+function getStreamingSource(){
+    var element_getStreaming = document.getElementById("getStreaming");
+    element_getStreaming.innerHTML = streamings;
+}
+function getStreamDataSource(){
+    var element_getStreamData = document.getElementById("getStreamData");
+    element_getStreamData.innerHTML = StreamData;
+}
