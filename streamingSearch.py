@@ -88,7 +88,7 @@ while True:
                             streamdata = json.load(f)
                         userStatus = api.get_user(streamdata[channelId]["twitterId"])
                         photo = userStatus.profile_image_url_https
-                        streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg")
+                        streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
                         # 書き込み
                         print("アイコンデータ更新 streamdata.json")
                         with open("database/streamdata.json", "w") as f:

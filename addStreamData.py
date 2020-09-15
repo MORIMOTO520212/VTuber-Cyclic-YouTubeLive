@@ -31,9 +31,14 @@ while True:
             continue
         input_twitterId = input("Twitter ID：")
         # TweepyでTwitterアイコン取得
-        userStatus = api.get_user(input_twitterId)
-        photo = userStatus.profile_image_url_https
-        photo = photo.replace("_normal.jpg", "_400x400.jpg")
+        try:
+            userStatus = api.get_user(input_twitterId)
+            photo = userStatus.profile_image_url_https
+            photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+        except:
+            print("ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
+            photo = input("TwitterアイコンURL：")
+
         userData["userName"]  = input_userName
         userData["twitterId"] = input_twitterId
         userData["photo"]     = photo
