@@ -2,7 +2,10 @@ import json
 
 print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
 
-with open("database/streamdata.json", "r") as f:
+with open("setting.json", "r") as f:
+    setting = json.load(f)
+
+with open(setting["streamingPath"], "r") as f:
     data = json.load(f)
 
 userName = []

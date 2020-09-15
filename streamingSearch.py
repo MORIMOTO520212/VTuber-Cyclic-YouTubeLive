@@ -15,15 +15,19 @@ import json
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
 
+with open("setting.json", "r") as f:
+    setting = json.load(f)
+
 # ヘッドレスモードでユーザープロファイルを使う 
 # C:\Users\kante\AppData\Local\Google\Chrome\User Data2
-PROFILE_PATH = "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
+PROFILE_PATH = setting["chromeProfilePath"]
 options = Options()
 # ヘッドレスではプロファイル情報を読み込まない
 #options.add_argument("--headless")
 #options.add_argument("--remote-debugging-port=9222")
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
+
 
 with open("database/streamdata.json") as f:
     streamdata = json.load(f)
