@@ -61,7 +61,7 @@ div.status .box1{
 
 div.status .box1 div.list{
     display: inline-block;
-    border: solid 1px #eee;
+    border: solid 1px #565656;
     vertical-align: top;
     margin: 0;
     width: 43%;
@@ -118,4 +118,16 @@ img.icon.hilight{
 }
 div.streamings{
     padding: 5px;
+}
+
+/* setting */
+div.list.setting input{
+    display: inline-block;
+    width: 16px;
+}
+div.list.setting p {
+    display: inline-block;
+}
+div.list.setting a {
+    display: inline-block;
 }

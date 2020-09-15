@@ -25,6 +25,7 @@ var element_main_userName = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo = document.getElementById("photo");
 var element_play = document.getElementById("play");
+var element_speed = document.getElementById("speed");
 
 var streamData;
 function intervalStreamData(){
@@ -102,10 +103,16 @@ function randomSetYouTube(){
 }
 
 // 1分毎に配信を切り替えながらストリーミングする
+var interval;
 function streaming(){
     element_play.setAttribute("class", "play close");
     randomSetYouTube();
-    setInterval(randomSetYouTube, 60000); // 60.000秒
+    interval = setInterval(randomSetYouTube, 60000); // 60.000秒
+}
+function changeSpeed(){
+    console.log("changeSpeed "+element_speed.value*60000);
+    clearInterval(interval);
+    interval = setInterval(randomSetYouTube, element_speed.value*60000);
 }
 
 

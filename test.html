@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <title>Test</title>
+        <title>埋め込み検証</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            div.iframe{
+                width: 1280px;
+                margin: 0 auto;
+            }
+            input{
+                width: 200px;
+            }
+            div.setting{
+                width: 300px;
+                margin: 0 auto;
+            }
         </style>
-  </head>
-  <body>
-        <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=UCyb-cllCkMREr9de-hoiDrg" frameborder="0" allowfullscreen></iframe>
-  </body>
+    </head>
+    <body>
+        <div class="iframe"><iframe id="youtube" class="youtube" width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe></div>
+        <div class="setting">
+            <input type="text" id="input" value=""><a href="javascript:test();">検証</a>
+        </div>
+    </body>
+    <script>
+            element = document.getElementById("youtube");
+            element_input = document.getElementById("input");
+            function test(){
+                element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+element_input.value);
+            }
+    </script>
 </html>
