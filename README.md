@@ -7,7 +7,7 @@
 ↑まだ実装予定なし  
 
 ### 外部設計  
-使用言語：HTML, CSS
+使用言語：HTML, CSS  
 
 ### 内部設計  
 使用言語：JS, Python, PHP  
@@ -18,21 +18,21 @@ streamtest.html - チャンネルが埋め込み許可をしているかどう�
 startpage.html - index.htmlで使います。再生前の注意事項などを記載したファイルです。  
 addStreamData.py - ライバーの情報（ユーザー名・Twitter IDなど）を手動で記録します。  
 streamingSearch.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。ユーザープロファイルを使っています。  
-getData.php - ファイルからデータを取得します。
+getData.php - ファイルからデータを取得します。  
 chromedriver.exe - streamingSearch.pyでseleniumを使います。Chromeブラウザに合ったバージョンを使ってください。  
 
-assets/
+assets/  
 control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
 effect.css - index.htmlのスタイルシートです。  
 streaming.json - ライブ配信中のチャンネルIDを配列で記録しています。  
 
-database/
-streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。
-guide.mp4 - index.htmlで使うファイルです。
+database/  
+streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。  
+guide.mp4 - index.htmlで使うファイルです。  
 
 Chromeブラウザでは音声付き動画の自動再生が禁止されているのでサイトの設定から音声を自動から許可に変更してあげる。  
-ユーザープロファイルはコピーしたものを使う。
-OBSでソースにブラウザを設定し、altキーを押しながらクロップ（トリミング）を行う。
+ユーザープロファイルはコピーしたものを使う。  
+OBSでソースにブラウザを設定し、altキーを押しながらクロップ（トリミング）を行う。  
 
 ### ライブ配信埋め込み禁止ライバー一覧  
 夜白藍      UC3G9ynwAEyiZU-87j6PkQLQ  

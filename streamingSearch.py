@@ -107,3 +107,9 @@ while True:
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
+
+    except Exception as e:
+        if "HTTPSConnectionPool" in str(e) or "NewConnectionError" in str(e):
+            print("ネットの接続が不安定です。")
+        else:
+            print("エラー",str(e))
