@@ -85,6 +85,19 @@ div.userName, div.title{
     font-size: 30px;
 }
 
+/* thumbnail */
+/*
+div.thumbnail{
+    position: absolute;
+    top: 145px;
+    left: 499px;
+    z-index: -1;
+}
+div.thumbnail img{
+    width: 146%;
+}
+*/
+
 /* Play Button */
 div.play{
     position: absolute;
