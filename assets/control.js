@@ -32,20 +32,20 @@ function intervalStreamData(){
     function StreamData(jsonData){
         streamData = jsonData;
     }
-    $.post('getData.php?mode=getStreamData', {}, function(data){ // jQuery Post
+    $.post('getData.php?mode=getStreamData', {}, function(data){ // stremデータ取得
         console.log("getStreamData");
         jsonData = JSON.parse(data);
         StreamData(jsonData);
     });  
 }
 intervalStreamData();
-setInterval(intervalStreamData, 10000);
+setInterval(intervalStreamData, 60000); // 1分ごとに更新
 
 var streamings;
 function intervalStreamingData(){
     function StreamingData(jsonData){
         streamings = jsonData;
-        // ステータス画面の総配信者
+        // ステータス画面の総配信者のTwitterアイコンを表示する
         var imgSource = "";
         for(var j = 0; j < streamings.length; j++){
             if(streamingChannel != streamings[j]["channelId"]){
@@ -56,7 +56,7 @@ function intervalStreamingData(){
         }
         element_streamings.innerHTML = imgSource;        
     }
-    $.post('getData.php?mode=getStreaming', {}, function(data){ // jQuery Post
+    $.post('getData.php?mode=getStreaming', {}, function(data){ // streamingデータ取得
         console.log("getStreaming");
         jsonData = JSON.parse(data);
         StreamingData(jsonData);
@@ -86,7 +86,7 @@ function randomSetYouTube(){
         element_main_videoTitle.innerHTML  = streamings[i]["videoTitle"];        // メイン画面の動画タイトル
         element_streamingNumber.innerHTML  = streamings[i]["streamingNumber"];   // ステータス画面の同時接続者数
         element_userName.innerHTML         = "undefined";
-        element_twitterId.innerHTML        = "undefined"; // 見つからなかった場合はundefinedを表示する
+        element_twitterId.innerHTML        = "undefined";            // 見つからなかった場合はundefinedを表示する
         element_main_userName.innerHTML    = "undefined";
         element_userName.innerHTML         = streamData[ streamings[i]["channelId"] ]["userName"];  // ステータス画面のユーザー名
         element_twitterId.innerHTML        = streamData[ streamings[i]["channelId"] ]["twitterId"]; // ステータス画面のTwitterID

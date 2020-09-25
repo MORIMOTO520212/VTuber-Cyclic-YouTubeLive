@@ -70,6 +70,7 @@ while True:
                 streamingNow = False # 取得できなかった場合
 
             if streamingNow == "ライブ配信中":
+                # 登録済か未登録か
                 for channelIdData in streamdata.keys():
                     if channelIdData == channelId:
                         break
@@ -86,11 +87,18 @@ while True:
                         # tweepyを使ってアイコン更新
                         with open("database/streamdata.json", "r") as f:
                             streamdata = json.load(f)
-                        userStatus = api.get_user(streamdata[channelId]["twitterId"])
-                        photo = userStatus.profile_image_url_https
+                            
+                        try:
+                            userStatus = api.get_user(streamdata[channelId]["twitterId"])
+                            photo = userStatus.profile_image_url_https
+                        except Exception as e:
+                            if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
+                                print(streamdata[channelId]["userName"]+"さんのTwitterのアカウントが見つかりませんでした。")
+                                continue
+
                         streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
                         # 書き込み
-                        print("アイコンデータ更新 streamdata.json")
+                        print(streamdata[channelId]["userName"]+"さんのアイコンデータを更新しました。")
                         with open("database/streamdata.json", "w") as f:
                             json.dump(streamdata, f, indent=4)
 
