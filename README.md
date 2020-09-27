@@ -49,3 +49,4 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 夜野とばり  UC2JMXD8btPtvJafM3dawF-Q  
 碧那アイル  UCpBCiBjOoZanFhj-49LgcDg  
 アイリス・ヴェール UCqo0CAZ46l6ic3A_LfhEgHg  
+七海なる    UCE0KFKU_O2FkHljyayB7kXw  

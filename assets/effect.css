@@ -126,8 +126,17 @@ img.icon{
     height: 30px;
     border-radius: 50%;
 }
+/* icon hilight */
 img.icon.hilight{
-    border: solid 2px #fcff2d;
+    animation:2s ease-in 1s infinite alternate forwards running expansion;
+    border: solid 2px #ffdf34;
+}
+@keyframes expansion{
+  0%{
+  }
+  100%{
+    border: solid 2px #000000;
+  }
 }
 div.streamings{
     padding: 5px;

@@ -25,6 +25,7 @@ Options = webdriver.FirefoxOptions()
 Options.headless = True
 PROFILE_PATH = setting["firefoxProfilePath"]
 Options.profile = PROFILE_PATH
+Options.binary_location = "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
 while True:
@@ -105,6 +106,7 @@ while True:
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
+        exit()
 
     except Exception as e:
         if "HTTPSConnectionPool" in str(e) or "NewConnectionError" in str(e):
