@@ -26,6 +26,9 @@ Options.profile = PROFILE_PATH
 Options.binary_location = setting.firefoxBinaryPath()
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
+with open(setting.idChangeDataPath(), "r") as f:
+    idChangeData = json.load(f)
+
 while True:
 
     with open(setting.streamDataPath(), "r") as f:
@@ -64,8 +67,11 @@ while True:
                     if channelIdData == channelId:
                         break
                 else:
-                    print("未登録のライバー："+channelId)
-                    channelId = "unregistered"
+                    try: # ユーザー名でチャンネルIDが取得された場合
+                        channelId = idChangeData[channelId]
+                    except:
+                        print("未登録のライバー："+channelId)
+                        channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
 

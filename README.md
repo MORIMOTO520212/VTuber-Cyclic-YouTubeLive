@@ -17,9 +17,12 @@ index.html - ストリーミングファイル
 streamtest.html - チャンネルが埋め込み許可をしているかどうかを調べます。  
 startpage.html - index.htmlで使います。再生前の注意事項などを記載したファイルです。  
 addStreamData.py - ライバーの情報（ユーザー名・Twitter IDなど）を手動で記録します。  
-streamingSearch.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。ユーザープロファイルを使っています。  
+streamingSearchChrome.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。ユーザープロファイルを使っています。  
+streamingSearchFirefox.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。こちらをメインで使ってください。  
 getData.php - ファイルからデータを取得します。  
-chromedriver.exe - streamingSearch.pyでseleniumを使います。Chromeブラウザに合ったバージョンを使ってください。  
+chromedriver.exe - streamingSearchChrome.pyでseleniumを使います。Chromeブラウザに合ったバージョンを使ってください。  
+geckodriver.exe - streamingSearchFirefox.pyでseleniumを使います。  
+setting.py - ファイルの場所などの設定が書かれているモジュールです。  
 
 assets/  
 control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
@@ -56,3 +59,18 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 碧那アイル  UCpBCiBjOoZanFhj-49LgcDg  
 アイリス・ヴェール UCqo0CAZ46l6ic3A_LfhEgHg  
 七海なる    UCE0KFKU_O2FkHljyayB7kXw  
+寧々丸      UCx9yRTjbPuS1ZA1Hxdsxj4A  
+
+
+・配信枠の平均時間
+・ライブポイント　総配信時間をポイント化　3分1ポイント
+・アクティブ　Chartjsの棒グラフを使って活動時間帯を可視化
+livePointStatus: {
+    "1", 20
+    "2", 20
+    "3", 20
+    "4", 0
+    "5", 0
+    "6", 0
+    "時間（H）", livePoint
+}

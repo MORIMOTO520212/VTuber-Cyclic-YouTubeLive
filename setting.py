@@ -11,3 +11,5 @@ def firefoxProfilePath():
     return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
 def firefoxBinaryPath():
     return "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+def idChangeDataPath():
+    return "database/idChangeData.json"
