@@ -11,12 +11,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from time import sleep
-import json, requests, tweepy
+import json, requests, tweepy, setting, datetime
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
 
-with open("setting.json", "r") as f:
-    setting = json.load(f)
 
 consumer_key='fOr1fbI9mCK1ztiqbEIMlHfLV'
 consumer_secret='PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
@@ -38,8 +36,8 @@ options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
 
 while True:
-
-    with open("database/streamdata.json", "r") as f:
+    
+    with open(setting.streamDataPath(), "r") as f:
         streamdata = json.load(f)
 
     streamingChannels = []
@@ -85,9 +83,6 @@ while True:
                         streamingChannels.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # ストリーミングに追加
                     else:
                         # tweepyを使ってアイコン更新
-                        with open("database/streamdata.json", "r") as f:
-                            streamdata = json.load(f)
-                            
                         try:
                             userStatus = api.get_user(streamdata[channelId]["twitterId"])
                             photo = userStatus.profile_image_url_https
@@ -97,24 +92,33 @@ while True:
                                 continue
 
                         streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-                        # 書き込み
+                        streamdata[channelId]["iconUpdateCount"] += 1
                         print(streamdata[channelId]["userName"]+"さんのアイコンデータを更新しました。")
-                        with open("database/streamdata.json", "w") as f:
-                            json.dump(streamdata, f, indent=4)
+
+                    # ライバーステータス更新
+                    now = datetime.datetime.now()
+                    streamdata[channelId]["livePoint"] += 1
+                    streamdata[channelId]["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+                    
+                    streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
         if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する
             print("ライブ配信者なし")
         else:
             print("配信者数："+str(len(streamingChannels)))
 
-        with open("assets/streaming.json", "w") as f:
+        with open(setting.streamingDataPath(), "w") as f:
             json.dump(streamingChannels, f, indent=4)
+
+        with open(setting.streamDataPath(), "w") as f:
+            json.dump(streamdata, f, indent=4)
         
         sleep(180) # 3分間待機
 
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
+        exit()
 
     except Exception as e:
         if "HTTPSConnectionPool" in str(e) or "NewConnectionError" in str(e):

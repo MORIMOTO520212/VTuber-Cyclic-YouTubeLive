@@ -1,9 +1,16 @@
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
+import datetime, setting, json
 
-fp = webdriver.FirefoxProfile('C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\so4o45dh.default')
-#Options.profile('C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\so4o45dh.default')
-Options.set_headless()
-browser = webdriver.Firefox(fp, firefox_options=Options)
+with open(setting.streamDataPath(), "r") as f:
+    streamData = json.load(f)
 
-browser.get('https://www.youtube.com/feed/subscriptions')
+now = datetime.datetime.now()
+
+for channelId in streamData.keys():
+    streamData[channelId]["livePoint"] = 0
+    streamData[channelId]["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+    streamData[channelId]["iconUpdateCount"] = 0
+    streamData[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+
+
+with open(setting.streamDataPath(), "w") as f:
+    json.dump(streamData, f, indent=4)
