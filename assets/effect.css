@@ -52,19 +52,29 @@ div.player div.close{
 div.status{
     display: inline-block;
     vertical-align: top;
-    width: 31%;
+    width: 28%;
     height: 720px;
 }
 div.status .box1{
     margin: auto 0;
 }
 
+
 div.status .box1 div.list{
     display: inline-block;
-    border: solid 1px #565656;
+    /*border: solid 1px #565656;*/
     vertical-align: top;
     margin: 0;
-    width: 43%;
+    width: 49%;
+}
+.left_top_radius{
+    border-radius: 20px 0px 0px 0px;
+}
+.right_top_radius{
+    border-radius: 0px 20px 0px 0px;
+}
+.bottom_radius{
+    border-radius: 0px 0px 20px 20px;
 }
 
 /* --------- profile photo --------- */
@@ -140,6 +150,11 @@ img.icon.hilight{
 }
 div.streamings{
     padding: 5px;
+}
+
+/* active */
+.active{
+    width: 99.4% !important;
 }
 
 /* setting */

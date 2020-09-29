@@ -99,7 +99,9 @@ while True:
                     now = datetime.datetime.now()
                     streamdata[channelId]["livePoint"] += 1
                     streamdata[channelId]["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                    
+                    hour = str(now.hour)
+                    if hour == "0": hour = "00"
+                    streamdata[channelId]["livePointStatus"][hour] += 1
                     streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
         if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する

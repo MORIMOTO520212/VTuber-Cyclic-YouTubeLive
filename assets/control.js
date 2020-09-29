@@ -24,8 +24,10 @@ var element_streamingNumber = document.getElementById("streamingNumber");
 var element_main_userName = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo = document.getElementById("photo");
+var element_livePoint = document.getElementById("livePoint");
 var element_play = document.getElementById("play");
 var element_speed = document.getElementById("speed");
+var ctx = document.getElementById("myChart");
 
 var streamData;
 function intervalStreamData(){
@@ -65,6 +67,20 @@ function intervalStreamingData(){
 intervalStreamingData();
 setInterval(intervalStreamingData, 5000);
 
+var chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"],
+        datasets: [{
+            label: 'ライブポイント',
+            data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1
+        }]
+    }
+});
+
 // ランダムに再生する
 function randomSetYouTube(){
     console.log("randomSetYouTube");
@@ -90,8 +106,18 @@ function randomSetYouTube(){
         element_main_userName.innerHTML    = "undefined";
         element_userName.innerHTML         = streamData[ streamings[i]["channelId"] ]["userName"];  // ステータス画面のユーザー名
         element_twitterId.innerHTML        = streamData[ streamings[i]["channelId"] ]["twitterId"]; // ステータス画面のTwitterID
+        element_livePoint.innerHTML        = streamData[ streamings[i]["channelId"] ]["livePoint"]+" P"; // ステータス画面のライブポイント
         element_main_userName.innerHTML    = streamData[ streamings[i]["channelId"] ]["userName"];  // メイン画面のユーザー名
         element_photo.setAttribute("src", streamData[ streamings[i]["channelId"] ]["photo"]);       // メイン画面のTwitterアイコン
+        // アクティブステータス
+        var activeStatus = streamData[ streamings[i]["channelId"] ]["livePointStatus"];
+        chart.data.datasets[0].data =   [activeStatus["00"], activeStatus["01"], activeStatus["02"], activeStatus["03"], 
+                                        activeStatus["04"], activeStatus["05"], activeStatus["06"], activeStatus["07"],
+                                        activeStatus["08"], activeStatus["09"], activeStatus["10"], activeStatus["11"], 
+                                        activeStatus["12"], activeStatus["13"], activeStatus["14"], activeStatus["15"], 
+                                        activeStatus["16"], activeStatus["17"], activeStatus["18"], activeStatus["19"], 
+                                        activeStatus["20"], activeStatus["21"], activeStatus["22"], activeStatus["23"]];
+        chart.update();
     }
     setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける
     

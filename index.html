@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/effect.css">
     </head>
@@ -23,8 +24,8 @@
         </div>
         <div class="status">
             <div class="box1">
-                <div class="list"><p>streaming ID</p></div>
-                <div class="list"><p id="streamingId">ライブ配信は1分ごとに切り替わります</p></div>
+                <div class="list left_top_radius"><p>streaming ID</p></div>
+                <div class="list right_top_radius"><p id="streamingId">ライブ配信は1分ごとに切り替わります</p></div>
 
                 <div class="list"><p>総配信者</p></div><!-- 総配信者数の欄を小さいアイコンに変えて並べる -->
                 <div class="list"><div class="streamings" id="streamings"></div></div>
@@ -43,6 +44,14 @@
 
                 <div class="list"><p>同時接続者数</p></div>
                 <div class="list"><p id="streamingNumber"></p></div>
+
+                <div class="list"><p>ライブポイント</p></div>
+                <div class="list"><p id="livePoint"></p></div>
+
+                <div class="list active bottom_radius">
+                    <p>アクティブ</p>
+                    <canvas id="myChart" width="5" height="2"></canvas>
+                </div>
 
                 <div class="list setting">
                     <p>巡回速度</p>
