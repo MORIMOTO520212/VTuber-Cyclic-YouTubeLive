@@ -64,7 +64,9 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 七海なる    UCE0KFKU_O2FkHljyayB7kXw  
 寧々丸      UCx9yRTjbPuS1ZA1Hxdsxj4A  
 お狐様ゆいの  UC_oRPJpMJkAXtVntLysNdMw  
-
+神谷ねこ    UC5cbSyFTohO2_PJAqr-6NFA  
+アクロー    UCheqzZj54e5y_5HEtwG7FSA  
+桜愛かのん  UC9vYBIS_MpqO2S6PVWN8gjA  
 
 NOTE
 配信開始ライバーはストリーミングリストの末尾に追加

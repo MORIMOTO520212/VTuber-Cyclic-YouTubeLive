@@ -97,7 +97,7 @@ while True:
                     streamdata[channelId]["livePoint"] += 1
                     streamdata[channelId]["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                     hour = str(now.hour)
-                    if hour == "0": hour = "00"
+                    if len(hour) == 1: hour = "0"+hour
                     streamdata[channelId]["livePointStatus"][hour] += 1
                     streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
