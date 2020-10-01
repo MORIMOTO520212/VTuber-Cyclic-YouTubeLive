@@ -1,4 +1,4 @@
-import json, tweepy, setting, datetime
+import json, tweepy, settings, datetime
 
 consumer_key='fOr1fbI9mCK1ztiqbEIMlHfLV'
 consumer_secret='PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
@@ -12,7 +12,7 @@ api = tweepy.API(auth_handler=auth)
 print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
 
 
-with open(setting.streamDataPath(), "r") as f:
+with open(settings.streamDataPath(), "r") as f:
     data = json.load(f)
 
 userName = []
@@ -61,6 +61,6 @@ while True:
         break
 
 print("書き込み中")
-with open(setting.streamDataPath(), "w") as f:
+with open(settings.streamDataPath(), "w") as f:
     json.dump(data, f, indent=4)
 print("書き込み完了")

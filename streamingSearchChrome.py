@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from time import sleep
-import json, requests, tweepy, setting, datetime
+import json, requests, tweepy, settings, datetime
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
 
@@ -27,7 +27,7 @@ api = tweepy.API(auth_handler=auth)
 
 # ヘッドレスモードでユーザープロファイルを使う 
 # C:\Users\kante\AppData\Local\Google\Chrome\User Data2
-PROFILE_PATH = setting["chromeProfilePath"]
+PROFILE_PATH = settings.chromeProfilePath()
 options = Options()
 # ヘッドレスではプロファイル情報を読み込まない
 #options.add_argument("--headless")
@@ -35,14 +35,18 @@ options = Options()
 options.add_argument('--user-data-dir=' + PROFILE_PATH)
 driver = webdriver.Chrome(chrome_options=options)
 
+with open(settings.idChangeDataPath(), "r") as f:
+    idChangeData = json.load(f)
+
 while True:
-    
-    with open(setting.streamDataPath(), "r") as f:
+
+    with open(settings.streamDataPath(), "r") as f:
         streamdata = json.load(f)
 
     streamingChannels = []
     try:
         driver.get("https://www.youtube.com/feed/subscriptions")
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         source = driver.page_source
 
         soup = BeautifulSoup(source, 'html.parser')
@@ -73,8 +77,12 @@ while True:
                     if channelIdData == channelId:
                         break
                 else:
-                    print("未登録のライバー："+channelId)
-                    channelId = "unregistered"
+                    try: # ユーザー名でチャンネルIDが取得された場合
+                        channelId = idChangeData[channelId]
+                        
+                    except:
+                        print("未登録のライバー："+channelId)
+                        channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
 
@@ -100,7 +108,7 @@ while True:
                     streamdata[channelId]["livePoint"] += 1
                     streamdata[channelId]["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                     hour = str(now.hour)
-                    if hour == "0": hour = "00"
+                    if len(hour) == 1: hour = "0"+hour
                     streamdata[channelId]["livePointStatus"][hour] += 1
                     streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
@@ -109,10 +117,10 @@ while True:
         else:
             print("配信者数："+str(len(streamingChannels)))
 
-        with open(setting.streamingDataPath(), "w") as f:
+        with open(settings.streamingDataPath(), "w") as f:
             json.dump(streamingChannels, f, indent=4)
 
-        with open(setting.streamDataPath(), "w") as f:
+        with open(settings.streamDataPath(), "w") as f:
             json.dump(streamdata, f, indent=4)
         
         sleep(180) # 3分間待機
@@ -126,4 +134,4 @@ while True:
         if "HTTPSConnectionPool" in str(e) or "NewConnectionError" in str(e):
             print("ネットの接続が不安定です。")
         else:
-            print("エラー",str(e))
+            print("エラー：",str(e))

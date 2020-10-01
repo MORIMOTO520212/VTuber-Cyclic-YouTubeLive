@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
-import json, requests, tweepy, setting, datetime
+import json, requests, tweepy, settings, datetime
 
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
@@ -21,23 +21,32 @@ api = tweepy.API(auth_handler=auth)
 Options = webdriver.FirefoxOptions()
 #Options.set_headless() Linuxでは非推奨
 Options.headless = True
-PROFILE_PATH = setting.firefoxProfilePath()
+PROFILE_PATH = settings.firefoxProfilePath()
 Options.profile = PROFILE_PATH
-Options.binary_location = setting.firefoxBinaryPath()
+Options.binary_location = settings.firefoxBinaryPath()
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
-with open(setting.idChangeDataPath(), "r") as f:
+with open(settings.idChangeDataPath(), "r") as f:
     idChangeData = json.load(f)
 
 while True:
 
-    with open(setting.streamDataPath(), "r") as f:
+    with open(settings.streamDataPath(), "r") as f:
         streamdata = json.load(f)
 
     streamingChannels = []
     try:
         driver.get("https://www.youtube.com/feed/subscriptions")
-        source = driver.page_source
+        driver.execute_script("window.scrollTo(0, 5000);")
+        for _ in range(5): # タイムアウト時間最大50秒
+            sleep(10)
+            source = driver.page_source
+            soup = BeautifulSoup(source, 'html.parser')
+            channelbrock = soup.find_all("ytd-item-section-renderer", class_=["style-scope", "ytd-section-list-renderer"])
+            if 2 == len(channelbrock):
+                break
+            else:
+                print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_)))
 
         soup = BeautifulSoup(source, 'html.parser')
         details = soup.find_all("div", id="details")
@@ -69,6 +78,7 @@ while True:
                 else:
                     try: # ユーザー名でチャンネルIDが取得された場合
                         channelId = idChangeData[channelId]
+
                     except:
                         print("未登録のライバー："+channelId)
                         channelId = "unregistered"
@@ -106,10 +116,10 @@ while True:
         else:
             print("配信者数："+str(len(streamingChannels)))
 
-        with open(setting.streamingDataPath(), "w") as f:
+        with open(settings.streamingDataPath(), "w") as f:
             json.dump(streamingChannels, f, indent=4)
 
-        with open(setting.streamDataPath(), "w") as f:
+        with open(settings.streamDataPath(), "w") as f:
             json.dump(streamdata, f, indent=4)
         
         sleep(180) # 3分間待機

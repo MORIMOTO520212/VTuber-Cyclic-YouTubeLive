@@ -67,6 +67,9 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 神谷ねこ    UC5cbSyFTohO2_PJAqr-6NFA  
 アクロー    UCheqzZj54e5y_5HEtwG7FSA  
 桜愛かのん  UC9vYBIS_MpqO2S6PVWN8gjA  
+椿いろは    UCFpxoltilHCmuHWeERqsUlA  
 
 NOTE
 配信開始ライバーはストリーミングリストの末尾に追加
+巡回速度をドロップダウンメニューにする
+モバイル版
