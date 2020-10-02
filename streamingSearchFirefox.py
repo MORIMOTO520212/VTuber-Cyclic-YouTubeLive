@@ -47,6 +47,7 @@ while True:
                 break
             else:
                 print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_)))
+                driver.execute_script("window.scrollTo(0, 1000);")
 
         soup = BeautifulSoup(source, 'html.parser')
         details = soup.find_all("div", id="details")

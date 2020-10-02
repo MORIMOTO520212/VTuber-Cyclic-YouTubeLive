@@ -47,29 +47,33 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 最終アイコン更新日  
 
 ### ライブ配信埋め込み禁止ライバー一覧  
-夜白藍      UC3G9ynwAEyiZU-87j6PkQLQ  
-藤咲柊華    UC4P6fOfiK1lOED8CHoT9suw  
-ジーク      UClxLspCGOP9Fy5Dvd7Kc77Q  
-錫白レイ    UCuzEiEIsbACj56uLxxd-5Vw  
-星名レキ    UCQCJfZ3ClRFkf2Pgy5n2_NA  
-香月ネロ    UCrKFWIOpVNwpyzfoTH0w6bQ  
-音無ツバキ  UC6USecxNGku4qbOAa6hF1rA  
-桔梗ちはる  UCf6REJh1e1YUyYPKmDaz8Ig  
-ユノ        UC0OxbHy1_rtjTk946-hWTnA  
-戸越ぷらむ  UCk7cMvrfvH98Bfng58N_Zzw  
-塩天使リエル UCE5rWcDxLPaaUFWOxzJFfNg  
-夜野とばり  UC2JMXD8btPtvJafM3dawF-Q  
-碧那アイル  UCpBCiBjOoZanFhj-49LgcDg  
+夜白藍          UC3G9ynwAEyiZU-87j6PkQLQ  
+藤咲柊華        UC4P6fOfiK1lOED8CHoT9suw  
+ジーク          UClxLspCGOP9Fy5Dvd7Kc77Q  
+錫白レイ        UCuzEiEIsbACj56uLxxd-5Vw  
+星名レキ        UCQCJfZ3ClRFkf2Pgy5n2_NA  
+香月ネロ        UCrKFWIOpVNwpyzfoTH0w6bQ  
+音無ツバキ      UC6USecxNGku4qbOAa6hF1rA  
+桔梗ちはる      UCf6REJh1e1YUyYPKmDaz8Ig  
+ユノ            UC0OxbHy1_rtjTk946-hWTnA  
+戸越ぷらむ      UCk7cMvrfvH98Bfng58N_Zzw  
+塩天使リエル    UCE5rWcDxLPaaUFWOxzJFfNg  
+夜野とばり      UC2JMXD8btPtvJafM3dawF-Q  
+碧那アイル      UCpBCiBjOoZanFhj-49LgcDg  
 アイリス・ヴェール UCqo0CAZ46l6ic3A_LfhEgHg  
-七海なる    UCE0KFKU_O2FkHljyayB7kXw  
-寧々丸      UCx9yRTjbPuS1ZA1Hxdsxj4A  
-お狐様ゆいの  UC_oRPJpMJkAXtVntLysNdMw  
-神谷ねこ    UC5cbSyFTohO2_PJAqr-6NFA  
-アクロー    UCheqzZj54e5y_5HEtwG7FSA  
-桜愛かのん  UC9vYBIS_MpqO2S6PVWN8gjA  
-椿いろは    UCFpxoltilHCmuHWeERqsUlA  
+七海なる        UCE0KFKU_O2FkHljyayB7kXw  
+寧々丸          UCx9yRTjbPuS1ZA1Hxdsxj4A  
+お狐様ゆいの    UC_oRPJpMJkAXtVntLysNdMw  
+神谷ねこ        UC5cbSyFTohO2_PJAqr-6NFA  
+アクロー        UCheqzZj54e5y_5HEtwG7FSA  
+桜愛かのん      UC9vYBIS_MpqO2S6PVWN8gjA  
+椿いろは        UCFpxoltilHCmuHWeERqsUlA  
+七星 ルナ       UCvA3f2VI7BDQtTc5FTqjyRg  
+あまねそよぎ    UCLeLOfntLUEnZgp07CFWkFw  
 
 NOTE
 配信開始ライバーはストリーミングリストの末尾に追加
 巡回速度をドロップダウンメニューにする
 モバイル版
+ライブ配信時間帯からライバーの健康度を調査（配信時間帯などから不規則な生活でないかどうか）
+ライブ配信のタイトルに他のライバー名が入っている場合記録し、コラボ状況を調査
