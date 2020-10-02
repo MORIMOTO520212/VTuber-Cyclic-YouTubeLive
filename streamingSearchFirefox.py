@@ -33,6 +33,9 @@ while True:
 
     with open(settings.streamDataPath(), "r") as f:
         streamdata = json.load(f)
+    
+    with open(settings.streamingDataPath(), "r") as f:
+        streamingData = json.load(f)
 
     streamingChannels = []
     try:
@@ -117,8 +120,28 @@ while True:
         else:
             print("配信者数："+str(len(streamingChannels)))
 
+            # streamingChannels - 新しく取得
+            # streamingData - 既存
+            
+            streamingDataNew = [] # 書き込み用配列
+            for strDa in streamingData:
+                if strDa["channelId"] in streamingChannels: # 既存のデータが新規のデータに含まれていた場合
+                    channelId       = strDa["channelId"]
+                    streamingNumber = strDa["streamingNumber"]
+                    videoTitle      = strDa["videoTitle"]
+                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle})
+                
+
+            for strCha in streamingChannels:
+                if strCha["channelId"] not in streamingData:
+                    channelId       = strCha["channelId"]
+                    streamingNumber = strCha["streamingNumber"]
+                    videoTitle      = strCha["videoTitle"]
+                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle})
+
+
         with open(settings.streamingDataPath(), "w") as f:
-            json.dump(streamingChannels, f, indent=4)
+            json.dump(streamingData, f, indent=4)
 
         with open(settings.streamDataPath(), "w") as f:
             json.dump(streamdata, f, indent=4)
