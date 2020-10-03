@@ -94,7 +94,7 @@ function randomSetYouTube(){
     // 動画セット
     function sleep1(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1");
-        element_streamingId.innerHTML      = i;                                  // ステータス画面のストリーミング番号
+        //element_streamingId.innerHTML      = i;                                  // ステータス画面のストリーミング番号
         element_channelId.innerHTML        = streamings[i]["channelId"];         // ステータス画面のチャンネルID
         streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
