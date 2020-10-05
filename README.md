@@ -1,6 +1,6 @@
 # VTuber Cyclic YouTubeLive
 
-## Vtuberのライブ配信を巡回しながらライブ配信します。  
+### Vtuberのライブ配信を巡回しながらライブ配信します。  
 
 ### 機能  
 ウェブアプリ化  
@@ -78,3 +78,14 @@ NOTE
 モバイル版  
 プレイしたゲーム - 動画のタイトルからゲーム名を取得して記録する。  
 ライブ配信のタイトルに他のライバー名が入っている場合記録し、コラボ状況を調査  
+
+
+games.json - アルファベットは全て大文字　リストをスプリットしてそれぞれ比較する(python)
+[
+    "MINECRAFT;マイクラ;マインクラフト": {
+        "product": "Minecraft",
+        "photo": "URL"
+    }
+]
+streamdata.json - ゲームを記録(python)
+games: ["MINECRAFT"]
