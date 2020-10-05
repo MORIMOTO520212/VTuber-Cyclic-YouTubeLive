@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>VTuber Cyclic YouTubeLive</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+        <script src="ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+        <script src="assets/control2.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/effect2.css">
+    </head>
+    <body>
+        <div><!--フィルター  平均ライブ時間　最終ライブ配信　コラボ状況（コラボ人数）--></div>
+        <div class="userlist"> <!--10件まで表示する-->
+            <!-- innerHTML -->
+            <div class="user"> <!-- 薄枠 -->
+                <div class="icon"></div>    <!--アイコン　四角の縁取り-->
+                <div class="name"></div>    <!--名前-->
+                <div class="youtube"></div> <!--YouTubeリンク-->
+                <div class="twitter"></div> <!--Twitterリンク-->
+                <div class="genre"></div> <!--プレイしたゲーム-->
+                <div class="averageLiveTime"></div> <!--平均ライブ時間-->
+                <div class="collaboration"></div>   <!--コラボ状況-->
+                <div class="lastlive"></div> <!--最終ライブ配信：＊日間前-->
+                <div class="active"></div>   <!--アクティブパネル-->
+            </div>
+            <!-- innerHTML -->
+        </div>
+    </body>
+</html>
