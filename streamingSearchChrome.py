@@ -38,38 +38,54 @@ driver = webdriver.Chrome(chrome_options=options)
 with open(settings.idChangeDataPath(), "r") as f:
     idChangeData = json.load(f)
 
+print("complete")
 while True:
 
     with open(settings.streamDataPath(), "r") as f:
         streamdata = json.load(f)
+    
+    with open(settings.streamingDataPath(), "r") as f:
+        streamingData = json.load(f)
 
     streamingChannels = []
     try:
         driver.get("https://www.youtube.com/feed/subscriptions")
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        source = driver.page_source
 
-        soup = BeautifulSoup(source, 'html.parser')
+        # 2つ目のチャンネルブロックを取得するために最下部までスクロール
+        driver.execute_script("window.scrollTo(0, 5000);")
+        for _ in range(5): # スクロールの検出とソースの取得　タイムアウト時間最大50秒
+            sleep(10)
+            source = driver.page_source
+            soup = BeautifulSoup(source, 'html.parser')
+            channelbrock = soup.find_all("ytd-item-section-renderer", class_=["style-scope", "ytd-section-list-renderer"])
+            if 2 == len(channelbrock):
+                break
+            else:
+                print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
+                driver.execute_script("window.scrollTo(0, 1000);")
+
         details = soup.find_all("div", id="details")
         print("取得チャンネル数："+str(len(details)))
+
+        # Channel IDの取得
         for detail in details:
             channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
-            channelId   = channelLink.replace("/channel/", "") # チャンネルID
+            channelId   = channelLink.replace("/channel/", "")
             try:
                 # [ライブ配信中]マークを抽出
                 streamingNow    = detail.find_all("span", class_=["ytd-badge-supported-renderer"])
-                streamingNow    = streamingNow[len(streamingNow)-1].get_text() # ライブ配信中
+                streamingNow    = streamingNow[len(streamingNow)-1].get_text()
 
                 # 視聴者数を抽出
                 streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
-                streamingNumber = streamingNumber[len(streamingNumber)-1].get_text() # 1.5万 人が視聴中
-                streamingNumber = streamingNumber.replace(" 人が視聴中", "人") # 同時接続者数
+                streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
+                streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
 
                 # 動画タイトルを抽出
                 videoTitle = detail.find_all("a", id="video-title")[0].get("title")
 
             except Exception as e:
-                streamingNow = False # 取得できなかった場合
+                streamingNow = False
 
             if streamingNow == "ライブ配信中":
                 # 登録済か未登録か
@@ -79,7 +95,7 @@ while True:
                 else:
                     try: # ユーザー名でチャンネルIDが取得された場合
                         channelId = idChangeData[channelId]
-                        
+
                     except:
                         print("未登録のライバー："+channelId)
                         channelId = "unregistered"
@@ -112,18 +128,37 @@ while True:
                     streamdata[channelId]["livePointStatus"][hour] += 1
                     streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
+
         if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する
             print("ライブ配信者なし")
         else:
             print("配信者数："+str(len(streamingChannels)))
 
+            # チャンネルデータのソート　新しいデータは末尾に追加する
+            streamingDataNew = [] # 書き込み用
+            for strDa in streamingData:
+                if strDa["channelId"] in str(streamingChannels): # 既存のデータが新規のデータに含まれていた場合
+                    channelId       = strDa["channelId"]
+                    streamingNumber = strDa["streamingNumber"]
+                    videoTitle      = strDa["videoTitle"]
+                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # 既存ライバー追加
+
+            for strCha in streamingChannels:
+                if strCha["channelId"] not in str(streamingData): # 書き込み用データにまだ含まれていない場合
+                    channelId       = strCha["channelId"]
+                    streamingNumber = strCha["streamingNumber"]
+                    videoTitle      = strCha["videoTitle"]
+                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # 開始ライバー追加
+
+        # 書き込み
         with open(settings.streamingDataPath(), "w") as f:
-            json.dump(streamingChannels, f, indent=4)
+            json.dump(streamingDataNew, f, indent=4)
 
         with open(settings.streamDataPath(), "w") as f:
             json.dump(streamdata, f, indent=4)
         
-        sleep(180) # 3分間待機
+        # 3分間待機
+        sleep(180)
 
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")

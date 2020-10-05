@@ -12,10 +12,12 @@ consumer_secret='PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
 access_key='4634604300-uYOEizJIhTQWMan2pLtfK9r73nXK5BK0h4rlwf3'
 access_secret='54Dqdt8Kx7CoVKq2XqOSoTsKkTI7liPtpPugaZjGrTbRK'
 
+print("tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth_handler=auth)
 
+print("selenium webdriver...")
 # ヘッドレスモードでユーザープロファイルを使う 
 # C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\so4o45dh.default
 Options = webdriver.FirefoxOptions()
@@ -29,6 +31,7 @@ driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非�
 with open(settings.idChangeDataPath(), "r") as f:
     idChangeData = json.load(f)
 
+print("complete")
 while True:
 
     with open(settings.streamDataPath(), "r") as f:
@@ -91,7 +94,7 @@ while True:
                         channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
-                    
+
                     if 200 == requests.get(streamdata[channelId]["photo"]).status_code: # アイコンのURLが有効である場合のみ
                         
                         streamingChannels.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # ストリーミングに追加
