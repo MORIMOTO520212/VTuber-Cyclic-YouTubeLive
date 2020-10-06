@@ -1,0 +1,57 @@
+body{
+    background-color: #181818;
+}
+p{
+    color: #eee;
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    margin: 5px;
+}
+div.user{
+    width: 50%;
+    height: 90px;
+    border: solid 1px #676767;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+div.user div.icon{
+    width: 90px;
+    float: left;
+}
+div.user div.icon img{
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    vertical-align: top;
+}
+div.sep{
+    width: 124px;
+    float: left;
+}
+div.sep div.name{
+    font-size: 20px;
+}
+div.sep div.youtube{
+    display: inline;
+}
+div.sep div.youtube img{
+    width: 30px;
+    margin: 5px;
+}
+div.sep div.twitter{
+    display: inline;
+}
+div.sep div.twitter img{
+    width: 30px;
+    border-radius: 5px;
+}
+div.genre{
+    width: 130px;
+    float: left;
+}
+div.genre p{
+    font-size: 12px;
+}
+div.genre img{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+}
