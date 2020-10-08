@@ -12,13 +12,13 @@ p{
 div.player{
     display: inline-block;
     position: relative;
-    width: 1280px;
+    width: 64%;
     height: 720px;
     border: solid 1px #2f2f2f00;
 }
 
 div.player .curtain{
-    width: 1280px;
+    width: 100%;
     height: 720px;
     background-color: #181818;
     position: absolute;
@@ -28,6 +28,8 @@ div.player .curtain{
 }
 .youtube{
     border-radius: 20px;
+    width: 100% !important;
+    height: 74% !important;
 }
 
 @keyframes fade-in {
@@ -52,7 +54,7 @@ div.player div.close{
 div.status{
     display: inline-block;
     vertical-align: top;
-    width: 28%;
+    width: 35%;
     height: 720px;
 }
 div.status .box1{
@@ -111,8 +113,8 @@ div.thumbnail img{
 /* Play Button */
 div.play{
     position: absolute;
-    top: 670px;
-    left: 600px;
+    top: 75%;
+    left: 50%;
     border: solid 2px #eee;
     border-radius: 16px;
     width: 55px;
