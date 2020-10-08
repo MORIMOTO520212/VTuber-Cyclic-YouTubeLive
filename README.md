@@ -78,14 +78,42 @@ NOTE
 モバイル版  
 プレイしたゲーム - 動画のタイトルからゲーム名を取得して記録する。  
 ライブ配信のタイトルに他のライバー名が入っている場合記録し、コラボ状況を調査  
-
+game.jsonやstreamData.jsonをstreaming.jsonにすべてまとめ上げて通信サイズを低減
 
 games.json - アルファベットは全て大文字　リストをスプリットしてそれぞれ比較する(python)
 [
     "MINECRAFT;マイクラ;マインクラフト": {
         "product": "Minecraft",
+        "url": "URL",
+        "photo": "URL"
+    },
+    "FALL GUYS": {
+        "product": "fall guys",
+        "url": "URL",
         "photo": "URL"
     }
 ]
-streamdata.json - ゲームを記録(python)
-games: ["MINECRAFT"]
+streaming.json - 配列形式でゲームを記録(python)
+{
+    "play": {
+        "product": "",
+        "url": "",
+        "photo": ""
+    }
+}
+
+streamData.json - 配列形式でゲームを記録(python)
+{
+    "games": [
+        {
+            "product": "",
+            "url": "",
+            "photo": ""      
+        },
+        {
+            "product": "",
+            "url": "",
+            "photo": ""   
+        }
+    ]
+}
