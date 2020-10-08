@@ -13,7 +13,7 @@
                 width: 200px;
             }
             div.setting{
-                width: 300px;
+                width: 330px;
                 margin: 0 auto;
             }
         </style>
@@ -21,14 +21,21 @@
     <body>
         <div class="iframe"><iframe id="youtube" class="youtube" width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe></div>
         <div class="setting">
-            <input type="text" id="input" value=""><a href="javascript:test();">検証</a>
+            <input type="text" id="input1" value=""><a href="javascript:test1();">ChannelID検証</a>
+        </div>
+        <div class="setting">
+            <input type="text" id="input2" value=""><a href="javascript:test2();">YouTubeID検証</a>
         </div>
     </body>
     <script>
             element = document.getElementById("youtube");
-            element_input = document.getElementById("input");
-            function test(){
-                element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+element_input.value);
+            element_input1 = document.getElementById("input1");
+            element_input2 = document.getElementById("input2");
+            function test1(){
+                element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+element_input1.value);
+            }
+            function test2(){
+                element.setAttribute("src", "https://www.youtube.com/embed/"+element_input2.value);
             }
     </script>
 </html>

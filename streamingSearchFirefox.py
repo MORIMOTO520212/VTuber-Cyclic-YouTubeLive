@@ -25,7 +25,7 @@ Options = webdriver.FirefoxOptions()
 Options.headless = True
 PROFILE_PATH = settings.firefoxProfilePath()
 Options.profile = PROFILE_PATH
-Options.binary_location = settings.firefoxBinaryPath()
+#Options.binary_location = settings.firefoxBinaryPath() windows
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
 with open(settings.idChangeDataPath(), "r") as f:
@@ -46,6 +46,7 @@ while True:
 
         # 2つ目のチャンネルブロックを取得するために最下部までスクロール
         driver.execute_script("window.scrollTo(0, 5000);")
+        soup = ""
         for _ in range(5): # スクロールの検出とソースの取得　タイムアウト時間最大50秒
             sleep(10)
             source = driver.page_source
@@ -58,7 +59,6 @@ while True:
                 driver.execute_script("window.scrollTo(0, 1000);")
 
         details = soup.find_all("div", id="details")
-        print("取得チャンネル数："+str(len(details)))
 
         # Channel IDの取得
         for detail in details:
@@ -103,14 +103,12 @@ while True:
                         try:
                             userStatus = api.get_user(streamdata[channelId]["twitterId"])
                             photo = userStatus.profile_image_url_https
+                            streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+                            streamdata[channelId]["iconUpdateCount"] += 1
+                            print(streamdata[channelId]["userName"]+"さんのアイコンデータを更新しました。")
                         except Exception as e:
                             if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
                                 print(streamdata[channelId]["userName"]+"さんのTwitterのアカウントが見つかりませんでした。")
-                                continue
-
-                        streamdata[channelId]["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-                        streamdata[channelId]["iconUpdateCount"] += 1
-                        print(streamdata[channelId]["userName"]+"さんのアイコンデータを更新しました。")
 
                     # ライバーステータス更新
                     now = datetime.datetime.now()
@@ -121,14 +119,13 @@ while True:
                     streamdata[channelId]["livePointStatus"][hour] += 1
                     streamdata[channelId]["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
 
+        streamingDataNew = [] # 書き込み用
 
-        if streamingChannels == []: # ライブ配信を誰もしていない場合は今後の予定を記録する
-            print("ライブ配信者なし")
+        if streamingChannels == []: # （未完成）ライブ配信を誰もしていない場合は今後の予定を記録する
+            pass
         else:
-            print("配信者数："+str(len(streamingChannels)))
 
             # チャンネルデータのソート　新しいデータは末尾に追加する
-            streamingDataNew = [] # 書き込み用
             for strDa in streamingData:
                 if strDa["channelId"] in str(streamingChannels): # 既存のデータが新規のデータに含まれていた場合
                     channelId       = strDa["channelId"]
@@ -142,6 +139,8 @@ while True:
                     streamingNumber = strCha["streamingNumber"]
                     videoTitle      = strCha["videoTitle"]
                     streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # 開始ライバー追加
+
+        print("取得チャンネル数：{}　配信者数：{}".format(str(len(details)), str(len(streamingChannels))))
 
         # 書き込み
         with open(settings.streamingDataPath(), "w") as f:
