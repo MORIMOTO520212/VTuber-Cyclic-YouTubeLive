@@ -2,15 +2,18 @@
 
 # ストリームデータの場所
 def streamDataPath():
-    return "database/streamdata.json"
+    return "/var/www/html/database/streamdata.json"
+    #return "database/streamdata.json" windows
 
 # ストリーミングデータの場所
 def streamingDataPath():
-    return "assets/streaming.json"
+    return "/var/www/html/assets/streaming.json"
+    #return "assets/streaming.json" windows
 
 # ユーザーID変換データの場所
 def idChangeDataPath():
-    return "database/idChangeData.json"
+    return "/var/www/html/database/idChangeData.json"
+    #return "database/idChangeData.json" windows
 
 # Chromeのプロファイルの場所
 def chromeProfilePath():
@@ -18,7 +21,8 @@ def chromeProfilePath():
 
 # Firefoxのプロファイルの場所
 def firefoxProfilePath():
-    return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
+    return "firefox-profile"
+    #return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile" windows
 
 # Firefoxブラウザーの場所
 def firefoxBinaryPath():
