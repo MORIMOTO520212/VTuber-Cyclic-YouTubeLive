@@ -4,8 +4,13 @@ from time import sleep
 import json, requests, tweepy, settings, datetime
 
 
-print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。\n\n")
+print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
 
+
+# 動作環境の設定 windows | linux
+os = "linux"
+
+print("動作オペレーティングシステム："+os)
 
 consumer_key='fOr1fbI9mCK1ztiqbEIMlHfLV'
 consumer_secret='PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
@@ -23,21 +28,21 @@ print("selenium webdriver...")
 Options = webdriver.FirefoxOptions()
 #Options.set_headless() Linuxでは非推奨
 Options.headless = True
-PROFILE_PATH = settings.firefoxProfilePath()
+PROFILE_PATH = settings.firefoxProfilePath(os)
 Options.profile = PROFILE_PATH
 #Options.binary_location = settings.firefoxBinaryPath() windows
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
-with open(settings.idChangeDataPath(), "r") as f:
+with open(settings.idChangeDataPath(os), "r") as f:
     idChangeData = json.load(f)
 
-print("complete")
+print("complete!")
 while True:
 
-    with open(settings.streamDataPath(), "r") as f:
+    with open(settings.streamDataPath(os), "r") as f:
         streamdata = json.load(f)
     
-    with open(settings.streamingDataPath(), "r") as f:
+    with open(settings.streamingDataPath(os), "r") as f:
         streamingData = json.load(f)
 
     streamingChannels = []
@@ -97,7 +102,20 @@ while True:
 
                     if 200 == requests.get(streamdata[channelId]["photo"]).status_code: # アイコンのURLが有効である場合のみ
                         
-                        streamingChannels.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # ストリーミングに追加
+                        streamingChannels.append({ # ストリーミングに追加
+                            "channelId": channelId,
+                            "userName": streamdata[channelId]["userName"],
+                            "twitterId": streamdata[channelId]["twitterId"],
+                            "streamingNumber": streamingNumber,
+                            "videoTitle": videoTitle,
+                            "photo": streamdata[channelId]["photo"],
+                            "livePoint": streamdata[channelId]["livePoint"],
+                            "lastLiveDate": streamdata[channelId]["lastLiveDate"],
+                            "iconUpdateCount": streamdata[channelId]["iconUpdateCount"],
+                            "lastIconUpdateDate": streamdata[channelId]["lastIconUpdateDate"],
+                            "livePointStatus" : streamdata[channelId]["livePointStatus"]
+                        })
+
                     else:
                         # tweepyを使ってアイコン更新
                         try:
@@ -127,26 +145,46 @@ while True:
 
             # チャンネルデータのソート　新しいデータは末尾に追加する
             for strDa in streamingData:
-                if strDa["channelId"] in str(streamingChannels): # 既存のデータが新規のデータに含まれていた場合
-                    channelId       = strDa["channelId"]
-                    streamingNumber = strDa["streamingNumber"]
-                    videoTitle      = strDa["videoTitle"]
-                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # 既存ライバー追加
+                if strDa["channelId"] in str(streamingChannels): # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
+
+                    streamingDataNew.append({ # 既存ライバー追加
+                        "channelId": strDa["channelId"],
+                        "userName": strDa["userName"],
+                        "twitterId": strDa["twitterId"],
+                        "streamingNumber": strDa["streamingNumber"],
+                        "videoTitle": strDa["videoTitle"],
+                        "photo": strDa["photo"],
+                        "livePoint": strDa["livePoint"],
+                        "lastLiveDate": strDa["lastLiveDate"],
+                        "iconUpdateCount": strDa["iconUpdateCount"],
+                        "lastIconUpdateDate": strDa["lastIconUpdateDate"],
+                        "livePointStatus" : strDa["livePointStatus"]
+                    })
 
             for strCha in streamingChannels:
-                if strCha["channelId"] not in str(streamingData): # 書き込み用データにまだ含まれていない場合
-                    channelId       = strCha["channelId"]
-                    streamingNumber = strCha["streamingNumber"]
-                    videoTitle      = strCha["videoTitle"]
-                    streamingDataNew.append({"channelId": channelId, "streamingNumber": streamingNumber, "videoTitle": videoTitle}) # 開始ライバー追加
+                if strCha["channelId"] not in str(streamingData): # 書き込み用データにまだ含まれていない場合末尾に書く
+
+                    streamingDataNew.append({ # 開始ライバー追加
+                        "channelId": strCha["channelId"],
+                        "userName": strCha["userName"],
+                        "twitterId": strCha["twitterId"],
+                        "streamingNumber": strCha["streamingNumber"],
+                        "videoTitle": strCha["videoTitle"],
+                        "photo": strCha["photo"],
+                        "livePoint": strCha["livePoint"],
+                        "lastLiveDate": strCha["lastLiveDate"],
+                        "iconUpdateCount": strCha["iconUpdateCount"],
+                        "lastIconUpdateDate": strCha["lastIconUpdateDate"],
+                        "livePointStatus" : strCha["livePointStatus"]
+                    })
 
         print("取得チャンネル数：{}　配信者数：{}".format(str(len(details)), str(len(streamingChannels))))
 
         # 書き込み
-        with open(settings.streamingDataPath(), "w") as f:
-            json.dump(streamingDataNew, f, indent=4)
+        with open(settings.streamingDataPath(os), "w") as f:
+            json.dump(streamingDataNew, f)
 
-        with open(settings.streamDataPath(), "w") as f:
+        with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
         
         # 3分間待機

@@ -11,8 +11,12 @@ api = tweepy.API(auth_handler=auth)
 
 print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
 
+# 動作環境の設定 windows | linux
+os = "linux"
 
-with open(settings.streamDataPath(), "r") as f:
+print("動作オペレーティングシステム："+os)
+
+with open(settings.streamDataPath(os), "r") as f:
     data = json.load(f)
 
 userName = []
@@ -61,6 +65,6 @@ while True:
         break
 
 print("書き込み中")
-with open(settings.streamDataPath(), "w") as f:
+with open(settings.streamDataPath(os), "w") as f:
     json.dump(data, f, indent=4)
 print("書き込み完了")
