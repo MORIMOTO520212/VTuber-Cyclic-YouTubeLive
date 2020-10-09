@@ -131,23 +131,19 @@ function randomSetYouTube(){
 
 // 1分毎に配信を切り替えながらストリーミングする
 var interval;
+var playStatus;
+var speed = 60000; // 60.000秒
 function streaming(){
+    playStatus = true;
     element_play.setAttribute("class", "play close");
     randomSetYouTube();
-    interval = setInterval(randomSetYouTube, 60000); // 60.000秒
+    interval = setInterval(randomSetYouTube, speed);
 }
 function changeSpeed(){
-    console.log("changeSpeed "+element_speed.value*60000);
-    clearInterval(interval);
-    interval = setInterval(randomSetYouTube, element_speed.value*60000);
-}
-
-
-function getStreamingSource(){
-    var element_getStreaming = document.getElementById("getStreaming");
-    element_getStreaming.innerHTML = streamings;
-}
-function getStreamDataSource(){
-    var element_getStreamData = document.getElementById("getStreamData");
-    element_getStreamData.innerHTML = StreamData;
+    speed = element_speed.value*60000;
+    console.log("changeSpeed "+speed);
+    if(playStatus){
+        clearInterval(interval);
+        interval = setInterval(randomSetYouTube, speed);
+    }
 }

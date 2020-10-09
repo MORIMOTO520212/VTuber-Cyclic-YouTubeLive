@@ -57,14 +57,22 @@
 
                 <div class="list setting">
                     <p>巡回速度</p>
-                    <input type="text" class="speed" id="speed" value="1">
-                    <p>分</p>
-                    <a href="javascript:changeSpeed();"><p>変更</p></a>
+                    <select id="speed" onChange="changeSpeed()">
+                        <option value="0.5">30秒</option>
+                        <option value="1" selected>1分</option>
+                        <option value="3" >3分</option>
+                        <option value="5" >5分</option>
+                        <option value="10" >10分</option>
+                        <option value="30" >30分</option>
+                    </select>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <a href=""><p>このサイトについて</p></a>
+            <a href="about"><p>このサイトについて</p></a>
+            <a href="vtuber"><p>VTuberについて</p></a>
+            <a href="usage"><p>使い方</p></a>
+            <a href="bugreport"><p>バグ</p></a>
         </div>
         <script src="assets/control.js"></script>
     </body>

@@ -182,6 +182,12 @@ div.list.setting p{
 div.list.setting a{
     display: inline-block;
 }
+#speed{
+    color: #eee;
+    background-color: #000;
+    border: solid 1px #eee;
+    border-radius: 30px;
+}
 
 /* footer */
 div.footer{
@@ -192,4 +198,5 @@ div.footer{
 }
 div.footer a{
     text-decoration: none;
+    display: inline-block;
 }
