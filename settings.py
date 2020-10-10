@@ -47,3 +47,10 @@ def firefoxBinaryPath(os):
     if os == "linux":
         return ""
     return False
+
+def gamesDataPath(os):
+    if os == "windows":
+        return "database/games.json"
+    if os == "linux":
+        return "/var/www/html/database/games.json"
+    return False

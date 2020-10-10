@@ -1,37 +1,50 @@
 [
     {
-        "word": "MINECRAFT;マイクラ;マインクラフト",
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "MINECRAFT;\u30de\u30a4\u30af\u30e9;\u30de\u30a4\u30f3\u30af\u30e9\u30d5\u30c8",
         "product": "Minecraft",
+        "url": "",
         "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
     },
     {
-        "word": "FALL GUYS;フォールガイズ",
+        "word": "FALLGUYS;\u30d5\u30a9\u30fc\u30eb\u30ac\u30a4\u30ba",
         "product": "Fall Guys",
+        "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
         "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
     },
     {
-        "word": "幽霊列車;The Ghost Train",
-        "product": "The Ghost Train | 幽霊列車",
+        "word": "THEGHOSTTRAIN;\u5e7d\u970a\u5217\u8eca",
+        "product": "The Ghost Train | \u5e7d\u970a\u5217\u8eca",
+        "url": "https://store.steampowered.com/app/1349960/The_Ghost_Train/",
         "photo": "https://amd.c.yimg.jp/amd/20200618-00111035-denfami-000-2-view.jpg"
     },
     {
-        "word": "",
-        "product": "",
-        "photo": ""
+        "word": "\u30de\u30ea\u30aa\u30ab\u30fc\u30c8\uff18DX;\u30de\u30ea\u30aa\u30ab\u30fc\u30c88DX",
+        "product": "\u30de\u30ea\u30aa\u30ab\u30fc\u30c8\uff18\u30c7\u30e9\u30c3\u30af\u30b9",
+        "url": "https://www.nintendo.co.jp/switch/aabpa/index.html",
+        "photo": "https://blogimg.goo.ne.jp/user_image/1d/9a/12d928dd09fc436c08dbd0e26ed963b1.jpg"
     },
     {
-        "word": "",
-        "product": "",
-        "photo": ""
+        "word": "APEX;APEXLEGENDS;\u30a8\u30fc\u30da\u30c3\u30af\u30b9;\u30a8\u30fc\u30da\u30c3\u30af\u30b9\u30ec\u30b8\u30a7\u30f3\u30ba",
+        "product": "Apex Legends\u2122",
+        "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
+        "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
     },
     {
-        "word": "",
-        "product": "",
-        "photo": ""
+        "word": "GENSHIN;\u539f\u795e",
+        "product": "\u539f\u795e",
+        "url": "https://genshin.mihoyo.com/ja",
+        "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
     },
     {
-        "word": "",
-        "product": "",
-        "photo": ""
+        "word": "\u96c0\u9b42",
+        "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
+        "url": "https://mahjongsoul.com/",
+        "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
     }
 ]
