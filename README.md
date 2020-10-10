@@ -62,6 +62,11 @@ UCVrD1IwbhqOshMSO0Q8Lqpw
 eriruru3
 UCddl7tgJDy9uHoUJm7yH4Vw
 
+loveちゃん
+lovechan_lp
+UCYm8zALd2uHqyy6C1tb4_zA
+
+
 ### 未登録ゲーム
 Watch Dogs    
 DARK SOULSⅡ  

@@ -8,7 +8,7 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 
 # 動作環境の設定 windows | linux
-os = "windows"
+os = "linux"
 
 print("動作オペレーティングシステム："+os)
 
@@ -173,10 +173,11 @@ def updateStatus(usrRoot, play):
     # プレイしたゲーム
     if play:
         # プレイ中のゲームが記録されていなければ新しく追加する
-        for productName in usrRoot["games"]:
-            if play["product"] == productName:
+        for game in usrRoot["games"]:
+            if play["product"] == game["product"]:
                 break
         else:
+            print(usrRoot["userName"], play["product"])
             usrRoot["games"].append(play)
 
 
@@ -255,5 +256,4 @@ while True:
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
-        sleep(10)
         sys.exit()

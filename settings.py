@@ -48,6 +48,7 @@ def firefoxBinaryPath(os):
         return ""
     return False
 
+# ゲームデータの場所
 def gamesDataPath(os):
     if os == "windows":
         return "database/games.json"

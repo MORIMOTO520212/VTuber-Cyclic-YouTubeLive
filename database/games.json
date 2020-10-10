@@ -1,14 +1,8 @@
 [
     {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
         "word": "MINECRAFT;\u30de\u30a4\u30af\u30e9;\u30de\u30a4\u30f3\u30af\u30e9\u30d5\u30c8",
         "product": "Minecraft",
-        "url": "",
+        "url": "https://www.minecraft.net/ja-jp",
         "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
     },
     {
@@ -46,5 +40,11 @@
         "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
         "url": "https://mahjongsoul.com/",
         "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
+    },
+    {
+        "word": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "product": "",
+        "url": "",
+        "photo": ""
     }
 ]
