@@ -2,6 +2,7 @@
 <html lang="ja">
     <head>
         <title>VTuber巡回配信</title>
+    <link rel="icon" href="assets/favicon.ico">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151169093-2"></script>
         <script>
@@ -20,8 +21,8 @@
     <body>
         <!--<video src="" autoplay onplay="audiobrock()"></video>-->
         <div class="player">
-            <iframe id="youtube" class="youtube" width="1280" height="720" src="startpage.html" frameborder="0" allowfullscreen></iframe>
-            <!--<iframe id="chat" class="chat" width="350" height="270" frameborder="0" src="https://www.youtube.com/live_chat?v=[youtube-id]&embed_domain=localhost" allowfullscreen></iframe> youtube chat-->
+            <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
+            <iframe id="startpage" class="startpage" width="1280" height="720" src="startpage.html" style="opacity: 1;"></iframe>
             <div id="curtain" class="curtain close"><!-- 幕 -->
                 <div class="profile"><img id="photo" src="profile.jpg"></div>
                 <!--<div class="thumbnail"><img id="thumbnail" src=""></div> thumbnail-->

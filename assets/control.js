@@ -11,9 +11,32 @@ function curtainOC(){
     return;
 }
 
+// youtube player api //
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player("youtube",{
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+function onPlayerReady(event) {
+    console.log("onPlayerReady");
+    event.target.playVideo();
+}
+function onPlayerStateChange(event) {
+    console.log("onPlayerStateChange "+event.data);
+}
+
 var i = 0;
 var streamingChannel    = "";
 var element_youtube     = document.getElementById("youtube");
+var element_startpage = document.getElementById("startpage");
 var element_streamingId = document.getElementById("streamingId");
 var element_streamings  = document.getElementById("streamings");
 var element_channelId   = document.getElementById("channelId");
@@ -92,7 +115,7 @@ function randomSetYouTube(){
     console.log("stream: "+i);
     // 動画セット
     function sleep1(){
-        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1");
+        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1");
 
         //element_streamingId.innerHTML      = i;                                // ステータス画面のストリーミング番号
         element_channelId.innerHTML        = streamings[i]["channelId"];         // ステータス画面のチャンネルID
@@ -156,8 +179,13 @@ function streaming(){
     }else{
         playStatus = true;
         element_play.setAttribute("class", "play close");
+
+        // YouTube画面に切り替え
+        element_startpage.setAttribute("style", "opacity: 0;");
+        element_youtube.setAttribute("style", "opacity: 1;");
+
         randomSetYouTube();
-        interval = setInterval(randomSetYouTube, speed);    
+        interval = setInterval(randomSetYouTube, speed);
     }
 }
 function changeSpeed(){
