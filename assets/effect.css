@@ -200,3 +200,8 @@ div.footer a{
     text-decoration: none;
     display: inline-block;
 }
+
+/* play game */
+#playgame_photo{
+    width: 30%;
+}

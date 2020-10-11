@@ -54,24 +54,9 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 
 ### 未登録ライバー
-鳴蝶院アドニス
-Adonis_AI_
-UCVrD1IwbhqOshMSO0Q8Lqpw
 
-えりるる
-eriruru3
-UCddl7tgJDy9uHoUJm7yH4Vw
-
-loveちゃん
-lovechan_lp
-UCYm8zALd2uHqyy6C1tb4_zA
-
-
-### 未登録ゲーム
-Watch Dogs    
-DARK SOULSⅡ  
-DARK SOULSⅢ  
-ゼルダの伝説  
+### 未登録ゲーム 
+  
 スーパーマリオ64  
 
 NOTE

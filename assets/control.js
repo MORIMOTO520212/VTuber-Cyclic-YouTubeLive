@@ -12,21 +12,23 @@ function curtainOC(){
 }
 
 var i = 0;
-var streamingChannel = "";
-var element_youtube = document.getElementById("youtube");
+var streamingChannel    = "";
+var element_youtube     = document.getElementById("youtube");
 var element_streamingId = document.getElementById("streamingId");
-var element_streamings = document.getElementById("streamings");
-var element_channelId = document.getElementById("channelId");
-var element_userName = document.getElementById("userName");
-var element_videoTitle = document.getElementById("videoTitle");
-var element_twitterId = document.getElementById("twitterId");
+var element_streamings  = document.getElementById("streamings");
+var element_channelId   = document.getElementById("channelId");
+var element_userName    = document.getElementById("userName");
+var element_videoTitle  = document.getElementById("videoTitle");
+var element_twitterId   = document.getElementById("twitterId");
 var element_streamingNumber = document.getElementById("streamingNumber");
-var element_main_userName = document.getElementById("main_userName");
+var element_main_userName   = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
-var element_photo = document.getElementById("photo");
+var element_photo     = document.getElementById("photo");
 var element_livePoint = document.getElementById("livePoint");
-var element_play = document.getElementById("play");
-var element_speed = document.getElementById("speed");
+var element_play      = document.getElementById("play");
+var element_speed     = document.getElementById("speed");
+var element_playgame_photo  = document.getElementById("playgame_photo");
+var element_playgame_link  = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
 
 var streamings;
@@ -79,7 +81,6 @@ var chart = new Chart(ctx, {
     }
 });
 
-// ランダムに再生する
 function randomSetYouTube(){
     console.log("randomSetYouTube");
 
@@ -92,6 +93,7 @@ function randomSetYouTube(){
     // 動画セット
     function sleep1(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1");
+
         //element_streamingId.innerHTML      = i;                                // ステータス画面のストリーミング番号
         element_channelId.innerHTML        = streamings[i]["channelId"];         // ステータス画面のチャンネルID
         streamingChannel                   = streamings[i]["channelId"];
@@ -107,6 +109,13 @@ function randomSetYouTube(){
         element_livePoint.innerHTML        = streamings[i]["livePoint"]+" P";    // ステータス画面のライブポイント
         element_main_userName.innerHTML    = streamings[i]["userName"];          // メイン画面のユーザー名
         element_photo.setAttribute("src", streamings[i]["photo"]);               // メイン画面のTwitterアイコン
+        if(streamings[i]["play"]){
+            element_playgame_photo.setAttribute("src", streamings[i]["play"]["photo"]);
+            element_playgame_link.setAttribute("href", streamings[i]["play"]["url"]);
+        }else{
+            element_playgame.setAttribute("src", "");
+            element_playgame_link.setAttribute("href", "");
+        }
 
         // アクティブ
         var activeStatus = streamings[i]["livePointStatus"];
@@ -121,12 +130,11 @@ function randomSetYouTube(){
         chart.update();
     }
     setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける
-    
+
     function sleep2(){
         curtainOC(); // 幕を開ける
     }
     setTimeout(sleep2, 4500); // 幕を掛ける時間3.5秒
-
 }
 
 // 1分毎に配信を切り替えながらストリーミングする
@@ -134,10 +142,23 @@ var interval;
 var playStatus;
 var speed = 60000; // 60.000秒
 function streaming(){
-    playStatus = true;
-    element_play.setAttribute("class", "play close");
-    randomSetYouTube();
-    interval = setInterval(randomSetYouTube, speed);
+    var cookie = document.cookie;
+    try{
+        cookie = cookie.split("; ").find(row => row.startsWith("alert")).split("=")[1];
+    }catch(e){
+        console.log(e);
+        cookie = 1;
+    }
+    console.log(cookie);
+    if(cookie == 1){
+        alert("再生の前に！\n音声の許可はできましたか？まだしていない場合は下の動画を見ながら許可をお願いします。");
+        document.cookie = "alert=0;max-age=604800";
+    }else{
+        playStatus = true;
+        element_play.setAttribute("class", "play close");
+        randomSetYouTube();
+        interval = setInterval(randomSetYouTube, speed);    
+    }
 }
 function changeSpeed(){
     speed = element_speed.value*60000;

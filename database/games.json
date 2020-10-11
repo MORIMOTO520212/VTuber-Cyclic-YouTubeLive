@@ -42,6 +42,102 @@
         "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
     },
     {
+        "word": "PUBG",
+        "product": "PlayerUnknown's Battlegrounds",
+        "url": "http://pubg.dmm.com/",
+        "photo": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/09/08/923766-923012-pubg-new.jpg"
+    },
+    {
+        "word": "FFXIV;\u30d5\u30a1\u30a4\u30ca\u30eb\u30d5\u30a1\u30f3\u30bf\u30b8\u30fcXIV",
+        "product": "\u30d5\u30a1\u30a4\u30ca\u30eb\u30d5\u30a1\u30f3\u30bf\u30b8\u30fcXIV",
+        "url": "https://jp.finalfantasyxiv.com/",
+        "photo": "https://renote.jp/uploads/image/file/74843/im01.jpg"
+    },
+    {
+        "word": "FORTNITE;\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8",
+        "product": "Fortnite",
+        "url": "https://www.epicgames.com/fortnite/ja/home",
+        "photo": "https://game.watch.impress.co.jp/img/gmw/list/1259/677/1.jpg"
+    },
+    {
+        "word": "V4",
+        "product": "V4",
+        "url": "https://v4.nexon.co.jp/",
+        "photo": "https://games.app-liv.jp/images/articles/2020/03/gd_453475_-1-1280x720.jpg"
+    },
+    {
+        "word": "ARK",
+        "product": "Ark: Survival Evolved",
+        "url": "https://www.spike-chunsoft.co.jp/ark/",
+        "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+    },
+    {
+        "word": "LOL;League of Legends;\u30ea\u30fc\u30b0\u30aa\u30d6\u30ec\u30b8\u30a7\u30f3\u30c9",
+        "product": "League of Legends",
+        "url": "https://jp.leagueoflegends.com/ja-jp/",
+        "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
+    },
+    {
+        "word": "DEADBYDAYLIGHT;DbD;\u30c7\u30c3\u30c9\u30d0\u30a4\u30c7\u30a4\u30e9\u30a4\u30c8",
+        "product": "Dead by Daylight",
+        "url": "https://store.steampowered.com/app/381210/agecheck?l=japanese",
+        "photo": "https://gamewith.akamaized.net/service/hd/images/2bb3701ffaad84062772aee4507b9bc4.jpg"
+    },
+    {
+        "word": "WORLDOFTANKS;WOT",
+        "product": "World of Tanks",
+        "url": "https://worldoftanks.asia/ja/",
+        "photo": "https://www.4gamer.net/games/114/G011469/20200709106/TN/001.jpg"
+    },
+    {
+        "word": "WATCHDOGS;\u30a6\u30a9\u30c3\u30c1\u30c9\u30c3\u30b0\u30b9",
+        "product": "Watch Dogs",
+        "url": "https://www.ubisoft.co.jp/wd/",
+        "photo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fwatch-dogs%2Fhome%2FWDOG_STD_Store_Landscape_2580x1450-2580x1450-faf11f76438b5ec516195323bc6c5402d1812d7c.jpg"
+    },
+    {
+        "word": "MANEATER",
+        "product": "Maneater",
+        "url": "https://www.epicgames.com/store/ja/product/maneater/home",
+        "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/629820/header.jpg?t=1586468865"
+    },
+    {
+        "word": "DETROIT;\u30c7\u30c8\u30ed\u30a4\u30c8",
+        "product": "Detroit Become Human",
+        "url": "https://www.jp.playstation.com/games/detroit-become-human/",
+        "photo": "https://www.jp.playstation.com/content/dam/pscom/jp/games/detroit-become-human/images/news/news-20180302/detroit-become-human-image-jp-news-img-1.jpg"
+    },
+    {
+        "word": "GHOSTOFTSUSHIMA",
+        "product": "Ghost of Tsushima",
+        "url": "https://www.playstation.com/ja-jp/games/ghost-of-tsushima-ps4/",
+        "photo": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/12/ghost-of-tsushima-key-art.jpg"
+    },
+    {
+        "word": "\u30d1\u30ef\u30d7\u30ed;\u5b9f\u6cc1\u30d1\u30ef\u30d5\u30eb\u30d7\u30ed\u91ce\u7403",
+        "product": "\u5b9f\u6cc1\u30d1\u30ef\u30d5\u30eb\u30d7\u30ed\u91ce\u7403",
+        "url": "https://www.konami.com/pawa/app/",
+        "photo": "https://topics-cdn.nintendo.co.jp/image/2019/10/02111314518313/0/00001639_820_461.jpg"
+    },
+    {
+        "word": "\u30bc\u30eb\u30c0\u306e\u4f1d\u8aac",
+        "product": "\u30bc\u30eb\u30c0\u306e\u4f1d\u8aac",
+        "url": "https://www.nintendo.co.jp/character/zelda/index.html",
+        "photo": "https://www.nintendo.co.jp/zelda/assets/sns.png"
+    },
+    {
+        "word": "DARKSOULS;\u30c0\u30fc\u30af\u30bd\u30a6\u30eb",
+        "product": "DARK SOULS",
+        "url": "https://www.darksouls.jp/",
+        "photo": "https://1.bp.blogspot.com/-0T4CGOwbC3s/Xsg8om9pWuI/AAAAAAAAMEw/DMfA2opmOJUGIvS7Hdy77O4NuBCVzpBYgCLcBGAsYHQ/s1600/Dark-Souls-Series-Hits-27-Million-Sales%252C-Dark-Souls-3-Sold-10-Million.jpg"
+    },
+    {
+        "word": "SEKIRO;\u96bb\u72fc",
+        "product": "SEKIRO: SHADOWS DIE TWICE",
+        "url": "https://www.sekiro.jp/",
+        "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
+    },
+    {
         "word": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "product": "",
         "url": "",

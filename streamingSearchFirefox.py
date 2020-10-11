@@ -116,7 +116,7 @@ def sort(play):
                 "iconUpdateCount": strDa["iconUpdateCount"],
                 "lastIconUpdateDate": strDa["lastIconUpdateDate"],
                 "livePointStatus" : strDa["livePointStatus"],
-                "play": play
+                "play": strDa["play"]
             })
 
     for strCha in streamingChannels:
@@ -134,7 +134,7 @@ def sort(play):
                 "iconUpdateCount": strCha["iconUpdateCount"],
                 "lastIconUpdateDate": strCha["lastIconUpdateDate"],
                 "livePointStatus" : strCha["livePointStatus"],
-                "play": play
+                "play": strCha["play"]
             })
 
 def playGame(videoTitle):
@@ -177,7 +177,6 @@ def updateStatus(usrRoot, play):
             if play["product"] == game["product"]:
                 break
         else:
-            print(usrRoot["userName"], play["product"])
             usrRoot["games"].append(play)
 
 
@@ -215,7 +214,7 @@ while True:
                     # アイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
                     if 200 != requests.get(usrRoot["photo"]).status_code:
                         updateTwitterIcon(channelId)
-                        
+
                     streamingChannels.append({ # ストリーミングに追加
                         "channelId": channelId,
                         "userName": usrRoot["userName"],
