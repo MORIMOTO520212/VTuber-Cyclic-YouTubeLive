@@ -54,10 +54,29 @@ OBSでソースにブラウザを設定し、altキーを押しながらクロ�
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 
 ### 未登録ライバー
+荒咬オウガ
+aragamioga
+UCwL7dgTxKo8Y4RFIKWaf8gA
+影山シエン
+kageyamashien
+UChSvpZYRPh0FvG4SJGSga3g
+鏡見キラ
+kagamikirach
+UCEzsociuFqVwgZuMaZqaCsg
+夕刻ロベル
+yukokuroberu
+UCANDOlYTJT7N5jlRC3zfzVA
+花丸はれる
+hanamaruhareru
+UCyIcOCH-VWaRKH9IkR8hz7Q
+鹿乃
+kano_hanayori
+UCfuz6xYbYFGsWWBi3SpJI1w
+
 
 ### 未登録ゲーム 
-  
 スーパーマリオ64  
+スーパーマリオ35
 
 NOTE
 ライブ配信のタイトルに他のライバー名が入っている場合記録し、コラボ状況を調査  
