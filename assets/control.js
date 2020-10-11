@@ -110,11 +110,11 @@ function randomSetYouTube(){
         element_main_userName.innerHTML    = streamings[i]["userName"];          // メイン画面のユーザー名
         element_photo.setAttribute("src", streamings[i]["photo"]);               // メイン画面のTwitterアイコン
         if(streamings[i]["play"]){
+            element_playgame_photo.setAttribute("style", "opacity: 1;");
             element_playgame_photo.setAttribute("src", streamings[i]["play"]["photo"]);
             element_playgame_link.setAttribute("href", streamings[i]["play"]["url"]);
         }else{
-            element_playgame.setAttribute("src", "");
-            element_playgame_link.setAttribute("href", "");
+            element_playgame_photo.setAttribute("style", "opacity: 0;");
         }
 
         // アクティブ
