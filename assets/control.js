@@ -12,10 +12,6 @@ function curtainOC(){
 }
 
 // youtube player api //
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player("youtube",{
@@ -165,28 +161,15 @@ var interval;
 var playStatus;
 var speed = 60000; // 60.000秒
 function streaming(){
-    var cookie = document.cookie;
-    try{
-        cookie = cookie.split("; ").find(row => row.startsWith("alert")).split("=")[1];
-    }catch(e){
-        console.log(e);
-        cookie = 1;
-    }
-    console.log(cookie);
-    if(cookie == 1){
-        alert("再生の前に！\n音声の許可はできましたか？まだしていない場合は下の動画を見ながら許可をお願いします。");
-        document.cookie = "alert=0;max-age=604800";
-    }else{
-        playStatus = true;
-        element_play.setAttribute("class", "play close");
+    playStatus = true;
+    element_play.setAttribute("class", "play close");
 
-        // YouTube画面に切り替え
-        element_startpage.setAttribute("style", "opacity: 0;");
-        element_youtube.setAttribute("style", "opacity: 1;");
+    // YouTube画面に切り替え
+    element_startpage.setAttribute("style", "opacity: 0;");
+    element_youtube.setAttribute("style", "opacity: 1;");
 
-        randomSetYouTube();
-        interval = setInterval(randomSetYouTube, speed);
-    }
+    randomSetYouTube();
+    interval = setInterval(randomSetYouTube, speed);
 }
 function changeSpeed(){
     speed = element_speed.value*60000;
