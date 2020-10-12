@@ -1,5 +1,6 @@
 <?php
 # jsonファイルの内容を取得してその内容を返す #
+# リンクはストレージサーバーにアクセス
 function getStreaming() {
     return file_get_contents("https://9d11a7fb872b.ngrok.io/assets/streaming.json");
 }

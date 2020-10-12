@@ -48,8 +48,10 @@ streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）�
 idChangeData.json - スクレイピングでユーザーIDで取得された場合にチャンネルIDに変更します。
 guide.mp4 - index.htmlで使うファイルです。  
 
-Chromeブラウザでは音声付き動画の自動再生が禁止されているのでサイトの設定から音声を自動から許可に変更してあげる。  
-OBSでソースにブラウザを設定し、altキーを押しながらクロップ（トリミング）を行う。  
+about/
+usage/
+vtuber/
+bugreport/
 
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 

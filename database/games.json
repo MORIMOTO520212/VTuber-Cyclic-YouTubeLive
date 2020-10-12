@@ -66,13 +66,7 @@
         "photo": "https://games.app-liv.jp/images/articles/2020/03/gd_453475_-1-1280x720.jpg"
     },
     {
-        "word": "ARK",
-        "product": "Ark: Survival Evolved",
-        "url": "https://www.spike-chunsoft.co.jp/ark/",
-        "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
-    },
-    {
-        "word": "LOL;League of Legends;\u30ea\u30fc\u30b0\u30aa\u30d6\u30ec\u30b8\u30a7\u30f3\u30c9",
+        "word": "LOL;LEAGUEOFLEGENDS;\u30ea\u30fc\u30b0\u30aa\u30d6\u30ec\u30b8\u30a7\u30f3\u30c9",
         "product": "League of Legends",
         "url": "https://jp.leagueoflegends.com/ja-jp/",
         "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
@@ -144,32 +138,32 @@
         "photo": "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc1f70243/products/D70010000004316/heroBanner/d65088c12a19a515d9ede74c20cd669b2f5b1468a2adffa504825464034d152a.jpg?"
     },
     {
-        "word": "グラセフ;グランドセフトオート",
-        "product": "グランド・セフト・オートシリーズ",
+        "word": "\u30b0\u30e9\u30bb\u30d5;\u30b0\u30e9\u30f3\u30c9\u30bb\u30d5\u30c8\u30aa\u30fc\u30c8",
+        "product": "\u30b0\u30e9\u30f3\u30c9\u30fb\u30bb\u30d5\u30c8\u30fb\u30aa\u30fc\u30c8\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.rockstargames.com/jp/",
         "photo": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg"
     },
     {
-        "word": "あつもり;あつ森;どう森;どうぶつの森",
-        "product": "あつまれ どうぶつの森",
+        "word": "\u3042\u3064\u3082\u308a;\u3042\u3064\u68ee;\u3069\u3046\u68ee;\u3069\u3046\u3076\u3064\u306e\u68ee",
+        "product": "\u3042\u3064\u307e\u308c \u3069\u3046\u3076\u3064\u306e\u68ee",
         "url": "https://www.nintendo.co.jp/switch/acbaa/index.html",
         "photo": "https://assets.st-note.com/production/uploads/images/22149245/rectangle_large_type_2_958610f7cb3c99a23c89d98fbdcfb632.png"
     },
     {
-        "word": "BIOHAZARD;バイオハザード",
-        "product": "バイオハザードシリーズ",
+        "word": "BIOHAZARD;\u30d0\u30a4\u30aa\u30cf\u30b6\u30fc\u30c9",
+        "product": "\u30d0\u30a4\u30aa\u30cf\u30b6\u30fc\u30c9\u30b7\u30ea\u30fc\u30ba",
         "url": "http://www.capcom.co.jp/game/biohazard/",
         "photo": "https://amd.c.yimg.jp/im_siggJSdovbCDdXpvqS1cru9hWA---x640-y453-q90-exp3h-pril/amd/20200928-00000001-isd-000-1-view.jpg"
     },
     {
-        "word": "RAINBOWSIX;レインボーシックス;R6",
-        "product": "レインボーシックス",
+        "word": "RAINBOWSIX;\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9;R6",
+        "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
         "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
         "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
     },
     {
-        "word": "DRAGONQUEST;DQX;DQ10;ドラクエX;ドラクエ10",
-        "product": "ドラゴンクエストシリーズ",
+        "word": "DRAGONQUEST;DQX;DQ10;\u30c9\u30e9\u30af\u30a8X;\u30c9\u30e9\u30af\u30a810",
+        "product": "\u30c9\u30e9\u30b4\u30f3\u30af\u30a8\u30b9\u30c8\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.jp.square-enix.com/game/detail/dq/",
         "photo": "https://www.kaikatsu.jp/info/images/2019/DQ10.jpg"
     },
@@ -180,6 +174,174 @@
         "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
     },
     {
+        "word": "黒い砂漠",
+        "product": "黒い砂漠",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "ウィッチャー3",
+        "product": "ウィッチャー3 ワイルドハント",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "Project Winter",
+        "url": "https://store.steampowered.com/app/774861/Project_Winter/?l=japanese",
+        "photo": "https://assets.st-note.com/production/uploads/images/23894681/rectangle_large_type_2_160d4683a62a6fe3a634a97682b7273f.png"
+    },
+    {
+        "word": "三國志",
+        "product": "三國志シリーズ",
+        "url": "https://www.gamecity.ne.jp/sangokushi14/",
+        "photo": ""
+    },
+    {
+        "word": "ラグナロク;ラグナロクオンライン",
+        "product": "ラグナロクオンライン",
+        "url": "https://ragnarokonline.gungho.jp/",
+        "photo": "https://ragnarokonline.gungho.jp/news/information/kue8e600000122eb-img/kue8e600000122h6.jpg"
+    },
+    {
+        "word": "WORLDOFTANKS;WOT",
+        "product": "World of Tanks",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "メイプルストーリー",
+        "product": "メイプルストーリー",
+        "url": "https://maplestory.nexon.co.jp/",
+        "photo": ""
+    },
+    {
+        "word": "世界のアソビ大全51",
+        "product": "世界のアソビ大全51",
+        "url": "https://www.nintendo.co.jp/switch/as7ta/",
+        "photo": ""
+    },
+    {
+        "word": "スプラトゥーン",
+        "product": "スプラトゥーンシリーズ",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "GETTINGOVERIT",
+        "product": "Getting Over It with Bennett Foddy",
+        "url": "https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/?l=japanese",
+        "photo": ""
+    },
+    {
+        "word": "60SECONDS!",
+        "product": "60 Seconds!",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "桃太郎電鉄",
+        "product": "桃太郎電鉄シリーズ",
+        "url": "https://www.konami.com/games/momotetsu/",
+        "photo": ""
+    },
+    {
+        "word": "FARCRY",
+        "product": "Far Cryシリーズ",
+        "url": "https://ja.wikipedia.org/wiki/Far_Cry%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
+        "photo": ""
+    },
+    {
+        "word": "ABZU;ABZ\u00db",
+        "product": "ABZ\u00db",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "FIVENIGHTSATFREDDY;FIVENIGHTSATFREDDY'S",
+        "product": "Five Nights at Freddy's",
+        "url": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/?l=japanese",
+        "photo": ""
+    },
+    {
+        "word": "KERBALSPACEPROGRAM",
+        "product": "Kerbal Space Program",
+        "url": "https://store.steampowered.com/app/220200/Kerbal_Space_Program/",
+        "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/220200/header.jpg"
+    },
+    {
+        "word": "ROCKETLEAGUE;ロケットリーグ",
+        "product": "Rocket League",
+        "url": "https://www.rocketleague.com/",
+        "photo": ""
+    },
+    {
+        "word": "LOSTARK",
+        "product": "LOST ARK",
+        "url": "https://lostark.pmang.jp/",
+        "photo": ""
+    },
+    {
+        "word": "ARK",
+        "product": "Ark: Survival Evolved",
+        "url": "https://www.spike-chunsoft.co.jp/ark/",
+        "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
         "word": "",
         "product": "",
         "url": "",
@@ -240,7 +402,67 @@
         "photo": ""
     },
     {
-        "word": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "",
+        "product": "",
+        "url": "",
+        "photo": ""
+    },
+    {
+        "word": "xxxxxxxxxxxxxxxxxxxxx|example|xxxxxxxxxxxxxxxxxxxxx",
         "product": "",
         "url": "",
         "photo": ""
