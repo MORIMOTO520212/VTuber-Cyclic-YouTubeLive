@@ -1,4 +1,6 @@
 # 設定
+# osごとにファイルの場所を一括変更するためのモジュールファイルです。
+# 各自の環境に合わせてパスを設定して下さい。
 
 # ストリームデータの場所
 def streamDataPath(os):
@@ -24,7 +26,7 @@ def idChangeDataPath(os):
         return "/var/www/html/database/idChangeData.json"
     return False
 
-# Chromeのプロファイルの場所
+# Chromeのプロファイルの場所（streamingSearchChrome.pyを使う場合）
 def chromeProfilePath(os):
     if os == "windows":
         return "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
@@ -55,3 +57,10 @@ def gamesDataPath(os):
     if os == "linux":
         return "/var/www/html/database/games.json"
     return False
+
+def tweepyKeyPath():
+    consumer_key    = 'fOr1fbI9mCK1ztiqbEIMlHfLV'
+    consumer_secret = 'PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
+    access_key      = '4634604300-uYOEizJIhTQWMan2pLtfK9r73nXK5BK0h4rlwf3'
+    access_secret   = '54Dqdt8Kx7CoVKq2XqOSoTsKkTI7liPtpPugaZjGrTbRK'
+    return consumer_key, consumer_secret, access_key, access_secret

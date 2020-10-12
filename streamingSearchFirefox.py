@@ -12,10 +12,7 @@ os = "linux"
 
 print("動作オペレーティングシステム："+os)
 
-consumer_key='fOr1fbI9mCK1ztiqbEIMlHfLV'
-consumer_secret='PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
-access_key='4634604300-uYOEizJIhTQWMan2pLtfK9r73nXK5BK0h4rlwf3'
-access_secret='54Dqdt8Kx7CoVKq2XqOSoTsKkTI7liPtpPugaZjGrTbRK'
+consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
 
 print("tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -83,9 +80,9 @@ def search(detail):
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")
 
-    except Exception as e:
+    except:
         streamingNow = False
-    
+
     return channelId, streamingNow, streamingNumber, videoTitle
 
 def updateTwitterIcon(channelId):
@@ -102,7 +99,8 @@ def updateTwitterIcon(channelId):
 
 def sort(play):
     for strDa in streamingData:
-        if strDa["channelId"] in str(streamingChannels): # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
+        # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
+        if strDa["channelId"] in str(streamingChannels):
 
             streamingDataNew.append({ # 既存ライバー追加
                 "channelId": strDa["channelId"],
