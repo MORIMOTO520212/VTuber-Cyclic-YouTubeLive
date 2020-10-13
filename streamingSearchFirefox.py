@@ -8,7 +8,7 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 
 # 動作環境の設定 windows | linux
-os = "windows"
+os = "linux"
 
 print("動作オペレーティングシステム："+os)
 

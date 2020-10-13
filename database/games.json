@@ -180,13 +180,13 @@
         "photo": "https://prtimes.jp/i/40769/46/ogp/d40769-46-931222-0.jpg"
     },
     {
-        "word": "\u30a6\u30a3\u30c3\u30c1\u30e3\u30fc3",
+        "word": "WITCHERWILDHUNT3;WITCHER3;\u30a6\u30a3\u30c3\u30c1\u30e3\u30fc3",
         "product": "\u30a6\u30a3\u30c3\u30c1\u30e3\u30fc3 \u30ef\u30a4\u30eb\u30c9\u30cf\u30f3\u30c8",
-        "url": "",
-        "photo": ""
+        "url": "https://www.spike-chunsoft.co.jp/witcher3/",
+        "photo": "https://lh3.googleusercontent.com/proxy/0rqYKkKlNhoMQnvpMfwLjsSNwmiz_uycGSjccsX_DiAcbwNnwZ7kVZhEnF5zg0jMVlMeK2TtLQ0_0QAjhP0F8D4GIBpzhVIPav1YKsPJOOBqbqo"
     },
     {
-        "word": "",
+        "word": "PROJECTWINTER",
         "product": "Project Winter",
         "url": "https://store.steampowered.com/app/774861/Project_Winter/?l=japanese",
         "photo": "https://assets.st-note.com/production/uploads/images/23894681/rectangle_large_type_2_160d4683a62a6fe3a634a97682b7273f.png"
@@ -195,7 +195,7 @@
         "word": "\u4e09\u56fd\u5fd7",
         "product": "\u4e09\u570b\u5fd7\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.gamecity.ne.jp/sangokushi14/",
-        "photo": ""
+        "photo": "https://m.media-amazon.com/images/S/aplus-media/vc/50dacc55-6e13-4d03-92b4-e86ac61f836e.__CR0,0,970,600_PT0_SX970_V1___.jpg"
     },
     {
         "word": "\u30e9\u30b0\u30ca\u30ed\u30af;\u30e9\u30b0\u30ca\u30ed\u30af\u30aa\u30f3\u30e9\u30a4\u30f3",
@@ -206,44 +206,44 @@
     {
         "word": "WORLDOFTANKS;WOT",
         "product": "World of Tanks",
-        "url": "",
-        "photo": ""
+        "url": "https://worldoftanks.asia/ja/",
+        "photo": "https://worldoftanks.asia/static/5.71.0_23852f/wotp_static/img/download_game/frontend/scss/img/sharing.jpg"
     },
     {
         "word": "\u30e1\u30a4\u30d7\u30eb\u30b9\u30c8\u30fc\u30ea\u30fc",
         "product": "\u30e1\u30a4\u30d7\u30eb\u30b9\u30c8\u30fc\u30ea\u30fc",
         "url": "https://maplestory.nexon.co.jp/",
-        "photo": ""
+        "photo": "https://static.nexon.co.jp/maplestory/ver2017/campaign/twitter_card/twittershare_191218_potal.png"
     },
     {
         "word": "\u4e16\u754c\u306e\u30a2\u30bd\u30d3\u5927\u516851",
         "product": "\u4e16\u754c\u306e\u30a2\u30bd\u30d3\u5927\u516851",
         "url": "https://www.nintendo.co.jp/switch/as7ta/",
-        "photo": ""
+        "photo": "https://i.ytimg.com/vi/QJC3xM0tLvc/maxresdefault.jpg"
     },
     {
         "word": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3",
         "product": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3\u30b7\u30ea\u30fc\u30ba",
-        "url": "",
-        "photo": ""
+        "url": "https://www.nintendo.co.jp/switch/aab6a/index.html",
+        "photo": "https://www.nintendo.co.jp/switch/aab6a/assets/images/ogp.png"
     },
     {
         "word": "GETTINGOVERIT",
         "product": "Getting Over It with Bennett Foddy",
         "url": "https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/?l=japanese",
-        "photo": ""
+        "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/240720/capsule_616x353.jpg"
     },
     {
         "word": "60SECONDS!",
         "product": "60 Seconds!",
-        "url": "",
-        "photo": ""
+        "url": "https://store.steampowered.com/app/368360/60_Seconds/?l=japanese",
+        "photo": "https://steamcdn-a.akamaihd.net/steam/apps/1012880/capsule_616x353.jpg"
     },
     {
-        "word": "\u6843\u592a\u90ce\u96fb\u9244",
+        "word": "\u6843\u9244;\u6843\u592a\u90ce\u96fb\u9244",
         "product": "\u6843\u592a\u90ce\u96fb\u9244\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.konami.com/games/momotetsu/",
-        "photo": ""
+        "photo": "https://topics-cdn.nintendo.co.jp/image/2020/07/15094913980923/0/0000_820_461.jpg"
     },
     {
         "word": "FARCRY",
@@ -254,14 +254,14 @@
     {
         "word": "ABZU;ABZ\u00db",
         "product": "ABZ\u00db",
-        "url": "",
-        "photo": ""
+        "url": "https://store.steampowered.com/app/384190/ABZU/?l=japanese",
+        "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/384190/capsule_616x353.jpg"
     },
     {
         "word": "FIVENIGHTSATFREDDY;FIVENIGHTSATFREDDY'S",
         "product": "Five Nights at Freddy's",
         "url": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/?l=japanese",
-        "photo": ""
+        "photo": "https://ninten-switch.com/wp-content/uploads/2019/11/five-nights-at-freddys-1-and-2-and-3-switch-ver-available-nov-29-2019.jpg"
     },
     {
         "word": "KERBALSPACEPROGRAM",
@@ -273,13 +273,13 @@
         "word": "ROCKETLEAGUE;\u30ed\u30b1\u30c3\u30c8\u30ea\u30fc\u30b0",
         "product": "Rocket League",
         "url": "https://www.rocketleague.com/",
-        "photo": ""
+        "photo": "https://i0.wp.com/fpsjp.net/wp-content/uploads/2020/09/b67fc6a0cf4ecd7b4d65f9e03a37da6e.jpg"
     },
     {
         "word": "LOSTARK",
         "product": "LOST ARK",
         "url": "https://lostark.pmang.jp/",
-        "photo": ""
+        "photo": "https://prtimes.jp/i/10988/485/resize/d10988-485-253411-0.jpg"
     },
     {
         "word": "ARK",
