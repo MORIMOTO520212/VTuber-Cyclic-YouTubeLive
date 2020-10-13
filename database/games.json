@@ -174,14 +174,14 @@
         "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
     },
     {
-        "word": "黒い砂漠",
-        "product": "黒い砂漠",
-        "url": "",
-        "photo": ""
+        "word": "\u9ed2\u3044\u7802\u6f20",
+        "product": "\u9ed2\u3044\u7802\u6f20",
+        "url": "https://www.jp.playblackdesert.com/",
+        "photo": "https://prtimes.jp/i/40769/46/ogp/d40769-46-931222-0.jpg"
     },
     {
-        "word": "ウィッチャー3",
-        "product": "ウィッチャー3 ワイルドハント",
+        "word": "\u30a6\u30a3\u30c3\u30c1\u30e3\u30fc3",
+        "product": "\u30a6\u30a3\u30c3\u30c1\u30e3\u30fc3 \u30ef\u30a4\u30eb\u30c9\u30cf\u30f3\u30c8",
         "url": "",
         "photo": ""
     },
@@ -192,14 +192,14 @@
         "photo": "https://assets.st-note.com/production/uploads/images/23894681/rectangle_large_type_2_160d4683a62a6fe3a634a97682b7273f.png"
     },
     {
-        "word": "三國志",
-        "product": "三國志シリーズ",
+        "word": "\u4e09\u56fd\u5fd7",
+        "product": "\u4e09\u570b\u5fd7\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.gamecity.ne.jp/sangokushi14/",
         "photo": ""
     },
     {
-        "word": "ラグナロク;ラグナロクオンライン",
-        "product": "ラグナロクオンライン",
+        "word": "\u30e9\u30b0\u30ca\u30ed\u30af;\u30e9\u30b0\u30ca\u30ed\u30af\u30aa\u30f3\u30e9\u30a4\u30f3",
+        "product": "\u30e9\u30b0\u30ca\u30ed\u30af\u30aa\u30f3\u30e9\u30a4\u30f3",
         "url": "https://ragnarokonline.gungho.jp/",
         "photo": "https://ragnarokonline.gungho.jp/news/information/kue8e600000122eb-img/kue8e600000122h6.jpg"
     },
@@ -210,20 +210,20 @@
         "photo": ""
     },
     {
-        "word": "メイプルストーリー",
-        "product": "メイプルストーリー",
+        "word": "\u30e1\u30a4\u30d7\u30eb\u30b9\u30c8\u30fc\u30ea\u30fc",
+        "product": "\u30e1\u30a4\u30d7\u30eb\u30b9\u30c8\u30fc\u30ea\u30fc",
         "url": "https://maplestory.nexon.co.jp/",
         "photo": ""
     },
     {
-        "word": "世界のアソビ大全51",
-        "product": "世界のアソビ大全51",
+        "word": "\u4e16\u754c\u306e\u30a2\u30bd\u30d3\u5927\u516851",
+        "product": "\u4e16\u754c\u306e\u30a2\u30bd\u30d3\u5927\u516851",
         "url": "https://www.nintendo.co.jp/switch/as7ta/",
         "photo": ""
     },
     {
-        "word": "スプラトゥーン",
-        "product": "スプラトゥーンシリーズ",
+        "word": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3",
+        "product": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3\u30b7\u30ea\u30fc\u30ba",
         "url": "",
         "photo": ""
     },
@@ -240,14 +240,14 @@
         "photo": ""
     },
     {
-        "word": "桃太郎電鉄",
-        "product": "桃太郎電鉄シリーズ",
+        "word": "\u6843\u592a\u90ce\u96fb\u9244",
+        "product": "\u6843\u592a\u90ce\u96fb\u9244\u30b7\u30ea\u30fc\u30ba",
         "url": "https://www.konami.com/games/momotetsu/",
         "photo": ""
     },
     {
         "word": "FARCRY",
-        "product": "Far Cryシリーズ",
+        "product": "Far Cry\u30b7\u30ea\u30fc\u30ba",
         "url": "https://ja.wikipedia.org/wiki/Far_Cry%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA",
         "photo": ""
     },
@@ -270,7 +270,7 @@
         "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/220200/header.jpg"
     },
     {
-        "word": "ROCKETLEAGUE;ロケットリーグ",
+        "word": "ROCKETLEAGUE;\u30ed\u30b1\u30c3\u30c8\u30ea\u30fc\u30b0",
         "product": "Rocket League",
         "url": "https://www.rocketleague.com/",
         "photo": ""
@@ -286,180 +286,6 @@
         "product": "Ark: Survival Evolved",
         "url": "https://www.spike-chunsoft.co.jp/ark/",
         "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
-    },
-    {
-        "word": "",
-        "product": "",
-        "url": "",
-        "photo": ""
     },
     {
         "word": "xxxxxxxxxxxxxxxxxxxxx|example|xxxxxxxxxxxxxxxxxxxxx",

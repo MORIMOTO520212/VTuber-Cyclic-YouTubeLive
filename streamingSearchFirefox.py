@@ -8,7 +8,7 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 
 # 動作環境の設定 windows | linux
-os = "linux"
+os = "windows"
 
 print("動作オペレーティングシステム："+os)
 
@@ -31,11 +31,10 @@ with open(settings.idChangeDataPath(os), "r") as f:
     idChangeData = json.load(f)
 with open(settings.streamDataPath(os), "r") as f:
     streamdata = json.load(f)
-with open(settings.streamingDataPath(os), "r") as f:
-    streamingData = json.load(f)
 with open(settings.gamesDataPath(os), "r") as f:
     gamesData = json.load(f)
 
+streamingChannels_before = {}
 print("complete!")
 
 
@@ -98,7 +97,9 @@ def updateTwitterIcon(channelId):
             print(usrRoot["userName"]+"さんのTwitterのアカウントが見つかりませんでした。 "+channelId)
 
 def sort(play):
-    for strDa in streamingData:
+    # streamingDataのデータを比較すると古いデータと比較しているし、更新されていないので完璧な処理が出来ていない。
+    # 最初の１～３くらいまでは正確に処理できる確立が高いが、古いデータを参照するので、時間がたつと、既存データの書き写し処理の意味がなくなってします。
+    for strDa in streamingChannels_before:
         # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
         if strDa["channelId"] in str(streamingChannels):
 
@@ -118,7 +119,7 @@ def sort(play):
             })
 
     for strCha in streamingChannels:
-        if strCha["channelId"] not in str(streamingData): # 書き込み用データにまだ含まれていない場合末尾に書く
+        if strCha["channelId"] not in str(streamingChannels_before): # 書き込み用データにまだ含まれていない場合末尾に書く
 
             streamingDataNew.append({ # 開始ライバー追加
                 "channelId": strCha["channelId"],
@@ -246,6 +247,9 @@ while True:
 
         with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
+
+        # データを保持　次のクロール時にデータを比較するため
+        streamingChannels_before = streamingChannels
 
         # 3分間待機
         sleep(180)
