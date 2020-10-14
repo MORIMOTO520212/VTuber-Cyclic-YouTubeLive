@@ -1,4 +1,12 @@
-// 幕の開閉
+/* * * * * * * * * * * * * * * * * * *
+
+    VTuber Cyclic Live Streaming 
+    update: 2020/10/13
+    GitHub:
+    Twitter: @Medaka_bridle
+
+* * * * * * * * * * * * * * * * * * */
+
 function curtainOC(){
     element_curtain = document.getElementById("curtain");
     if(element_curtain.className == "curtain open"){
@@ -11,7 +19,6 @@ function curtainOC(){
     return;
 }
 
-// youtube player api //
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player("youtube",{
@@ -58,21 +65,19 @@ function intervalStreamingData(){
 
         streamings = jsonData;
 
-        // ステータス画面の総配信者のTwitterアイコンを表示する
         var imgSource = "";
         for(var j = 0; j < streamings.length; j++){
             
             if(streamingChannel != streamings[j]["channelId"]){
                 imgSource +=  "<a href=\"https://www.youtube.com/channel/"+streamings[j]["channelId"]+"\" target=\"_blank\"><img class=\"icon\" src=\"" + streamings[j]["photo"] + "\"></a>";
             
-            }else{ // ハイライト
+            }else{
                 imgSource +=  "<a href=\"https://www.youtube.com/channel/"+streamings[j]["channelId"]+"\" target=\"_blank\"><img class=\"icon hilight\" src=\"" + streamings[j]["photo"] + "\"></a>";
             }
         }
         element_streamings.innerHTML = imgSource;        
     }
 
-    // streamingデータ取得
     $.post('getData.php?mode=getStreaming', {}, function(data){
         console.log("getStreaming");
         jsonData = JSON.parse(data);
@@ -82,7 +87,6 @@ function intervalStreamingData(){
 intervalStreamingData();
 setInterval(intervalStreamingData, 5000);
 
-// アクティブ 棒グラフ
 var chart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -106,10 +110,9 @@ function randomSetYouTube(){
     if (i < streamings.length-1){ i += 1; }
     else{ i = 0; }
 
-    curtainOC(); // 幕を掛ける
-
+    curtainOC();
     console.log("stream: "+i);
-    // 動画セット
+
     function sleep1(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1");
 
@@ -156,10 +159,9 @@ function randomSetYouTube(){
     setTimeout(sleep2, 4500); // 幕を掛ける時間3.5秒
 }
 
-// 1分毎に配信を切り替えながらストリーミングする
 var interval;
 var playStatus;
-var speed = 60000; // 60.000秒
+var speed = 60000; // 初期値60秒
 function streaming(){
     playStatus = true;
     element_play.setAttribute("class", "play close");

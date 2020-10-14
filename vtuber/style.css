@@ -11,6 +11,9 @@ p{
     font-family: "Google Sans","Roboto","Arial",sans-serif;
     margin: 5px;
 }
+a{
+    text-decoration: none;
+}
 div.main{
     width: 90%;
     background-color: #000;
@@ -20,12 +23,11 @@ div.main{
 }
 div.main .title p{
     font-size: 30px;
-    margin-bottom: 50px;
 }
 div.header p{
     font-size: 25px;
     border-bottom: solid 2px #5a8836;
-    margin: 20px 0;
+    margin: 50px 0 20px 0;
     width: 50%;
 }
 div.contents p{

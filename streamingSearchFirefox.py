@@ -34,7 +34,7 @@ with open(settings.streamDataPath(os), "r") as f:
 with open(settings.gamesDataPath(os), "r") as f:
     gamesData = json.load(f)
 
-streamingChannels_before = {}
+streamingData_before = []
 print("complete!")
 
 
@@ -97,13 +97,11 @@ def updateTwitterIcon(channelId):
             print(usrRoot["userName"]+"さんのTwitterのアカウントが見つかりませんでした。 "+channelId)
 
 def sort(play):
-    # streamingDataのデータを比較すると古いデータと比較しているし、更新されていないので完璧な処理が出来ていない。
-    # 最初の１～３くらいまでは正確に処理できる確立が高いが、古いデータを参照するので、時間がたつと、既存データの書き写し処理の意味がなくなってします。
-    for strDa in streamingChannels_before:
-        # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
+    # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
+    for strDa in streamingData_before:
         if strDa["channelId"] in str(streamingChannels):
 
-            streamingDataNew.append({ # 既存ライバー追加
+            streamingData.append({ # 既存ライバー追加
                 "channelId": strDa["channelId"],
                 "userName": strDa["userName"],
                 "twitterId": strDa["twitterId"],
@@ -118,10 +116,11 @@ def sort(play):
                 "play": strDa["play"]
             })
 
+    # 書き込み用データにまだ含まれていない場合末尾に書く
     for strCha in streamingChannels:
-        if strCha["channelId"] not in str(streamingChannels_before): # 書き込み用データにまだ含まれていない場合末尾に書く
+        if strCha["channelId"] not in str(streamingData_before):
 
-            streamingDataNew.append({ # 開始ライバー追加
+            streamingData.append({
                 "channelId": strCha["channelId"],
                 "userName": strCha["userName"],
                 "twitterId": strCha["twitterId"],
@@ -182,7 +181,7 @@ def updateStatus(usrRoot, play):
 while True:
     try:
         streamingChannels = []
-        streamingDataNew  = [] # 書き込み用
+        streamingData  = [] # 書き込み用
 
         # YouTubeからデータを取得
         details = getSource()
@@ -243,13 +242,13 @@ while True:
 
         # 書き込み
         with open(settings.streamingDataPath(os), "w") as f:
-            json.dump(streamingDataNew, f)
+            json.dump(streamingData, f)
 
         with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
 
         # データを保持　次のクロール時にデータを比較するため
-        streamingChannels_before = streamingChannels
+        streamingData_before = streamingData
 
         # 3分間待機
         sleep(180)
