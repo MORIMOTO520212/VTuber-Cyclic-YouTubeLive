@@ -11,8 +11,15 @@ p{
     color: #eee;
     font-family: "Google Sans","Roboto","Arial",sans-serif;
     margin: 5px;
+    word-wrap: break-word;
 }
-
+div.block{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    opacity: 0;
+    width: 50%;
+}
 
 /* ------------- Player ------------- */
 div.player{
@@ -28,7 +35,7 @@ div.player{
 }
 div.player .curtain{
     width: 100%;
-    height: 720px;
+    height: 100%;
     background-color: #181818;
     position: absolute;
     top: 0px;
@@ -63,7 +70,7 @@ div.player div.open{
 }
 div.player div.close{
     /* フェードアウト */
-    animation: 0.5s fade-out forwards;
+    animation: 1s fade-out forwards;
 }
 
 div.status{
@@ -80,6 +87,7 @@ div.status .box1{
 div.status .box1 div.list{
     display: inline-block;
     /*border: solid 1px #565656;*/
+    word-wrap: break-word;
     vertical-align: top;
     margin: 0;
     width: 49%;
@@ -97,7 +105,7 @@ div.status .box1 div.list{
 /* --------- profile photo --------- */
 div.profile{
     margin: 0 auto;
-    margin-top: 127px;
+    margin-top: 10%;
     width: 200px;
     height: 200px;
 }
@@ -207,4 +215,20 @@ div.footer a{
 /* play game */
 #playgame_photo{
     width: 30%;
+}
+
+@media screen and (max-width: 959px){
+    div.block{
+        opacity: 1;
+        width: 100%;
+    }
+    div.player{
+        opacity: 0;
+    }
+    div.status{
+        opacity: 0;
+    }
+    div.footer{
+        opacity: 0;
+    }
 }

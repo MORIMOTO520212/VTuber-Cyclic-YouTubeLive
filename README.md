@@ -62,3 +62,29 @@ bugreport/
 
 NOTE
 ライブ配信のタイトルに他のライバー名が入っている場合記録し、コラボ状況を調査  
+
+
+ch1 - [ch2,ch3,ch4]
+ch2 - [ch1,ch3,ch6]
+ch3 - [ch1,ch2,ch5]
+ch4 - [ch1,ch3,ch5]
+ch5 - [ch3,ch4]
+ch6 - [ch2]
+
+channel = GET data.json
+already = []
+edges = []
+for channel {
+    check = true
+    for already {
+        if channel == already {
+            check = false
+        }
+    }
+    if check {
+        edges append {from ch to ch}
+    }
+}
+
+json
+"collab": ["channelId","channelId"]

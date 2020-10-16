@@ -28,12 +28,14 @@ function onYouTubeIframeAPIReady() {
         }
     });
 }
+var apiCheck = false;
 function onPlayerReady(event) {
     console.log("onPlayerReady");
     event.target.playVideo();
 }
 function onPlayerStateChange(event) {
     console.log("onPlayerStateChange "+event.data);
+    apiCheck = true;
 }
 
 var i = 0;
@@ -156,22 +158,27 @@ function randomSetYouTube(){
     function sleep2(){
         curtainOC(); // 幕を開ける
     }
-    setTimeout(sleep2, 4500); // 幕を掛ける時間3.5秒
+    setTimeout(sleep2, 4500); // 幕を掛ける時間4.5秒
 }
 
 var interval;
 var playStatus;
 var speed = 60000; // 初期値60秒
 function streaming(){
-    playStatus = true;
-    element_play.setAttribute("class", "play close");
-
-    // YouTube画面に切り替え
-    element_startpage.setAttribute("style", "opacity: 0;");
-    element_youtube.setAttribute("style", "opacity: 1;");
-
-    randomSetYouTube();
-    interval = setInterval(randomSetYouTube, speed);
+    if(apiCheck){
+        playStatus = true;
+        element_play.setAttribute("class", "play close");
+    
+        // YouTube画面に切り替え
+        element_startpage.setAttribute("style", "opacity: 0;");
+        element_youtube.setAttribute("style", "opacity: 1;");
+    
+        randomSetYouTube();
+        interval = setInterval(randomSetYouTube, speed);
+    }else{
+        alert("Opps!\nYouTube Player APIでエラーが発生しました。サイトをリロードします。");
+        location.reload();
+    }
 }
 function changeSpeed(){
     speed = element_speed.value*60000;

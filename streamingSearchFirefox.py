@@ -12,6 +12,7 @@ os = "linux"
 
 print("動作オペレーティングシステム："+os)
 
+# tweepy
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
 
 print("tweepy API...")
@@ -177,6 +178,22 @@ def updateStatus(usrRoot, play):
         else:
             usrRoot["games"].append(play)
 
+def collab(videoTitle):
+    collab_list = []
+    for channelId in streamdata.keys():
+        if streamdata[channelId]["userName"] in videoTitle: # 動画タイトルにライバー名が含まれていた場合
+            collab_list.append(channelId)
+
+    for channelId_collab in collab_list: # channelId_collab 追加するアカウント
+
+        for cc_other in collab_list:
+            if channelId_collab != cc_other: # channelId_collab（自分）以外 cc_other
+
+                for cccheck in streamdata[channelId_collab]["collab"]: # 既に記録されているか
+                    if cc_other == cccheck: break
+                else: # コラボライバーを配列に記録
+                    streamdata[channelId_collab]["collab"].append(cc_other)
+
 
 while True:
     try:
@@ -208,6 +225,9 @@ while True:
 
                     # タイトルにゲーム名がある場合取得
                     play = playGame(videoTitle)
+
+                    # コラボ検出
+                    collab(videoTitle)
 
                     # アイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
                     if 200 != requests.get(usrRoot["photo"]).status_code:
