@@ -3,13 +3,13 @@
         "userName": "\u59eb\u68ee\u30eb\u30fc\u30ca",
         "twitterId": "himemoriluna",
         "photo": "https://pbs.twimg.com/profile_images/1284284914104295424/SAbEm4VE_400x400.jpg",
-        "livePoint": 604,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 605,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 62,
-            "01": 65,
+            "01": 66,
             "02": 65,
             "03": 39,
             "04": 19,
@@ -39,6 +39,9 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
+        ],
+        "collab": [
+            "UCvInZx9h3jC2JzsIzoOebWg"
         ]
     },
     "UCfki3lMEF6SGBFiFfo9kvUA": {
@@ -75,7 +78,8 @@
             "22": 26,
             "23": 25
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC0g1AE0DOjBYnLhkgoRWN1w": {
         "userName": "\u672c\u9593\u3072\u307e\u308f\u308a",
@@ -117,7 +121,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0WwEfE-jOM2rzjpdfhTzZA": {
         "userName": "\u611b\u5712\u611b\u7f8e",
@@ -153,7 +158,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCYTz3uIgwVY3ZU-IQJS8r3A": {
         "userName": "\u5cf6\u6751\u30b7\u30e3\u30eb\u30ed\u30c3\u30c8",
@@ -195,7 +201,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCNW1Ex0r6HsWRD4LCtPwvoQ": {
         "userName": "\u4e09\u679d\u660e\u90a3",
@@ -231,7 +238,8 @@
             "22": 12,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCnRQYHTnRLSF0cLJwMnedCg": {
         "userName": "\u76f8\u7fbd\u3046\u3044\u306f",
@@ -267,7 +275,8 @@
             "22": 15,
             "23": 20
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCL34fAoFim9oHLbVzMKFavQ": {
         "userName": "\u591c\u898b\u308c\u306a",
@@ -314,7 +323,8 @@
                 "url": "https://www.konami.com/pawa/app/",
                 "photo": "https://topics-cdn.nintendo.co.jp/image/2019/10/02111314518313/0/00001639_820_461.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCUZ5AlC3rTlM-rA2cj5RP6w": {
         "userName": "\u795e\u697d\u3059\u305a",
@@ -350,7 +360,8 @@
             "22": 35,
             "23": 55
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCl_gCybOJRIgOXw6Qb4qJzQ": {
         "userName": "\u6f64\u7fbd\u308b\u3057\u3042",
@@ -392,7 +403,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1CfXB_kRs3C-zaeTG3oGyg": {
         "userName": "\u8d64\u4e95\u306f\u3042\u3068",
@@ -428,7 +440,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCryOPk2GZ1meIDt53tL30Tw": {
         "userName": "\u9234\u6728\u52dd",
@@ -464,19 +477,20 @@
             "22": 12,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCYKP16oMX9KKPbrNgo_Kgag": {
         "userName": "\u3048\u308b",
         "twitterId": "Elu_World",
         "photo": "https://pbs.twimg.com/profile_images/1308308825213079553/w5OosQjP_400x400.jpg",
-        "livePoint": 1177,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 1178,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 91,
-            "01": 35,
+            "01": 36,
             "02": 18,
             "03": 0,
             "04": 0,
@@ -506,6 +520,9 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
+        ],
+        "collab": [
+            "UCtnQtmQoAkgFWyQF_RliTzw"
         ]
     },
     "UCeShTCVgZyq2lsBW9QwIJcw": {
@@ -542,7 +559,8 @@
             "22": 83,
             "23": 60
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC1QgXt46-GEvtNjEC1paHnw": {
         "userName": "\u30b0\u30a6\u30a7\u30eb\u30fb\u30aa\u30b9\u30fb\u30ac\u30fc\u30eb",
@@ -578,7 +596,8 @@
             "22": 0,
             "23": 5
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCLO9QDxVL4bnvRRsz6K4bsQ": {
         "userName": "\u52c7\u6c17\u3061\u3072\u308d",
@@ -620,19 +639,20 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCuvk5PilcvDECU7dDZhQiEw": {
         "userName": "\u767d\u96ea\u5df4",
         "twitterId": "tomoe_shirayuki",
         "photo": "https://pbs.twimg.com/profile_images/1245189634436587520/y8apwzdk_400x400.jpg",
-        "livePoint": 618,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 619,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 94,
-            "01": 42,
+            "01": 43,
             "02": 19,
             "03": 0,
             "04": 0,
@@ -662,7 +682,8 @@
                 "url": "https://www.nintendo.co.jp/switch/aab6a/index.html",
                 "photo": "https://www.nintendo.co.jp/switch/aab6a/assets/images/ogp.png"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCt0clH12Xk1-Ej5PXKGfdPA": {
         "userName": "\u7269\u8ff0\u6709\u6816",
@@ -698,19 +719,20 @@
             "22": 0,
             "23": 33
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCoztvTULBYd3WmStqYeoHcA": {
         "userName": "\u7b39\u6728\u54b2",
         "twitterId": "saku_sasaki",
         "photo": "https://pbs.twimg.com/profile_images/1233335651182891008/-xUm24Ic_400x400.jpg",
-        "livePoint": 576,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 577,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 111,
-            "01": 40,
+            "01": 41,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -734,7 +756,8 @@
             "22": 18,
             "23": 88
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCJubINhCcFXlsBwnHp0wl_g": {
         "userName": "\u821e\u5143\u5553\u4ecb",
@@ -770,7 +793,8 @@
             "22": 15,
             "23": 11
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCtAvQ5U0aXyKwm2i4GqFgJg": {
         "userName": "\u6625\u5d0e\u30a8\u30a2\u30eb",
@@ -806,7 +830,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCHVXbQzkl3rDfsXWo8xi2qw": {
         "userName": "\u30a2\u30f3\u30b8\u30e5\u30fb\u30ab\u30c8\u30ea\u30fc\u30ca",
@@ -842,19 +867,20 @@
             "22": 50,
             "23": 37
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC9EjSJ8pvxtvPdxLOElv73w": {
         "userName": "\u9b54\u754c\u30ce\u308a\u308a\u3080",
         "twitterId": "makaino_ririmu",
         "photo": "https://pbs.twimg.com/profile_images/1303662841644294145/9I-w_9pS_400x400.jpg",
-        "livePoint": 281,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 282,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 75,
-            "01": 39,
+            "01": 40,
             "02": 20,
             "03": 19,
             "04": 2,
@@ -878,7 +904,8 @@
             "22": 18,
             "23": 25
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCK9V2B22uJYu3N7eR_BT9QA": {
         "userName": "\u5c3e\u4e38\u30dd\u30eb\u30ab",
@@ -920,7 +947,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCD-miitqNY3nyukJ4Fnf4_A": {
         "userName": "\u6708\u30ce\u7f8e\u514e",
@@ -956,7 +984,8 @@
             "22": 31,
             "23": 16
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCTIE7LM5X15NVugV7Krp9Hw": {
         "userName": "\u5922\u8ffd\u7fd4",
@@ -992,7 +1021,8 @@
             "22": 52,
             "23": 60
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCIytNcoz4pWzXfLda0DoULQ": {
         "userName": "\u30a8\u30af\u30b9\u30fb\u30a2\u30eb\u30d3\u30aa",
@@ -1028,7 +1058,8 @@
             "22": 9,
             "23": 17
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCmovZ2th3Sqpd00F5RdeigQ": {
         "userName": "\u52a0\u8cc0\u7f8e\u30cf\u30e4\u30c8",
@@ -1064,7 +1095,8 @@
             "22": 4,
             "23": 70
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCZ1xuCK1kNmn5RzPYIZop3w": {
         "userName": "\u30ea\u30bc\u30fb\u30d8\u30eb\u30a8\u30b9\u30bf",
@@ -1100,19 +1132,20 @@
             "22": 15,
             "23": 11
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCerkculBD7YLc_vOGrF7tKg": {
         "userName": "\u9b54\u4f7f\u30de\u30aa",
         "twitterId": "matsukai_mao",
         "photo": "https://pbs.twimg.com/profile_images/1188888005311729665/D7B61cz2_400x400.jpg",
-        "livePoint": 371,
-        "lastLiveDate": "2020/10/17 01:13:05",
+        "livePoint": 372,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:05",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 27,
-            "01": 84,
+            "01": 85,
             "02": 56,
             "03": 55,
             "04": 47,
@@ -1147,7 +1180,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCbc8fwhdUNlqi-J99ISYu4A": {
         "userName": "\u30d9\u30eb\u30e2\u30f3\u30c9\u30fb\u30d0\u30f3\u30c7\u30e9\u30b9",
@@ -1183,7 +1217,8 @@
             "22": 26,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCmeyo5pRj_6PXG-CsGUuWWg": {
         "userName": "\u9ed2\u4e95\u3057\u3070",
@@ -1219,7 +1254,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCveZ9Ic1VtcXbsyaBgxPMvg": {
         "userName": "\u7ae5\u7530\u660e\u6cbb",
@@ -1255,7 +1291,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCGYAYLDE7TZiiC8U6teciDQ": {
         "userName": "\u8449\u52a0\u702c\u51ac\u96ea",
@@ -1302,19 +1339,20 @@
                 "url": "https://www.sekiro.jp/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCspv01oxUFf_MTSipURRhkA": {
         "userName": "\u53f6",
         "twitterId": "Kanae_2434",
         "photo": "https://pbs.twimg.com/profile_images/1248189956779991040/ibYsBhi9_400x400.jpg",
-        "livePoint": 1688,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 1689,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 140,
-            "01": 144,
+            "01": 145,
             "02": 83,
             "03": 54,
             "04": 27,
@@ -1349,7 +1387,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCpnvhOIJ6BN-vPkYU9ls-Eg": {
         "userName": "\u9234\u8c37\u30a2\u30ad",
@@ -1385,7 +1424,8 @@
             "22": 145,
             "23": 15
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCKMYISTJAQ8xTplUPHiABlA": {
         "userName": "\u793e\u7bc9",
@@ -1421,7 +1461,8 @@
             "22": 92,
             "23": 127
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCo2N7C-Z91waaR6lF3LL_jw": {
         "userName": "\u7532\u6590\u7530\u6674",
@@ -1478,7 +1519,8 @@
                 "url": "https://www.nintendo.co.jp/switch/acbaa/index.html",
                 "photo": "https://assets.st-note.com/production/uploads/images/22149245/rectangle_large_type_2_958610f7cb3c99a23c89d98fbdcfb632.png"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCGw7lrT-rVZCWHfdG9Frcgg": {
         "userName": "\u5f26\u6708\u85e4\u58eb\u90ce",
@@ -1525,7 +1567,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC-o-E6I3IC2q8sAoAuM6Umg": {
         "userName": "\u5948\u7f85\u82b1",
@@ -1561,7 +1604,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCFTLzh12_nrtzqBPsTCqenA": {
         "userName": "\u30a2\u30ad\u30ed\u30bc",
@@ -1603,7 +1647,8 @@
                 "url": "https://jp.leagueoflegends.com/ja-jp/",
                 "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCS9uQI-jC3DE0L4IpXyvr6w": {
         "userName": "\u6850\u751f\u30b3\u30b3",
@@ -1639,19 +1684,20 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCdn5BQ06XqgXoAxIhbqw5Rg": {
         "userName": "\u767d\u4e0a\u30d5\u30d6\u30ad",
         "twitterId": "shirakamifubuki",
         "photo": "https://pbs.twimg.com/profile_images/1299609172963504128/byJErLe4_400x400.jpg",
-        "livePoint": 761,
-        "lastLiveDate": "2020/10/17 01:13:08",
+        "livePoint": 762,
+        "lastLiveDate": "2020/10/17 01:19:40",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:08",
+        "lastIconUpdateDate": "2020/10/17 01:19:40",
         "livePointStatus": {
             "00": 110,
-            "01": 29,
+            "01": 30,
             "02": 3,
             "03": 0,
             "04": 0,
@@ -1681,7 +1727,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCp6993wxpyDPHUpavwDFqgg": {
         "userName": "\u3068\u304d\u306e\u305d\u3089",
@@ -1723,7 +1770,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCD8HOxPs4Xvsm8H0ZxXGiBw": {
         "userName": "\u591c\u7a7a\u30e1\u30eb",
@@ -1759,7 +1807,8 @@
             "22": 82,
             "23": 72
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCW8WKciBixmaqaGqrlTITRQ": {
         "userName": "\u67da\u539f\u3044\u3065\u307f",
@@ -1801,6 +1850,10 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
+        ],
+        "collab": [
+            "UCV4EoK6BVNl7wxuxpUvvSWA",
+            "UCwePpiw1ocZRSNSkpKvVISw"
         ]
     },
     "UCZlDXzGoo7d44bwdNObFacg": {
@@ -1837,7 +1890,8 @@
             "22": 1,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC69URn8iP4u8D_zUp-IJ1sg": {
         "userName": "\u91d1\u9b5a\u5742\u3081\u3044\u308d",
@@ -1873,7 +1927,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCeK9HFcRZoTrvqcUCtccMoQ": {
         "userName": "\u6e0b\u8c37\u30cf\u30b8\u30e1",
@@ -1920,19 +1975,20 @@
                 "url": "http://pubg.dmm.com/",
                 "photo": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/09/08/923766-923012-pubg-new.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCsFn_ueskBkMCEyzCEqAOvg": {
         "userName": "\u82b1\u7551\u30c1\u30e3\u30a4\u30ab",
         "twitterId": "ZulmIhP1nlMOT5y",
         "photo": "https://pbs.twimg.com/profile_images/1113362075730894848/Sfq3sEHw_400x400.jpg",
-        "livePoint": 68,
-        "lastLiveDate": "2020/10/17 01:13:05",
+        "livePoint": 69,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:05",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 0,
-            "01": 4,
+            "01": 5,
             "02": 5,
             "03": 18,
             "04": 19,
@@ -1956,7 +2012,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC_4tXjqecqox5Uc05ncxpxg": {
         "userName": "\u690e\u540d\u552f\u83ef",
@@ -1992,19 +2049,20 @@
             "22": 51,
             "23": 32
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC2OacIzd2UxGHRGhdHl1Rhw": {
         "userName": "\u65e9\u702c\u8d70",
         "twitterId": "SouHayase",
         "photo": "https://pbs.twimg.com/profile_images/1258366257105195008/R68DcoS1_400x400.jpg",
-        "livePoint": 327,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 328,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 18,
-            "01": 4,
+            "01": 5,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -2028,7 +2086,8 @@
             "22": 28,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCjlmCrq4TP1I4xguOtJ-31w": {
         "userName": "\u3067\u3073\u3067\u3073\u30fb\u3067\u3073\u308b",
@@ -2064,7 +2123,8 @@
             "22": 88,
             "23": 38
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC9V3Y3_uzU5e-usObb6IE1w": {
         "userName": "\u661f\u5ddd\u30b5\u30e9",
@@ -2100,19 +2160,20 @@
             "22": 24,
             "23": 5
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCllKI7VjyANuS1RXatizfLQ": {
         "userName": "\u5c71\u795e\u30ab\u30eb\u30bf",
         "twitterId": "Karuta_Yamagami",
         "photo": "https://pbs.twimg.com/profile_images/1249528607854063616/BXh0B8Ym_400x400.jpg",
-        "livePoint": 483,
-        "lastLiveDate": "2020/10/17 01:13:05",
+        "livePoint": 484,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:05",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 52,
-            "01": 35,
+            "01": 36,
             "02": 16,
             "03": 0,
             "04": 0,
@@ -2147,19 +2208,20 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCwrjITPwG4q71HzihV2C7Nw": {
         "userName": "\u30d5\u30df",
         "twitterId": "FumiVirtual",
         "photo": "https://pbs.twimg.com/profile_images/1299864095294763008/dNBYlw2D_400x400.jpg",
-        "livePoint": 321,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 322,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 29,
-            "01": 22,
+            "01": 23,
             "02": 4,
             "03": 0,
             "04": 0,
@@ -2183,7 +2245,8 @@
             "22": 0,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCMp55EbT_ZlqiMS3lCj01BQ": {
         "userName": "\u795e\u6210\u304d\u3085\u3074",
@@ -2225,7 +2288,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCRvpMpzAXBRKJQuk-8-Sdvg": {
         "userName": "\u65e5\u30ce\u9688\u3089\u3093",
@@ -2267,7 +2331,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UChXm-xAYPfygrbyLo2yCASQ": {
         "userName": "\u5b63\u54b2\u3042\u3093\u3053",
@@ -2309,7 +2374,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC2kyQhzGOB-JPgcQX9OMgEw": {
         "userName": "\u5b97\u8c37\u3044\u3061\u304b",
@@ -2345,7 +2411,8 @@
             "22": 99,
             "23": 27
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCXp7sNC0F_qkjickvlYkg-Q": {
         "userName": "\u98a8\u898b\u304f\u304f",
@@ -2387,7 +2454,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0Owc36U9lOyi9Gx9Ic-4qg": {
         "userName": "\u56e0\u5e61\u306f\u306d\u308b",
@@ -2429,7 +2497,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC_BlXOQe5OcRC7o0GX8kp8A": {
         "userName": "\u7fbd\u67f4\u306a\u3064\u307f",
@@ -2465,7 +2534,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCtzCQnCT9E4o6U3mHHSHbQQ": {
         "userName": "\u767d\u5bae\u307f\u307f",
@@ -2501,19 +2571,20 @@
             "22": 18,
             "23": 4
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCV4EoK6BVNl7wxuxpUvvSWA": {
         "userName": "\u4e0d\u78e8\u308f\u3063\u3068",
         "twitterId": "Wat_Huma",
         "photo": "https://pbs.twimg.com/profile_images/1264008828460257280/Tb4sg-Yk_400x400.jpg",
-        "livePoint": 551,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 552,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 45,
-            "01": 19,
+            "01": 20,
             "02": 20,
             "03": 19,
             "04": 20,
@@ -2548,6 +2619,10 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
+        ],
+        "collab": [
+            "UCW8WKciBixmaqaGqrlTITRQ",
+            "UCwePpiw1ocZRSNSkpKvVISw"
         ]
     },
     "UC3EhsuKdEkI99TWZwZgWutg": {
@@ -2584,7 +2659,8 @@
             "22": 44,
             "23": 52
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCzUNASdzI4PV5SlqtYwAkKQ": {
         "userName": "\u5c0f\u68ee\u3081\u3068",
@@ -2626,7 +2702,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCSFCh5NL4qXrAy9u-u2lX3g": {
         "userName": "\u845b\u8449",
@@ -2662,7 +2739,8 @@
             "22": 59,
             "23": 71
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCmZ1Rbthn-6Jm_qOGjYsh5A": {
         "userName": "\u30a4\u30d6\u30e9\u30d2\u30e0",
@@ -2709,7 +2787,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCuep1JCrMvSxOGgGhBfJuYw": {
         "userName": "\u30d5\u30ec\u30f3\u30fbE\u30fb\u30eb\u30b9\u30bf\u30ea\u30aa",
@@ -2751,7 +2830,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCtnO2N4kPTXmyvedjGWdx3Q": {
         "userName": "\u30ec\u30f4\u30a3\u30fb\u30a8\u30ea\u30d5\u30a1",
@@ -2798,19 +2878,20 @@
                 "url": "https://www.nintendo.co.jp/character/zelda/index.html",
                 "photo": "https://www.nintendo.co.jp/zelda/assets/sns.png"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCvInZx9h3jC2JzsIzoOebWg": {
         "userName": "\u4e0d\u77e5\u706b\u30d5\u30ec\u30a2",
         "twitterId": "shiranuiflare",
         "photo": "https://pbs.twimg.com/profile_images/1245746068110766080/y9vBovLT_400x400.png",
-        "livePoint": 1074,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 1075,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 151,
-            "01": 115,
+            "01": 116,
             "02": 96,
             "03": 79,
             "04": 36,
@@ -2840,6 +2921,9 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
+        ],
+        "collab": [
+            "UCa9Y57gfeY0Zro_noHRVrnw"
         ]
     },
     "UCDqI2jOz0weumE8s7paEk6g": {
@@ -2882,7 +2966,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCQ0UDLQCjY0rmuxCDE38FGg": {
         "userName": "\u590f\u8272\u307e\u3064\u308a",
@@ -2924,7 +3009,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0TXe_LYZ4scaW2XMyi5_kw": {
         "userName": "AZKi",
@@ -2960,7 +3046,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCWCc8tO-uUl_7SJXIKJACMw": {
         "userName": "\u795e\u697d\u3081\u3042",
@@ -2996,7 +3083,8 @@
             "22": 32,
             "23": 26
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UChUJbHiTVeGrSkTdBzVfNCQ": {
         "userName": "\u30b8\u30e7\u30fc\u30fb\u529b\u4e00",
@@ -3032,7 +3120,8 @@
             "22": 67,
             "23": 44
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCRV9d6YCYIMUszK-83TwxVA": {
         "userName": "\u8f5f\u4eac\u5b50",
@@ -3068,7 +3157,8 @@
             "22": 47,
             "23": 51
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwePpiw1ocZRSNSkpKvVISw": {
         "userName": "\u897f\u5712\u5bfa\u30e1\u30a2\u30ea",
@@ -3110,6 +3200,10 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
+        ],
+        "collab": [
+            "UCW8WKciBixmaqaGqrlTITRQ",
+            "UCV4EoK6BVNl7wxuxpUvvSWA"
         ]
     },
     "UCo7TRj3cS-f_1D9ZDmuTsjw": {
@@ -3146,7 +3240,8 @@
             "22": 17,
             "23": 9
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC_GCs6GARLxEHxy1w40d6VQ": {
         "userName": "\u5bb6\u9577\u3080\u304e",
@@ -3182,7 +3277,8 @@
             "22": 30,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCBiqkFJljoxAj10SoP2w2Cg": {
         "userName": "\u6587\u91ce\u74b0",
@@ -3218,7 +3314,8 @@
             "22": 16,
             "23": 30
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCWz0CSYCxf4MhRKPDm220AQ": {
         "userName": "\u795e\u7530\u7b11\u4e00",
@@ -3265,7 +3362,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCV5ZZlLjk5MKGg3L0n0vbzw": {
         "userName": "\u9df9\u5bae\u30ea\u30aa\u30f3",
@@ -3307,7 +3405,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC53UDnhAAYwvNO7j_2Ju1cQ": {
         "userName": "\u30c9\u30fc\u30e9",
@@ -3343,7 +3442,8 @@
             "22": 26,
             "23": 21
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCJ1rGFM6TLhJGq5uuH5kg2g": {
         "userName": "\u865a\u7121",
@@ -3385,19 +3485,20 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1DCedRgGHBdm81E1llLhOQ": {
         "userName": "\u514e\u7530\u307a\u3053\u3089",
         "twitterId": "usadapekora",
         "photo": "https://pbs.twimg.com/profile_images/1284818647618224128/hyPa6ARE_400x400.jpg",
-        "livePoint": 883,
-        "lastLiveDate": "2020/10/17 01:13:08",
+        "livePoint": 884,
+        "lastLiveDate": "2020/10/17 01:19:40",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:08",
+        "lastIconUpdateDate": "2020/10/17 01:19:40",
         "livePointStatus": {
             "00": 173,
-            "01": 73,
+            "01": 74,
             "02": 25,
             "03": 13,
             "04": 0,
@@ -3432,7 +3533,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1opHUrw8rvnsadT-iGp7Cg": {
         "userName": "\u6e4a\u3042\u304f\u3042",
@@ -3474,7 +3576,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCqm3BQLlJfvkTsX_hvm0UmA": {
         "userName": "\u89d2\u5dfb\u308f\u305f\u3081",
@@ -3516,19 +3619,20 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCXTpFs_3PqI41qX2d9tL2Rw": {
         "userName": "\u7d2b\u54b2\u30b7\u30aa\u30f3",
         "twitterId": "murasakishionch",
         "photo": "https://pbs.twimg.com/profile_images/1202234540959264768/EnB5VIde_400x400.jpg",
-        "livePoint": 259,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 260,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 35,
-            "01": 42,
+            "01": 43,
             "02": 44,
             "03": 21,
             "04": 4,
@@ -3558,7 +3662,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCvzGlP9oQwU--Y0r9id_jnA": {
         "userName": "\u5927\u7a7a\u30b9\u30d0\u30eb",
@@ -3594,7 +3699,8 @@
             "22": 68,
             "23": 56
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC1suqwovbL1kzsoaZgFZLKg": {
         "userName": "\u7652\u6708\u3061\u3087\u3053",
@@ -3630,7 +3736,8 @@
             "22": 26,
             "23": 26
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCp3tgHXw_HI0QMk1K8qh3gQ": {
         "userName": "\u7652\u6708\u3061\u3087\u3053 Sub",
@@ -3666,7 +3773,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UChAnqc_AY5_I3Px5dig3X1Q": {
         "userName": "\u620c\u795e\u3053\u308d\u306d",
@@ -3702,7 +3810,8 @@
             "22": 52,
             "23": 78
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCb5JxV6vKlYVknoJB8TnyYg": {
         "userName": "\u9edb\u7070",
@@ -3738,7 +3847,8 @@
             "22": 18,
             "23": 18
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCyLGcqYs7RsBb3L0SJfzGYA": {
         "userName": "\u82b1\u82bd\u3059\u307f\u308c",
@@ -3785,7 +3895,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCfQVs_KuXeNAlGa3fb8rlnQ": {
         "userName": "\u685c\u51db\u6708",
@@ -3827,7 +3938,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCfipDDn7wY-C-SoUChgxCQQ": {
         "userName": "\u8449\u5c71\u821e\u9234",
@@ -3869,7 +3981,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCLhUvJ_wO9hOvv_yYENu4fQ": {
         "userName": "\u96fb\u8133\u5c11\u5973\u30b7\u30ed",
@@ -3905,7 +4018,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCDh2bWI5EDu7PavqwICkVpA": {
         "userName": "\u5830\u4ee3\u30df\u30b3",
@@ -3947,7 +4061,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCXRlIK3Cw_TJIQC5kSJJQMg": {
         "userName": "\u620c\u4ea5\u3068\u3053",
@@ -3989,7 +4104,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1uv2Oq6kNxgATlCiez59hw": {
         "userName": "\u5e38\u95c7\u30c8\u30ef",
@@ -4031,7 +4147,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCvmppcdYf4HOv-tFQhHHJMA": {
         "userName": "\u30e2\u30a4\u30e9",
@@ -4067,7 +4184,8 @@
             "22": 16,
             "23": 57
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC5CwaMl1eIgY8h02uZw7u8A": {
         "userName": "\u661f\u8857\u3059\u3044\u305b\u3044",
@@ -4109,7 +4227,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCP9ZgeIJ3Ri9En69R0kJc9Q": {
         "userName": "\u82b1\u4eac\u9662\u3061\u3048\u308a",
@@ -4151,7 +4270,8 @@
                 "url": "https://store.steampowered.com/app/381210/agecheck?l=japanese",
                 "photo": "https://gamewith.akamaized.net/service/hd/images/2bb3701ffaad84062772aee4507b9bc4.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC_82HBGtvwN1hcGeOGHzUBQ": {
         "userName": "\u7a7a\u661f\u304d\u3089\u3081",
@@ -4187,7 +4307,8 @@
             "22": 88,
             "23": 32
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC_a1ZYZ8ZTXpjg9xUY9sj8w": {
         "userName": "\u9234\u539f\u308b\u308b",
@@ -4223,7 +4344,8 @@
             "22": 0,
             "23": 41
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCp-5t9SrOQwXMU7iIjQfARg": {
         "userName": "\u5927\u795e\u30df\u30aa",
@@ -4270,7 +4392,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC6wvdADTJ88OfIbJYIpAaDA": {
         "userName": "\u4e0d\u7834\u6e4a",
@@ -4312,7 +4435,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCwokZsOK_uEre70XayaFnzA": {
         "userName": "\u9234\u9e7f\u8a69\u5b50",
@@ -4348,7 +4472,8 @@
             "22": 17,
             "23": 27
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCuS48PmdvolPd_kR4TaFydA": {
         "userName": "\u9b54\u51ac\u3042\u3093\u305a",
@@ -4384,19 +4509,20 @@
             "22": 3,
             "23": 18
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCxJ9SJLG7dA00M7VoEe4ltw": {
         "userName": "\u5929\u5ddd\u306f\u306e",
         "twitterId": "sb_hano_",
         "photo": "https://pbs.twimg.com/profile_images/1266750367259193345/B8cnLccy_400x400.jpg",
-        "livePoint": 958,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 959,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 66,
-            "01": 44,
+            "01": 45,
             "02": 3,
             "03": 0,
             "04": 0,
@@ -4426,7 +4552,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCg63a3lk6PNeWhVvMRM_mrQ": {
         "userName": "\u5c0f\u91ce\u753a\u6625\u9999",
@@ -4468,19 +4595,20 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1519-d1jzGiL1MPTxEdtSA": {
         "userName": "\u516b\u91cd\u6ca2\u306a\u3068\u308a",
         "twitterId": "YaezawaNatori",
         "photo": "https://pbs.twimg.com/profile_images/1298704681338671105/0Gg0izYi_400x400.jpg",
-        "livePoint": 839,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 840,
+        "lastLiveDate": "2020/10/17 01:19:40",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:40",
         "livePointStatus": {
             "00": 54,
-            "01": 39,
+            "01": 40,
             "02": 3,
             "03": 0,
             "04": 0,
@@ -4515,7 +4643,8 @@
                 "url": "https://www.nintendo.co.jp/switch/as7ta/",
                 "photo": "https://i.ytimg.com/vi/QJC3xM0tLvc/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCv1fFr156jc65EMiLbaLImw": {
         "userName": "\u5263\u6301\u5200\u4e5f",
@@ -4551,7 +4680,8 @@
             "22": 18,
             "23": 12
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCkIimWZ9gBJRamKF0rmPU8w": {
         "userName": "\u5929\u5bae\u3053\u3053\u308d",
@@ -4593,7 +4723,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCt5-0i4AVHXaWJrL8Wql3mw": {
         "userName": "\u7dd1\u4ed9",
@@ -4635,7 +4766,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCpNH2Zk2gw3JBjWAKSyZcQQ": {
         "userName": "\u30a8\u30ea\u30fc\u30fb\u30b3\u30cb\u30d5\u30a1\u30fc",
@@ -4671,7 +4803,8 @@
             "22": 11,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCPvGypSgfDkVe7JG2KygK7A": {
         "userName": "\u7adc\u80c6\u5c0a",
@@ -4707,19 +4840,20 @@
             "22": 18,
             "23": 28
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCHX7YpFG8rVwhsHCx34xt7w": {
         "userName": "\u96ea\u57ce\u771e\u5c0b",
         "twitterId": "MahiroYukishiro",
         "photo": "https://pbs.twimg.com/profile_images/1255537967436673024/2ryAVl1w_400x400.jpg",
-        "livePoint": 597,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 598,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 36,
-            "01": 16,
+            "01": 17,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -4749,7 +4883,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC7fk0CB07ly8oSl0aqKkqFg": {
         "userName": "\u767e\u9b3c\u3042\u3084\u3081",
@@ -4785,7 +4920,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UChMPicpTxVNAMOmz7fQEVpA": {
         "userName": "\u30af\u30ec\u30a2",
@@ -4821,7 +4957,8 @@
             "22": 30,
             "23": 42
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC-hM6YJuNYVAmUWxeIr9FeA": {
         "userName": "\u3055\u304f\u3089\u307f\u3053",
@@ -4857,7 +4994,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCAWSyEs_Io8MtpY3m-zqILA": {
         "userName": "\u6843\u9234\u306d\u306d",
@@ -4904,7 +5042,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCBQd84IW8OvM8H5jftHdvmw": {
         "userName": "\u795e\u57ce\u304f\u308c\u3042",
@@ -4940,7 +5079,8 @@
             "22": 31,
             "23": 58
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwcyyxn6h9ex4sMXGtpQE_g": {
         "userName": "\u30e1\u30ea\u30c3\u30b5\u30fb\u30ad\u30f3\u30ec\u30f3\u30ab",
@@ -4976,7 +5116,8 @@
             "22": 15,
             "23": 38
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCFKOVgVbGmX65RxO3EtH3iw": {
         "userName": "\u96ea\u82b1\u30e9\u30df\u30a3",
@@ -5012,7 +5153,8 @@
             "22": 65,
             "23": 70
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwQ9Uv-m8xkE5PzRc7Bqx3Q": {
         "userName": "\u5fa1\u4f3d\u539f\u6c5f\u826f",
@@ -5048,7 +5190,8 @@
             "22": 43,
             "23": 24
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCTEZGNJDqv-isWSPRsEhnRA": {
         "userName": "\u4e38\u9905\u3064\u304d\u307f",
@@ -5090,7 +5233,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC8jskpQfW9fn2NLK3PdaGdg": {
         "userName": "\u5922\u5ddd\u304b\u306a\u3046",
@@ -5126,7 +5270,8 @@
             "22": 15,
             "23": 11
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC06VqaCdzE-WFS1ErD-vWTQ": {
         "userName": "\u5deb\u6708\u3057\u304a",
@@ -5168,7 +5313,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCeLzT-7b2PBcunJplmWtoDg": {
         "userName": "\u5468\u9632\u30d1\u30c8\u30e9",
@@ -5204,7 +5350,8 @@
             "22": 131,
             "23": 94
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC6oDys1BGgBsIC3WhG1BovQ": {
         "userName": "\u9759\u51db",
@@ -5240,7 +5387,8 @@
             "22": 49,
             "23": 48
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC8C1LLhBhf_E2IBPLSDJXlQ": {
         "userName": "\u5065\u5c4b\u82b1\u90a3",
@@ -5282,7 +5430,8 @@
                 "url": "https://www.nintendo.co.jp/switch/aab6a/index.html",
                 "photo": "https://www.nintendo.co.jp/switch/aab6a/assets/images/ogp.png"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC66DRsVkzrPAp6hZV7-HBGw": {
         "userName": "\u821e\u9db4\u3088\u304b\u3068",
@@ -5318,7 +5467,8 @@
             "22": 78,
             "23": 103
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCZ1WJDkMNiZ_QwHnNrVf7Pw": {
         "userName": "\u3082\u3061\u3072\u3088\u3053",
@@ -5354,7 +5504,8 @@
             "22": 0,
             "23": 25
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCdyqAaZDKHXg4Ahi7VENThQ": {
         "userName": "\u767d\u9280\u30ce\u30a8\u30eb",
@@ -5411,7 +5562,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCiMG6VdScBabPhJ1ZtaVmbw": {
         "userName": "\u82b1\u82bd\u306a\u305a\u306a",
@@ -5458,7 +5610,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCUKD-uaobj9jiqB-VXt71mA": {
         "userName": "\u7345\u767d\u307c\u305f\u3093",
@@ -5505,7 +5658,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCmqrvfLMws-GLGHQcB5dasg": {
         "userName": "\u82b1\u594f\u304b\u306e\u3093",
@@ -5541,7 +5695,8 @@
             "22": 2,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCCVwhI5trmaSxfcze_Ovzfw": {
         "userName": "\u5922\u6708\u30ed\u30a2",
@@ -5577,7 +5732,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCdpUojq0KWZCN9bxXnZwz5w": {
         "userName": "\u30a2\u30eb\u30b9\u30fb\u30a2\u30eb\u30de\u30eb",
@@ -5624,7 +5780,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCIG9rDtgR45VCZmYnd-4DUw": {
         "userName": "\u30e9\u30c8\u30ca\u30fb\u30d7\u30c6\u30a3",
@@ -5666,7 +5823,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCl1oLKcAq93p-pwKfDGhiYQ": {
         "userName": "\u3048\u307e\u2605\u304a\u3046\u304c\u3059\u3068",
@@ -5708,7 +5866,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCmUjjW5zF1MMOhYUwwwQv9Q": {
         "userName": "\u5b87\u5fd7\u6d77\u3044\u3061\u3054",
@@ -5750,7 +5909,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCMzxQ58QL4NNbWghGymtHvw": {
         "userName": "\u30ab\u30eb\u30ed\u30fb\u30d4\u30ce",
@@ -5786,7 +5946,8 @@
             "22": 19,
             "23": 35
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCjR1q4ab0fcg6cPomnjUgHg": {
         "userName": "\u671d\u5009\u65e5\u5411",
@@ -5828,7 +5989,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCZYyhgoV314CM14zBD6vd4A": {
         "userName": "\u5929\u958b\u53f8",
@@ -5870,7 +6032,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCCzUftO8KOVkV4wQG1vkUvg": {
         "userName": "\u5b9d\u9418\u30de\u30ea\u30f3",
@@ -5906,7 +6069,8 @@
             "22": 110,
             "23": 63
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCHYHuutJy8jzdcdz7x5k4JQ": {
         "userName": "\u9db4\u6765\u3064\u3086",
@@ -5942,7 +6106,8 @@
             "22": 93,
             "23": 24
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCDV9mM4WipWnra80J508pqg": {
         "userName": "\u864e",
@@ -5994,7 +6159,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCHK5wkevfaGrPr7j3g56Jmw": {
         "userName": "\u702c\u6238\u7f8e\u591c\u5b50",
@@ -6036,7 +6202,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCT8i8iDWmhVPqMf-6-fB8cg": {
         "userName": "\u661f\u6cb3\u30c6\u30d5",
@@ -6072,7 +6239,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCRqBKoKuX30ruKAq05pCeRQ": {
         "userName": "\u5317\u5c0f\u8def\u30d2\u30b9\u30a4",
@@ -6114,7 +6282,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCL_O_HXgLJx3Auteer0n0pA": {
         "userName": "\u5468\u592e\u30b5\u30f3\u30b4",
@@ -6150,19 +6319,20 @@
             "22": 4,
             "23": 105
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwL6XFWwPMNKX9qTyEzOmCA": {
         "userName": "\u845b\u57ce\u4e03\u702c",
         "twitterId": "nanaseseifukubu",
         "photo": "https://pbs.twimg.com/profile_images/1290974202334306304/b9NH0Vkx_400x400.jpg",
-        "livePoint": 175,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 176,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 48,
-            "01": 44,
+            "01": 45,
             "02": 25,
             "03": 0,
             "04": 0,
@@ -6186,7 +6356,8 @@
             "22": 18,
             "23": 4
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC6HjtF2rHZO8gAsX5FXF-Kg": {
         "userName": "\u59eb\u718a\u308a\u307c\u3093",
@@ -6228,7 +6399,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCIaZylf5L9MsCMOJX3BdTEg": {
         "userName": "\u4e03\u6d77\u30ed\u30ca",
@@ -6264,7 +6436,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCebT4Aq-3XWb5je1S1FvR_A": {
         "userName": "\u6771\u5802\u30b3\u30cf\u30af",
@@ -6311,7 +6484,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCvaTdHTWBGv3MKj3KVqJVCw": {
         "userName": "\u732b\u53c8\u304a\u304b\u3086",
@@ -6353,7 +6527,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCARI2g7r-PHaxrIcAYsMfmA": {
         "userName": "\u30a2\u30ba\u30de\u30ea\u30e0",
@@ -6395,7 +6570,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCTMgd9qnUD9qKBX5oTtD6ug": {
         "userName": "\u30d0\u30fc\u30c1\u30e3\u30eb\u304a\u3070\u3042\u3061\u3083\u3093",
@@ -6437,19 +6613,20 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCWmJy4zKFf9Y_UQdS5sWuUg": {
         "userName": "\u5982\u6708\u3053\u3088\u308a",
         "twitterId": "kisaragikoyori",
         "photo": "https://pbs.twimg.com/profile_images/1258695614025498624/n00Xb2zC_400x400.jpg",
-        "livePoint": 120,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 121,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 24,
-            "01": 6,
+            "01": 7,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -6479,7 +6656,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCXU7YYxy_iQd3ulXyO-zC2w": {
         "userName": "\u4f0f\u898b\u30ac\u30af",
@@ -6521,7 +6699,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCWq6L3iY4hGK4LmylvQtj-g": {
         "userName": "\u685c\u6a39\u307f\u308a\u3042",
@@ -6568,7 +6747,8 @@
                 "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
                 "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCAG13Mt2jZOTJBzTEhDX73w": {
         "userName": "\u5929\u30ce\u96eb",
@@ -6604,7 +6784,8 @@
             "22": 140,
             "23": 190
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCpPuEfqwYbpn7e2jWdQeWew": {
         "userName": "\u6c34\u74f6\u30df\u30a2",
@@ -6646,7 +6827,8 @@
                 "url": "https://lostark.pmang.jp/",
                 "photo": "https://prtimes.jp/i/10988/485/resize/d10988-485-253411-0.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCLpYMk5h1bq8_GAFVBgXhPQ": {
         "userName": "\u51fa\u96f2\u971e",
@@ -6682,7 +6864,8 @@
             "22": 26,
             "23": 21
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCe_p3YEuYJb8Np0Ip9dk-FQ": {
         "userName": "\u671d\u65e5\u5357\u30a2\u30ab\u30cd",
@@ -6729,7 +6912,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCXW4MqCQn-jCaxlX-nn-BYg": {
         "userName": "\u9577\u5c3e\u666f",
@@ -6771,7 +6955,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1zFJrfEKvCixhsjNSb1toQ": {
         "userName": "\u30b7\u30b9\u30bf\u30fc\u30fb\u30af\u30ec\u30a2",
@@ -6807,7 +6992,8 @@
             "22": 27,
             "23": 69
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCn4XvlTXjGSvDynpxpOYZPQ": {
         "userName": "\u6681\u6708\u30af\u30e9\u30e9",
@@ -6849,7 +7035,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCUc8GZfFxtmk7ZwSO7ccQ0g": {
         "userName": "\u30cb\u30e5\u30a4\u30fb\u30bd\u30b7\u30a8\u30fc\u30eb",
@@ -6891,7 +7078,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCmssHxtaJAxIvje7LTHoKiw": {
         "userName": "\u9ed2\u97f3\u3088\u307f",
@@ -6938,7 +7126,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCoM_XmK45j504hfUWvN06Qg": {
         "userName": "\u6210\u702c\u9cf4",
@@ -6974,7 +7163,8 @@
             "22": 14,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCpBCiBjOoZanFhj-49LgcDg": {
         "userName": "\u78a7\u90a3\u30a2\u30a4\u30eb",
@@ -7010,7 +7200,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCB1s_IdO-r0nUkY2mXeti-A": {
         "userName": "\u7345\u5b50\u795e\u30ec\u30aa\u30ca",
@@ -7052,7 +7243,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCcD_EdnJcOjJMohDn435D3w": {
         "userName": "\u767d\u97f3\u3086\u304d",
@@ -7094,7 +7286,8 @@
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0fnraujx3HS32Liw2wuNDg": {
         "userName": "\u5343\u4ee3\u6a35\u307f\u3093\u3068",
@@ -7130,7 +7323,8 @@
             "22": 18,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCbFwe3COkDrbNsbMyGNCsDg": {
         "userName": "\u30ad\u30ba\u30ca\u30a2\u30a4 A.I.Games",
@@ -7166,7 +7360,8 @@
             "22": 9,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCn14Z641OthNps7vppBvZFA": {
         "userName": "\u5343\u8349\u306f\u306a",
@@ -7202,7 +7397,8 @@
             "22": 35,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC8NZiqKx6fsDT3AVcMiVFyA": {
         "userName": "\u72ac\u5c71\u305f\u307e\u304d",
@@ -7238,7 +7434,8 @@
             "22": 0,
             "23": 178
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCSNhwwbITYlFC0M0v8vgtjA": {
         "userName": "\u795e\u91ce\u305f\u306d",
@@ -7274,7 +7471,8 @@
             "22": 26,
             "23": 35
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCC0i9nECi4Gz7TU63xZwodg": {
         "userName": "\u767d\u96ea\u307f\u3057\u308d",
@@ -7310,7 +7508,8 @@
             "22": 142,
             "23": 43
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCsg-YqdqQ-KFF0LNk23BY4A": {
         "userName": "\u6a0b\u53e3\u6953",
@@ -7357,7 +7556,8 @@
                 "url": "https://www.konami.com/pawa/app/",
                 "photo": "https://topics-cdn.nintendo.co.jp/image/2019/10/02111314518313/0/00001639_820_461.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC5nfcGkOAm3JwfPvJvzplHg": {
         "userName": "\u5317\u4e0a\u53cc\u8449",
@@ -7393,7 +7593,8 @@
             "22": 0,
             "23": 17
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCpyWey8v_027ghRI8uu_Ulw": {
         "userName": "\u8a00\u30ce\u8449\u30ad\u30ea\u30e4",
@@ -7429,7 +7630,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCkngxfPbmGyGl_RIq4FA3MQ": {
         "userName": "\u897f\u5712\u30c1\u30b0\u30b5",
@@ -7476,7 +7678,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCyb-cllCkMREr9de-hoiDrg": {
         "userName": "\u30e4\u30de\u30c8\u30a4\u30aa\u30ea",
@@ -7512,7 +7715,8 @@
             "22": 1,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC6TfqY40Xt1Y0J-N18c85qQ": {
         "userName": "\u5b89\u571f\u6843",
@@ -7548,7 +7752,8 @@
             "22": 2,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC48jH1ul-6HOrcSSfoR02fQ": {
         "userName": "\u5915\u967d\u30ea\u30ea",
@@ -7584,7 +7789,8 @@
             "22": 61,
             "23": 28
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCthcBWDHlWurwtdx23rKM_Q": {
         "userName": "\u96ea\u59eb\u308a\u3093\u3054",
@@ -7620,19 +7826,20 @@
             "22": 27,
             "23": 9
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCYWXnGjWe4HqJCeJC2Mps2g": {
         "userName": "\u307e\u3063\u3061\u3068\u307e\u3061\u3053",
         "twitterId": "much00",
         "photo": "https://pbs.twimg.com/profile_images/1307009972841054209/J8kc7IvC_400x400.png",
-        "livePoint": 357,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 358,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 82,
-            "01": 53,
+            "01": 54,
             "02": 31,
             "03": 18,
             "04": 18,
@@ -7662,7 +7869,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCgTzsBI0DIRopMylJEDqnog": {
         "userName": "\u5c0f\u96c0\u3068\u3068",
@@ -7704,7 +7912,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC5jsH1gbTcXWelRl7JeVA5w": {
         "userName": "\u732b\u3005",
@@ -7746,7 +7955,8 @@
                 "url": "https://www.spike-chunsoft.co.jp/ark/",
                 "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCMAc88lqzqGV0uxgw9JDj0w": {
         "userName": "\u7434\u4e43\u8449\u96ea\u4e43",
@@ -7782,19 +7992,20 @@
             "22": 0,
             "23": 18
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCdrQWcX7XLDSUEh9SAxnyBg": {
         "userName": "\u72ac\u990a\u30d7\u30ea\u30f3",
         "twitterId": "inukaipurin",
         "photo": "https://pbs.twimg.com/profile_images/1310614681573228545/Cj6h8YpP_400x400.jpg",
-        "livePoint": 220,
-        "lastLiveDate": "2020/10/17 01:13:08",
+        "livePoint": 221,
+        "lastLiveDate": "2020/10/17 01:19:40",
         "iconUpdateCount": 1,
-        "lastIconUpdateDate": "2020/10/17 01:13:08",
+        "lastIconUpdateDate": "2020/10/17 01:19:40",
         "livePointStatus": {
             "00": 54,
-            "01": 5,
+            "01": 6,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -7818,7 +8029,8 @@
             "22": 75,
             "23": 65
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UClV7gDF9sUzu4jJCK7rCYkQ": {
         "userName": "\u6ce1\u6cab\u30e1\u30e2\u30ea",
@@ -7865,7 +8077,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC3Ruo_5doyu514PesWGvCAg": {
         "userName": "\u5bcc\u58eb\u8475",
@@ -7901,19 +8114,20 @@
             "22": 26,
             "23": 12
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwXfrtn26oj7JW9fwB_z1bw": {
         "userName": "\u54b2\u4e43\u3082\u3053",
         "twitterId": "SakinoMoco",
         "photo": "https://pbs.twimg.com/profile_images/1144942544456806400/7aGZHBat_400x400.jpg",
-        "livePoint": 428,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 429,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 50,
-            "01": 4,
+            "01": 5,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -7937,7 +8151,8 @@
             "22": 48,
             "23": 69
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCBAopGXGGatkiB1-qFRG9WA": {
         "userName": "\u514e\u7d17\u307f\u307f",
@@ -7973,7 +8188,8 @@
             "22": 69,
             "23": 78
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCqXvL55GYHtRZhBS03LVGnQ": {
         "userName": "\u696a\u5e06\u6ce2",
@@ -8009,7 +8225,8 @@
             "22": 25,
             "23": 20
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCftJR3Qm0LyEuEQue1QYytA": {
         "userName": "\u7d19\u4ee3\u306a\u3064\u3081",
@@ -8051,7 +8268,8 @@
                 "url": "https://jp.leagueoflegends.com/ja-jp/",
                 "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0nasgeLGQZYGQdfhu6b-SQ": {
         "userName": "\u661f\u4e43\u3081\u3050\u308a",
@@ -8087,7 +8305,8 @@
             "22": 34,
             "23": 17
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCOyYb1c43VlX9rc_lT6NKQw": {
         "userName": "Ayunda Risu",
@@ -8129,19 +8348,20 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCP0BspO_AMEe3aQqqpo89Dg": {
         "userName": "Moona Hoshinova",
         "twitterId": "moonahoshinova",
         "photo": "https://pbs.twimg.com/profile_images/1305688323181047811/685Uvm1v_400x400.jpg",
-        "livePoint": 855,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 856,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 93,
-            "01": 93,
+            "01": 94,
             "02": 80,
             "03": 65,
             "04": 56,
@@ -8171,7 +8391,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCzoD8AXGnE7R0rlOUmfiQcw": {
         "userName": "\u611b\u72ac\u8336\u3005\u4e38",
@@ -8207,7 +8428,8 @@
             "22": 0,
             "23": 106
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC8L07dTOhR4-uOXTbIDWEnQ": {
         "userName": "\u7345\u5802\u30ea\u30aa",
@@ -8243,7 +8465,8 @@
             "22": 97,
             "23": 87
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCJCzy0Fyrm0UhIrGQ7tHpjg": {
         "userName": "\u611b\u5bae\u307f\u308b\u304f",
@@ -8279,7 +8502,8 @@
             "22": 78,
             "23": 28
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCCRZH38F6BkexM6edXkwG8g": {
         "userName": "\u5fa1\u6765\u5c4b\u4e45\u9060",
@@ -8321,7 +8545,8 @@
                 "url": "https://www.playstation.com/ja-jp/games/ghost-of-tsushima-ps4/",
                 "photo": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2019/12/ghost-of-tsushima-key-art.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCjqpcGrnqctwCMiSvpE_hlg": {
         "userName": "\u6728\u66ae\u90c1\u679d",
@@ -8357,7 +8582,8 @@
             "22": 49,
             "23": 70
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCHBhnG2G-qN0JrrWmMO2FTA": {
         "userName": "\u30b7\u30a7\u30ea\u30f3\u30fb\u30d0\u30fc\u30ac\u30f3\u30c7\u30a3",
@@ -8399,7 +8625,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC3lNFeJiTq6L3UWoz4g1e-A": {
         "userName": "\u536f\u6708\u30b3\u30a6",
@@ -8435,7 +8662,8 @@
             "22": 18,
             "23": 13
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCvi7XDiewenqdMvamLJNMGg": {
         "userName": "\u5922\u54b2\u6953",
@@ -8471,7 +8699,8 @@
             "22": 49,
             "23": 4
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCIu-aUArYq_H84dBpCAokMA": {
         "userName": "\u767d\u96ea\u30ec\u30a4\u30c9",
@@ -8513,7 +8742,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC22BVlBsZc6ta3Dqz75NU6Q": {
         "userName": "\u307d\u3061\u307e\u308b",
@@ -8549,7 +8779,8 @@
             "22": 24,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCsVUXbx_h0YEvfH41Zwa_5w": {
         "userName": "\u96ea\u4e38\u7396",
@@ -8585,19 +8816,20 @@
             "22": 36,
             "23": 24
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCl-3q6t6zdZwgIsFZELb7Zg": {
         "userName": "\u767d\u767e\u5408\u30ea\u30ea\u30a3",
         "twitterId": "SRYR_0",
         "photo": "https://pbs.twimg.com/profile_images/1300620390826303488/BzlnKzEN_400x400.jpg",
-        "livePoint": 847,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 848,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 20,
-            "01": 16,
+            "01": 17,
             "02": 18,
             "03": 18,
             "04": 6,
@@ -8632,7 +8864,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCM2SwvNjA0uH8oc5D0ihSDA": {
         "userName": "\u9ad8\u751f\u7d33\u58eb",
@@ -8668,7 +8901,8 @@
             "22": 71,
             "23": 66
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCj_KuUzpOXAliYEesJwdrbw": {
         "userName": "\u4f0a\u6771\u30e9\u30a4\u30d5",
@@ -8704,7 +8938,8 @@
             "22": 105,
             "23": 84
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCIwHOJn_3QjBTwQ_gNj7WRA": {
         "userName": "\u840c\u5b9f",
@@ -8740,7 +8975,8 @@
             "22": 43,
             "23": 29
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC7yqc24BjJwi3PoqhXrx6og": {
         "userName": "\u307f\u3042\u305f\u307f\u3061\u3083\u3093\u306d\u308b",
@@ -8787,7 +9023,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCr5uF2C1kEvDFr1ZBdV9nuA": {
         "userName": "\u831c\u30f6\u5d0e\u308c\u304a",
@@ -8823,7 +9060,8 @@
             "22": 0,
             "23": 10
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCckQQRZVF9x2GjroBjNIX_Q": {
         "userName": "\u6bd4\u826f\u5742\u82bd\u8863",
@@ -8859,7 +9097,8 @@
             "22": 47,
             "23": 64
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCtEo8RBhvAekmGwPtvHyDXw": {
         "userName": "\u99ac\u5c0f\u5c4b\u306d\u308b\u5b50",
@@ -8895,7 +9134,8 @@
             "22": 5,
             "23": 5
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCXSUbmzjVk18CQNglX0VMJA": {
         "userName": "\u68b1\u679d\u308a\u3053",
@@ -8937,7 +9177,8 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCCwedbOIXxubr7_d2-7bM3g": {
         "userName": "\u30df\u30fc\u30b4",
@@ -8973,19 +9214,20 @@
             "22": 17,
             "23": 33
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCpJtk0myFr5WnyfsmnInP-w": {
         "userName": "Hana Macchia",
         "twitterId": "Hana_Macchia",
         "photo": "https://pbs.twimg.com/profile_images/1305120797850128384/GrpnCDUv_400x400.jpg",
-        "livePoint": 521,
-        "lastLiveDate": "2020/10/17 01:13:05",
+        "livePoint": 522,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:05",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 111,
-            "01": 95,
+            "01": 96,
             "02": 65,
             "03": 35,
             "04": 8,
@@ -9015,7 +9257,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCZv1T-8d4My6Sj9gMGMQGSw": {
         "userName": "\u96e8\u753a\u308f\u305f\u3052",
@@ -9051,7 +9294,8 @@
             "22": 52,
             "23": 40
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCHsx4Hqa-1ORjQTh9TYDhww": {
         "userName": "\u5c0f\u9ce5\u904a\u30ad\u30a2\u30e9",
@@ -9087,7 +9331,8 @@
             "22": 30,
             "23": 87
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwY13RnqWK4FNFeHGrK96Gw": {
         "userName": "\u7d75\u90fd\u3048\u3068\u3089",
@@ -9123,19 +9368,20 @@
             "22": 59,
             "23": 12
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCajhBT4nMrg3DLS-bLL2RCg": {
         "userName": "\u5929\u91ce\u30d4\u30ab\u30df\u30a3",
         "twitterId": "amanopikamee",
         "photo": "https://pbs.twimg.com/profile_images/1315188705473122304/7mnT7mtC_400x400.jpg",
-        "livePoint": 793,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 794,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 2,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 48,
-            "01": 4,
+            "01": 5,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -9170,7 +9416,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCAoy6rzhSf4ydcYjJw3WoVg": {
         "userName": "Airani Iofifteen",
@@ -9212,7 +9459,8 @@
                 "url": "https://jp.leagueoflegends.com/ja-jp/",
                 "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCOZe-9ocT5PtsWTHsYKGxAw": {
         "userName": "\u4eee\u60f3\u5a18\u3074\u307e",
@@ -9248,7 +9496,8 @@
             "22": 35,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCb6ObE-XGCctO3WrjRZC-cw": {
         "userName": "\u30eb\u30a4\u30b9\u30fb\u30ad\u30e3\u30df\u30fc",
@@ -9290,7 +9539,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCMwGHR0BTZuLsmjY_NT5Pwg": {
         "userName": "\u4e00\u4f0a\u90a3\u5c13\u6816",
@@ -9337,7 +9587,8 @@
                 "url": "https://jp.leagueoflegends.com/ja-jp/",
                 "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCyl1z3jo3XHR1riLFKG5UAg": {
         "userName": "Watson Amelia",
@@ -9379,7 +9630,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCaFhsCKSSS821N-EcWmPkUQ": {
         "userName": "\u78c1\u5bcc\u30e2\u30ce\u30a8",
@@ -9415,7 +9667,8 @@
             "22": 17,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCrWLOrJLZ6Jb1CASa6RU7sQ": {
         "userName": "\u82b1\u54b2\u30a2\u30e4\u30e1",
@@ -9451,7 +9704,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCL_qhgtOy0dy1Agp8vkySQg": {
         "userName": "\u68ee\u30ab\u30ea\u30aa\u30da",
@@ -9493,7 +9747,8 @@
                 "url": "https://jp.leagueoflegends.com/ja-jp/",
                 "photo": "https://elandroidelibre.elespanol.com/wp-content/uploads/2019/05/League-of-Legends-destacada.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCKwATdrcjyzNv9c56PqJbWA": {
         "userName": "\u52c7\u51ea\u30a8\u30ec\u30ca",
@@ -9535,7 +9790,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCFpxoltilHCmuHWeERqsUlA": {
         "userName": "\u693f\u3044\u308d\u306f",
@@ -9571,7 +9827,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCXSQDlS-1HBYpPxLh94wOww": {
         "userName": "\u660e\u6708\u30bc\u30eb\u30af",
@@ -9613,7 +9870,8 @@
                 "url": "https://www.nintendo.co.jp/switch/aab6a/index.html",
                 "photo": "https://www.nintendo.co.jp/switch/aab6a/assets/images/ogp.png"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCfiK42sBHraMBK6eNWtsy7A": {
         "userName": "\u304b\u3057\u3053\u307e\u308a",
@@ -9649,19 +9907,20 @@
             "22": 60,
             "23": 36
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCflNPJUJ4VQh1hGDNK7bsFg": {
         "userName": "\u732b\u8292\u30d9\u30eb",
         "twitterId": "Bell_Nekonogi",
         "photo": "https://pbs.twimg.com/profile_images/1300708675003138050/tJhC057I_400x400.jpg",
-        "livePoint": 672,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 673,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 72,
-            "01": 75,
+            "01": 76,
             "02": 61,
             "03": 20,
             "04": 0,
@@ -9696,7 +9955,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCL9dLCVvHyMiqjp2RDgowqQ": {
         "userName": "\u9ad8\u69fb\u308a\u3064",
@@ -9738,7 +9998,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCkPIfBOLoO0hVPG-tI2YeGg": {
         "userName": "\u514e\u97a0\u307e\u308a",
@@ -9785,7 +10046,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCaPeqHU8QdQi5IZPnsvmU4g": {
         "userName": "\u5fa1\u5f71\u30a2\u30af\u30c8",
@@ -9821,7 +10083,8 @@
             "22": 94,
             "23": 48
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCvzVB-EYuHFXHZrObB8a_Og": {
         "userName": "\u77e2\u8eca\u308a\u306d",
@@ -9857,7 +10120,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCPWPi9efOdA3YDFSdHskC-g": {
         "userName": "\u671d\u96f2\u3086\u307e",
@@ -9899,7 +10163,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCWBwrZV7gpsN0UswHoLbQiw": {
         "userName": "\u306d\u3080\u307f",
@@ -9935,7 +10200,8 @@
             "22": 58,
             "23": 38
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC2JWNoJJ8MRZkgINm2IhH7Q": {
         "userName": "\u671d\u967d\u306b\u3044\u306a",
@@ -9977,7 +10243,8 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCBZG0VVWKYjcwb0h2Y0yEbA": {
         "userName": "\u8aad\u8c37\u5c71\u6587\u4e43",
@@ -10013,7 +10280,8 @@
             "22": 78,
             "23": 144
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC3iwL9Yz8LcKkJsnLPevOTQ": {
         "userName": "\u306e\u3089\u304d\u3083\u3063\u3068",
@@ -10049,7 +10317,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC7-N7MvN5muVIHqyQx9LFbA": {
         "userName": "\u6b4c\u8863\u30e1\u30a4\u30ab",
@@ -10091,7 +10360,8 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCIRI90jWpTW1exSdW7NicEg": {
         "userName": "\u3072\u306a\u306e\u7fbd\u8863",
@@ -10133,7 +10403,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCt0F29rrrkOU5Vu2gyYgrBA": {
         "userName": "\u7687\u565b\u30e6\u30ab\u30ea",
@@ -10169,7 +10440,8 @@
             "22": 37,
             "23": 67
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCEBI7H72oB58Cu5bz78gbeQ": {
         "userName": "\u5996\u72f8\u308b\u308b\u304b",
@@ -10205,7 +10477,8 @@
             "22": 3,
             "23": 18
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC04QM30wwa0qMs101Mwz29w": {
         "userName": "\u5929\u66f0\u3072\u3088",
@@ -10241,7 +10514,8 @@
             "22": 159,
             "23": 60
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCQD1KbDFa25mnfUnF6ldzXw": {
         "userName": "\u304d\u305f\u3053\u3057",
@@ -10277,7 +10551,8 @@
             "22": 109,
             "23": 56
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCNUFdfaA_HHpTxpuscU06nA": {
         "userName": "\u5982\u6708\u767d\u6d99",
@@ -10313,19 +10588,20 @@
             "22": 26,
             "23": 24
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCq8u9iiEXAWPqFiI93is8qg": {
         "userName": "\u9e7f\u4e43",
         "twitterId": "kano_san_",
         "photo": "https://pbs.twimg.com/profile_images/1249741877563150336/h7VdXmCt_400x400.jpg",
-        "livePoint": 813,
-        "lastLiveDate": "2020/10/17 01:13:05",
+        "livePoint": 814,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:05",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 249,
-            "01": 77,
+            "01": 78,
             "02": 44,
             "03": 36,
             "04": 18,
@@ -10355,7 +10631,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC5Dd_fXQVPlejsurwzkwY1w": {
         "userName": "\u3042\u3055\u3088\u308b\u63a2\u5075\u4e8b\u52d9\u6240",
@@ -10391,7 +10668,8 @@
             "22": 6,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCG3skuXg5pGe_JJ-vm2L6VA": {
         "userName": "\u732b\u4e43\u30df\u30b3\u30c8",
@@ -10427,7 +10705,8 @@
             "22": 30,
             "23": 228
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC6Mt9a8Mm2ZLrsP9xNOnRpw": {
         "userName": "\u7cf8\u8272\u521d\u82bd",
@@ -10463,7 +10742,8 @@
             "22": 5,
             "23": 23
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCdHZ_5d2DEp9fMlXRZw39Zg": {
         "userName": "\u6625\u539f\u3064\u304f\u3057",
@@ -10499,19 +10779,20 @@
             "22": 8,
             "23": 36
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCL4gvO_wg0SA-ecWiVKN-MQ": {
         "userName": "\u305c\u3063\u307d\u308a\u30fc\u306d",
         "twitterId": "Zeppoline1001",
         "photo": "https://pbs.twimg.com/profile_images/1306136368599330822/FMe3H2f8_400x400.jpg",
-        "livePoint": 481,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 482,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 205,
-            "01": 117,
+            "01": 118,
             "02": 36,
             "03": 0,
             "04": 0,
@@ -10541,7 +10822,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC0RSwNM5hbZ17nr8HoR6pqw": {
         "userName": "\u3055\u3068\u3046\u306a\u3080",
@@ -10583,7 +10865,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCK0zUyY63UTDE8gYqD9ztrA": {
         "userName": "\u685c\u4e43\u307e\u3057\u308d",
@@ -10619,7 +10902,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCF3OEZgp0EEvySq1Zw1uvqA": {
         "userName": "\u4e39\u7fbd\u306b\u308f\u3053",
@@ -10661,7 +10945,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCNA0XC_zxS63d4Q-JMIMyug": {
         "userName": "\u6771\u96f2\u3081\u3050",
@@ -10697,19 +10982,20 @@
             "22": 14,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCtYSNR3w7_31Kx76e9XmVEw": {
         "userName": "\u5148\u7aef\u6050\u6016\u75c7",
         "twitterId": "SentanKyofusho",
         "photo": "https://pbs.twimg.com/profile_images/1041410396387602432/W9R8zPGD_400x400.jpg",
-        "livePoint": 580,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 581,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 97,
-            "01": 56,
+            "01": 57,
             "02": 22,
             "03": 0,
             "04": 0,
@@ -10739,7 +11025,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCiSm-bQq8dgIX6ZATVqEppg": {
         "userName": "\u3042\u3084\u3071\u3093",
@@ -10781,19 +11068,20 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCQLyq7TDKHlmp2Ufd5Z2qMw": {
         "userName": "\u79cb\u96ea\u3053\u306f\u304f",
         "twitterId": "Syusetu_kohaku",
         "photo": "https://pbs.twimg.com/profile_images/1218782908724338688/sf1YdUdw_400x400.jpg",
-        "livePoint": 920,
-        "lastLiveDate": "2020/10/15 17:27:39",
+        "livePoint": 921,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/15 17:27:39",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 50,
-            "01": 36,
+            "01": 37,
             "02": 21,
             "03": 0,
             "04": 0,
@@ -10823,7 +11111,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCTLaFZ4PKxu5ugQcu8asx_A": {
         "userName": "\u306f\u3065\u304d\u307f\u3086",
@@ -10859,7 +11148,8 @@
             "22": 57,
             "23": 48
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCOdSr2lxR2PBdEo7y_kz2nw": {
         "userName": "\u9ec4\u660f\u306b\u3083\u3053",
@@ -10901,7 +11191,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCMzVh74iqJ1mWVzs9zab_Bw": {
         "userName": "\u91d1\u718a\u304d\u3051\u3093",
@@ -10943,7 +11234,8 @@
                 "url": "https://www.epicgames.com/fortnite/ja/home",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/list/1259/677/1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCoSrY_IQQVpmIRZ9Xf-y93g": {
         "userName": "Gawr Gura",
@@ -10990,7 +11282,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCsCguxGHBEspTu4dfBI8g2A": {
         "userName": "\u30a2\u30dc\u30ab\u30c9\ud83e\udd51",
@@ -11026,7 +11319,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC5LyYg6cCA4yHEYvtUsir3g": {
         "userName": "\u4e00\u30ce\u702c\u3046\u308b\u306f",
@@ -11068,7 +11362,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCdCczCYPOeP5hTfbx6tzz_A": {
         "userName": "\u661f\u4e43\u30b7\u30e3\u30ed",
@@ -11104,7 +11399,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCnzGlm7IC7Mkm00AccSEBEw": {
         "userName": "\u516b\u4e59\u5973\u306e\u3048",
@@ -11140,19 +11436,20 @@
             "22": 11,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC_HrzgYmapddmGSfn2UMHTA": {
         "userName": "\u304a\u3058\u304d\u3061\u3083\u3093\uff08\u72ec\u773cP\uff09",
         "twitterId": "dokuganP",
         "photo": "https://pbs.twimg.com/profile_images/1305414495649423361/GPxOLI79_400x400.jpg",
-        "livePoint": 767,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 768,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 56,
-            "01": 49,
+            "01": 50,
             "02": 37,
             "03": 28,
             "04": 5,
@@ -11182,7 +11479,8 @@
                 "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
                 "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCtpB6Bvhs1Um93ziEDACQ8g": {
         "userName": "\u68ee\u4e2d\u82b1\u54b2",
@@ -11218,7 +11516,8 @@
             "22": 0,
             "23": 8
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCn1coImC6NMDYCQfH_ILzXw": {
         "userName": "\u795e\u72d0\u304b\u306a",
@@ -11265,7 +11564,8 @@
                 "url": "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/?l=japanese",
                 "photo": "https://ninten-switch.com/wp-content/uploads/2019/11/five-nights-at-freddys-1-and-2-and-3-switch-ver-available-nov-29-2019.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCJjQx3Jyg6jTMp-5zECM1jg": {
         "userName": "\u306a\u3061\u3085\u30e2\u30ab",
@@ -11301,7 +11601,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC4OeUf_KfYRrwksschtRYow": {
         "userName": "\u82b1\u92cf\u30ad\u30e7\u30a6",
@@ -11337,7 +11638,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCnDZwUFMzqOBcF3bjRfZD-g": {
         "userName": "\u6839\u7fbd\u6e05\u30b3\u30b3\u30ed\uff08\u30ed\u30fc\u30c8\u88fd\u85ac\uff09",
@@ -11379,7 +11681,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCfeznQrLe9URem6xJmWQVlw": {
         "userName": "\u5009\u6301\u4eac\u5b50",
@@ -11415,7 +11718,8 @@
             "22": 55,
             "23": 36
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCSzuIfeNJVpY3T3kxl45Zfw": {
         "userName": "\u4e5d\u6761\u674f\u5b50",
@@ -11451,7 +11755,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCxXGsFezGMNerUukfy0CuhQ": {
         "userName": "revan",
@@ -11487,7 +11792,8 @@
             "22": 0,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UChgxLGULsWVHAxMigZzl_Qg": {
         "userName": "Leina",
@@ -11529,7 +11835,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCByGvA1HWsRClo_85kE56jA": {
         "userName": "\u79cb\u7e54\u30a2\u30ab\u30cd",
@@ -11571,7 +11878,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCUe91QHhX8Yfd1tEVs_l6ww": {
         "userName": "\u6ce2\u591a\u898b\u3044\u305a\u3082",
@@ -11613,7 +11921,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCx9-e_Cpk-ljW79fOClSYgw": {
         "userName": "\u4f0a\u96c6\u9662\u30bc\u30ed",
@@ -11655,7 +11964,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCSlv7Z-4q7_7NRkzJB10A5Q": {
         "userName": "\uc774\uc2dc\uc6b0",
@@ -11702,7 +12012,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCV9uecUneUhaB_NOuOQptzQ": {
         "userName": "\u594f\u97f3\u30ea\u30ea\u30a3",
@@ -11738,7 +12049,8 @@
             "22": 53,
             "23": 38
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC3vzVK_N_SUVKqbX69L_X4g": {
         "userName": "\u7dcb\u7b20\u30c8\u30e2\u30b7\u30ab",
@@ -11774,7 +12086,8 @@
             "22": 18,
             "23": 1
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCP8fvfb8QoCACOh4JiQR-4w": {
         "userName": "\u30b5\u30b3",
@@ -11810,7 +12123,8 @@
             "22": 38,
             "23": 13
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCSlK_fFYfpxbySjNoWZiFgg": {
         "userName": "\u8def\u99c5\u3068\u307e\u308b",
@@ -11852,7 +12166,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC1bqs6hSCsYepjeRNUSwcqg": {
         "userName": "\u305d\u3045",
@@ -11888,7 +12203,8 @@
             "22": 12,
             "23": 10
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCIcAj6WkJ8vZ7DeJVgmeqKw": {
         "userName": "\u80e1\u6843\u306e\u3042",
@@ -11935,7 +12251,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCt30jJgChL8qeT9VPadidSw": {
         "userName": "\u3057\u3050\u308c\u3046\u3044",
@@ -11971,7 +12288,8 @@
             "22": 0,
             "23": 24
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCTjLjqXYI1xzT5J3i-4TtYw": {
         "userName": "\u5e02\u4e38\u30a4\u30c1",
@@ -12013,7 +12331,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCkLYC8lF6gZSA6PAvJpIjXA": {
         "userName": "\u96db\u68ee\u308b\u3057\u306e",
@@ -12055,19 +12374,20 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCtnQtmQoAkgFWyQF_RliTzw": {
         "userName": "\u5929\u51ea\u3048\u308b",
         "twitterId": "amanagiel",
         "photo": "https://pbs.twimg.com/profile_images/1294140678713143296/L3F17sIR_400x400.jpg",
-        "livePoint": 190,
-        "lastLiveDate": "2020/10/17 01:13:07",
+        "livePoint": 191,
+        "lastLiveDate": "2020/10/17 01:19:39",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:07",
+        "lastIconUpdateDate": "2020/10/17 01:19:39",
         "livePointStatus": {
             "00": 35,
-            "01": 15,
+            "01": 16,
             "02": 0,
             "03": 15,
             "04": 18,
@@ -12091,7 +12411,10 @@
             "22": 41,
             "23": 46
         },
-        "games": []
+        "games": [],
+        "collab": [
+            "UCYKP16oMX9KKPbrNgo_Kgag"
+        ]
     },
     "UCGNI4MENvnsymYjKiZwv9eg": {
         "userName": "\u5cb8\u5802\u5929\u771f",
@@ -12138,7 +12461,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCFVkfdFmaOh7BCtrqw8YvaA": {
         "userName": "\u9ed2\u4e43\u304f\u308c\u306f",
@@ -12174,7 +12498,8 @@
             "22": 13,
             "23": 5
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC9A0EMtmMKa6J_jL0Hkez8Q": {
         "userName": "\u7d05\u5b22\u5207\u5b50",
@@ -12216,7 +12541,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UC5_0PuQdXUgpLLZkdozq1Vw": {
         "userName": "\u591c\u5b88\u306d\u308b",
@@ -12252,7 +12578,8 @@
             "22": 13,
             "23": 28
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCiGcHHHT3kBB1IGOrv7f3qQ": {
         "userName": "\u91d1\u525b\u3044\u308d\u306f",
@@ -12288,7 +12615,8 @@
             "22": 4,
             "23": 0
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCDRg709kaDCG7fp3hV11kxA": {
         "userName": "\u6843\u661f\u611b\u82b1",
@@ -12324,7 +12652,8 @@
             "22": 0,
             "23": 16
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCVrD1IwbhqOshMSO0Q8Lqpw": {
         "userName": "\u9cf4\u8776\u9662\u30a2\u30c9\u30cb\u30b9",
@@ -12366,7 +12695,8 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCddl7tgJDy9uHoUJm7yH4Vw": {
         "userName": "\u3048\u308a\u308b\u308b",
@@ -12408,7 +12738,8 @@
                 "url": "https://ragnarokonline.gungho.jp/",
                 "photo": "https://ragnarokonline.gungho.jp/news/information/kue8e600000122eb-img/kue8e600000122h6.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCYm8zALd2uHqyy6C1tb4_zA": {
         "userName": "love\u3061\u3083\u3093",
@@ -12450,7 +12781,8 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCYu_l9E8NrCJtkc31ooya-Q": {
         "userName": "\u9ed2\u54b2\u5929\u6210",
@@ -12486,19 +12818,20 @@
             "22": 39,
             "23": 53
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UC_JE_s7OtblrMXp35K00ZNA": {
         "userName": "\u7dbe\u97a0\u307a\u3053",
         "twitterId": "ayamari_peco",
         "photo": "https://pbs.twimg.com/profile_images/1306977363968757760/89VamxXX_400x400.jpg",
-        "livePoint": 63,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 64,
+        "lastLiveDate": "2020/10/17 01:19:37",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:37",
         "livePointStatus": {
             "00": 22,
-            "01": 4,
+            "01": 5,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -12538,7 +12871,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCxBmyZNQDFJVr9-ZE7hAYfA": {
         "userName": "\u5929\u4f7f\u306a\u306e",
@@ -12580,7 +12914,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCOobfYvyNQqWHBpEaMnXr7w": {
         "userName": "\u840c\u3005\u5ac1\u3082\u304b",
@@ -12616,7 +12951,8 @@
             "22": 0,
             "23": 7
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCwL7dgTxKo8Y4RFIKWaf8gA": {
         "userName": "\u8352\u54ac\u30aa\u30a6\u30ac",
@@ -12652,7 +12988,8 @@
             "22": 21,
             "23": 8
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UChSvpZYRPh0FvG4SJGSga3g": {
         "userName": "\u5f71\u5c71\u30b7\u30a8\u30f3",
@@ -12694,7 +13031,8 @@
                 "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
                 "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCEzsociuFqVwgZuMaZqaCsg": {
         "userName": "\u93e1\u898b\u30ad\u30e9",
@@ -12736,19 +13074,20 @@
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCANDOlYTJT7N5jlRC3zfzVA": {
         "userName": "\u5915\u523b\u30ed\u30d9\u30eb",
         "twitterId": "yukokuroberu",
         "photo": "https://pbs.twimg.com/profile_images/1272003522838421505/ZgcZkiU8_400x400.jpg",
-        "livePoint": 375,
-        "lastLiveDate": "2020/10/17 01:13:06",
+        "livePoint": 376,
+        "lastLiveDate": "2020/10/17 01:19:38",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/17 01:13:06",
+        "lastIconUpdateDate": "2020/10/17 01:19:38",
         "livePointStatus": {
             "00": 50,
-            "01": 23,
+            "01": 24,
             "02": 8,
             "03": 0,
             "04": 0,
@@ -12783,7 +13122,8 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
             }
-        ]
+        ],
+        "collab": []
     },
     "UCyIcOCH-VWaRKH9IkR8hz7Q": {
         "userName": "\u82b1\u4e38\u306f\u308c\u308b",
@@ -12819,7 +13159,8 @@
             "22": 6,
             "23": 19
         },
-        "games": []
+        "games": [],
+        "collab": []
     },
     "UCfuz6xYbYFGsWWBi3SpJI1w": {
         "userName": "\u9e7f\u4e43",
@@ -12866,6 +13207,7 @@
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
-        ]
+        ],
+        "collab": []
     }
 }

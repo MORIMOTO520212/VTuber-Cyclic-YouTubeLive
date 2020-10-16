@@ -277,3 +277,7 @@ while True:
         print("キーが押されたので終了します。")
         driver.quit()
         sys.exit()
+    
+    except Exception as e:
+        errorlog = open("error.log", "r").read()
+        open("error.log", "w").write(errorlog+str(e)+"\n")

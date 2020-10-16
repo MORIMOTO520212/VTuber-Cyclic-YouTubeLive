@@ -57,7 +57,8 @@ while True:
             "16": 0, "17": 0, "18": 0, "19": 0,
             "20": 0, "21": 0, "22": 0, "23": 0
         }
-        userData["games"] = []
+        userData["games"]  = []
+        userData["collab"] = []
         
         data[input("チャンネルID：")] = userData
         userName.append(input_userName)
