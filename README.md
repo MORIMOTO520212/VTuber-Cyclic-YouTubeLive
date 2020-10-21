@@ -45,41 +45,51 @@ streaming.json - ライブ配信中のチャンネルIDを配列で記録して�
 
 database/  
 streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。  
-idChangeData.json - スクレイピングでユーザーIDで取得された場合にチャンネルIDに変更します。
+idChangeData.json - スクレイピングでユーザーIDで取得された場合にチャンネルIDに変更します。  
 guide.mp4 - index.htmlで使うファイルです。  
 
-about/
-usage/
-vtuber/
-bugreport/
+about/  
+index.html - このサイトについての情報が書かれたファイル。  
+style.css  
+
+usage/  
+index.html - このサイトの使い方について書かれたファイル。  
+style.css  
+
+vtuber/  
+index.html - このサイトに登録しているVTuberについて書かれたファイル。  
+style.css  
+
+bugreport/  
+index.html - このサイトのバグについて書かれたファイル。  
+style.css  
 
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 
 ### 未登録ライバー
 
+
 ### 未登録ゲーム 
 
-NOTE
-健康生活度　全体のポイント中、0時～5時までのポイントが
+NOTE  
+6時から23時までgoodそれ以外bad  
+統計人数：8人  
+不健康倍率：36.83686608469389 %  
 
-6時から23時までgoodそれ以外bad
-統計人数：8人
-不健康倍率：36.83686608469389 %
+good 1087  bad 157  
+good 1281  bad 467  
+good 188   bad 73  
+good 614   bad 170  
+good 245   bad 116  
+good 476   bad 168  
+good 1349  bad 193  
+good 605   bad 486  
 
-good 1087  bad 157
-good 1281  bad 467
-good 188   bad 73
-good 614   bad 170
-good 245   bad 116
-good 476   bad 168
-good 1349  bad 193
-good 605   bad 486
+※倍率は高い方が健康  
+健康倍率：(good ÷ bad)の総和 ÷ サンプルサイズ  
 
-※倍率は高い方が健康
-健康倍率：(good ÷ bad)の総和 ÷ サンプルサイズ
-
-※健康度がプラスになれば健康、マイナスなら不健康
-健康度：(good ÷ bad) - 健康倍率 
+※健康度がプラスになれば健康、マイナスなら不健康  
+健康度：(good ÷ bad) - 健康倍率   
 
 
 ch1 - [ch2,ch3,ch4]
