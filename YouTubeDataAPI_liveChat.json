@@ -1,0 +1,42 @@
+{
+    "kind": "youtube#liveChatMessageListResponse", 
+    "etag": "mtuGohF9whHnJY-eeiFZHECdxWw", 
+    "pollingIntervalMillis": 200, 
+    "pageInfo": {
+        "totalResults": 75, 
+        "resultsPerPage": 5
+    }, 
+    "nextPageToken": "GIeHtKaPxewCIMrb55iQxewC", 
+    "items": [
+        {"kind": "youtube#liveChatMessage", "etag": "cQePzdG5cuPmFyWoGyr1lhCxJRk", "id": "LCC.CjgKDQoLNnVqV0pkQ0JtcUUqJwoYVUNMMzRmQW9GaW05b0hMYlZ6TUtGYXZREgs2dWpXSmRDQm1xRRI5ChpDSURQM0tXUHhld0NGY0htZ2dvZG9CQUQzdxIbQ092SV85S0p4ZXdDRlQzRVRBSWREQUVGRkEz", "snippet": {"type": "textMessageEvent", "liveChatId": "Cg0KCzZ1aldKZENCbXFFKicKGFVDTDM0ZkFvRmltOW9ITGJWek1LRmF2URILNnVqV0pkQ0JtcUU", "authorChannelId": "UCehnecV7e832Hlbo7EeoCyQ", "publishedAt": "2020-10-21T07:04:17.633000Z", "hasDisplayContent": true, "displayMessage": "初配信が挨拶じゃなくえぺとかさすがにじさんじ", "textMessageDetails": {"messageText": "初配信が挨拶じゃなくえぺとかさすがにじさんじ"}}, "authorDetails": {"channelId": "UCehnecV7e832Hlbo7EeoCyQ", "channelUrl": "http://www.youtube.com/channel/UCehnecV7e832Hlbo7EeoCyQ", "displayName": "さとまる", "profileImageUrl": "https://yt3.ggpht.com/-e5LOg74n-RA/AAAAAAAAAAI/AAAAAAAAAAA/z36Z6FwUG4w/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", "isVerified": false, "isChatOwner": false, "isChatSponsor": false, "isChatModerator": false}}, 
+        {"kind": "youtube#liveChatMessage", "etag": "NkHkLaqWOHYkA237ceMTwpeZrCY", "id": "LCC.CjgKDQoLNnVqV0pkQ0JtcUUqJwoYVUNMMzRmQW9GaW05b0hMYlZ6TUtGYXZREgs2dWpXSmRDQm1xRRI6ChpDTzJHNDZXUHhld0NGVmExZ2dvZE0wb0JCURIcQ1BmU3JzWGR4T3dDRlpVRzFRb2RMZEFPM0E0MQ", "snippet": {"type": "textMessageEvent", "liveChatId": "Cg0KCzZ1aldKZENCbXFFKicKGFVDTDM0ZkFvRmltOW9ITGJWek1LRmF2URILNnVqV0pkQ0JtcUU", "authorChannelId": "UCMzmHLYWQIR9dnE22KC6qgg", "publishedAt": "2020-10-21T07:04:17.738000Z", "hasDisplayContent": true, "displayMessage": "ぇあちゃん？", "textMessageDetails": {"messageText": "ぇあちゃん？"}}, "authorDetails": {"channelId": "UCMzmHLYWQIR9dnE22KC6qgg", "channelUrl": "http://www.youtube.com/channel/UCMzmHLYWQIR9dnE22KC6qgg", "displayName": "Bone Fox", "profileImageUrl": "https://yt3.ggpht.com/-w7aQUDoNL6o/AAAAAAAAAAI/AAAAAAAAAAA/IahUEO9DY3c/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", "isVerified": false, "isChatOwner": false, "isChatSponsor": true, "isChatModerator": false}}, 
+        {"kind": "youtube#liveChatMessage", "etag": "Ids6HFD-pusfKaN5JdGD9Fgae7Y", "id": "LCC.CjgKDQoLNnVqV0pkQ0JtcUUqJwoYVUNMMzRmQW9GaW05b0hMYlZ6TUtGYXZREgs2dWpXSmRDQm1xRRI7ChpDSkRLaTZhUHhld0NGUmFqZ2dvZHBLNE1DURIdQ011VW5iZUJ4ZXdDRlkwcFlBb2R0emNCbWctMTM", "snippet": {"type": "textMessageEvent", "liveChatId": "Cg0KCzZ1aldKZENCbXFFKicKGFVDTDM0ZkFvRmltOW9ITGJWek1LRmF2URILNnVqV0pkQ0JtcUU", "authorChannelId": "UCJoxe2RKZDbU86TopyWMcRA", "publishedAt": "2020-10-21T07:04:18.402000Z", "hasDisplayContent": true, "displayMessage": "初配信なのにメンバースタンプあるんですね！！", "textMessageDetails": {"messageText": "初配信なのにメンバースタンプあるんですね！！"}}, "authorDetails": {"channelId": "UCJoxe2RKZDbU86TopyWMcRA", "channelUrl": "http://www.youtube.com/channel/UCJoxe2RKZDbU86TopyWMcRA", "displayName": "高撫ばたこ", "profileImageUrl": "https://yt3.ggpht.com/-n6XQVhm_uhM/AAAAAAAAAAI/AAAAAAAAAAA/MukLklB2Fh0/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", "isVerified": false, "isChatOwner": false, "isChatSponsor": true, "isChatModerator": false}}, 
+        {"kind": "youtube#liveChatMessage", "etag": "OKYrak6md4la_MnQYOU07BQKyRo", "id": "LCC.CjgKDQoLNnVqV0pkQ0JtcUUqJwoYVUNMMzRmQW9GaW05b0hMYlZ6TUtGYXZREgs2dWpXSmRDQm1xRRJFChpDTENvcEthUHhld0NGUmVGd2dFZHpQc0xFdxInQ01IQnFLS1B4ZXdDRmFYYlRBSWR0bnNLa1ExNjAzMjYzODU3OTA4", "snippet": {"type": "textMessageEvent", "liveChatId": "Cg0KCzZ1aldKZENCbXFFKicKGFVDTDM0ZkFvRmltOW9ITGJWek1LRmF2URILNnVqV0pkQ0JtcUU", "authorChannelId": "UCqg71b6de922FqllI2TZ9ow", "publishedAt": "2020-10-21T07:04:18.807000Z", "hasDisplayContent": true, "displayMessage": "よるみって呼んでいい？", "textMessageDetails": {"messageText": "よるみって呼んでいい？"}}, "authorDetails": {"channelId": "UCqg71b6de922FqllI2TZ9ow", "channelUrl": "http://www.youtube.com/channel/UCqg71b6de922FqllI2TZ9ow", "displayName": "RyuDe", "profileImageUrl": "https://yt3.ggpht.com/-lVB88JxMDBY/AAAAAAAAAAI/AAAAAAAAAAA/Vdb5oAxFsIY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", "isVerified": false, "isChatOwner": false, "isChatSponsor": true, "isChatModerator": false}}, 
+        {
+            "kind": "youtube#liveChatMessage", 
+            "etag": "J9LJZpINApfLlxiV3U27B4uuiRY", 
+            "id": "LCC.CjgKDQoLNnVqV0pkQ0JtcUUqJwoYVUNMMzRmQW9GaW05b0hMYlZ6TUtGYXZREgs2dWpXSmRDQm1xRRI7ChpDSWVIdEthUHhld0NGV1NLd2dFZElxRUVLURIdQ015MS1wMkh4ZXdDRmJyVlRBSWQyWUVGYnctMTk", 
+            "snippet": {
+                "type": "textMessageEvent", 
+                "liveChatId": "Cg0KCzZ1aldKZENCbXFFKicKGFVDTDM0ZkFvRmltOW9ITGJWek1LRmF2URILNnVqV0pkQ0JtcUU", 
+                "authorChannelId": "UCbsn5qkn5WGbNXO7MH-Ilqw", 
+                "publishedAt": "2020-10-21T07:04:19.065000Z", 
+                "hasDisplayContent": true, 
+                "displayMessage": ":_すごい::_すごい::_すごい:", 
+                "textMessageDetails": {
+                    "messageText": ":_ すごい::_すごい::_すごい:"
+                }
+            }, 
+            "authorDetails": {
+                "channelId": "UCbsn5qkn5WGbNXO7MH-Ilqw", 
+                "channelUrl": "http://www.youtube.com/channel/UCbsn5qkn5WGbNXO7MH-Ilqw", 
+                "displayName": "フロフローテ", 
+                "profileImageUrl": "https://yt3.ggpht.com/-1qil7WNqKXc/AAAAAAAAAAI/AAAAAAAAAAA/Qqf-wYalrWQ/s88-c-k-no-mo-rj-c0xffffff/photo.jpg", 
+                "isVerified": true, 
+                "isChatOwner": false, 
+                "isChatSponsor": true, 
+                "isChatModerator": false
+            }
+        }
+    ]
+}

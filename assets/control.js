@@ -56,17 +56,14 @@ var element_livePoint = document.getElementById("livePoint");
 var element_play      = document.getElementById("play");
 var element_speed     = document.getElementById("speed");
 var element_playgame_photo  = document.getElementById("playgame_photo");
-var element_playgame_link  = document.getElementById("playgame_link");
+var element_playgame_link   = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
 
 var streamings;
 
 function intervalStreamingData(){
-
     function StreamingData(jsonData){
-
         streamings = jsonData;
-
         var imgSource = "";
         for(var j = 0; j < streamings.length; j++){
             
@@ -79,7 +76,6 @@ function intervalStreamingData(){
         }
         element_streamings.innerHTML = imgSource;        
     }
-
     $.post('getData.php?mode=getStreaming', {}, function(data){
         console.log("getStreaming");
         jsonData = JSON.parse(data);
@@ -88,6 +84,50 @@ function intervalStreamingData(){
 }
 intervalStreamingData();
 setInterval(intervalStreamingData, 5000);
+
+var chatlist = [];
+var lastmessageDate = 0;
+var videoId;
+function StreamingChatData(liveChatData){ // チャットをchatlistに格納
+    var items = liveChatData["items"];
+    var item_length = liveChatData["items"].length;
+    for(var i = 0; i<item_length; i++){
+        var messageDate = new Date(items[i]["snippet"]["publishedAt"]).getTime(); // 時刻
+        if(lastmessageDate < messageDate){
+            var message = items[i]["snippet"]["displayMessage"];  // メッセージ
+            chatlist.push(message);
+            lastmessageDate = message;
+        }
+    }
+}
+
+function loadStreamingChatData(videoId){ // チャット読み込み
+    $.post('getChat.php?v='+videoId, {}, function(data){
+        console.log("getStreamingChatData");
+        jsonData = JSON.parse(data);
+        StreamingChatData(jsonData);
+    });
+}
+
+var chatInterval;
+function StreamingChat(videoId){
+    loadStreamingChatData(videoId); // チャット取得
+    for(var i = 0; i < chatlist.length; i++){
+        if(chatlist.length){
+            function chatAnimation(){
+                console.log("chat: "+chatlist[i]); // チャットを流すコードをここへ記述
+            }
+            setTimeout(chatAnimation, 100); // 100msでチャットを流す 280コメントで28秒
+        }else{
+            clearInterval(chatInterval);
+            break; // チャンネルが切り替わったので終了
+        }
+    }
+    if(i == chatlist.length){ // チャットが最後まで到達した場合
+        chatlist = [];
+        StreamingChat(videoId);
+    }
+}
 
 var chart = new Chart(ctx, {
     type: 'bar',
@@ -112,8 +152,12 @@ function randomSetYouTube(){
     if (i < streamings.length-1){ i += 1; }
     else{ i = 0; }
 
-    curtainOC();
+    curtainOC(); // 幕を閉じる
     console.log("stream: "+i);
+
+    // 以前のチャットデータ初期化
+    chatlist = [];
+    lastmessageDate = 0;
 
     function sleep1(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1");
@@ -159,6 +203,11 @@ function randomSetYouTube(){
         curtainOC(); // 幕を開ける
     }
     setTimeout(sleep2, 4500); // 幕を掛ける時間4.5秒
+
+    // チャット読み込み
+    videoId = streamings[i]["videoId"];
+    StreamingChat();
+    chatInterval = setInterval(StreamingChat, speed);
 }
 
 var interval;

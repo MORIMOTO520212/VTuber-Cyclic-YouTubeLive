@@ -62,7 +62,8 @@ def getSource():
 def search(detail):
     # Channel IDの取得
     streamingNumber = ""
-    videoTitle = ""
+    videoTitle      = ""
+    videoId         = ""
 
     channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
     channelId   = channelLink.replace("/channel/", "")
@@ -76,14 +77,20 @@ def search(detail):
         streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
         streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
         streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
+        streamingNumber = streamingNumber.replace(" Watching", "人")
+        streamingNumber = streamingNumber.replace("K", "千")
 
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")
 
-    except:
+        # 動画ID抽出
+        videoURL = detail.find_all("a", class_=["yt-simple-endpoint.style-scope", "ytd-grid-video-renderer"])[0].get("href")
+        videoId = videoURL.replace("/watch?v=", "")
+
+    except Exception as e:
         streamingNow = False
 
-    return channelId, streamingNow, streamingNumber, videoTitle
+    return channelId, streamingNow, streamingNumber, videoTitle, videoId
 
 def updateTwitterIcon(channelId):
     usrRoot = streamdata[channelId]
@@ -114,6 +121,7 @@ def sort(play):
                 "iconUpdateCount": strDa["iconUpdateCount"],
                 "lastIconUpdateDate": strDa["lastIconUpdateDate"],
                 "livePointStatus" : strDa["livePointStatus"],
+                "videoId": strDa["videoId"],
                 "play": strDa["play"]
             })
 
@@ -133,6 +141,7 @@ def sort(play):
                 "iconUpdateCount": strCha["iconUpdateCount"],
                 "lastIconUpdateDate": strCha["lastIconUpdateDate"],
                 "livePointStatus" : strCha["livePointStatus"],
+                "videoId": strCha["videoId"],
                 "play": strCha["play"]
             })
 
@@ -205,7 +214,7 @@ while True:
         
         # スクレイピング
         for detail in details:
-            channelId, streamingNow, streamingNumber, videoTitle = search(detail)
+            channelId, streamingNow, streamingNumber, videoTitle, videoId = search(detail)
 
             if streamingNow == "ライブ配信中" or streamingNow == "LIVE NOW":
                 # 登録済か未登録か
@@ -217,6 +226,7 @@ while True:
                         channelId = idChangeData[channelId]
                     except:
                         print("未登録のライバー："+channelId)
+                        open("message.log", "a").write("未登録のライバー："+channelId+"\n")
                         channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
@@ -245,6 +255,7 @@ while True:
                         "iconUpdateCount": usrRoot["iconUpdateCount"],
                         "lastIconUpdateDate": usrRoot["lastIconUpdateDate"],
                         "livePointStatus" : usrRoot["livePointStatus"],
+                        "videoId": videoId,
                         "play": play
                     })
 
@@ -278,6 +289,6 @@ while True:
         driver.quit()
         sys.exit()
     
-    except Exception as e:
-        errorlog = open("error.log", "r").read()
-        open("error.log", "w").write(errorlog+str(e)+"\n")
+    #except Exception as e:
+    #    print(str(e))
+    #    open("error.log", "a").write(str(e)+"\n")

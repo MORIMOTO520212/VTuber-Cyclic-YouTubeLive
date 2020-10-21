@@ -5,3 +5,5 @@
 /.py
 /settings.py
 /error.log
+/message.log
+/.js

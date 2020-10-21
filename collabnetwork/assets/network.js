@@ -47,6 +47,9 @@ function StreamData(jsonData){
         width: '100%',
         nodes: {
             shape: "circularImage",
+            font: {
+                color: "#eee"
+            },
             brokenImage: "../../assets/favicon.ico",
             size: 10,
         }
