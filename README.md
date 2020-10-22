@@ -33,10 +33,15 @@ startpage.html - index.htmlで使います。再生前の注意事項などを�
 addStreamData.py - ライバーの情報（ユーザー名・Twitter IDなど）を手動で記録します。  
 streamingSearchChrome.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。ユーザープロファイルを使っています。  
 streamingSearchFirefox.py - 登録しているライバーのライブ配信をstreaming.jsonに記録します。3分ごとに更新します。こちらをメインで使ってください。  
-getData.php - ファイルからデータを取得します。  
+getData.php - streaming.json, streamdata.jsonからデータを取得します。 
+getChat.php - YouTube Data API v3からライブ配信のチャットを取得する。
 chromedriver.exe - streamingSearchChrome.pyでseleniumを使います。Chromeブラウザに合ったバージョンを使ってください。  
 geckodriver.exe - streamingSearchFirefox.pyでseleniumを使います。  
 setting.py - ファイルの場所などの設定が書かれているモジュールです。  
+requirements.txt - Pythonのプログラムで使うモジュールをまとめたファイル。
+channels.txt - addStreamData.pyで一括でファイルを追加するためのテキストファイル。
+YouTubeDataAPI_liveChat.json - YouTubeData API v3で取得したチャットを記録する。サンプルファイルなので他のプログラムには直結しない。
+dbAdd.py - 既存のstreamdata.jsonに新しく追加するキーを全てに適応するためのプログラム。
 
 assets/  
 control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
@@ -49,25 +54,29 @@ idChangeData.json - スクレイピングでユーザーIDで取得された場�
 guide.mp4 - index.htmlで使うファイルです。  
 
 about/  
-index.html - このサイトについての情報が書かれたファイル。  
-style.css  
+index.html - このサイトについての情報が書かれている。  
+style.css  - index.htmlのスタイル  
 
 usage/  
-index.html - このサイトの使い方について書かれたファイル。  
-style.css  
+index.html - このサイトの使い方について書かれている。  
+style.css  - index.htmlのスタイル  
 
 vtuber/  
-index.html - このサイトに登録しているVTuberについて書かれたファイル。  
-style.css  
+index.html - このサイトに登録しているVTuberについて書かれている。  
+style.css  - index.htmlのスタイル  
 
 bugreport/  
-index.html - このサイトのバグについて書かれたファイル。  
-style.css  
+index.html - このサイトのバグについて書かれている。  
+style.css  - index.htmlのスタイル  
+
+collabnetwork/  
+index.html - コラボ状況について書かれている。
+assets/ network.js - コラボ状況の操作  
+assets/ style.css  - index.htmlのスタイル  
 
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 
 ### 未登録ライバー
-
 
 ### 未登録ゲーム 
 

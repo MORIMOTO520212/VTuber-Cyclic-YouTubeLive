@@ -40,8 +40,9 @@ function onPlayerStateChange(event) {
 
 var i = 0;
 var streamingChannel    = "";
+
 var element_youtube     = document.getElementById("youtube");
-var element_startpage = document.getElementById("startpage");
+var element_startpage   = document.getElementById("startpage");
 var element_streamingId = document.getElementById("streamingId");
 var element_streamings  = document.getElementById("streamings");
 var element_channelId   = document.getElementById("channelId");
@@ -60,7 +61,6 @@ var element_playgame_link   = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
 
 var streamings;
-
 function intervalStreamingData(){
     function StreamingData(jsonData){
         streamings = jsonData;

@@ -9,6 +9,8 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 # 動作環境の設定 windows | linux
 os = "linux"
+# 更新待機時間 (秒)
+delay = 180
 
 print("動作オペレーティングシステム："+os)
 
@@ -35,7 +37,6 @@ with open(settings.streamDataPath(os), "r") as f:
 with open(settings.gamesDataPath(os), "r") as f:
     gamesData = json.load(f)
 
-streamingData_before = []
 print("complete!")
 
 
@@ -64,10 +65,8 @@ def search(detail):
     streamingNumber = ""
     videoTitle      = ""
     videoId         = ""
-
     channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
     channelId   = channelLink.replace("/channel/", "")
-
     try:
         # [ライブ配信中]マークを抽出
         streamingNow    = detail.find_all("span", class_=["ytd-badge-supported-renderer"])
@@ -86,8 +85,7 @@ def search(detail):
         # 動画ID抽出
         videoURL = detail.find_all("a", class_=["yt-simple-endpoint.style-scope", "ytd-grid-video-renderer"])[0].get("href")
         videoId = videoURL.replace("/watch?v=", "")
-
-    except Exception as e:
+    except:
         streamingNow = False
 
     return channelId, streamingNow, streamingNumber, videoTitle, videoId
@@ -102,8 +100,11 @@ def updateTwitterIcon(channelId):
         print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
     except Exception as e:
         if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-            print(usrRoot["userName"]+"さんのTwitterのアカウントが見つかりませんでした。 "+channelId)
+            message = "[{}] {}さんのTwitterのアカウントが見つかりませんでした。".format(channelId, usrRoot["userName"])
+            open("message.log", "a").write(message+"\n")
+            print(message)
 
+streamingData_before = []
 def sort(play):
     # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
     for strDa in streamingData_before:
@@ -206,12 +207,12 @@ def collab(videoTitle):
 
 while True:
     try:
-        streamingChannels = []
-        streamingData  = [] # 書き込み用
+        streamingChannels = [] # 取得したデータを書き込む
+        streamingData     = [] # 書き込み用
 
         # YouTubeからデータを取得
         details = getSource()
-        
+
         # スクレイピング
         for detail in details:
             channelId, streamingNow, streamingNumber, videoTitle, videoId = search(detail)
@@ -230,7 +231,7 @@ while True:
                         channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
-                    
+
                     usrRoot = streamdata[channelId]
 
                     # タイトルにゲーム名がある場合取得
@@ -282,13 +283,13 @@ while True:
         streamingData_before = streamingData
 
         # 3分間待機
-        sleep(180)
-    
+        sleep(delay)
+
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
-        sys.exit()
+        break
     
-    #except Exception as e:
-    #    print(str(e))
-    #    open("error.log", "a").write(str(e)+"\n")
+    except Exception as e:
+        print(str(e))
+        open("error.log", "a").write(str(e)+"\n")

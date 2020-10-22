@@ -72,7 +72,7 @@ else:
             with open("channels.txt", "r", encoding="utf-8") as f:
                 channeladd = f.read()
             channels = channeladd.split("\n")
-            i = 0;
+            i = 0
             userData = {}
             while i < len(channels)-1:
                 input_userName = channels[i]
@@ -129,8 +129,7 @@ else:
         
         if "n" == input("この情報でよろしいですか。y/n："):
             exit()
-        else:
-            break;
+        break
 
 print("書き込み中")
 with open(settings.streamDataPath(os), "w") as f:
