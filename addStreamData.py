@@ -7,62 +7,69 @@ auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth_handler=auth)
 
 print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
-print("自動登録する場合はchannels.txtファイルを作成し、名前 TwitterId チャンネルIDの順に改行を入れて保存してください。")
+print("自動登録する場合はchannels.txtファイルを作成し、名前, TwitterID, チャンネルIDの順に改行を入れて保存してください。\n")
 
 # 動作環境の設定 windows | linux
-os = "linux"
+if "1" == input("Windowsを使っている場合は1, Linuxの場合は2："):
+    os = "windows"
+else:
+    os = "linux"
 
 print("動作オペレーティングシステム："+os)
 
 with open(settings.streamDataPath(os), "r") as f:
     data = json.load(f)
-
 userName = []
 for channelId in data:
-        userName.append(data[channelId]["userName"])
+    userName.append(data[channelId]["userName"])
 
 print("登録済ライバー数："+str(len(userName)))
 
-if 1 == input("手動で入力する場合は1, リストを扱う場合は2："):
+def add(in_userName, in_twitterId, photo, channelId):
+    userData = {}
+    now = datetime.datetime.now()
+    userData["userName"]  = in_userName
+    userData["twitterId"] = in_twitterId
+    userData["photo"]     = photo
+    userData["livePoint"] = 0
+    userData["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+    userData["iconUpdateCount"] = 0
+    userData["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+    userData["livePointStatus"] =  {
+        "00": 0, "01": 0, "02": 0, "03": 0,
+        "04": 0, "05": 0, "06": 0, "07": 0,
+        "08": 0, "09": 0, "10": 0, "11": 0,
+        "12": 0, "13": 0, "14": 0, "15": 0,
+        "16": 0, "17": 0, "18": 0, "19": 0,
+        "20": 0, "21": 0, "22": 0, "23": 0
+    }
+    userData["games"]  = []
+    userData["collab"] = []
+    data[channelId] = userData
+    userName.append(in_userName)
+
+if 1 == input("手動で入力する場合は1, リスト形式の場合は2："):
     while True:
         try:
             userData = {}
-            input_userName  = input("ユーザー名：")
-            if input_userName in userName:
-                print("既に登録済みのユーザーです。\n")
+            channelId = input("チャンネルID：")
+            in_twitterId = input("Twitter ID：")
+            in_userName  = input("ユーザー名：")
+            if in_userName in userName:
+                print("同じ名前のユーザーが既に登録済です。\n")
                 continue
-            input_twitterId = input("Twitter ID：")
-            # TweepyでTwitterアイコン取得
-            try:
-                userStatus = api.get_user(input_twitterId)
+
+            try: # TweepyでTwitterアイコン取得
+                userStatus = api.get_user(in_twitterId)
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
             except:
                 print("ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
                 photo = input("TwitterアイコンURL：")
 
-            userData["userName"]  = input_userName
-            userData["twitterId"] = input_twitterId
-            userData["photo"]     = photo
-            now = datetime.datetime.now()
-            userData["livePoint"] = 0
-            userData["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-            userData["iconUpdateCount"] = 0
-            userData["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-            userData["livePointStatus"] =  {
-                "00": 0, "01": 0, "02": 0, "03": 0,
-                "04": 0, "05": 0, "06": 0, "07": 0,
-                "08": 0, "09": 0, "10": 0, "11": 0,
-                "12": 0, "13": 0, "14": 0, "15": 0,
-                "16": 0, "17": 0, "18": 0, "19": 0,
-                "20": 0, "21": 0, "22": 0, "23": 0
-            }
-            userData["games"]  = []
-            userData["collab"] = []
-            
-            data[input("チャンネルID：")] = userData
-            userName.append(input_userName)
+            add(in_userName, in_twitterId, photo, channelId)
             print()
+
         except KeyboardInterrupt:
             input("\nエンターキーを押して終了します。")
             break
