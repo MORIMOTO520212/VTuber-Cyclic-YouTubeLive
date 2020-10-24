@@ -19,25 +19,6 @@ function curtainOC(){
     return;
 }
 
-var player;
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player("youtube",{
-        events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        }
-    });
-}
-var apiCheck = false;
-function onPlayerReady(event) {
-    console.log("onPlayerReady");
-    event.target.playVideo();
-}
-function onPlayerStateChange(event) {
-    console.log("onPlayerStateChange "+event.data);
-    apiCheck = true;
-}
-
 var i = 0;
 var streamingChannel    = "";
 
@@ -59,6 +40,7 @@ var element_speed     = document.getElementById("speed");
 var element_playgame_photo  = document.getElementById("playgame_photo");
 var element_playgame_link   = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
+var element_chatplay = document.getElementById("chatplay");
 
 var streamings;
 function intervalStreamingData(){
@@ -85,50 +67,6 @@ function intervalStreamingData(){
 intervalStreamingData();
 setInterval(intervalStreamingData, 5000);
 
-var chatlist = [];
-var lastmessageDate = 0;
-var videoId;
-function StreamingChatData(liveChatData){ // チャットをchatlistに格納
-    var items = liveChatData["items"];
-    var item_length = liveChatData["items"].length;
-    for(var i = 0; i<item_length; i++){
-        var messageDate = new Date(items[i]["snippet"]["publishedAt"]).getTime(); // 時刻
-        if(lastmessageDate < messageDate){
-            var message = items[i]["snippet"]["displayMessage"];  // メッセージ
-            chatlist.push(message);
-            lastmessageDate = message;
-        }
-    }
-}
-
-function loadStreamingChatData(videoId){ // チャット読み込み
-    $.post('getChat.php?v='+videoId, {}, function(data){
-        console.log("getStreamingChatData");
-        jsonData = JSON.parse(data);
-        StreamingChatData(jsonData);
-    });
-}
-
-var chatInterval;
-function StreamingChat(videoId){
-    loadStreamingChatData(videoId); // チャット取得
-    for(var i = 0; i < chatlist.length; i++){
-        if(chatlist.length){
-            function chatAnimation(){
-                console.log("chat: "+chatlist[i]); // チャットを流すコードをここへ記述
-            }
-            setTimeout(chatAnimation, 100); // 100msでチャットを流す 280コメントで28秒
-        }else{
-            clearInterval(chatInterval);
-            break; // チャンネルが切り替わったので終了
-        }
-    }
-    if(i == chatlist.length){ // チャットが最後まで到達した場合
-        chatlist = [];
-        StreamingChat(videoId);
-    }
-}
-
 var chart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -146,6 +84,55 @@ var chart = new Chart(ctx, {
     }
 });
 
+var chatlist = [];
+var lastmessageDate = 0; // 最新チャット時間
+var videoId = "";
+var chatStatus = false; // チャットオンオフ
+var si_ca;
+function StreamingChatData(liveChatData){ // チャットをchatlistに格納
+    console.log("StreamingChatData");
+    var items = liveChatData["items"];
+    var item_length = liveChatData["items"].length;
+    console.log("item length: "+item_length);
+    for(var i = 0; i < item_length; i++){
+        var messageDate = new Date(items[i]["snippet"]["publishedAt"]).getTime(); // 時刻取得
+        if(lastmessageDate < messageDate){ // 時刻を比較して最新のチャットに絞る
+            var message = items[i]["snippet"]["displayMessage"];  // メッセージ
+            chatlist.push(message);
+            lastmessageDate = messageDate;
+        }
+    }
+
+    // 弾幕開始
+    console.log("chat play");
+    var i = 0;
+    function chatAnimation(){
+        //console.log("chat: "+chatlist[i]);
+        $('#screen').comment(chatlist[i]); // チャットをコミット
+        i++;
+        if(0 == chatlist.length){  // チャンネルが切り替わったら終了
+            clearInterval(si_ca);
+            console.log("clearInterval - channel change");
+        };   
+        if(i == chatlist.length){ // チャットが最後まで到達した場合
+            clearInterval(si_ca);
+            console.log("clearInterval - next chat");
+            loadStreamingChatData(videoId);
+        };
+    }
+    si_ca = setInterval(chatAnimation, 1000);  // 100msでチャットを流す 280コメントで28秒
+}
+
+// チャット読み込み
+function loadStreamingChatData(videoId){
+    chatlist = [];
+    $.post('getChat.php?v='+videoId, {}, function(data){
+        console.log("getStreamingChatData "+videoId);
+        jsonData = JSON.parse(data);
+        StreamingChatData(jsonData);
+    });
+}
+
 function randomSetYouTube(){
     console.log("randomSetYouTube");
 
@@ -155,9 +142,10 @@ function randomSetYouTube(){
     curtainOC(); // 幕を閉じる
     console.log("stream: "+i);
 
-    // 以前のチャットデータ初期化
+    // 弾幕システム初期化
     chatlist = [];
     lastmessageDate = 0;
+    clearInterval(si_ca);
 
     function sleep1(){
         element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1");
@@ -204,10 +192,36 @@ function randomSetYouTube(){
     }
     setTimeout(sleep2, 4500); // 幕を掛ける時間4.5秒
 
-    // チャット読み込み
-    videoId = streamings[i]["videoId"];
-    StreamingChat();
-    chatInterval = setInterval(StreamingChat, speed);
+    // チャット読み込み chatStatus - True 再生 False 停止
+    if(chatStatus){
+        videoId = streamings[i]["videoId"];
+        loadStreamingChatData(videoId);
+    }
+}
+
+var tag = document.createElement('script');
+
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player("youtube",{
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+}
+var apiCheck = false;
+function onPlayerReady(event) {
+    console.log("onPlayerReady");
+    event.target.playVideo();
+}
+function onPlayerStateChange(event) {
+    console.log("onPlayerStateChange "+event.data);
+    apiCheck = true;
 }
 
 var interval;
@@ -235,5 +249,19 @@ function changeSpeed(){
     if(playStatus){
         clearInterval(interval);
         interval = setInterval(randomSetYouTube, speed);
+    }
+}
+
+function chatPlay(){
+    if(chatStatus){
+        // 停止する
+        chatStatus = false;
+        window.chatlist = [];
+        lastmessageDate = 0;
+        element_chatplay.innerText = "コメントを開始する";
+    }else{
+        // 開始する
+        chatStatus = true;
+        element_chatplay.innerText = "コメントを非表示にする";
     }
 }

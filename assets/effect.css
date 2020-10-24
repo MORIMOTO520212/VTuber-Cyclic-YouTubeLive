@@ -63,6 +63,39 @@ div.player .curtain{
     to {opacity: 0;}
 }
 
+/*　------------ 弾幕のコメント　------------ */
+.nnc-comment-custom {
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-shadow: 
+        2px  2px 2px #000,
+        -2px  2px 2px #000,
+        2px -2px 2px #000,
+        -2px -2px 2px #000,
+        2px  0px 2px #000,
+        0px  2px 2px #000,
+        -2px  0px 2px #000,
+        0px -2px 2px #000;
+    color: #eee;
+    font-weight: bold;
+}
+.nnc-screen {
+    position: relative;
+    overflow: hidden;
+}
+.nnc-comment {
+position: absolute;
+white-space: nowrap;
+}
+/*　--------- コメントスクリーン　--------- */
+#screen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* ------------ Curtain ------------ */
 div.player div.open{
     /* フェードイン */
@@ -150,8 +183,8 @@ div.play a p{
     font-weight: bold;
     text-decoration: none;
 }
+/* フェードアウト */
 div.play.close{
-    /* フェードアウト */
     animation: 0.5s fade-out forwards;
 }
 
@@ -198,6 +231,14 @@ div.list.setting a{
     background-color: #000;
     border: solid 1px #eee;
     border-radius: 30px;
+}
+
+#chatplay{
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #eee;
 }
 
 /* footer */

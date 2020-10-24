@@ -10,7 +10,7 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 # 動作環境の設定 windows | linux
 os = "linux"
 # 更新待機時間 (秒)
-delay = 180
+delay = 120
 
 print("動作オペレーティングシステム："+os)
 
@@ -76,8 +76,8 @@ def search(detail):
         streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
         streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
         streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
-        streamingNumber = streamingNumber.replace(" Watching", "人")
         streamingNumber = streamingNumber.replace("K", "千")
+        streamingNumber = streamingNumber.replace(" Watching", "人")
 
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")

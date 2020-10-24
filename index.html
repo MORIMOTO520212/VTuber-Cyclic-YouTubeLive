@@ -15,8 +15,9 @@
         <meta name="keywords" content="vtuber, vtuber おすすめ">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://www.youtube.com/iframe_api"></script>
+        <!--<script src="https://www.youtube.com/iframe_api"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="assets/nncomment.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/effect.css">
@@ -27,6 +28,7 @@
         <div class="player">
             <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
             <iframe id="startpage" class="startpage" width="1280" height="720" src="startpage.html" style="opacity: 1;"></iframe>
+            <div id="screen" class="nnc-screen"></div>
             <div id="curtain" class="curtain close"><!-- 幕 -->
                 <div class="profile"><img id="photo" src="assets/favicon.ico"></div>
                 <!--<div class="thumbnail"><img id="thumbnail" src=""></div> thumbnail-->
@@ -82,6 +84,7 @@
                         <option value="10" >10分</option>
                         <option value="30" >30分</option>
                     </select>
+                    <a id="chatplay" href="javascript:chatPlay();">コメントを表示する</a>
                 </div>
             </div>
         </div>

@@ -47,6 +47,7 @@ assets/
 control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
 effect.css - index.htmlのスタイルシートです。  
 streaming.json - ライブ配信中のチャンネルIDを配列で記録しています。  
+nncomment.js - ニコニコ弾幕の再現ソースコード　開発者：https://github.com/wmoai/jquery.nncomment
 
 database/  
 streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。  
@@ -83,7 +84,7 @@ assets/ style.css  - index.htmlのスタイル
 NOTE  
 6時から23時までgoodそれ以外bad  
 統計人数：8人  
-不健康倍率：36.83686608469389 %  
+深夜帯倍率：36.83686608469389 %  
 
 good 1087  bad 157  
 good 1281  bad 467  
