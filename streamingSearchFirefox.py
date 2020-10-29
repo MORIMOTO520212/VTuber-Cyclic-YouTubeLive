@@ -11,11 +11,15 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 os = "linux"
 # 更新待機時間 (秒)
 delay = 120
+# 名前解決
+true_noise_L = ["【", "・", "/", " ", "　"]
+true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
 print("動作オペレーティングシステム："+os)
 
 # tweepy
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
+
 
 print("tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -191,8 +195,21 @@ def updateStatus(usrRoot, play):
 def collab(videoTitle):
     collab_list = []
     for channelId in streamdata.keys():
-        if streamdata[channelId]["userName"] in videoTitle: # 動画タイトルにライバー名が含まれていた場合
-            collab_list.append(channelId)
+        userName = streamdata[channelId]["userName"]
+        namef_L = namef_R = False
+        if userName in videoTitle: # 動画タイトルにライバー名が含まれていた場合
+            if not videoTitle.split(userName)[0]: # 左端
+                namef_L = True
+            if not videoTitle.split(userName)[1]: # 右端
+                namef_R = True
+            for tn in true_noise_L:
+                if tn + userName in videoTitle:
+                    namef_L = True
+            for tn in true_noise_R:
+                if userName + tn in videoTitle:
+                    namef_R = True
+            if namef_L == True and namef_R == True:
+                collab_list.append(channelId)
 
     for channelId_collab in collab_list: # channelId_collab 追加するアカウント
 
