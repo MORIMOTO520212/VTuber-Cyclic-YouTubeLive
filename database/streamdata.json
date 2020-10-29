@@ -143,11 +143,11 @@
     "UC0WwEfE-jOM2rzjpdfhTzZA": {
         "userName": "\u611b\u5712\u611b\u7f8e",
         "twitterId": "manami_aizono",
-        "photo": "https://pbs.twimg.com/profile_images/1295409377281626112/HOvaGM86_400x400.jpg",
-        "livePoint": 22,
-        "lastLiveDate": "2020/10/01 20:07:31",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/01 20:07:31",
+        "photo": "https://pbs.twimg.com/profile_images/1316827726255333376/i1o3BSmD_400x400.jpg",
+        "livePoint": 37,
+        "lastLiveDate": "2020/10/29 23:20:04",
+        "iconUpdateCount": 1,
+        "lastIconUpdateDate": "2020/10/29 22:45:47",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -171,8 +171,8 @@
             "19": 19,
             "20": 3,
             "21": 0,
-            "22": 0,
-            "23": 0
+            "22": 6,
+            "23": 9
         },
         "games": [],
         "collab": [
@@ -183,8 +183,8 @@
         "userName": "\u5cf6\u6751\u30b7\u30e3\u30eb\u30ed\u30c3\u30c8",
         "twitterId": "Charlotte_HNST",
         "photo": "https://pbs.twimg.com/profile_images/1016873012824424452/EhaWQ_th_400x400.jpg",
-        "livePoint": 1163,
-        "lastLiveDate": "2020/10/29 14:55:31",
+        "livePoint": 1171,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 14:55:31",
         "livePointStatus": {
@@ -211,7 +211,7 @@
             "20": 18,
             "21": 27,
             "22": 36,
-            "23": 215
+            "23": 223
         },
         "games": [
             {
@@ -333,8 +333,8 @@
         "userName": "\u591c\u898b\u308c\u306a",
         "twitterId": "rena_yorumi",
         "photo": "https://pbs.twimg.com/profile_images/1145093023732133888/wfOMCzP2_400x400.png",
-        "livePoint": 2082,
-        "lastLiveDate": "2020/10/29 18:01:43",
+        "livePoint": 2094,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:01:43",
         "livePointStatus": {
@@ -360,8 +360,8 @@
             "19": 87,
             "20": 42,
             "21": 20,
-            "22": 47,
-            "23": 52
+            "22": 50,
+            "23": 61
         },
         "games": [
             {
@@ -433,8 +433,8 @@
         "userName": "\u6f64\u7fbd\u308b\u3057\u3042",
         "twitterId": "uruharushia",
         "photo": "https://pbs.twimg.com/profile_images/1302970943145275393/-agRJgRe_400x400.jpg",
-        "livePoint": 1800,
-        "lastLiveDate": "2020/10/29 03:58:58",
+        "livePoint": 1808,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 03:58:58",
         "livePointStatus": {
@@ -461,7 +461,7 @@
             "20": 141,
             "21": 84,
             "22": 49,
-            "23": 58
+            "23": 66
         },
         "games": [
             {
@@ -578,8 +578,8 @@
         "userName": "\u3048\u308b",
         "twitterId": "Elu_World",
         "photo": "https://pbs.twimg.com/profile_images/1308308825213079553/w5OosQjP_400x400.jpg",
-        "livePoint": 2319,
-        "lastLiveDate": "2020/10/25 15:28:00",
+        "livePoint": 2327,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 15:28:00",
         "livePointStatus": {
@@ -606,7 +606,7 @@
             "20": 94,
             "21": 133,
             "22": 144,
-            "23": 115
+            "23": 123
         },
         "games": [
             {
@@ -727,8 +727,8 @@
         "userName": "\u52c7\u6c17\u3061\u3072\u308d",
         "twitterId": "Chihiro_yuki23",
         "photo": "https://pbs.twimg.com/profile_images/1240289078525825024/Ex126_cO_400x400.jpg",
-        "livePoint": 1820,
-        "lastLiveDate": "2020/10/29 00:06:23",
+        "livePoint": 1826,
+        "lastLiveDate": "2020/10/29 23:05:56",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:06:23",
         "livePointStatus": {
@@ -754,8 +754,8 @@
             "19": 222,
             "20": 318,
             "21": 308,
-            "22": 302,
-            "23": 178
+            "22": 305,
+            "23": 181
         },
         "games": [
             {
@@ -1090,8 +1090,8 @@
         "userName": "\u5c3e\u4e38\u30dd\u30eb\u30ab",
         "twitterId": "omarupolka",
         "photo": "https://pbs.twimg.com/profile_images/1299351896130334725/Qg3SMQLE_400x400.jpg",
-        "livePoint": 1470,
-        "lastLiveDate": "2020/10/29 00:01:42",
+        "livePoint": 1485,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:01:42",
         "livePointStatus": {
@@ -1117,8 +1117,8 @@
             "19": 48,
             "20": 54,
             "21": 52,
-            "22": 139,
-            "23": 123
+            "22": 145,
+            "23": 132
         },
         "games": [
             {
@@ -1148,8 +1148,8 @@
         "userName": "\u6708\u30ce\u7f8e\u514e",
         "twitterId": "MitoTsukino",
         "photo": "https://pbs.twimg.com/profile_images/1088727022069637120/hk11wmu5_400x400.jpg",
-        "livePoint": 338,
-        "lastLiveDate": "2020/10/28 22:17:10",
+        "livePoint": 350,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:17:10",
         "livePointStatus": {
@@ -1175,8 +1175,8 @@
             "19": 35,
             "20": 48,
             "21": 106,
-            "22": 75,
-            "23": 20
+            "22": 78,
+            "23": 29
         },
         "games": [],
         "collab": [
@@ -1188,8 +1188,8 @@
         "userName": "\u5922\u8ffd\u7fd4",
         "twitterId": "kakeru_yumeoi",
         "photo": "https://pbs.twimg.com/profile_images/1112737060060712961/LegVDDhS_400x400.png",
-        "livePoint": 878,
-        "lastLiveDate": "2020/10/25 00:00:27",
+        "livePoint": 886,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 00:00:27",
         "livePointStatus": {
@@ -1216,7 +1216,7 @@
             "20": 101,
             "21": 126,
             "22": 120,
-            "23": 114
+            "23": 122
         },
         "games": [
             {
@@ -1231,8 +1231,8 @@
         "userName": "\u30a8\u30af\u30b9\u30fb\u30a2\u30eb\u30d3\u30aa",
         "twitterId": "Ex_Albio",
         "photo": "https://pbs.twimg.com/profile_images/1182312611456544768/MhVQBTaV_400x400.png",
-        "livePoint": 513,
-        "lastLiveDate": "2020/10/27 10:57:43",
+        "livePoint": 525,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 10:57:43",
         "livePointStatus": {
@@ -1258,8 +1258,8 @@
             "19": 57,
             "20": 67,
             "21": 99,
-            "22": 85,
-            "23": 95
+            "22": 88,
+            "23": 104
         },
         "games": [
             {
@@ -1640,8 +1640,8 @@
         "userName": "\u9234\u8c37\u30a2\u30ad",
         "twitterId": "aki_suzuya",
         "photo": "https://pbs.twimg.com/profile_images/1245197191792054272/ObBulRDj_400x400.jpg",
-        "livePoint": 502,
-        "lastLiveDate": "2020/10/28 22:33:32",
+        "livePoint": 503,
+        "lastLiveDate": "2020/10/29 22:48:16",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:33:32",
         "livePointStatus": {
@@ -1667,7 +1667,7 @@
             "19": 0,
             "20": 0,
             "21": 162,
-            "22": 270,
+            "22": 271,
             "23": 38
         },
         "games": [
@@ -1687,8 +1687,8 @@
         "userName": "\u793e\u7bc9",
         "twitterId": "846kizuQ",
         "photo": "https://pbs.twimg.com/profile_images/1106218936364761089/Hxyuyvvl_400x400.png",
-        "livePoint": 743,
-        "lastLiveDate": "2020/10/26 02:17:50",
+        "livePoint": 755,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 02:17:50",
         "livePointStatus": {
@@ -1714,14 +1714,19 @@
             "19": 18,
             "20": 2,
             "21": 0,
-            "22": 163,
-            "23": 232
+            "22": 166,
+            "23": 241
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+            },
+            {
+                "product": "SEKIRO: SHADOWS DIE TWICE",
+                "url": "https://www.sekiro.jp/",
+                "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
             }
         ],
         "collab": []
@@ -1730,8 +1735,8 @@
         "userName": "\u7532\u6590\u7530\u6674",
         "twitterId": "Kaida_Haru",
         "photo": "https://pbs.twimg.com/profile_images/1291032768672014337/hmUzUGOy_400x400.jpg",
-        "livePoint": 2950,
-        "lastLiveDate": "2020/10/29 18:06:20",
+        "livePoint": 2962,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:06:20",
         "livePointStatus": {
@@ -1757,8 +1762,8 @@
             "19": 160,
             "20": 170,
             "21": 199,
-            "22": 248,
-            "23": 264
+            "22": 251,
+            "23": 273
         },
         "games": [
             {
@@ -2036,8 +2041,8 @@
         "userName": "\u3068\u304d\u306e\u305d\u3089",
         "twitterId": "tokino_sora",
         "photo": "https://pbs.twimg.com/profile_images/1296434665016844288/2RqmlpoD_400x400.jpg",
-        "livePoint": 485,
-        "lastLiveDate": "2020/10/28 20:47:48",
+        "livePoint": 500,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 20:47:48",
         "livePointStatus": {
@@ -2063,8 +2068,8 @@
             "19": 92,
             "20": 38,
             "21": 22,
-            "22": 76,
-            "23": 42
+            "22": 82,
+            "23": 51
         },
         "games": [
             {
@@ -2358,8 +2363,8 @@
         "userName": "\u690e\u540d\u552f\u83ef",
         "twitterId": "yuika_siina",
         "photo": "https://pbs.twimg.com/profile_images/1103620122642534400/JXcAJciE_normal.png",
-        "livePoint": 926,
-        "lastLiveDate": "2020/10/28 18:37:42",
+        "livePoint": 933,
+        "lastLiveDate": "2020/10/29 23:01:09",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 18:37:42",
         "livePointStatus": {
@@ -2385,8 +2390,8 @@
             "19": 135,
             "20": 139,
             "21": 135,
-            "22": 117,
-            "23": 72
+            "22": 123,
+            "23": 73
         },
         "games": [
             {
@@ -2689,8 +2694,8 @@
         "userName": "\u65e5\u30ce\u9688\u3089\u3093",
         "twitterId": "Ran_Hinokuma",
         "photo": "https://pbs.twimg.com/profile_images/1280316270542372864/h4dAdlWu_400x400.jpg",
-        "livePoint": 1112,
-        "lastLiveDate": "2020/10/29 15:23:13",
+        "livePoint": 1118,
+        "lastLiveDate": "2020/10/29 23:05:54",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 15:23:13",
         "livePointStatus": {
@@ -2716,8 +2721,8 @@
             "19": 52,
             "20": 78,
             "21": 102,
-            "22": 85,
-            "23": 61
+            "22": 88,
+            "23": 64
         },
         "games": [
             {
@@ -2802,8 +2807,8 @@
         "userName": "\u5b97\u8c37\u3044\u3061\u304b",
         "twitterId": "Ichika_Souya",
         "photo": "https://pbs.twimg.com/profile_images/1280119093090107392/_aL2-u1y_400x400.jpg",
-        "livePoint": 688,
-        "lastLiveDate": "2020/10/29 00:57:32",
+        "livePoint": 703,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:57:32",
         "livePointStatus": {
@@ -2829,8 +2834,8 @@
             "19": 9,
             "20": 64,
             "21": 115,
-            "22": 148,
-            "23": 78
+            "22": 154,
+            "23": 87
         },
         "games": [
             {
@@ -2899,8 +2904,8 @@
         "userName": "\u56e0\u5e61\u306f\u306d\u308b",
         "twitterId": "Haneru_Inaba",
         "photo": "https://pbs.twimg.com/profile_images/1280088427224944644/FoIdUsjX_400x400.jpg",
-        "livePoint": 904,
-        "lastLiveDate": "2020/10/29 14:14:12",
+        "livePoint": 913,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 14:14:12",
         "livePointStatus": {
@@ -2927,7 +2932,7 @@
             "20": 0,
             "21": 0,
             "22": 59,
-            "23": 401
+            "23": 410
         },
         "games": [
             {
@@ -3117,8 +3122,8 @@
         "userName": "\u674f\u6238\u3086\u3052",
         "twitterId": "Uge_And",
         "photo": "https://pbs.twimg.com/profile_images/1245188276111249413/7TBP3uWQ_400x400.jpg",
-        "livePoint": 1536,
-        "lastLiveDate": "2020/10/29 18:57:38",
+        "livePoint": 1548,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:57:38",
         "livePointStatus": {
@@ -3144,8 +3149,8 @@
             "19": 173,
             "20": 112,
             "21": 177,
-            "22": 169,
-            "23": 175
+            "22": 172,
+            "23": 184
         },
         "games": [
             {
@@ -3225,8 +3230,8 @@
         "userName": "\u845b\u8449",
         "twitterId": "Vamp_Kuzu",
         "photo": "https://pbs.twimg.com/profile_images/1135233496463491072/j61CdEPG_400x400.png",
-        "livePoint": 1772,
-        "lastLiveDate": "2020/10/28 23:24:08",
+        "livePoint": 1784,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:24:08",
         "livePointStatus": {
@@ -3252,8 +3257,8 @@
             "19": 64,
             "20": 91,
             "21": 149,
-            "22": 157,
-            "23": 156
+            "22": 160,
+            "23": 165
         },
         "games": [
             {
@@ -3272,8 +3277,8 @@
         "userName": "\u30a4\u30d6\u30e9\u30d2\u30e0",
         "twitterId": "honmono_ibrahim",
         "photo": "https://pbs.twimg.com/profile_images/1221692992613842945/Sjax9T-b_400x400.jpg",
-        "livePoint": 1615,
-        "lastLiveDate": "2020/10/27 22:10:01",
+        "livePoint": 1627,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 22:10:01",
         "livePointStatus": {
@@ -3299,8 +3304,8 @@
             "19": 146,
             "20": 135,
             "21": 113,
-            "22": 108,
-            "23": 160
+            "22": 111,
+            "23": 169
         },
         "games": [
             {
@@ -3323,8 +3328,8 @@
         "userName": "\u30d5\u30ec\u30f3\u30fbE\u30fb\u30eb\u30b9\u30bf\u30ea\u30aa",
         "twitterId": "furen_2434",
         "photo": "https://pbs.twimg.com/profile_images/1221774935967748096/7wfidZwx_400x400.jpg",
-        "livePoint": 625,
-        "lastLiveDate": "2020/10/27 14:18:01",
+        "livePoint": 634,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 14:18:01",
         "livePointStatus": {
@@ -3351,7 +3356,7 @@
             "20": 34,
             "21": 63,
             "22": 166,
-            "23": 144
+            "23": 153
         },
         "games": [
             {
@@ -3664,8 +3669,8 @@
         "userName": "\u30b8\u30e7\u30fc\u30fb\u529b\u4e00",
         "twitterId": "JoeRikiichi",
         "photo": "https://pbs.twimg.com/profile_images/1245583365446631427/OSGD1OCh_400x400.jpg",
-        "livePoint": 529,
-        "lastLiveDate": "2020/10/26 00:16:00",
+        "livePoint": 541,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 00:16:00",
         "livePointStatus": {
@@ -3691,8 +3696,8 @@
             "19": 0,
             "20": 0,
             "21": 18,
-            "22": 127,
-            "23": 101
+            "22": 130,
+            "23": 110
         },
         "games": [
             {
@@ -3972,8 +3977,8 @@
         "userName": "\u9df9\u5bae\u30ea\u30aa\u30f3",
         "twitterId": "TakamiyaRion",
         "photo": "https://pbs.twimg.com/profile_images/1282633505252368385/YLSgJw-C_400x400.jpg",
-        "livePoint": 1586,
-        "lastLiveDate": "2020/10/29 18:57:38",
+        "livePoint": 1589,
+        "lastLiveDate": "2020/10/29 22:58:52",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:57:38",
         "livePointStatus": {
@@ -3999,7 +4004,7 @@
             "19": 140,
             "20": 70,
             "21": 59,
-            "22": 110,
+            "22": 113,
             "23": 123
         },
         "games": [
@@ -4068,8 +4073,8 @@
         "userName": "\u865a\u7121",
         "twitterId": "kyomu_lwl",
         "photo": "https://pbs.twimg.com/profile_images/1272370536346038274/ozyTF1qH_400x400.jpg",
-        "livePoint": 2059,
-        "lastLiveDate": "2020/10/29 07:58:20",
+        "livePoint": 2067,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 07:58:20",
         "livePointStatus": {
@@ -4096,7 +4101,7 @@
             "20": 64,
             "21": 243,
             "22": 259,
-            "23": 201
+            "23": 209
         },
         "games": [
             {
@@ -4164,8 +4169,8 @@
         "userName": "\u6e4a\u3042\u304f\u3042",
         "twitterId": "minatoaqua",
         "photo": "https://pbs.twimg.com/profile_images/1243447833170067456/rG_KKOcw_400x400.jpg",
-        "livePoint": 974,
-        "lastLiveDate": "2020/10/28 20:52:27",
+        "livePoint": 982,
+        "lastLiveDate": "2020/10/29 23:10:41",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 20:52:27",
         "livePointStatus": {
@@ -4191,8 +4196,8 @@
             "19": 66,
             "20": 75,
             "21": 82,
-            "22": 92,
-            "23": 73
+            "22": 95,
+            "23": 78
         },
         "games": [
             {
@@ -4307,8 +4312,8 @@
         "userName": "\u5927\u7a7a\u30b9\u30d0\u30eb",
         "twitterId": "oozorasubaru",
         "photo": "https://pbs.twimg.com/profile_images/1254546497237954560/fKjCG683_400x400.jpg",
-        "livePoint": 1005,
-        "lastLiveDate": "2020/10/29 03:47:35",
+        "livePoint": 1012,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 03:47:35",
         "livePointStatus": {
@@ -4335,7 +4340,7 @@
             "20": 92,
             "21": 121,
             "22": 119,
-            "23": 93
+            "23": 100
         },
         "games": [
             {
@@ -4541,8 +4546,8 @@
         "userName": "\u82b1\u82bd\u3059\u307f\u308c",
         "twitterId": "sumire_kaga",
         "photo": "https://pbs.twimg.com/profile_images/1300698978636328960/gujgag2x_400x400.jpg",
-        "livePoint": 1032,
-        "lastLiveDate": "2020/10/29 02:55:09",
+        "livePoint": 1044,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 02:55:09",
         "livePointStatus": {
@@ -4568,8 +4573,8 @@
             "19": 54,
             "20": 40,
             "21": 116,
-            "22": 153,
-            "23": 102
+            "22": 156,
+            "23": 111
         },
         "games": [
             {
@@ -5283,8 +5288,8 @@
         "userName": "\u5929\u5ddd\u306f\u306e",
         "twitterId": "sb_hano_",
         "photo": "https://pbs.twimg.com/profile_images/1266750367259193345/B8cnLccy_400x400.jpg",
-        "livePoint": 1659,
-        "lastLiveDate": "2020/10/29 02:07:06",
+        "livePoint": 1675,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 02:07:06",
         "livePointStatus": {
@@ -5310,8 +5315,8 @@
             "19": 60,
             "20": 188,
             "21": 250,
-            "22": 211,
-            "23": 152
+            "22": 218,
+            "23": 161
         },
         "games": [
             {
@@ -5379,8 +5384,8 @@
         "userName": "\u516b\u91cd\u6ca2\u306a\u3068\u308a",
         "twitterId": "YaezawaNatori",
         "photo": "https://pbs.twimg.com/profile_images/1298704681338671105/0Gg0izYi_400x400.jpg",
-        "livePoint": 1943,
-        "lastLiveDate": "2020/10/28 18:15:59",
+        "livePoint": 1955,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 18:15:59",
         "livePointStatus": {
@@ -5406,8 +5411,8 @@
             "19": 18,
             "20": 5,
             "21": 125,
-            "22": 173,
-            "23": 135
+            "22": 176,
+            "23": 144
         },
         "games": [
             {
@@ -5699,11 +5704,11 @@
     "UC7fk0CB07ly8oSl0aqKkqFg": {
         "userName": "\u767e\u9b3c\u3042\u3084\u3081",
         "twitterId": "nakiriayame",
-        "photo": "https://pbs.twimg.com/profile_images/1309106366204784646/vZ03OH5p_400x400.jpg",
-        "livePoint": 84,
-        "lastLiveDate": "2020/10/27 22:40:36",
-        "iconUpdateCount": 1,
-        "lastIconUpdateDate": "2020/10/27 22:40:36",
+        "photo": "https://pbs.twimg.com/profile_images/1320678242286669824/DWAqtMtp_400x400.jpg",
+        "livePoint": 92,
+        "lastLiveDate": "2020/10/29 23:20:02",
+        "iconUpdateCount": 2,
+        "lastIconUpdateDate": "2020/10/29 23:03:29",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -5728,9 +5733,15 @@
             "20": 34,
             "21": 21,
             "22": 18,
-            "23": 0
+            "23": 8
         },
-        "games": [],
+        "games": [
+            {
+                "product": "Among Us",
+                "url": "https://store.steampowered.com/app/945360/Among_Us/",
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+            }
+        ],
         "collab": [
             "UCdn5BQ06XqgXoAxIhbqw5Rg",
             "UCqm3BQLlJfvkTsX_hvm0UmA",
@@ -5741,8 +5752,8 @@
         "userName": "\u30af\u30ec\u30a2",
         "twitterId": "Claire_sensei",
         "photo": "https://pbs.twimg.com/profile_images/1270619144321265664/4O8TqvP2_400x400.jpg",
-        "livePoint": 367,
-        "lastLiveDate": "2020/10/28 22:00:37",
+        "livePoint": 377,
+        "lastLiveDate": "2020/10/29 23:15:22",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:00:37",
         "livePointStatus": {
@@ -5768,8 +5779,8 @@
             "19": 0,
             "20": 95,
             "21": 118,
-            "22": 71,
-            "23": 43
+            "22": 74,
+            "23": 50
         },
         "games": [
             {
@@ -5789,8 +5800,8 @@
         "userName": "\u3055\u304f\u3089\u307f\u3053",
         "twitterId": "sakuramiko35",
         "photo": "https://pbs.twimg.com/profile_images/1299122355449462785/WV45jldW_400x400.jpg",
-        "livePoint": 631,
-        "lastLiveDate": "2020/10/29 02:57:26",
+        "livePoint": 643,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 02:57:26",
         "livePointStatus": {
@@ -5816,8 +5827,8 @@
             "19": 26,
             "20": 59,
             "21": 62,
-            "22": 70,
-            "23": 95
+            "22": 73,
+            "23": 104
         },
         "games": [
             {
@@ -6099,8 +6110,8 @@
         "userName": "\u4e38\u9905\u3064\u304d\u307f",
         "twitterId": "tukimi_marumoti",
         "photo": "https://pbs.twimg.com/profile_images/1318158345958686725/_EkkP7xl_400x400.jpg",
-        "livePoint": 522,
-        "lastLiveDate": "2020/10/28 22:59:45",
+        "livePoint": 528,
+        "lastLiveDate": "2020/10/29 23:05:54",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/10/28 22:59:45",
         "livePointStatus": {
@@ -6126,8 +6137,8 @@
             "19": 0,
             "20": 37,
             "21": 55,
-            "22": 258,
-            "23": 141
+            "22": 261,
+            "23": 144
         },
         "games": [
             {
@@ -6233,8 +6244,8 @@
         "userName": "\u5468\u9632\u30d1\u30c8\u30e9",
         "twitterId": "Patra_HNST",
         "photo": "https://pbs.twimg.com/profile_images/1245259097500315648/uYUfxwd1_400x400.jpg",
-        "livePoint": 1114,
-        "lastLiveDate": "2020/10/28 22:48:03",
+        "livePoint": 1129,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:48:03",
         "livePointStatus": {
@@ -6260,8 +6271,8 @@
             "19": 12,
             "20": 26,
             "21": 57,
-            "22": 228,
-            "23": 112
+            "22": 234,
+            "23": 121
         },
         "games": [
             {
@@ -6284,8 +6295,8 @@
         "userName": "\u9759\u51db",
         "twitterId": "ShizuRin23",
         "photo": "https://pbs.twimg.com/profile_images/1215336969485475840/qP5HHU1O_400x400.png",
-        "livePoint": 1176,
-        "lastLiveDate": "2020/10/29 14:14:13",
+        "livePoint": 1188,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 14:14:13",
         "livePointStatus": {
@@ -6311,8 +6322,8 @@
             "19": 66,
             "20": 74,
             "21": 60,
-            "22": 67,
-            "23": 58
+            "22": 70,
+            "23": 67
         },
         "games": [],
         "collab": []
@@ -6451,8 +6462,8 @@
         "userName": "\u767d\u9280\u30ce\u30a8\u30eb",
         "twitterId": "shiroganenoel",
         "photo": "https://pbs.twimg.com/profile_images/1278938124798685184/s37P02yT_400x400.jpg",
-        "livePoint": 1480,
-        "lastLiveDate": "2020/10/27 23:49:49",
+        "livePoint": 1494,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:49:49",
         "livePointStatus": {
@@ -6478,8 +6489,8 @@
             "19": 60,
             "20": 55,
             "21": 10,
-            "22": 63,
-            "23": 96
+            "22": 68,
+            "23": 105
         },
         "games": [
             {
@@ -6762,8 +6773,8 @@
         "userName": "\u30e9\u30c8\u30ca\u30fb\u30d7\u30c6\u30a3",
         "twitterId": "ratna_petit",
         "photo": "https://pbs.twimg.com/profile_images/1292065470846132224/wA-MxLWc_400x400.jpg",
-        "livePoint": 1356,
-        "lastLiveDate": "2020/10/29 00:06:23",
+        "livePoint": 1362,
+        "lastLiveDate": "2020/10/29 23:05:56",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:06:23",
         "livePointStatus": {
@@ -6789,8 +6800,8 @@
             "19": 11,
             "20": 15,
             "21": 26,
-            "22": 42,
-            "23": 32
+            "22": 45,
+            "23": 35
         },
         "games": [
             {
@@ -6851,8 +6862,8 @@
         "userName": "\u5b87\u5fd7\u6d77\u3044\u3061\u3054",
         "twitterId": "ushimi_ichigo",
         "photo": "https://pbs.twimg.com/profile_images/1139817243879997445/zpQsnX2L_400x400.jpg",
-        "livePoint": 439,
-        "lastLiveDate": "2020/10/28 00:20:39",
+        "livePoint": 451,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 00:20:39",
         "livePointStatus": {
@@ -6878,8 +6889,8 @@
             "19": 21,
             "20": 43,
             "21": 43,
-            "22": 86,
-            "23": 78
+            "22": 89,
+            "23": 87
         },
         "games": [
             {
@@ -7134,7 +7145,7 @@
     },
     "UCDV9mM4WipWnra80J508pqg": {
         "userName": "\u864e",
-        "twitterId": "tora_busokanojo",
+        "twitterId": "t0ra_VT",
         "photo": "https://pbs.twimg.com/profile_images/1303354000272584705/nRZaaFop_400x400.jpg",
         "livePoint": 1311,
         "lastLiveDate": "2020/10/28 23:52:11",
@@ -7199,8 +7210,8 @@
         "userName": "\u702c\u6238\u7f8e\u591c\u5b50",
         "twitterId": "seto_miyako",
         "photo": "https://pbs.twimg.com/profile_images/1293462043291348992/7fx91G3x_400x400.jpg",
-        "livePoint": 1140,
-        "lastLiveDate": "2020/10/29 03:02:00",
+        "livePoint": 1142,
+        "lastLiveDate": "2020/10/29 22:55:38",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 03:02:00",
         "livePointStatus": {
@@ -7226,7 +7237,7 @@
             "19": 18,
             "20": 19,
             "21": 3,
-            "22": 21,
+            "22": 23,
             "23": 73
         },
         "games": [
@@ -7279,8 +7290,8 @@
         "userName": "\u5317\u5c0f\u8def\u30d2\u30b9\u30a4",
         "twitterId": "Hisui_Kitakoji",
         "photo": "https://pbs.twimg.com/profile_images/1290199176479793152/qD-M2jLi_400x400.jpg",
-        "livePoint": 1116,
-        "lastLiveDate": "2020/10/28 00:13:41",
+        "livePoint": 1128,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 00:13:41",
         "livePointStatus": {
@@ -7306,8 +7317,8 @@
             "19": 15,
             "20": 35,
             "21": 55,
-            "22": 116,
-            "23": 194
+            "22": 119,
+            "23": 203
         },
         "games": [
             {
@@ -7322,8 +7333,8 @@
         "userName": "\u5468\u592e\u30b5\u30f3\u30b4",
         "twitterId": "Suo_Sango",
         "photo": "https://pbs.twimg.com/profile_images/1290578128809504774/RRCWQb3e_400x400.jpg",
-        "livePoint": 836,
-        "lastLiveDate": "2020/10/29 01:34:49",
+        "livePoint": 844,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:34:49",
         "livePointStatus": {
@@ -7350,7 +7361,7 @@
             "20": 18,
             "21": 34,
             "22": 45,
-            "23": 208
+            "23": 216
         },
         "games": [],
         "collab": []
@@ -7404,8 +7415,8 @@
         "userName": "\u59eb\u718a\u308a\u307c\u3093",
         "twitterId": "sb_ribon_",
         "photo": "https://pbs.twimg.com/profile_images/1305153526167822336/OQl1WsL4_400x400.jpg",
-        "livePoint": 1526,
-        "lastLiveDate": "2020/10/29 00:20:26",
+        "livePoint": 1538,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:20:26",
         "livePointStatus": {
@@ -7431,8 +7442,8 @@
             "19": 9,
             "20": 71,
             "21": 228,
-            "22": 307,
-            "23": 284
+            "22": 310,
+            "23": 293
         },
         "games": [
             {
@@ -7499,8 +7510,8 @@
         "userName": "\u6771\u5802\u30b3\u30cf\u30af",
         "twitterId": "kohaku_todo",
         "photo": "https://pbs.twimg.com/profile_images/1309085018317377538/qrb3ENox_400x400.jpg",
-        "livePoint": 905,
-        "lastLiveDate": "2020/10/27 02:20:48",
+        "livePoint": 922,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 02:20:48",
         "livePointStatus": {
@@ -7526,8 +7537,8 @@
             "19": 0,
             "20": 23,
             "21": 53,
-            "22": 102,
-            "23": 135
+            "22": 110,
+            "23": 144
         },
         "games": [
             {
@@ -7547,8 +7558,8 @@
         "userName": "\u732b\u53c8\u304a\u304b\u3086",
         "twitterId": "nekomataokayu",
         "photo": "https://pbs.twimg.com/profile_images/1297876086827622401/tQdC4OYD_400x400.jpg",
-        "livePoint": 782,
-        "lastLiveDate": "2020/10/29 00:50:39",
+        "livePoint": 794,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:50:39",
         "livePointStatus": {
@@ -7574,8 +7585,8 @@
             "19": 36,
             "20": 82,
             "21": 86,
-            "22": 160,
-            "23": 167
+            "22": 163,
+            "23": 176
         },
         "games": [
             {
@@ -7643,8 +7654,8 @@
         "userName": "\u30d0\u30fc\u30c1\u30e3\u30eb\u304a\u3070\u3042\u3061\u3083\u3093",
         "twitterId": "virtual_obachan",
         "photo": "https://pbs.twimg.com/profile_images/957656796793004038/gT4MsWaE_400x400.jpg",
-        "livePoint": 315,
-        "lastLiveDate": "2020/10/27 23:49:49",
+        "livePoint": 327,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:49:49",
         "livePointStatus": {
@@ -7670,8 +7681,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 145,
-            "23": 111
+            "22": 148,
+            "23": 120
         },
         "games": [
             {
@@ -7686,8 +7697,8 @@
         "userName": "\u5982\u6708\u3053\u3088\u308a",
         "twitterId": "kisaragikoyori",
         "photo": "https://pbs.twimg.com/profile_images/1258695614025498624/n00Xb2zC_400x400.jpg",
-        "livePoint": 202,
-        "lastLiveDate": "2020/10/27 23:32:49",
+        "livePoint": 217,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:32:49",
         "livePointStatus": {
@@ -7713,8 +7724,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 74,
-            "23": 45
+            "22": 80,
+            "23": 54
         },
         "games": [
             {
@@ -7729,8 +7740,8 @@
         "userName": "\u4f0f\u898b\u30ac\u30af",
         "twitterId": "gaku_fushimi",
         "photo": "https://pbs.twimg.com/profile_images/1301107291710582785/D-mkCn17_400x400.jpg",
-        "livePoint": 450,
-        "lastLiveDate": "2020/10/25 02:39:44",
+        "livePoint": 454,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 02:39:44",
         "livePointStatus": {
@@ -7757,7 +7768,7 @@
             "20": 0,
             "21": 37,
             "22": 30,
-            "23": 98
+            "23": 102
         },
         "games": [
             {
@@ -7772,8 +7783,8 @@
         "userName": "\u685c\u6a39\u307f\u308a\u3042",
         "twitterId": "Miria_Sakuragi_",
         "photo": "https://pbs.twimg.com/profile_images/1305719391292542976/YnUPqk19_400x400.jpg",
-        "livePoint": 768,
-        "lastLiveDate": "2020/10/29 00:43:41",
+        "livePoint": 777,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:43:41",
         "livePointStatus": {
@@ -7800,7 +7811,7 @@
             "20": 66,
             "21": 23,
             "22": 101,
-            "23": 164
+            "23": 173
         },
         "games": [
             {
@@ -7827,8 +7838,8 @@
         "userName": "\u5929\u30ce\u96eb",
         "twitterId": "shizukuamano1",
         "photo": "https://pbs.twimg.com/profile_images/1277565851198083072/AjMZ4W-N_400x400.jpg",
-        "livePoint": 948,
-        "lastLiveDate": "2020/10/29 00:22:44",
+        "livePoint": 954,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:22:44",
         "livePointStatus": {
@@ -7855,7 +7866,7 @@
             "20": 0,
             "21": 0,
             "22": 217,
-            "23": 325
+            "23": 331
         },
         "games": [
             {
@@ -7920,8 +7931,8 @@
         "userName": "\u51fa\u96f2\u971e",
         "twitterId": "ikasumi_zzz",
         "photo": "https://pbs.twimg.com/profile_images/1293206394565308416/TPfZmlkF_400x400.jpg",
-        "livePoint": 927,
-        "lastLiveDate": "2020/10/28 19:00:39",
+        "livePoint": 939,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 19:00:39",
         "livePointStatus": {
@@ -7947,8 +7958,8 @@
             "19": 69,
             "20": 60,
             "21": 55,
-            "22": 76,
-            "23": 74
+            "22": 79,
+            "23": 83
         },
         "games": [
             {
@@ -7963,8 +7974,8 @@
         "userName": "\u671d\u65e5\u5357\u30a2\u30ab\u30cd",
         "twitterId": "akane_asahina__",
         "photo": "https://pbs.twimg.com/profile_images/1290268017922777090/nCkWOfWx_400x400.jpg",
-        "livePoint": 730,
-        "lastLiveDate": "2020/10/29 00:32:04",
+        "livePoint": 745,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:32:04",
         "livePointStatus": {
@@ -7990,8 +8001,8 @@
             "19": 11,
             "20": 0,
             "21": 18,
-            "22": 178,
-            "23": 178
+            "22": 184,
+            "23": 187
         },
         "games": [
             {
@@ -8602,8 +8613,8 @@
         "userName": "\u795e\u91ce\u305f\u306d",
         "twitterId": "kamino_tane",
         "photo": "https://pbs.twimg.com/profile_images/1154681335434190849/xBhRdKwP_400x400.jpg",
-        "livePoint": 307,
-        "lastLiveDate": "2020/10/28 22:07:48",
+        "livePoint": 316,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:07:48",
         "livePointStatus": {
@@ -8630,7 +8641,7 @@
             "20": 36,
             "21": 70,
             "22": 30,
-            "23": 60
+            "23": 69
         },
         "games": [
             {
@@ -8696,8 +8707,8 @@
         "userName": "\u6a0b\u53e3\u6953",
         "twitterId": "Higuchikaede",
         "photo": "https://pbs.twimg.com/profile_images/1245347412618530817/wstJZLpO_400x400.jpg",
-        "livePoint": 596,
-        "lastLiveDate": "2020/10/25 15:21:06",
+        "livePoint": 602,
+        "lastLiveDate": "2020/10/29 23:05:56",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 15:21:06",
         "livePointStatus": {
@@ -8723,8 +8734,8 @@
             "19": 46,
             "20": 94,
             "21": 115,
-            "22": 121,
-            "23": 77
+            "22": 124,
+            "23": 80
         },
         "games": [
             {
@@ -8820,8 +8831,8 @@
         "userName": "\u897f\u5712\u30c1\u30b0\u30b5",
         "twitterId": "Chigusa_24zono",
         "photo": "https://pbs.twimg.com/profile_images/1294537417119035392/hKDTw3Ak_400x400.jpg",
-        "livePoint": 1457,
-        "lastLiveDate": "2020/10/29 00:08:44",
+        "livePoint": 1469,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:08:44",
         "livePointStatus": {
@@ -8847,8 +8858,8 @@
             "19": 64,
             "20": 96,
             "21": 188,
-            "22": 177,
-            "23": 130
+            "22": 180,
+            "23": 139
         },
         "games": [
             {
@@ -8877,8 +8888,8 @@
         "userName": "\u30e4\u30de\u30c8\u30a4\u30aa\u30ea",
         "twitterId": "YamatoIori",
         "photo": "https://pbs.twimg.com/profile_images/1216990334644715520/yPGzV4AX_400x400.jpg",
-        "livePoint": 160,
-        "lastLiveDate": "2020/10/22 01:56:20",
+        "livePoint": 172,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/22 01:56:20",
         "livePointStatus": {
@@ -8904,8 +8915,8 @@
             "19": 35,
             "20": 18,
             "21": 22,
-            "22": 1,
-            "23": 1
+            "22": 4,
+            "23": 10
         },
         "games": [],
         "collab": []
@@ -9156,8 +9167,8 @@
         "userName": "\u732b\u3005",
         "twitterId": "maomao_mew",
         "photo": "https://pbs.twimg.com/profile_images/1321360266898984961/lesTY3DY_400x400.png",
-        "livePoint": 685,
-        "lastLiveDate": "2020/10/28 23:19:28",
+        "livePoint": 696,
+        "lastLiveDate": "2020/10/29 23:10:40",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/10/28 23:19:28",
         "livePointStatus": {
@@ -9183,8 +9194,8 @@
             "19": 3,
             "20": 49,
             "21": 189,
-            "22": 211,
-            "23": 91
+            "22": 217,
+            "23": 96
         },
         "games": [
             {
@@ -9536,8 +9547,8 @@
         "userName": "\u661f\u4e43\u3081\u3050\u308a",
         "twitterId": "hoshi_no_meguri",
         "photo": "https://pbs.twimg.com/profile_images/1319276791178035212/kr0aAQ7V_400x400.jpg",
-        "livePoint": 502,
-        "lastLiveDate": "2020/10/27 22:59:35",
+        "livePoint": 514,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/27 22:59:35",
         "livePointStatus": {
@@ -9563,8 +9574,8 @@
             "19": 17,
             "20": 38,
             "21": 128,
-            "22": 125,
-            "23": 65
+            "22": 128,
+            "23": 74
         },
         "games": [
             {
@@ -9579,8 +9590,8 @@
         "userName": "Ayunda Risu",
         "twitterId": "ayunda_risu",
         "photo": "https://pbs.twimg.com/profile_images/1277196020300910593/2B4ZPceR_400x400.jpg",
-        "livePoint": 352,
-        "lastLiveDate": "2020/10/28 22:05:21",
+        "livePoint": 361,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:05:21",
         "livePointStatus": {
@@ -9607,7 +9618,7 @@
             "20": 61,
             "21": 65,
             "22": 90,
-            "23": 55
+            "23": 64
         },
         "games": [
             {
@@ -9717,8 +9728,8 @@
         "userName": "\u7345\u5802\u30ea\u30aa",
         "twitterId": "ShidoLio",
         "photo": "https://pbs.twimg.com/profile_images/1289580653424422912/CEB8vlvs_400x400.jpg",
-        "livePoint": 1216,
-        "lastLiveDate": "2020/10/29 00:36:44",
+        "livePoint": 1228,
+        "lastLiveDate": "2020/10/29 23:20:07",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:36:44",
         "livePointStatus": {
@@ -9744,8 +9755,8 @@
             "19": 0,
             "20": 18,
             "21": 202,
-            "22": 257,
-            "23": 206
+            "22": 260,
+            "23": 215
         },
         "games": [
             {
@@ -9957,8 +9968,8 @@
         "userName": "\u5922\u54b2\u6953",
         "twitterId": "Kaede_Yumesaki_",
         "photo": "https://pbs.twimg.com/profile_images/1305719583316144128/rkOi7T9e_400x400.jpg",
-        "livePoint": 528,
-        "lastLiveDate": "2020/10/27 23:47:31",
+        "livePoint": 542,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:47:31",
         "livePointStatus": {
@@ -9984,8 +9995,8 @@
             "19": 0,
             "20": 49,
             "21": 218,
-            "22": 170,
-            "23": 36
+            "22": 175,
+            "23": 45
         },
         "games": [
             {
@@ -10005,8 +10016,8 @@
         "userName": "\u767d\u96ea\u30ec\u30a4\u30c9",
         "twitterId": "Shirayuki_Reid",
         "photo": "https://pbs.twimg.com/profile_images/1244729872506736640/7mTMCtEj_400x400.jpg",
-        "livePoint": 2719,
-        "lastLiveDate": "2020/10/29 15:48:18",
+        "livePoint": 2731,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 15:48:18",
         "livePointStatus": {
@@ -10032,8 +10043,8 @@
             "19": 186,
             "20": 218,
             "21": 237,
-            "22": 217,
-            "23": 168
+            "22": 220,
+            "23": 177
         },
         "games": [
             {
@@ -10278,8 +10289,8 @@
         "userName": "\u840c\u5b9f",
         "twitterId": "Moemi_Yomeno",
         "photo": "https://pbs.twimg.com/profile_images/1023568865190535169/BLnv0IiX_400x400.jpg",
-        "livePoint": 98,
-        "lastLiveDate": "2020/10/22 23:08:17",
+        "livePoint": 115,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/22 23:08:17",
         "livePointStatus": {
@@ -10305,63 +10316,10 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 61,
-            "23": 32
+            "22": 69,
+            "23": 41
         },
         "games": [],
-        "collab": []
-    },
-    "UC7yqc24BjJwi3PoqhXrx6og": {
-        "userName": "\u307f\u3042\u305f\u307f\u3061\u3083\u3093\u306d\u308b",
-        "twitterId": "",
-        "photo": "https://yt3.ggpht.com/a/AATXAJxKc_6ty6aZG7Sa2zyFVZUUqb9YDXSIES1ZJXJIKA=s88-c-k-c0x00ffffff-no-rj",
-        "livePoint": 769,
-        "lastLiveDate": "2020/10/27 23:16:04",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/27 23:16:04",
-        "livePointStatus": {
-            "00": 21,
-            "01": 0,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 36,
-            "14": 27,
-            "15": 2,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 19,
-            "21": 184,
-            "22": 319,
-            "23": 161
-        },
-        "games": [
-            {
-                "product": "Minecraft",
-                "url": "https://www.minecraft.net/ja-jp",
-                "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
-            },
-            {
-                "product": "Fall Guys",
-                "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
-                "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
-            },
-            {
-                "product": "Among Us",
-                "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
-            }
-        ],
         "collab": []
     },
     "UCr5uF2C1kEvDFr1ZBdV9nuA": {
@@ -10485,8 +10443,8 @@
         "userName": "\u68b1\u679d\u308a\u3053",
         "twitterId": "riko0202",
         "photo": "https://pbs.twimg.com/profile_images/1294672793406070784/UMcjbgnp_400x400.jpg",
-        "livePoint": 400,
-        "lastLiveDate": "2020/10/25 01:26:18",
+        "livePoint": 415,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 01:26:18",
         "livePointStatus": {
@@ -10512,8 +10470,8 @@
             "19": 0,
             "20": 0,
             "21": 9,
-            "22": 163,
-            "23": 131
+            "22": 169,
+            "23": 140
         },
         "games": [
             {
@@ -10533,8 +10491,8 @@
         "userName": "\u30df\u30fc\u30b4",
         "twitterId": "Cutoluruhu_migo",
         "photo": "https://pbs.twimg.com/profile_images/1135796647525376000/LgKnbTrg_400x400.png",
-        "livePoint": 1083,
-        "lastLiveDate": "2020/10/28 20:45:28",
+        "livePoint": 1095,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 20:45:28",
         "livePointStatus": {
@@ -10560,8 +10518,8 @@
             "19": 49,
             "20": 54,
             "21": 88,
-            "22": 83,
-            "23": 127
+            "22": 86,
+            "23": 136
         },
         "games": [],
         "collab": []
@@ -10570,8 +10528,8 @@
         "userName": "Hana Macchia",
         "twitterId": "Hana_Macchia",
         "photo": "https://pbs.twimg.com/profile_images/1305120797850128384/GrpnCDUv_400x400.jpg",
-        "livePoint": 1122,
-        "lastLiveDate": "2020/10/26 21:04:04",
+        "livePoint": 1139,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 21:04:04",
         "livePointStatus": {
@@ -10597,8 +10555,8 @@
             "19": 50,
             "20": 47,
             "21": 11,
-            "22": 85,
-            "23": 119
+            "22": 93,
+            "23": 128
         },
         "games": [
             {
@@ -10750,8 +10708,8 @@
         "userName": "\u5929\u91ce\u30d4\u30ab\u30df\u30a3",
         "twitterId": "amanopikamee",
         "photo": "https://pbs.twimg.com/profile_images/1315188705473122304/7mnT7mtC_400x400.jpg",
-        "livePoint": 1279,
-        "lastLiveDate": "2020/10/29 18:57:39",
+        "livePoint": 1293,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/10/29 18:57:39",
         "livePointStatus": {
@@ -10777,8 +10735,8 @@
             "19": 11,
             "20": 17,
             "21": 86,
-            "22": 155,
-            "23": 140
+            "22": 160,
+            "23": 149
         },
         "games": [
             {
@@ -10800,8 +10758,8 @@
         "userName": "Airani Iofifteen",
         "twitterId": "airaniiofifteen",
         "photo": "https://pbs.twimg.com/profile_images/1295169795499765760/IcQHDTD8_400x400.jpg",
-        "livePoint": 760,
-        "lastLiveDate": "2020/10/28 23:35:50",
+        "livePoint": 768,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:35:50",
         "livePointStatus": {
@@ -10828,7 +10786,7 @@
             "20": 0,
             "21": 62,
             "22": 188,
-            "23": 165
+            "23": 173
         },
         "games": [
             {
@@ -10848,8 +10806,8 @@
         "userName": "\u4eee\u60f3\u5a18\u3074\u307e",
         "twitterId": "pima_vtuber",
         "photo": "https://pbs.twimg.com/profile_images/1267099430508834818/Uag_1G-X_400x400.jpg",
-        "livePoint": 120,
-        "lastLiveDate": "2020/10/22 23:18:17",
+        "livePoint": 132,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/22 23:18:17",
         "livePointStatus": {
@@ -10875,8 +10833,8 @@
             "19": 0,
             "20": 0,
             "21": 54,
-            "22": 53,
-            "23": 7
+            "22": 56,
+            "23": 16
         },
         "games": [],
         "collab": []
@@ -11234,16 +11192,16 @@
         "collab": []
     },
     "UCFpxoltilHCmuHWeERqsUlA": {
-        "userName": "\u693f\u3044\u308d\u306f",
+        "userName": "\u693f\u9b3c\u3044\u308d\u306f",
         "twitterId": "iroha_Vt",
         "photo": "https://pbs.twimg.com/profile_images/1305338435930959873/uaQNdjPt_400x400.jpg",
-        "livePoint": 58,
-        "lastLiveDate": "2020/10/02 01:08:40",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:17",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/02 01:08:40",
+        "lastIconUpdateDate": "2020/10/29 22:28:17",
         "livePointStatus": {
-            "00": 23,
-            "01": 3,
+            "00": 0,
+            "01": 0,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -11364,8 +11322,8 @@
         "userName": "\u732b\u8292\u30d9\u30eb",
         "twitterId": "Bell_Nekonogi",
         "photo": "https://pbs.twimg.com/profile_images/1300708675003138050/tJhC057I_400x400.jpg",
-        "livePoint": 1776,
-        "lastLiveDate": "2020/10/29 18:20:04",
+        "livePoint": 1788,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:20:04",
         "livePointStatus": {
@@ -11391,8 +11349,8 @@
             "19": 0,
             "20": 90,
             "21": 213,
-            "22": 9,
-            "23": 205
+            "22": 12,
+            "23": 214
         },
         "games": [
             {
@@ -11455,8 +11413,8 @@
         "userName": "\u514e\u97a0\u307e\u308a",
         "twitterId": "tomari_mari",
         "photo": "https://pbs.twimg.com/profile_images/1317127953495412736/LD_yDt9b_400x400.jpg",
-        "livePoint": 930,
-        "lastLiveDate": "2020/10/28 23:42:50",
+        "livePoint": 939,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/28 23:42:50",
         "livePointStatus": {
@@ -11483,7 +11441,7 @@
             "20": 182,
             "21": 182,
             "22": 210,
-            "23": 129
+            "23": 138
         },
         "games": [
             {
@@ -11740,8 +11698,8 @@
         "userName": "\u8aad\u8c37\u5c71\u6587\u4e43",
         "twitterId": "HuminoYomiyama",
         "photo": "https://pbs.twimg.com/profile_images/1315588941362327553/04jO3ZI0_400x400.jpg",
-        "livePoint": 967,
-        "lastLiveDate": "2020/10/29 00:25:05",
+        "livePoint": 979,
+        "lastLiveDate": "2020/10/29 23:08:14",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/29 00:25:05",
         "livePointStatus": {
@@ -11767,10 +11725,16 @@
             "19": 67,
             "20": 76,
             "21": 31,
-            "22": 155,
-            "23": 296
+            "22": 163,
+            "23": 300
         },
-        "games": [],
+        "games": [
+            {
+                "product": "SEKIRO: SHADOWS DIE TWICE",
+                "url": "https://www.sekiro.jp/",
+                "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
+            }
+        ],
         "collab": []
     },
     "UC3iwL9Yz8LcKkJsnLPevOTQ": {
@@ -11814,8 +11778,8 @@
         "userName": "\u6b4c\u8863\u30e1\u30a4\u30ab",
         "twitterId": "meikahaotoko",
         "photo": "https://pbs.twimg.com/profile_images/1318889402974662660/UnoE8FpE_400x400.jpg",
-        "livePoint": 1529,
-        "lastLiveDate": "2020/10/28 00:22:56",
+        "livePoint": 1543,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/28 00:22:56",
         "livePointStatus": {
@@ -11841,8 +11805,8 @@
             "19": 61,
             "20": 77,
             "21": 118,
-            "22": 298,
-            "23": 302
+            "22": 303,
+            "23": 311
         },
         "games": [
             {
@@ -11955,8 +11919,8 @@
         "userName": "\u5996\u72f8\u308b\u308b\u304b",
         "twitterId": "youriruruca",
         "photo": "https://pbs.twimg.com/profile_images/1282194823806517249/2KAKzVAC_400x400.jpg",
-        "livePoint": 614,
-        "lastLiveDate": "2020/10/28 21:56:00",
+        "livePoint": 626,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 21:56:00",
         "livePointStatus": {
@@ -11982,8 +11946,8 @@
             "19": 86,
             "20": 82,
             "21": 58,
-            "22": 20,
-            "23": 32
+            "22": 23,
+            "23": 41
         },
         "games": [],
         "collab": []
@@ -11992,8 +11956,8 @@
         "userName": "\u5929\u66f0\u3072\u3088",
         "twitterId": "amaihiyo",
         "photo": "https://pbs.twimg.com/profile_images/1319228436208967682/pvcYCshv_400x400.jpg",
-        "livePoint": 808,
-        "lastLiveDate": "2020/10/26 23:34:57",
+        "livePoint": 818,
+        "lastLiveDate": "2020/10/29 23:08:15",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/26 23:34:57",
         "livePointStatus": {
@@ -12019,8 +11983,8 @@
             "19": 0,
             "20": 18,
             "21": 35,
-            "22": 298,
-            "23": 139
+            "22": 304,
+            "23": 143
         },
         "games": [
             {
@@ -12035,8 +11999,8 @@
         "userName": "\u304d\u305f\u3053\u3057",
         "twitterId": "kitakoshi3",
         "photo": "https://pbs.twimg.com/profile_images/1176113589939126272/mIUU6DPq_400x400.jpg",
-        "livePoint": 643,
-        "lastLiveDate": "2020/10/27 23:35:53",
+        "livePoint": 655,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:35:53",
         "livePointStatus": {
@@ -12062,8 +12026,8 @@
             "19": 0,
             "20": 0,
             "21": 85,
-            "22": 188,
-            "23": 163
+            "22": 191,
+            "23": 172
         },
         "games": [],
         "collab": []
@@ -12115,8 +12079,8 @@
         "userName": "\u9e7f\u4e43",
         "twitterId": "kano_san_",
         "photo": "https://pbs.twimg.com/profile_images/1249741877563150336/h7VdXmCt_400x400.jpg",
-        "livePoint": 1678,
-        "lastLiveDate": "2020/10/29 01:18:40",
+        "livePoint": 1687,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:18:40",
         "livePointStatus": {
@@ -12143,7 +12107,7 @@
             "20": 0,
             "21": 8,
             "22": 68,
-            "23": 433
+            "23": 442
         },
         "games": [
             {
@@ -12161,55 +12125,12 @@
             "UCfuz6xYbYFGsWWBi3SpJI1w"
         ]
     },
-    "UC5Dd_fXQVPlejsurwzkwY1w": {
-        "userName": "\u3042\u3055\u3088\u308b\u63a2\u5075\u4e8b\u52d9\u6240",
-        "twitterId": "",
-        "photo": "https://yt3.ggpht.com/a/AATXAJzLUAQdsUbc50TNfW6BNa3hv7l6uVd8hW9apPdH=s88-c-k-c0x00ffffff-no-rj",
-        "livePoint": 236,
-        "lastLiveDate": "2020/10/24 04:36:10",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/24 04:36:10",
-        "livePointStatus": {
-            "00": 15,
-            "01": 10,
-            "02": 25,
-            "03": 27,
-            "04": 16,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 17,
-            "14": 37,
-            "15": 32,
-            "16": 1,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 15,
-            "22": 23,
-            "23": 18
-        },
-        "games": [
-            {
-                "product": "Apex Legends\u2122",
-                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
-            }
-        ],
-        "collab": []
-    },
     "UCG3skuXg5pGe_JJ-vm2L6VA": {
         "userName": "\u732b\u4e43\u30df\u30b3\u30c8",
         "twitterId": "nekono_mikoto",
         "photo": "https://pbs.twimg.com/profile_images/1277668538828742656/wwtR0UMn_400x400.jpg",
-        "livePoint": 1604,
-        "lastLiveDate": "2020/10/29 18:57:38",
+        "livePoint": 1613,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:57:38",
         "livePointStatus": {
@@ -12236,7 +12157,7 @@
             "20": 0,
             "21": 0,
             "22": 56,
-            "23": 472
+            "23": 481
         },
         "games": [
             {
@@ -12390,8 +12311,8 @@
         "userName": "\u3055\u3068\u3046\u306a\u3080",
         "twitterId": "_310_76_",
         "photo": "https://pbs.twimg.com/profile_images/1298248725081370625/DaMmhPte_400x400.jpg",
-        "livePoint": 228,
-        "lastLiveDate": "2020/10/26 23:23:12",
+        "livePoint": 242,
+        "lastLiveDate": "2020/10/29 23:17:43",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 23:23:12",
         "livePointStatus": {
@@ -12417,8 +12338,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 8,
-            "23": 180
+            "22": 14,
+            "23": 188
         },
         "games": [
             {
@@ -12438,8 +12359,8 @@
         "userName": "\u685c\u4e43\u307e\u3057\u308d",
         "twitterId": "mashiro_sakula",
         "photo": "https://pbs.twimg.com/profile_images/1236951268628652037/yaNW4fVN_400x400.jpg",
-        "livePoint": 214,
-        "lastLiveDate": "2020/10/29 01:04:26",
+        "livePoint": 223,
+        "lastLiveDate": "2020/10/29 23:05:53",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:04:26",
         "livePointStatus": {
@@ -12465,10 +12386,16 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 21,
-            "23": 56
+            "22": 27,
+            "23": 59
         },
-        "games": [],
+        "games": [
+            {
+                "product": "Fall Guys",
+                "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
+                "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
+            }
+        ],
         "collab": []
     },
     "UCF3OEZgp0EEvySq1Zw1uvqA": {
@@ -12700,8 +12627,8 @@
         "userName": "\u306f\u3065\u304d\u307f\u3086",
         "twitterId": "hazukimiyu2525",
         "photo": "https://pbs.twimg.com/profile_images/1240369793447809024/crlr7TGg_400x400.png",
-        "livePoint": 545,
-        "lastLiveDate": "2020/10/26 22:48:09",
+        "livePoint": 557,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 22:48:09",
         "livePointStatus": {
@@ -12727,8 +12654,8 @@
             "19": 1,
             "20": 27,
             "21": 80,
-            "22": 177,
-            "23": 139
+            "22": 180,
+            "23": 148
         },
         "games": [
             {
@@ -12740,6 +12667,11 @@
                 "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
                 "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
                 "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
+            },
+            {
+                "product": "SEKIRO: SHADOWS DIE TWICE",
+                "url": "https://www.sekiro.jp/",
+                "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
             }
         ],
         "collab": []
@@ -12801,8 +12733,8 @@
         "userName": "\u91d1\u718a\u304d\u3051\u3093",
         "twitterId": "OOnZadesuku",
         "photo": "https://pbs.twimg.com/profile_images/1203650880429379587/Y1tI70ek_400x400.jpg",
-        "livePoint": 658,
-        "lastLiveDate": "2020/10/29 09:39:13",
+        "livePoint": 662,
+        "lastLiveDate": "2020/10/29 23:01:12",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 09:39:13",
         "livePointStatus": {
@@ -12828,8 +12760,8 @@
             "19": 1,
             "20": 31,
             "21": 59,
-            "22": 46,
-            "23": 7
+            "22": 49,
+            "23": 8
         },
         "games": [
             {
@@ -12841,6 +12773,11 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+            },
+            {
+                "product": "Among Us",
+                "url": "https://store.steampowered.com/app/945360/Among_Us/",
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
             }
         ],
         "collab": []
@@ -12904,7 +12841,7 @@
         "collab": []
     },
     "UCsCguxGHBEspTu4dfBI8g2A": {
-        "userName": "\u30a2\u30dc\u30ab\u30c9\ud83e\udd51",
+        "userName": "\u30a2\u30dc\u30ab\u30c9",
         "twitterId": "Forest_butter19",
         "photo": "https://pbs.twimg.com/profile_images/1284041712650919936/sSAU0qUF_400x400.jpg",
         "livePoint": 1269,
@@ -12955,8 +12892,8 @@
         "userName": "\u4e00\u30ce\u702c\u3046\u308b\u306f",
         "twitterId": "uruha_ichinose",
         "photo": "https://pbs.twimg.com/profile_images/1304910189082980353/tr723Rir_400x400.jpg",
-        "livePoint": 783,
-        "lastLiveDate": "2020/10/25 23:41:04",
+        "livePoint": 795,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 23:41:04",
         "livePointStatus": {
@@ -12982,8 +12919,8 @@
             "19": 62,
             "20": 83,
             "21": 78,
-            "22": 82,
-            "23": 75
+            "22": 85,
+            "23": 84
         },
         "games": [
             {
@@ -13827,8 +13764,8 @@
         "userName": "\u8def\u99c5\u3068\u307e\u308b",
         "twitterId": "Tomaru_Michieki",
         "photo": "https://pbs.twimg.com/profile_images/1310937575947984902/L99gptbF_400x400.jpg",
-        "livePoint": 471,
-        "lastLiveDate": "2020/10/29 00:57:33",
+        "livePoint": 476,
+        "lastLiveDate": "2020/10/29 23:03:33",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:57:33",
         "livePointStatus": {
@@ -13854,8 +13791,8 @@
             "19": 18,
             "20": 4,
             "21": 0,
-            "22": 50,
-            "23": 52
+            "22": 53,
+            "23": 54
         },
         "games": [
             {
@@ -13923,8 +13860,8 @@
         "userName": "\u80e1\u6843\u306e\u3042",
         "twitterId": "n0ah_kurumi",
         "photo": "https://pbs.twimg.com/profile_images/1304910725639331840/AC5Fop_I_400x400.jpg",
-        "livePoint": 1136,
-        "lastLiveDate": "2020/10/29 00:06:23",
+        "livePoint": 1148,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:06:23",
         "livePointStatus": {
@@ -13950,8 +13887,8 @@
             "19": 0,
             "20": 0,
             "21": 63,
-            "22": 137,
-            "23": 165
+            "22": 140,
+            "23": 174
         },
         "games": [
             {
@@ -13971,8 +13908,8 @@
         "userName": "\u3057\u3050\u308c\u3046\u3044",
         "twitterId": "ui_shig",
         "photo": "https://pbs.twimg.com/profile_images/1245317293908701185/oMuyeLSS_400x400.jpg",
-        "livePoint": 64,
-        "lastLiveDate": "2020/10/25 23:03:17",
+        "livePoint": 73,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 23:03:17",
         "livePointStatus": {
@@ -13999,7 +13936,7 @@
             "20": 0,
             "21": 0,
             "22": 25,
-            "23": 26
+            "23": 35
         },
         "games": [],
         "collab": [
@@ -14014,8 +13951,8 @@
         "userName": "\u5e02\u4e38\u30a4\u30c1",
         "twitterId": "1maru_1",
         "photo": "https://pbs.twimg.com/profile_images/1300323490629787649/8InDQkmG_400x400.jpg",
-        "livePoint": 1473,
-        "lastLiveDate": "2020/10/29 08:28:28",
+        "livePoint": 1485,
+        "lastLiveDate": "2020/10/29 23:20:06",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 08:28:28",
         "livePointStatus": {
@@ -14041,8 +13978,8 @@
             "19": 7,
             "20": 198,
             "21": 272,
-            "22": 107,
-            "23": 2
+            "22": 110,
+            "23": 11
         },
         "games": [
             {
@@ -14110,8 +14047,8 @@
         "userName": "\u5929\u51ea\u3048\u308b",
         "twitterId": "amanagiel",
         "photo": "https://pbs.twimg.com/profile_images/1294140678713143296/L3F17sIR_400x400.jpg",
-        "livePoint": 622,
-        "lastLiveDate": "2020/10/29 00:50:39",
+        "livePoint": 634,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:50:39",
         "livePointStatus": {
@@ -14137,8 +14074,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 163,
-            "23": 189
+            "22": 166,
+            "23": 198
         },
         "games": [
             {
@@ -14155,8 +14092,8 @@
         "userName": "\u5cb8\u5802\u5929\u771f",
         "twitterId": "kishidotemma",
         "photo": "https://pbs.twimg.com/profile_images/1304029616856727553/QZVg2Xbb_400x400.jpg",
-        "livePoint": 1014,
-        "lastLiveDate": "2020/10/29 18:57:38",
+        "livePoint": 1029,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:57:38",
         "livePointStatus": {
@@ -14182,8 +14119,8 @@
             "19": 19,
             "20": 1,
             "21": 36,
-            "22": 88,
-            "23": 70
+            "22": 94,
+            "23": 79
         },
         "games": [
             {
@@ -14457,8 +14394,8 @@
         "userName": "\u3048\u308a\u308b\u308b",
         "twitterId": "eriruru3",
         "photo": "https://pbs.twimg.com/profile_images/1161552322108903424/RVykkQxi_400x400.png",
-        "livePoint": 170,
-        "lastLiveDate": "2020/10/28 23:49:50",
+        "livePoint": 185,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:49:50",
         "livePointStatus": {
@@ -14484,8 +14421,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 88,
-            "23": 75
+            "22": 94,
+            "23": 84
         },
         "games": [
             {
@@ -14606,8 +14543,8 @@
         "userName": "\u7dbe\u97a0\u307a\u3053",
         "twitterId": "ayamari_peco",
         "photo": "https://pbs.twimg.com/profile_images/1306977363968757760/89VamxXX_400x400.jpg",
-        "livePoint": 401,
-        "lastLiveDate": "2020/10/27 23:47:31",
+        "livePoint": 413,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:47:31",
         "livePointStatus": {
@@ -14633,8 +14570,8 @@
             "19": 0,
             "20": 0,
             "21": 31,
-            "22": 88,
-            "23": 108
+            "22": 91,
+            "23": 117
         },
         "games": [
             {
@@ -14798,8 +14735,8 @@
         "userName": "\u5f71\u5c71\u30b7\u30a8\u30f3",
         "twitterId": "kageyamashien",
         "photo": "https://pbs.twimg.com/profile_images/1308417391072813063/NvS4Tzpf_400x400.jpg",
-        "livePoint": 421,
-        "lastLiveDate": "2020/10/27 22:43:00",
+        "livePoint": 429,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 22:43:00",
         "livePointStatus": {
@@ -14826,7 +14763,7 @@
             "20": 27,
             "21": 48,
             "22": 60,
-            "23": 51
+            "23": 59
         },
         "games": [
             {
@@ -15135,8 +15072,8 @@
         "userName": "\u3060\u3066\u3093\u3061\u3086\u3042",
         "twitterId": "datenti_yua",
         "photo": "https://pbs.twimg.com/profile_images/1312743177439207424/K3ux-3RW_400x400.jpg",
-        "livePoint": 354,
-        "lastLiveDate": "2020/10/28 22:17:11",
+        "livePoint": 360,
+        "lastLiveDate": "2020/10/29 23:05:55",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:17:11",
         "livePointStatus": {
@@ -15162,8 +15099,8 @@
             "19": 0,
             "20": 48,
             "21": 105,
-            "22": 32,
-            "23": 7
+            "22": 35,
+            "23": 10
         },
         "games": [
             {
@@ -15186,8 +15123,8 @@
         "userName": "\u65e5\u30ce\u68ee\u3042\u3093\u305a",
         "twitterId": "anzu_chaaaan",
         "photo": "https://pbs.twimg.com/profile_images/1254335119747244035/uzV4SKFE_400x400.jpg",
-        "livePoint": 1488,
-        "lastLiveDate": "2020/10/29 03:22:31",
+        "livePoint": 1495,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 03:22:31",
         "livePointStatus": {
@@ -15214,7 +15151,7 @@
             "20": 0,
             "21": 0,
             "22": 8,
-            "23": 128
+            "23": 135
         },
         "games": [
             {
@@ -15226,6 +15163,11 @@
                 "product": "\u539f\u795e",
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
+            },
+            {
+                "product": "SEKIRO: SHADOWS DIE TWICE",
+                "url": "https://www.sekiro.jp/",
+                "photo": "https://game.watch.impress.co.jp/img/gmw/list/1177/738/sekiro01.jpg"
             }
         ],
         "collab": []
@@ -15314,8 +15256,8 @@
         "userName": "\u516b\u795e\u308f\u308c",
         "twitterId": "ware_channel",
         "photo": "https://pbs.twimg.com/profile_images/1317077891381817346/J1tkWfzz_400x400.jpg",
-        "livePoint": 718,
-        "lastLiveDate": "2020/10/29 13:04:55",
+        "livePoint": 726,
+        "lastLiveDate": "2020/10/29 23:20:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 13:04:55",
         "livePointStatus": {
@@ -15342,7 +15284,7 @@
             "20": 58,
             "21": 19,
             "22": 10,
-            "23": 95
+            "23": 103
         },
         "games": [
             {
@@ -15463,8 +15405,8 @@
         "userName": "\u732b\u96f7\u306b\u3083\u308b",
         "twitterId": "NecoraNyaru",
         "photo": "https://pbs.twimg.com/profile_images/1300005514768605184/tQ8GXmEL_400x400.jpg",
-        "livePoint": 319,
-        "lastLiveDate": "2020/10/29 01:20:58",
+        "livePoint": 331,
+        "lastLiveDate": "2020/10/29 23:20:05",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:20:58",
         "livePointStatus": {
@@ -15490,8 +15432,8 @@
             "19": 0,
             "20": 1,
             "21": 39,
-            "22": 97,
-            "23": 65
+            "22": 100,
+            "23": 74
         },
         "games": [
             {
@@ -15517,94 +15459,14 @@
         ],
         "collab": []
     },
-    "UC6s0wLR0TZauzTVoGGw2r6g": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 215,
-        "lastLiveDate": "2020/10/29 11:10:31",
+    "UCRXBTd80F5IIWWY4HatJ5Ug": {
+        "userName": "\u82b1\u5712\u30bb\u30ec\u30ca",
+        "twitterId": "hanazono_serena",
+        "photo": "https://pbs.twimg.com/profile_images/1318727712593211392/_9UtHf9j_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:15",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 11:10:31",
-        "livePointStatus": {
-            "00": 0,
-            "01": 0,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 98,
-            "11": 51,
-            "12": 1,
-            "13": 0,
-            "14": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 23,
-            "21": 19,
-            "22": 18,
-            "23": 5
-        },
-        "games": [],
-        "collab": []
-    },
-    "UCFahBR2wixu0xOex84bXFvg": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 240,
-        "lastLiveDate": "2020/10/26 02:38:22",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/26 02:38:22",
-        "livePointStatus": {
-            "00": 30,
-            "01": 44,
-            "02": 35,
-            "03": 2,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 68,
-            "22": 36,
-            "23": 25
-        },
-        "games": [
-            {
-                "product": "Among Us",
-                "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
-            }
-        ],
-        "collab": []
-    },
-    "UCRUFY2ZCyVOvC-1rJIVZlKg": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 117,
-        "lastLiveDate": "2020/10/28 23:04:32",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/28 23:04:32",
+        "lastIconUpdateDate": "2020/10/29 22:28:15",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -15623,128 +15485,6 @@
             "14": 0,
             "15": 0,
             "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 24,
-            "22": 70,
-            "23": 23
-        },
-        "games": [],
-        "collab": []
-    },
-    "UC7WY5VP-P-rSb2ES5npk8yA": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 59,
-        "lastLiveDate": "2020/10/26 00:16:00",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/26 00:16:00",
-        "livePointStatus": {
-            "00": 7,
-            "01": 0,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 0,
-            "22": 26,
-            "23": 26
-        },
-        "games": [],
-        "collab": []
-    },
-    "UCM6iy_rSgSMbFjx10Z6VVGA": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 210,
-        "lastLiveDate": "2020/10/28 22:10:08",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/28 22:10:08",
-        "livePointStatus": {
-            "00": 26,
-            "01": 9,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 25,
-            "14": 26,
-            "15": 13,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 20,
-            "21": 49,
-            "22": 31,
-            "23": 11
-        },
-        "games": [
-            {
-                "product": "Among Us",
-                "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
-            },
-            {
-                "product": "Fall Guys",
-                "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
-                "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
-            }
-        ],
-        "collab": []
-    },
-    "UCuORn0gpP7nIM0M-H5oN7uw": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 467,
-        "lastLiveDate": "2020/10/29 14:18:47",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 14:18:47",
-        "livePointStatus": {
-            "00": 0,
-            "01": 0,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 95,
-            "12": 114,
-            "13": 129,
-            "14": 81,
-            "15": 39,
-            "16": 9,
             "17": 0,
             "18": 0,
             "19": 0,
@@ -15753,23 +15493,541 @@
             "22": 0,
             "23": 0
         },
+        "games": [],
+        "collab": []
+    },
+    "UCw-jEa3_788VkvM2zHzrDnw": {
+        "userName": "\u9cf3\u73b2\u5929\u3005",
+        "twitterId": "hourei_1010",
+        "photo": "https://pbs.twimg.com/profile_images/1304779955373441025/U2HbqLTU_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:15",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:15",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCSH4t_nhsNIoxPza4ooYqaA": {
+        "userName": "\u82b1\u5b88\u3078\u308b\u3057",
+        "twitterId": "hana_healthy",
+        "photo": "https://pbs.twimg.com/profile_images/1307617874316468224/AywcVp-x_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:15",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:15",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCIdEIHpS0TdkqRkHL5OkLtA": {
+        "userName": "\u540d\u53d6\u3055\u306a",
+        "twitterId": "sana_natori",
+        "photo": "https://pbs.twimg.com/profile_images/1320762027535601670/nlj0hniB_400x400.png",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:16",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:16",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCVKdX-jZ0frmU4SJm43yh6g": {
+        "userName": "\u6c34\u702c\u3057\u3042",
+        "twitterId": "minase_shia",
+        "photo": "https://pbs.twimg.com/profile_images/1316539838384934912/R9nr-ie3_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:16",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:16",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UC9AgNek5KflwwtO_bV93EIw": {
+        "userName": "\u4e0a\u8475",
+        "twitterId": "ueaoi_aiueo",
+        "photo": "https://pbs.twimg.com/profile_images/1234924195240218624/EYM0OeDC_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:16",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:16",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCiQPSLj6Zg2ERGdq3o8M87Q": {
+        "userName": "\u9dfa\u539f\u9234\u97f3",
+        "twitterId": "rinne_210",
+        "photo": "https://pbs.twimg.com/profile_images/1311319982538543105/creOyHzu_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:16",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:16",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCbtwCWsS00diaj-Mw8RAeqw": {
+        "userName": "\u8c48\u4e43\u30cb\u30a2",
+        "twitterId": "anino2nia",
+        "photo": "https://pbs.twimg.com/profile_images/1285393871271149569/ofz9-DxB_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:16",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:16",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCeUxaSLRzywNh8v78SDKP8A": {
+        "userName": "\u6238\u5b9a\u68a8\u9999",
+        "twitterId": "Tojou_Linca",
+        "photo": "https://pbs.twimg.com/profile_images/1297833239332044800/PMzQ1M8F_400x400.jpg",
+        "livePoint": 13,
+        "lastLiveDate": "2020/10/29 23:20:04",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:17",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 4,
+            "23": 9
+        },
         "games": [
             {
-                "product": "Minecraft",
-                "url": "https://www.minecraft.net/ja-jp",
-                "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
+                "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
+                "url": "https://mahjongsoul.com/",
+                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
             }
         ],
         "collab": []
     },
-    "UCiyxAWJcn0PWt696Kt8M2Ew": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
+    "UC6s0wLR0TZauzTVoGGw2r6g": {
+        "userName": "\u864e\u59ae",
+        "twitterId": "hooniefriends",
+        "photo": "https://pbs.twimg.com/profile_images/1310414845888483328/EHbu3rXE_400x400.jpg",
         "livePoint": 0,
-        "lastLiveDate": "2020/10/21 23:38:48",
+        "lastLiveDate": "2020/10/29 22:28:17",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/21 23:38:48",
+        "lastIconUpdateDate": "2020/10/29 22:28:17",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCFahBR2wixu0xOex84bXFvg": {
+        "userName": "\u674f\u4ec1\u30df\u30eb",
+        "twitterId": "AnninMirudayo",
+        "photo": "https://pbs.twimg.com/profile_images/1320284989070528513/uUAesHMB_400x400.jpg",
+        "livePoint": 3,
+        "lastLiveDate": "2020/10/29 23:20:02",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:17",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 3
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCRUFY2ZCyVOvC-1rJIVZlKg": {
+        "userName": "\u304f\u3082\u306e\u4e0a\u30e6\u30e1\u30df",
+        "twitterId": "Kumonoue_Yumemi",
+        "photo": "https://pbs.twimg.com/profile_images/1320650160892825601/1RBKqtNT_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:17",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:17",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UC7WY5VP-P-rSb2ES5npk8yA": {
+        "userName": "\u5343\u7fbd\u9ed2\u4e43",
+        "twitterId": "senba_crow",
+        "photo": "https://pbs.twimg.com/profile_images/1169215628227383296/__4tgGmq_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:18",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:18",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCM6iy_rSgSMbFjx10Z6VVGA": {
+        "userName": "\u30d2\u30c5\u30ad\u30df\u30a6",
+        "twitterId": "HizukiMiu",
+        "photo": "https://pbs.twimg.com/profile_images/1319627926371876865/ws2vKzHp_400x400.png",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:18",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:18",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCuORn0gpP7nIM0M-H5oN7uw": {
+        "userName": "\u514e\u6843\u307f\u307f\u3053",
+        "twitterId": "mimiko__2525",
+        "photo": "https://pbs.twimg.com/profile_images/1302220847109738497/llt-uA7v_400x400.jpg",
+        "livePoint": 14,
+        "lastLiveDate": "2020/10/29 23:20:04",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:18",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 5,
+            "23": 9
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCiyxAWJcn0PWt696Kt8M2Ew": {
+        "userName": "\u661f\u6708\u30eb\u30f3\u30ca",
+        "twitterId": "lunna_vt",
+        "photo": "https://pbs.twimg.com/profile_images/1320884316960796672/Ta_hrouH_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:18",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:18",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -15800,17 +16058,17 @@
         "collab": []
     },
     "UCtULYtCQSJ6iwseENkpu5GQ": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 316,
-        "lastLiveDate": "2020/10/27 22:07:38",
+        "userName": "\u5929\u4f7f\u30ea\u30ea\u30a8\u30eb",
+        "twitterId": "Amatsuka_Lilyel",
+        "photo": "https://pbs.twimg.com/profile_images/1308812644430692352/Zu7gfmIh_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:18",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/27 22:07:38",
+        "lastIconUpdateDate": "2020/10/29 22:28:18",
         "livePointStatus": {
-            "00": 40,
-            "01": 27,
-            "02": 16,
+            "00": 0,
+            "01": 0,
+            "02": 0,
             "03": 0,
             "04": 0,
             "05": 0,
@@ -15827,81 +16085,23 @@
             "16": 0,
             "17": 0,
             "18": 0,
-            "19": 21,
-            "20": 39,
-            "21": 80,
-            "22": 63,
-            "23": 30
-        },
-        "games": [
-            {
-                "product": "\u539f\u795e",
-                "url": "https://genshin.mihoyo.com/ja",
-                "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
-            },
-            {
-                "product": "Among Us",
-                "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
-            },
-            {
-                "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
-                "url": "https://mahjongsoul.com/",
-                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
-            },
-            {
-                "product": "\u3042\u3064\u307e\u308c \u3069\u3046\u3076\u3064\u306e\u68ee",
-                "url": "https://www.nintendo.co.jp/switch/acbaa/index.html",
-                "photo": "https://assets.st-note.com/production/uploads/images/22149245/rectangle_large_type_2_958610f7cb3c99a23c89d98fbdcfb632.png"
-            }
-        ],
-        "collab": []
-    },
-    "UCGGtI2NX9ltnMdNUxyB93rQ": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 378,
-        "lastLiveDate": "2020/10/29 15:07:14",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 15:07:14",
-        "livePointStatus": {
-            "00": 0,
-            "01": 0,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 52,
-            "11": 70,
-            "12": 33,
-            "13": 18,
-            "14": 29,
-            "15": 4,
-            "16": 0,
-            "17": 13,
-            "18": 51,
-            "19": 26,
-            "20": 25,
-            "21": 21,
-            "22": 36,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
             "23": 0
         },
         "games": [],
         "collab": []
     },
-    "UC5YTIcyZ_lstc3FstTX4acA": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 87,
-        "lastLiveDate": "2020/10/28 22:00:34",
+    "UCGGtI2NX9ltnMdNUxyB93rQ": {
+        "userName": "\u9752\u68ee\u308a\u3093\u3053",
+        "twitterId": "aomori_rinko",
+        "photo": "https://pbs.twimg.com/profile_images/1245367052455391235/UYWumBQY_400x400.jpg",
+        "livePoint": 15,
+        "lastLiveDate": "2020/10/29 23:20:04",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/28 22:00:34",
+        "lastIconUpdateDate": "2020/10/29 22:28:19",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -15924,27 +16124,58 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 56,
-            "22": 31,
+            "21": 0,
+            "22": 6,
+            "23": 9
+        },
+        "games": [],
+        "collab": []
+    },
+    "UC5YTIcyZ_lstc3FstTX4acA": {
+        "userName": "\u6b4c\u8863\u30a2\u30ba\u30df",
+        "twitterId": "As_me_V",
+        "photo": "https://pbs.twimg.com/profile_images/1298190251593052160/oBv-isWF_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:19",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:19",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
             "23": 0
         },
-        "games": [
-            {
-                "product": "Apex Legends\u2122",
-                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
-            }
-        ],
+        "games": [],
         "collab": []
     },
     "UCzwvjt3Fv4ihrJHQy6dxZ8g": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 24,
-        "lastLiveDate": "2020/10/25 21:55:37",
+        "userName": "\u685c\u5922\u306a\u306a",
+        "twitterId": "skrmnana",
+        "photo": "https://pbs.twimg.com/profile_images/1305069100075331584/GDRyEac__400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:19",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/25 21:55:37",
+        "lastIconUpdateDate": "2020/10/29 22:28:19",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -15967,7 +16198,7 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 24,
+            "21": 0,
             "22": 0,
             "23": 0
         },
@@ -15975,50 +16206,13 @@
         "collab": []
     },
     "UCB0k5ikJSPMXhMgYnRh1Ujg": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
-        "livePoint": 283,
-        "lastLiveDate": "2020/10/27 23:04:19",
+        "userName": "\u718a\u91ce\u307d\u3048\u307f",
+        "twitterId": "pompompoemi",
+        "photo": "https://pbs.twimg.com/profile_images/1299622000759980032/LszMnYMO_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:19",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/27 23:04:19",
-        "livePointStatus": {
-            "00": 54,
-            "01": 26,
-            "02": 6,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 12,
-            "19": 18,
-            "20": 18,
-            "21": 0,
-            "22": 79,
-            "23": 70
-        },
-        "games": [],
-        "collab": []
-    },
-    "UCpHIwGHq_3OfX42cyfyJp-A": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 52,
-        "lastLiveDate": "2020/10/28 22:59:45",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/28 22:59:45",
+        "lastIconUpdateDate": "2020/10/29 22:28:19",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16041,21 +16235,58 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 24,
-            "22": 28,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
+        "collab": []
+    },
+    "UCpHIwGHq_3OfX42cyfyJp-A": {
+        "userName": "\u594f\u307f\u307f",
+        "twitterId": "kanademimimi",
+        "photo": "https://pbs.twimg.com/profile_images/1317023010470076416/Tmdu5mAA_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:19",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:19",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
             "23": 0
         },
         "games": [],
         "collab": []
     },
     "UCqTGCMjeKOclEEfW8Vs7sXQ": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
+        "userName": "\u30ac\u30c3\u30c1\u30de\u30f3",
+        "twitterId": "gatchman666",
+        "photo": "https://pbs.twimg.com/profile_images/1291167012182401025/eY43yg7I_400x400.jpg",
         "livePoint": 0,
-        "lastLiveDate": "2020/10/21 23:38:48",
+        "lastLiveDate": "2020/10/29 22:28:20",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/21 23:38:48",
+        "lastIconUpdateDate": "2020/10/29 22:28:20",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16086,13 +16317,13 @@
         "collab": []
     },
     "UCRcLAVTbmx2-iNcXSsupdNA": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 89,
-        "lastLiveDate": "2020/10/26 21:46:14",
+        "userName": "\u6765\u6816\u590f\u82bd",
+        "twitterId": "kurusu72me",
+        "photo": "https://pbs.twimg.com/profile_images/1209483029132926976/PXsxIDgS_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:21",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/26 21:46:14",
+        "lastIconUpdateDate": "2020/10/29 22:28:21",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16114,30 +16345,24 @@
             "17": 0,
             "18": 0,
             "19": 0,
-            "20": 46,
-            "21": 43,
+            "20": 0,
+            "21": 0,
             "22": 0,
             "23": 0
         },
-        "games": [
-            {
-                "product": "Minecraft",
-                "url": "https://www.minecraft.net/ja-jp",
-                "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
-            }
-        ],
+        "games": [],
         "collab": []
     },
     "UChLfthKoUV502J7gU9STArg": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 991,
-        "lastLiveDate": "2020/10/29 18:15:29",
+        "userName": "\u6e0b\u8c37\u30cf\u30eb",
+        "twitterId": "ShibuyaHAL",
+        "photo": "https://pbs.twimg.com/profile_images/1177461259035275264/nBWmg-tS_400x400.png",
+        "livePoint": 12,
+        "lastLiveDate": "2020/10/29 23:20:08",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 18:15:29",
+        "lastIconUpdateDate": "2020/10/29 22:28:21",
         "livePointStatus": {
-            "00": 41,
+            "00": 0,
             "01": 0,
             "02": 0,
             "03": 0,
@@ -16147,20 +16372,20 @@
             "07": 0,
             "08": 0,
             "09": 0,
-            "10": 32,
-            "11": 53,
-            "12": 46,
-            "13": 52,
-            "14": 76,
-            "15": 101,
-            "16": 82,
-            "17": 64,
-            "18": 32,
-            "19": 60,
-            "20": 66,
-            "21": 111,
-            "22": 82,
-            "23": 93
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 3,
+            "23": 9
         },
         "games": [
             {
@@ -16172,13 +16397,13 @@
         "collab": []
     },
     "UCBe_jjkUHhVNAj46bukAbJA": {
-        "userName": "\u85e4\u5802\u308b\u3044",
-        "twitterId": "TodoRui_vlive",
-        "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
+        "userName": "\u7434\u307f\u3086\u308a",
+        "twitterId": "miyuri_koto",
+        "photo": "https://pbs.twimg.com/profile_images/1313666900765753346/We8VbDEY_400x400.jpg",
         "livePoint": 0,
-        "lastLiveDate": "2020/10/21 23:38:48",
+        "lastLiveDate": "2020/10/29 22:28:21",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/21 23:38:48",
+        "lastIconUpdateDate": "2020/10/29 22:28:21",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16213,9 +16438,9 @@
         "twitterId": "TodoRui_vlive",
         "photo": "https://pbs.twimg.com/profile_images/1311505182602063873/ePsWE6S9_400x400.jpg",
         "livePoint": 0,
-        "lastLiveDate": "2020/10/21 23:38:48",
+        "lastLiveDate": "2020/10/29 22:28:22",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/21 23:38:48",
+        "lastIconUpdateDate": "2020/10/29 22:28:22",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16246,56 +16471,13 @@
         "collab": []
     },
     "UCjGE11ZnF0JSR8egVAwh-3A": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 182,
-        "lastLiveDate": "2020/10/29 00:57:33",
+        "userName": "\uc2e0\uc720\uc57c",
+        "twitterId": "YuyaShin2434",
+        "photo": "https://pbs.twimg.com/profile_images/1321607600127922176/EzbmBstF_400x400.jpg",
+        "livePoint": 9,
+        "lastLiveDate": "2020/10/29 23:20:03",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 00:57:33",
-        "livePointStatus": {
-            "00": 55,
-            "01": 25,
-            "02": 0,
-            "03": 0,
-            "04": 0,
-            "05": 0,
-            "06": 0,
-            "07": 0,
-            "08": 0,
-            "09": 0,
-            "10": 0,
-            "11": 0,
-            "12": 0,
-            "13": 0,
-            "14": 0,
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 0,
-            "22": 36,
-            "23": 66
-        },
-        "games": [
-            {
-                "product": "Apex Legends\u2122",
-                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
-            }
-        ],
-        "collab": []
-    },
-    "UCooPn7poig77KrmIPCoNWnQ": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 139,
-        "lastLiveDate": "2020/10/28 23:09:23",
-        "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/28 23:09:23",
+        "lastIconUpdateDate": "2020/10/29 22:28:22",
         "livePointStatus": {
             "00": 0,
             "01": 0,
@@ -16310,8 +16492,8 @@
             "10": 0,
             "11": 0,
             "12": 0,
-            "13": 25,
-            "14": 23,
+            "13": 0,
+            "14": 0,
             "15": 0,
             "16": 0,
             "17": 0,
@@ -16319,34 +16501,23 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 67,
-            "23": 24
+            "22": 0,
+            "23": 9
         },
-        "games": [
-            {
-                "product": "Minecraft",
-                "url": "https://www.minecraft.net/ja-jp",
-                "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
-            },
-            {
-                "product": "\u3042\u3064\u307e\u308c \u3069\u3046\u3076\u3064\u306e\u68ee",
-                "url": "https://www.nintendo.co.jp/switch/acbaa/index.html",
-                "photo": "https://assets.st-note.com/production/uploads/images/22149245/rectangle_large_type_2_958610f7cb3c99a23c89d98fbdcfb632.png"
-            }
-        ],
+        "games": [],
         "collab": []
     },
-    "UCEMVVtKNQWNEqm92eXwHXqA": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 134,
-        "lastLiveDate": "2020/10/25 01:17:07",
+    "UCooPn7poig77KrmIPCoNWnQ": {
+        "userName": "\u4e5d\u91cd\u3053\u306e\u306e",
+        "twitterId": "coconoeconono",
+        "photo": "https://pbs.twimg.com/profile_images/1230436977213767681/tV8G_Upa_400x400.jpg",
+        "livePoint": 5,
+        "lastLiveDate": "2020/10/29 23:03:32",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/25 01:17:07",
+        "lastIconUpdateDate": "2020/10/29 22:28:22",
         "livePointStatus": {
-            "00": 26,
-            "01": 5,
+            "00": 0,
+            "01": 0,
             "02": 0,
             "03": 0,
             "04": 0,
@@ -16365,35 +16536,29 @@
             "17": 0,
             "18": 0,
             "19": 0,
-            "20": 26,
-            "21": 26,
-            "22": 26,
-            "23": 25
+            "20": 0,
+            "21": 0,
+            "22": 3,
+            "23": 2
         },
-        "games": [
-            {
-                "product": "Apex Legends\u2122",
-                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
-            }
-        ],
+        "games": [],
         "collab": []
     },
-    "UCGi0P2Hnfm-RAzjWBM_kbOw": {
-        "userName": "\u5922\u898b\u6708\u307f\u3053",
-        "twitterId": "Mikoch35",
-        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
-        "livePoint": 403,
-        "lastLiveDate": "2020/10/29 04:37:37",
+    "UCEMVVtKNQWNEqm92eXwHXqA": {
+        "userName": "\u91ce\u3005\u718a\u3073\u3053\u308a",
+        "twitterId": "nonokuma_bicori",
+        "photo": "https://pbs.twimg.com/profile_images/1286921063457153026/0kSVCfk0_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:22",
         "iconUpdateCount": 0,
-        "lastIconUpdateDate": "2020/10/29 04:37:37",
+        "lastIconUpdateDate": "2020/10/29 22:28:22",
         "livePointStatus": {
-            "00": 19,
-            "01": 71,
-            "02": 105,
-            "03": 89,
-            "04": 60,
-            "05": 14,
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
             "06": 0,
             "07": 0,
             "08": 0,
@@ -16410,16 +16575,47 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 24,
-            "23": 21
+            "22": 0,
+            "23": 0
         },
-        "games": [
-            {
-                "product": "Fall Guys",
-                "url": "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/",
-                "photo": "https://i.ytimg.com/vi/Jar8AXWes08/maxresdefault.jpg"
-            }
-        ],
+        "games": [],
+        "collab": []
+    },
+    "UCGi0P2Hnfm-RAzjWBM_kbOw": {
+        "userName": "\u5922\u898b\u6708\u307f\u3053",
+        "twitterId": "Mikoch35",
+        "photo": "https://pbs.twimg.com/profile_images/1271319928012857345/N_hmeBb7_400x400.jpg",
+        "livePoint": 0,
+        "lastLiveDate": "2020/10/29 22:28:23",
+        "iconUpdateCount": 0,
+        "lastIconUpdateDate": "2020/10/29 22:28:23",
+        "livePointStatus": {
+            "00": 0,
+            "01": 0,
+            "02": 0,
+            "03": 0,
+            "04": 0,
+            "05": 0,
+            "06": 0,
+            "07": 0,
+            "08": 0,
+            "09": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+        },
+        "games": [],
         "collab": []
     }
 }

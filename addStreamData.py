@@ -49,9 +49,9 @@ def add(in_userName, in_twitterId, photo, channelId):
     userName.append(in_userName)
 
 if 1 == input("手動で入力する場合は1, リスト形式の場合は2："):
+    # 手動処理
     while True:
         try:
-            userData = {}
             channelId = input("チャンネルID：")
             in_twitterId = input("Twitter ID：")
             in_userName  = input("ユーザー名：")
@@ -74,69 +74,42 @@ if 1 == input("手動で入力する場合は1, リスト形式の場合は2："
             input("\nエンターキーを押して終了します。")
             break
 else:
-    while True:
-        try:
-            with open("channels.txt", "r", encoding="utf-8") as f:
-                channeladd = f.read()
-            channels = channeladd.split("\n")
-            i = 0
-            userData = {}
-            while i < len(channels)-1:
-                input_userName = channels[i]
+    # リスト処理
+    try:
+        channeladd = open("channels.txt", "r", encoding="utf-8").read()
+        channels = channeladd.split("\n")
+        i = 0
 
-                if input_userName in userName:
-                    print(input_userName, "既に登録済みのユーザーです。\n")
-                    continue
-                
-                print(input_userName)
+        while i < len(channels)-1:
+            in_userName = channels[i]
 
-                i += 1
-                input_twitterId = channels[i]
-                # TweepyでTwitterアイコン取得
-                try:
-                    userStatus = api.get_user(input_twitterId)
-                    photo = userStatus.profile_image_url_https
-                    photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-                except:
-                    print(input_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
-                    photo = input("TwitterアイコンURL：")
-                
-                print(input_twitterId)
+            if in_userName in userName:
+                print(in_userName, "既に登録済みのユーザーです。\n")
+                continue
 
-                userData["userName"]  = input_userName
-                userData["twitterId"] = input_twitterId
-                userData["photo"]     = photo
-                now = datetime.datetime.now()
-                userData["livePoint"] = 0
-                userData["lastLiveDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                userData["iconUpdateCount"] = 0
-                userData["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                userData["livePointStatus"] =  {
-                    "00": 0, "01": 0, "02": 0, "03": 0,
-                    "04": 0, "05": 0, "06": 0, "07": 0,
-                    "08": 0, "09": 0, "10": 0, "11": 0,
-                    "12": 0, "13": 0, "14": 0, "15": 0,
-                    "16": 0, "17": 0, "18": 0, "19": 0,
-                    "20": 0, "21": 0, "22": 0, "23": 0
-                }
-                userData["games"]  = []
-                userData["collab"] = []
-                
-                i += 1
-                data[channels[i]] = userData
-                userName.append(input_userName)
-
-                print(channels[i])
-                print("-------------------------------------------")
-                
-                i += 1
-        except KeyboardInterrupt:
-            input("\nエンターキーを押して終了します。")
-            break
-        
-        if "n" == input("この情報でよろしいですか。y/n："):
-            exit()
-        break
+            i += 1 # 2 TwitterId
+            in_twitterId = channels[i]
+            # TweepyでTwitterアイコン取得
+            try:
+                userStatus = api.get_user(in_twitterId)
+                photo = userStatus.profile_image_url_https
+                photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+            except:
+                print(in_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
+                photo = input("TwitterアイコンURL：")
+            
+            i += 1 # 3 ChannelId
+            print(in_userName)
+            print(in_twitterId)
+            print(channels[i])
+            print("-------------------------------------------")
+            add(in_userName, in_twitterId, photo, channels[i])
+            i += 1
+    except KeyboardInterrupt:
+        input("\nエンターキーを押して終了します。")
+    
+    if "n" == input("この情報でよろしいですか。y/n："):
+        exit()
 
 print("書き込み中")
 with open(settings.streamDataPath(os), "w") as f:

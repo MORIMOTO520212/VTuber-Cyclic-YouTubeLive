@@ -20,6 +20,17 @@ print("動作オペレーティングシステム："+os)
 # tweepy
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
 
+headers = {
+    'accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+    'accept-encoding': 'gzip, deflate, br',
+    'accept-language': 'ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7',
+    'dnt': '1',
+    'sec-fetch-site': 'cross-site',
+    'sec-fetch-mode': 'no-cors',
+    'sec-fetch-dest': 'image',
+    'referer': 'https://twitter.com/',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'
+}
 
 print("tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -226,7 +237,7 @@ def collab(videoTitle):
 while True:
     # セマフォ確認
     while True:
-        if "0" == open(".semaphore", "r"): sleep(60)
+        if "0" == open(".semaphore", "r").read(): sleep(60)
         else: break
     open(".semaphore", "w").write("0")
     try:
@@ -264,7 +275,7 @@ while True:
                     collab(videoTitle)
 
                     # Twitterアイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
-                    if 200 != requests.get(usrRoot["photo"]).status_code:
+                    if 200 != requests.get(usrRoot["photo"], headers=headers).status_code:
                         updateTwitterIcon(channelId)
 
                     streamingChannels.append({ # ストリーミングに追加
@@ -317,3 +328,4 @@ while True:
     except Exception as e:
         print(str(e))
         open("error.log", "a").write(str(e)+"\n")
+        open(".semaphore", "w").write("1")
