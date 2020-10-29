@@ -1,7 +1,7 @@
 # updateTwitterIcon.py
 # ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。
 # Created : 2020/10/29
-import json, requests, settings, tweepy
+import json, requests, settings, tweepy, datetime
 from time import sleep
 
 # 動作環境
@@ -24,6 +24,8 @@ def main():
         with open(settings.streamDataPath(os), "r") as f:
             streamdata = json.load(f)
 
+        now = datetime.datetime.now()
+
         for channelId in streamdata.keys():
             
             usrRoot = streamdata[channelId]
@@ -34,6 +36,8 @@ def main():
                     photo = userStatus.profile_image_url_https
                     usrRoot["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
                     usrRoot["iconUpdateCount"] += 1
+                    # 最終アイコンアップデート日
+                    usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                     print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
                 except Exception as e:
                     if "User not found" in str(e): # Twitterアカウントが見つからなかった場合

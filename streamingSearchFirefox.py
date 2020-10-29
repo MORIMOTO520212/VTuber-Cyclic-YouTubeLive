@@ -95,12 +95,15 @@ def search(detail):
     return channelId, streamingNow, streamingNumber, videoTitle, videoId
 
 def updateTwitterIcon(channelId):
+    now = datetime.datetime.now()
     usrRoot = streamdata[channelId]
     try:
         userStatus = api.get_user(usrRoot["twitterId"])
         photo = userStatus.profile_image_url_https
         usrRoot["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
         usrRoot["iconUpdateCount"] += 1
+        # 最終アイコンアップデート日
+        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
         print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
     except Exception as e:
         if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
@@ -181,8 +184,6 @@ def updateStatus(usrRoot, play):
     hour = str(now.hour)
     if len(hour) == 1: hour = "0"+hour
     usrRoot["livePointStatus"][hour] += 1
-    # 最終アイコンアップデート日
-    usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
     # プレイしたゲーム
     if play:
         # プレイ中のゲームが記録されていなければ新しく追加する
