@@ -223,6 +223,11 @@ def collab(videoTitle):
 
 
 while True:
+    # セマフォ確認
+    while True:
+        if "0" == open(".semaphore", "r"): sleep(60)
+        else: break
+    open(".semaphore", "w").write("0")
     try:
         streamingChannels = [] # 取得したデータを書き込む
         streamingData     = [] # 書き込み用
@@ -257,7 +262,7 @@ while True:
                     # コラボ検出
                     collab(videoTitle)
 
-                    # アイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
+                    # Twitterアイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
                     if 200 != requests.get(usrRoot["photo"]).status_code:
                         updateTwitterIcon(channelId)
 
@@ -300,6 +305,7 @@ while True:
         streamingData_before = streamingData
 
         # 3分間待機
+        open(".semaphore", "w").write("1")
         sleep(delay)
 
     except KeyboardInterrupt:
