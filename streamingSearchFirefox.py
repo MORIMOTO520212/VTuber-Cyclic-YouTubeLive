@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
-import sys, json, requests, tweepy, settings, datetime
+import json, tweepy, settings, datetime
 
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
@@ -19,18 +19,6 @@ print("動作オペレーティングシステム："+os)
 
 # tweepy
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
-
-headers = {
-    'accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
-    'accept-encoding': 'gzip, deflate, br',
-    'accept-language': 'ja-JP,ja;q=0.9,en-US;q=0.8,en;q=0.7',
-    'dnt': '1',
-    'sec-fetch-site': 'cross-site',
-    'sec-fetch-mode': 'no-cors',
-    'sec-fetch-dest': 'image',
-    'referer': 'https://twitter.com/',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'
-}
 
 print("tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -92,7 +80,7 @@ def search(detail):
         streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
         streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
         streamingNumber = streamingNumber.replace("K", "千")
-        streamingNumber = streamingNumber.replace(" Watching", "人")
+        streamingNumber = streamingNumber.replace(" watching", "人")
 
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")
@@ -265,37 +253,34 @@ while True:
                         channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
+                    
+                    if channelId not in str(streamingChannels): # 同じユーザーを2度取得している場合がある
+                        usrRoot = streamdata[channelId]
 
-                    usrRoot = streamdata[channelId]
+                        # タイトルにゲーム名がある場合取得
+                        play = playGame(videoTitle)
 
-                    # タイトルにゲーム名がある場合取得
-                    play = playGame(videoTitle)
+                        # コラボ検出
+                        collab(videoTitle)
 
-                    # コラボ検出
-                    collab(videoTitle)
+                        streamingChannels.append({ # ストリーミングに追加
+                            "channelId": channelId,
+                            "userName": usrRoot["userName"],
+                            "twitterId": usrRoot["twitterId"],
+                            "streamingNumber": streamingNumber,
+                            "videoTitle": videoTitle,
+                            "photo": usrRoot["photo"],
+                            "livePoint": usrRoot["livePoint"],
+                            "lastLiveDate": usrRoot["lastLiveDate"],
+                            "iconUpdateCount": usrRoot["iconUpdateCount"],
+                            "lastIconUpdateDate": usrRoot["lastIconUpdateDate"],
+                            "livePointStatus" : usrRoot["livePointStatus"],
+                            "videoId": videoId,
+                            "play": play
+                        })
 
-                    # Twitterアイコンのリンクが切れていないか確認し、tweepyを使ってアイコン更新
-                    if 200 != requests.get(usrRoot["photo"], headers=headers).status_code:
-                        updateTwitterIcon(channelId)
-
-                    streamingChannels.append({ # ストリーミングに追加
-                        "channelId": channelId,
-                        "userName": usrRoot["userName"],
-                        "twitterId": usrRoot["twitterId"],
-                        "streamingNumber": streamingNumber,
-                        "videoTitle": videoTitle,
-                        "photo": usrRoot["photo"],
-                        "livePoint": usrRoot["livePoint"],
-                        "lastLiveDate": usrRoot["lastLiveDate"],
-                        "iconUpdateCount": usrRoot["iconUpdateCount"],
-                        "lastIconUpdateDate": usrRoot["lastIconUpdateDate"],
-                        "livePointStatus" : usrRoot["livePointStatus"],
-                        "videoId": videoId,
-                        "play": play
-                    })
-
-                    # ライバーステータス更新
-                    updateStatus(usrRoot, play)
+                        # ライバーステータス更新
+                        updateStatus(usrRoot, play)
 
 
         if streamingChannels != []: # （未完成）ライブ配信を誰もしていない場合は今後の予定を記録する
@@ -306,7 +291,7 @@ while True:
 
         # 書き込み
         with open(settings.streamingDataPath(os), "w") as f:
-            json.dump(streamingData, f)
+            json.dump(streamingData, f, indent=4)
 
         with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
@@ -320,8 +305,8 @@ while True:
 
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
-        driver.quit()
         open(".semaphore", "w").write("1")
+        driver.quit()
         break
     
     except Exception as e:
