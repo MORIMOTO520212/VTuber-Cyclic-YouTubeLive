@@ -123,7 +123,7 @@ def updateTwitterIcon(channelId):
             print(message)
 
 streamingData_before = []
-def sort(play):
+def sort():
     # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
     for strDa in streamingData_before:
         if strDa["channelId"] in str(streamingChannels):
@@ -298,11 +298,9 @@ while True:
                     updateStatus(usrRoot, play)
 
 
-        if streamingChannels == []: # （未完成）ライブ配信を誰もしていない場合は今後の予定を記録する
-            pass
-        else:
+        if streamingChannels != []: # （未完成）ライブ配信を誰もしていない場合は今後の予定を記録する
             # チャンネルデータのソート　新しいデータは末尾に追加する
-            sort(play)
+            sort()
 
         print("取得チャンネル数：{}　配信者数：{}".format(str(len(details)), str(len(streamingChannels))))
 
@@ -323,6 +321,7 @@ while True:
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         driver.quit()
+        open(".semaphore", "w").write("1")
         break
     
     except Exception as e:
