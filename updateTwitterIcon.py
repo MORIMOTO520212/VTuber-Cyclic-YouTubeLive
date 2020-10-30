@@ -5,7 +5,7 @@ import json, settings, tweepy, datetime
 from time import sleep
 
 # 動作環境
-os = "windows"
+os = "linux"
 # 更新間隔(秒)
 delay = 3600*12 # 12時間
 
