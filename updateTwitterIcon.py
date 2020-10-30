@@ -7,7 +7,7 @@ from time import sleep
 # 動作環境
 os = "windows"
 # 更新間隔(秒)
-delay = 3600*6
+delay = 3600*12 # 12時間
 
 print("updateTwitterIcon.py")
 print("ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。")
@@ -31,26 +31,26 @@ def main():
             usrRoot = streamdata[channelId]
 
             try:
+                print(usrRoot["userName"])
                 userStatus = api.get_user(usrRoot["twitterId"])
                 photo = userStatus.profile_image_url_https
-                if photo == 
-                usrRoot["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-                usrRoot["iconUpdateCount"] += 1
-                # 最終アイコンアップデート日
-                usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
+                photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+                if photo != usrRoot["photo"]:
+                    usrRoot["photo"] = photo
+                    usrRoot["iconUpdateCount"] += 1
+                    # 最終アイコンアップデート日
+                    usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+                    print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
+                    
             except Exception as e:
                 if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
                     message = "[{}] {}さんのTwitterのアカウントが見つかりませんでした。".format(channelId, usrRoot["userName"])
                     open("message.log", "a").write("[UpdateTwitterIcon.py] "+message+"\n")
                     print(message)
             
+            sleep(1)
+            
         return streamdata
-
-    except InterruptedError:
-        print("キーが押されたので終了します。")
-        open(".semaphore", "w").write("1")
-        exit()
     
     except Exception as e:
         print(str(e))
@@ -64,12 +64,18 @@ while True:
         else: break
     open(".semaphore", "w").write("0")
 
-    streamdata = main()
+    try:
+        streamdata = main()
 
-    with open(settings.streamDataPath(os), "w") as f:
-        json.dump(streamdata, f, indent=4)
+        with open(settings.streamDataPath(os), "w") as f:
+            json.dump(streamdata, f, indent=4)
 
-    open(".semaphore", "w").write("1")
+        open(".semaphore", "w").write("1")
 
-    print("待機中...")
-    sleep(delay)
+        print("待機中...")
+        sleep(delay)
+
+    except KeyboardInterrupt:
+        print("キーが押されたので終了します。")
+        open(".semaphore", "w").write("1")
+        exit()
