@@ -50,7 +50,7 @@ function StreamData(jsonData){
             font: {
                 color: "#eee"
             },
-            brokenImage: "../../assets/favicon.ico",
+            brokenImage: "assets/favicon.png",
             size: 10,
         }
     };
