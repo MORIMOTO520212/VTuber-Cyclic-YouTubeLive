@@ -5,7 +5,7 @@ import json, settings, tweepy, datetime
 from time import sleep
 
 # 動作環境
-os = "linux"
+os = "windows"
 # 更新間隔(秒)
 delay = 3600*12 # 12時間
 
@@ -18,18 +18,14 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth_handler=auth)
 
-
 def main():
     try:
         with open(settings.streamDataPath(os), "r") as f:
             streamdata = json.load(f)
-
         now = datetime.datetime.now()
 
         for channelId in streamdata.keys():
-            
             usrRoot = streamdata[channelId]
-
             try:
                 print(usrRoot["userName"])
                 userStatus = api.get_user(usrRoot["twitterId"])
@@ -41,17 +37,13 @@ def main():
                     # 最終アイコンアップデート日
                     usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                     print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
-                    
             except Exception as e:
                 if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
                     message = "[{}] {}さんのTwitterのアカウントが見つかりませんでした。".format(channelId, usrRoot["userName"])
                     open("message.log", "a").write("[UpdateTwitterIcon.py] "+message+"\n")
                     print(message)
-            
             sleep(1)
-            
         return streamdata
-    
     except Exception as e:
         print(str(e))
         open(".semaphore", "w").write("1")
@@ -66,15 +58,14 @@ while True:
 
     try:
         streamdata = main()
-
         with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
+        now = datetime.datetime.now()
+        open("message.log", "a").write("[UpdateTwitterIcon.py] update: {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
         open(".semaphore", "w").write("1")
-
         print("待機中...")
         sleep(delay)
-
     except KeyboardInterrupt:
         print("キーが押されたので終了します。")
         open(".semaphore", "w").write("1")

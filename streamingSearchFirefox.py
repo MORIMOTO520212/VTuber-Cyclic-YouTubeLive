@@ -33,15 +33,17 @@ PROFILE_PATH = settings.firefoxProfilePath(os)
 Options.profile = PROFILE_PATH
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
-with open(settings.idChangeDataPath(os), "r") as f:
-    idChangeData = json.load(f)
-with open(settings.streamDataPath(os), "r") as f:
-    streamdata = json.load(f)
-with open(settings.gamesDataPath(os), "r") as f:
-    gamesData = json.load(f)
-
 print("complete!")
 
+idChangeData = streamdata = gamesData = {}
+def loadDataFiles():
+    global idChangeData, streamdata, gamesData
+    with open(settings.idChangeDataPath(os), "r") as f:
+        idChangeData = json.load(f)
+    with open(settings.streamDataPath(os), "r") as f:
+        streamdata = json.load(f)
+    with open(settings.gamesDataPath(os), "r") as f:
+        gamesData = json.load(f)
 
 def getSource():
     driver.get("https://www.youtube.com/feed/subscriptions")
@@ -231,6 +233,8 @@ while True:
     try:
         streamingChannels = [] # 取得したデータを書き込む
         streamingData     = [] # 書き込み用
+
+        loadDataFiles() # データをロード
 
         # YouTubeからデータを取得
         details = getSource()
