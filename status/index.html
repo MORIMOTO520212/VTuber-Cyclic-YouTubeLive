@@ -7,8 +7,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-        <script src="assets/control2.js"></script>
-        <link rel="stylesheet" type="text/css" href="assets/effect2.css">
+        <link rel="stylesheet" type="text/css" href="assets/effect.css">
     </head>
     <body>
         <div><!--フィルター  平均ライブ時間　最終ライブ配信　コラボ状況（コラボ人数）--></div>
@@ -31,17 +30,20 @@
                     <p>最近プレイしたゲーム</p>
                     <a href=""><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header.jpg?t=1601415022"></a>
                 </div>
-                <div class="averageLiveTime"> <!--平均ライブ時間-->
-                    <p>平均ライブ時間：</p>
-                    <p>3時間</p>
-                </div>
                 <div class="collaboration"> <!--コラボ状況　タイトルなし ライバーのアイコンを数個表示する　すべて表示ボタンの設置-->
-
                 </div>
-                <div class="lastlive"></div> <!--最終ライブ配信：＊日間前-->
+                <div class="mainStatus">
+                    <div class="averageLiveTime"> <!--平均ライブ時間-->
+                        <p>平均ライブ時間：3時間</p>
+                    </div>
+                    <div class="lastlive"> <!--最終ライブ配信：＊日間前-->
+                        <p>最終ライブ配信日：2020/11/08 11:24:44</p>
+                    </div>
+                </div>
                 <div class="active"></div>   <!--アクティブパネル-->
             </div>
             <!-- innerHTML -->
         </div>
+        <!--<script src="assets/base.js"></script>-->
     </body>
 </html>

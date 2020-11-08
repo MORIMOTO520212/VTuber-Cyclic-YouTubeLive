@@ -55,10 +55,17 @@ div.genre img{
     width: 90%;
     margin-left: 5%;
 }
-div.averageLiveTime{
-    width: 130px;
+div.mainStatus{
     float: left;
+    width: 146px;
+}
+div.averageLiveTime{
 }
 div.averageLiveTime p{
+    font-size: 12px;
+}
+div.lastlive{
+}
+div.lastlive p{
     font-size: 12px;
 }
