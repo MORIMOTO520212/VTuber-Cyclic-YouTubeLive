@@ -23,7 +23,7 @@ div.user div.icon img{
     vertical-align: top;
 }
 div.sep{
-    width: 124px;
+    /*width: 124px;*/
     float: left;
 }
 div.sep div.name{

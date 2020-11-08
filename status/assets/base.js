@@ -1,5 +1,7 @@
 var streamData = new Array();
 var dateList = new Array();
+var body = document.getElementById("main");
+var source = "";
 
 function parseDate(date, lastLiveDate){
     var ymdhs = lastLiveDate.split(/[\/: ]/);
@@ -8,7 +10,28 @@ function parseDate(date, lastLiveDate){
     return parseInt(diff);
 }
 
-function sort(streamData, dateList){
+function DocumentWrite(userName, photo, channelId, twitterId, gameProductPhoto, diff_day){
+    source += " \
+    <div class=\"userlist\"><div class=\"user\"> \
+    <div class=\"icon\"><img src=\""+photo+"\"></div> \
+    <div class=\"sep\"> \
+    <div class=\"name\"><p>"+userName+"</p></div> \
+    <div class=\"youtube\"><a href=\"https://www.youtube.com/channel/"+channelId+"\"><img src=\"assets/yt_icon_rgb.png\"></a></div> \
+    <div class=\"twitter\"><a href=\"https://twitter.com/"+twitterId+"\"><img src=\"assets/Twitter_Logo_WhiteOnBlue.png\"></a></div> \
+    </div> \
+    <div class=\"genre\"><p>最近プレイしたゲーム</p><a href=\"\"><img src=\""+gameProductPhoto+"\"></a></div> \
+    <div class=\"collaboration\"></div> \
+    <div class=\"mainStatus\"> \
+    <div class=\"averageLiveTime\"><p>平均ライブ時間："+undefined+"</p></div> \
+    <div class=\"lastlive\"><p>最終配信日："+diff_day+"日前</p></div> \
+    </div> \
+    <div class=\"active\"></div> \
+    </div> \
+    </div>"
+}
+
+function sort_Date(){
+    source = "";
     dateList.sort(function(a, b) {
         if (a[1] > b[1]) { return 1; }
         else{ return -1; }
@@ -17,11 +40,18 @@ function sort(streamData, dateList){
     dateList.forEach(channelId0 => {
         channel = streamData[channelId0[0]];
         var diff_day = parseDate(date, channel["lastLiveDate"]);
-        document.write(diff_day+"日前に配信  "+channel["userName"]+"<br>");
+        var gameProductPhoto = false;
+        if(channel["games"].length){
+            var lastGameIndex = channel["games"].length-1;
+            gameProductPhoto = channel["games"][lastGameIndex]["photo"];
+        }
+        DocumentWrite(channel["userName"], channel["photo"], channelId0[0], channel["twitterId"], gameProductPhoto, diff_day);
     });
+    body.innerHTML = source;
 }
 
-function reverse(streamData, dateList){
+function reverse_Date(){
+    source = "";
     dateList.sort(function(a, b) {
         if (a[1] < b[1]) { return 1; }
         else{ return -1; }
@@ -30,15 +60,17 @@ function reverse(streamData, dateList){
     dateList.forEach(channelId0 => {
         channel = streamData[channelId0[0]];
         var diff_day = parseDate(date, channel["lastLiveDate"]);
-        document.write(diff_day+"日前に配信  "+channel["userName"]+"<br>");
+        DocumentWrite(channel["userName"], channel["photo"], channel["photo"], channelId0[0], channel["twitterId"], diff_day);
     });
+    body.innerHTML = source;
 }
 
-function StreamingData(streamData){
+function StreamingData(jsonData){
+    streamData = jsonData;
     Object.keys(streamData).forEach(channelId => {
         dateList.push( Array(channelId, Number(streamData[channelId]["lastLiveDate"].replace(/[\/: ]/g, ""))));
     });
-    sort(streamData, dateList);
+    sort_Date();
 }
 $.post('../getData.php?mode=getStreamData', {}, function(data){
     console.log("getStreamData");
@@ -46,11 +78,3 @@ $.post('../getData.php?mode=getStreamData', {}, function(data){
     StreamingData(jsonData);
 });
 
-/*
-        console.log("ChannelId: "+channelId);
-        console.log("userName: "+streamData[channelId]["userName"]);
-        console.log("TwitterId:"+streamData[channelId]["twitterId"]);
-        console.log("photo: "+streamData[channelId]["photo"]);
-        console.log("livePoint: "+streamData[channelId]["livePoint"]);
-        console.log("lastLiveDate: "+streamData[channelId]["lastLiveDate"]);
-*/
