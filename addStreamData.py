@@ -48,7 +48,7 @@ def add(in_userName, in_twitterId, photo, channelId):
     data[channelId] = userData
     userName.append(in_userName)
 
-if 1 == input("手動で入力する場合は1, リスト形式の場合は2："):
+if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2：")):
     # 手動処理
     while True:
         try:

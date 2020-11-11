@@ -8,7 +8,7 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 
 # 動作環境の設定 windows | linux
-os = "linux"
+os = "windows"
 # 更新待機時間 (秒)
 delay = 120
 # 名前解決
@@ -80,9 +80,9 @@ def search(detail):
         # 視聴者数を抽出
         streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
         streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
-        streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
-        streamingNumber = streamingNumber.replace("K", "千")
-        streamingNumber = streamingNumber.replace(" watching", "人")
+        #streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
+        #streamingNumber = streamingNumber.replace("K", "千")
+        #streamingNumber = streamingNumber.replace(" watching", "人")
 
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")
@@ -259,7 +259,10 @@ while True:
                 if channelId != "unregistered": # 登録済みユーザーのみ
                     
                     if channelId not in str(streamingChannels): # 同じユーザーを2度取得している場合がある
-                        usrRoot = streamdata[channelId]
+                        try:
+                            usrRoot = streamdata[channelId]
+                        except:
+                            raise ValueError(channelId+" チャンネルが登録されていません。")
 
                         # タイトルにゲーム名がある場合取得
                         play = playGame(videoTitle)
@@ -313,7 +316,7 @@ while True:
         driver.quit()
         break
     
-    except Exception as e:
-        print(str(e))
-        open("error.log", "a").write(str(e)+"\n")
-        open(".semaphore", "w").write("1")
+    #except Exception as e:
+    #    print("main Error: "+str(e))
+    #    open("error.log", "a").write(str(e)+"\n")
+    #    open(".semaphore", "w").write("1")
