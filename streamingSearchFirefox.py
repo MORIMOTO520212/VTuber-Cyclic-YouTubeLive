@@ -8,10 +8,10 @@ print("ライブ配信サーチ\n5分ごとに更新します。終了するに�
 
 
 # 動作環境の設定 windows | linux
-os = "windows"
+os = "linux"
 # 更新待機時間 (秒)
 delay = 120
-# 名前解決
+# 名前解析　周辺にある文字から名前を特定する
 true_noise_L = ["【", "・", "/", " ", "　"]
 true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
@@ -316,7 +316,7 @@ while True:
         driver.quit()
         break
     
-    #except Exception as e:
-    #    print("main Error: "+str(e))
-    #    open("error.log", "a").write(str(e)+"\n")
-    #    open(".semaphore", "w").write("1")
+    except Exception as e:
+        print("main Error: "+str(e))
+        open("error.log", "a").write(str(e)+"\n")
+        open(".semaphore", "w").write("1")
