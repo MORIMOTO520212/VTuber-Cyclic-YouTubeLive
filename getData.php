@@ -1,11 +1,18 @@
 <?php
 # jsonファイルの内容を取得してその内容を返す #
 # リンクはストレージサーバーにアクセス
+$ngrok = "http://f988ed573d32.ngrok.io";
+
 function getStreaming() {
-    return file_get_contents("http://f988ed573d32.ngrok.io/assets/streaming.json");
+    global $ngrok;
+    return file_get_contents($ngrok."/assets/streaming.json");
 }
 function getStreamData() {
-    return file_get_contents("https://f988ed573d32.ngrok.io/database/streamdata.json");
+    global $ngrok;
+    return file_get_contents($ngrok."/database/streamdata.json");
+}
+function getGames_local() {
+    return file_get_contents("database/games.json");
 }
 
 if ( isset($_GET['mode']) ) {
@@ -17,6 +24,8 @@ if ( isset($_GET['mode']) ) {
         case 'getStreamData':
             $data = getStreamData();
             break;
+        case 'getGames_local':
+            $data = getGames_local();
     }
     
     echo $data;

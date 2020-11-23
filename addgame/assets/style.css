@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #181818;
+    height: 100%;
+    margin: 0;
+}
+p{
+    color: #eee;
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+div.input-box{
+    width: 80%;
+    background-color: #777777;
+    margin: 0 auto;
+}
+div.inp{
+    background-color: #fc5f5f;
+}
+div.input-main{
+    margin: 5px;
+}
+div.searchName{
+}
+div.productName{
+}
+div.officialsiteLink{
+}
+div.productPhoto{
+}
+div.submit{
+    background-color: #4a7956;
+}
