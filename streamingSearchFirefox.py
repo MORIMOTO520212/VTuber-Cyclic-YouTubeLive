@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
-import json, tweepy, settings, datetime
+import json, settings, datetime
 
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
@@ -16,14 +16,6 @@ true_noise_L = ["【", "・", "/", " ", "　"]
 true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
 print("動作オペレーティングシステム："+os)
-
-# tweepy
-consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
-
-print("tweepy API...")
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
-api = tweepy.API(auth_handler=auth)
 
 print("selenium webdriver...")
 # ヘッドレスモードでユーザープロファイルを使う
@@ -94,23 +86,6 @@ def search(detail):
         streamingNow = False
 
     return channelId, streamingNow, streamingNumber, videoTitle, videoId
-
-def updateTwitterIcon(channelId):
-    now = datetime.datetime.now()
-    usrRoot = streamdata[channelId]
-    try:
-        userStatus = api.get_user(usrRoot["twitterId"])
-        photo = userStatus.profile_image_url_https
-        usrRoot["photo"] = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-        usrRoot["iconUpdateCount"] += 1
-        # 最終アイコンアップデート日
-        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-        print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
-    except Exception as e:
-        if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-            message = "[{}] {}さんのTwitterのアカウントが見つかりませんでした。".format(channelId, usrRoot["userName"])
-            open("message.log", "a").write(message+"\n")
-            print(message)
 
 streamingData_before = []
 def sort():

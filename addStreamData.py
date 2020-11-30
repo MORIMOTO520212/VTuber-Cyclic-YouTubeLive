@@ -107,11 +107,11 @@ else:
             i += 1
     except KeyboardInterrupt:
         input("\nエンターキーを押して終了します。")
-    
-    if "n" == input("この情報でよろしいですか。y/n："):
         exit()
+    
 
-print("書き込み中")
-with open(settings.streamDataPath(os), "w") as f:
-    json.dump(data, f, indent=4)
-print("書き込み完了")
+if "y" == input("この情報でよろしいですか。y/n："):
+    print("書き込み中")
+    with open(settings.streamDataPath(os), "w") as f:
+        json.dump(data, f, indent=4)
+    print("書き込み完了")
