@@ -16,18 +16,22 @@ function DocumentWrite(userName, photo, channelId, twitterId, gameProductPhoto, 
     <div class=\"icon\"><img src=\""+photo+"\"></div> \
     <div class=\"sep\"> \
     <div class=\"name\"><p>"+userName+"</p></div> \
-    <div class=\"youtube\"><a href=\"https://www.youtube.com/channel/"+channelId+"\"><img src=\"assets/yt_icon_rgb.png\"></a></div> \
-    <div class=\"twitter\"><a href=\"https://twitter.com/"+twitterId+"\"><img src=\"assets/Twitter_Logo_WhiteOnBlue.png\"></a></div> \
-    </div> \
-    <div class=\"genre\"><p>最近プレイしたゲーム</p><a href=\"\"><img src=\""+gameProductPhoto+"\"></a></div> \
-    <div class=\"collaboration\"></div> \
+    <div class=\"youtube\"><a href=\"https://www.youtube.com/channel/"+channelId+"\" target=\"_blank\"><img src=\"assets/yt_icon_rgb.png\"></a></div> \
+    <div class=\"twitter\"><a href=\"https://twitter.com/"+twitterId+"\" target=\"_blank\"><img src=\"assets/Twitter_Logo_WhiteOnBlue.png\"></a></div> \
+    </div>";
+    
+    if(gameProductPhoto){
+        source += "<div class=\"genre\"><p>最近プレイしたゲーム</p><a href=\"\"><img src=\""+gameProductPhoto+"\"></a></div>";
+    }
+    
+    source += "<div class=\"collaboration\"></div> \
     <div class=\"mainStatus\"> \
     <div class=\"averageLiveTime\"><p>平均ライブ時間："+undefined+"</p></div> \
     <div class=\"lastlive\"><p>最終配信日："+diff_day+"日前</p></div> \
     </div> \
     <div class=\"active\"></div> \
     </div> \
-    </div>"
+    </div>";
 }
 
 function sort_Date(){

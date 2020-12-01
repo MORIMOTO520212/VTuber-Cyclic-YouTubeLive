@@ -45,6 +45,7 @@ div.sep div.twitter img{
 }
 div.genre{
     width: 130px;
+    height: 100%;
     float: left;
 }
 div.genre p{
@@ -53,11 +54,12 @@ div.genre p{
 div.genre img{
     float: left;
     width: 90%;
+    height: 66%;
     margin-left: 5%;
 }
 div.mainStatus{
     float: left;
-    width: 146px;
+    width: 200px;
 }
 div.averageLiveTime{
 }
