@@ -3,8 +3,9 @@ var nodes = [];
 var edges = [];
 
 var container = document.getElementById("mynetwork");
-
+var msg = document.getElementById("msg");
 function StreamData(jsonData){
+    msg.innerHTML = "<p>ネットワークを構築中...<\/p>";
     streamData = jsonData;
 
     Object.keys(streamData).forEach(channelId => {
@@ -33,8 +34,9 @@ function StreamData(jsonData){
             already.push(channelId);
         }
     });
-
+    console.log("Nodes");
     console.log(nodes);
+    console.log("Edges");
     console.log(edges);
 
     var data = {
@@ -55,6 +57,7 @@ function StreamData(jsonData){
         }
     };
     var network = new vis.Network(container, data, options);
+    msg.innerHTML = "";
 }
 
 $.post('../getData.php?mode=getStreamData', {}, function(data){

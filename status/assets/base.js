@@ -64,7 +64,12 @@ function reverse_Date(){
     dateList.forEach(channelId0 => {
         channel = streamData[channelId0[0]];
         var diff_day = parseDate(date, channel["lastLiveDate"]);
-        DocumentWrite(channel["userName"], channel["photo"], channel["photo"], channelId0[0], channel["twitterId"], diff_day);
+        var gameProductPhoto = false;
+        if(channel["games"].length){
+            var lastGameIndex = channel["games"].length-1;
+            gameProductPhoto = channel["games"][lastGameIndex]["photo"];
+        }
+        DocumentWrite(channel["userName"], channel["photo"], channelId0[0], channel["twitterId"], gameProductPhoto, diff_day);
     });
     body.innerHTML = source;
 }

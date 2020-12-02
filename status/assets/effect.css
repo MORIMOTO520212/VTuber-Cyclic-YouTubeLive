@@ -6,6 +6,9 @@ p{
     font-family: "Google Sans","Roboto","Arial",sans-serif;
     margin: 5px;
 }
+a{
+    text-decoration: none;
+}
 div.user{
     width: 50%;
     height: 90px;
@@ -70,4 +73,16 @@ div.lastlive{
 }
 div.lastlive p{
     font-size: 12px;
+}
+div.control{
+    width: 50%;
+    border: solid 1px #eee;
+    margin: 50px auto;
+}
+div.control p{
+    size: 20px;
+    font-weight: bold;
+}
+div.control .btn{
+    display: inline-block;
 }
