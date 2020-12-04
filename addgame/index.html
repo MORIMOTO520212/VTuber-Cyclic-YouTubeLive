@@ -8,36 +8,24 @@
     </head>
     <body>
         <div class="input-box">
-            <div class="inp">
-                <p>1つめのゲームを登録する</p>
+            <p>検索する名前　（※アルファベットは全て大文字・スペースなし）</p>
+            <div class="inp" id="main">
+                <p>Index 0</p><a href="javascript:del(0)">削除</a>
                 <div class="input-main searchName">
-                    <input type="text" id="random Id" value="Search Name">
+                    <input type="text" id="a" placeholder="検索名" value="">
                 </div>
                 <div class="input-main productName">
-                    <input type="text" id="random Id" value="Product Name">
+                    <input type="text" id="b" placeholder="製品名" value="">
                 </div>
                 <div class="input-main officialSiteLink">
-                    <input type="text" id="random Id" value="Official Site Link">
+                    <input type="text" id="c" placeholder="公式サイトリンク" value="">
                 </div>
                 <div class="input-main productPhoto">
-                    <input type="text" id="random Id" value="Product Photo">
-                </div>
-                <p>2つめのゲームを登録する</p>
-                <div class="input-main searchName">
-                    <input type="text" id="random Id" value="Search Name">
-                </div>
-                <div class="input-main productName">
-                    <input type="text" id="random Id" value="Product Name">
-                </div>
-                <div class="input-main officialSiteLink">
-                    <input type="text" id="random Id" value="Official Site Link">
-                </div>
-                <div class="input-main productPhoto">
-                    <input type="text" id="random Id" value="Product Photo">
+                    <input type="text" id="d" placeholder="画像リンク" value="">
                 </div>
             </div>
             <div class="submit"><a href="javascript:add()"><p>追加</p></a></div>
-            <div class="submit"><a href="javascript:submit()"><p>登録する</p></a></div>
+            <div class="submit"><a href="javascript:send()"><p>保存</p></a></div>
         </div>
         <script src="assets/control.js"></script>
     </body>

@@ -22,6 +22,12 @@ div.input-box{
 div.inp{
     background-color: #fc5f5f;
 }
+div.inp p{
+    display: inline-block;
+}
+div.inp a{
+    display: inline-block;
+}
 div.input-main{
     margin: 5px;
 }
@@ -35,4 +41,11 @@ div.productPhoto{
 }
 div.submit{
     background-color: #4a7956;
+    display: inline-block;
+}
+#main input{
+    width: 50%;
+    height: 25px;
+    font-size: 16px;
+    background-color: #ffd770;
 }

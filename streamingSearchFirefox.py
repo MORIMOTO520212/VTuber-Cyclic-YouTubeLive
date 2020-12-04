@@ -72,9 +72,9 @@ def search(detail):
         # 視聴者数を抽出
         streamingNumber = detail.find_all("span", class_=["ytd-grid-video-renderer"])
         streamingNumber = streamingNumber[len(streamingNumber)-1].get_text()
-        #streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
-        #streamingNumber = streamingNumber.replace("K", "千")
-        #streamingNumber = streamingNumber.replace(" watching", "人")
+        streamingNumber = streamingNumber.replace(" 人が視聴中", "人")
+        streamingNumber = streamingNumber.replace("K", "千")
+        streamingNumber = streamingNumber.replace(" watching", "人")
 
         # 動画タイトルを抽出
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")

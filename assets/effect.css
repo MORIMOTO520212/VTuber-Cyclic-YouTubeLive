@@ -251,6 +251,7 @@ div.footer{
 div.footer a{
     text-decoration: none;
     display: inline-block;
+    padding: 0 5px;
 }
 
 /* play game */
