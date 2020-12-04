@@ -25,8 +25,6 @@ PROFILE_PATH = settings.firefoxProfilePath(os)
 Options.profile = PROFILE_PATH
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
-print("complete!")
-
 idChangeData = streamdata = gamesData = {}
 def loadDataFiles():
     global idChangeData, streamdata, gamesData
@@ -36,6 +34,8 @@ def loadDataFiles():
         streamdata = json.load(f)
     with open(settings.gamesDataPath(os), "r") as f:
         gamesData = json.load(f)
+
+print("complete!")
 
 def getSource():
     driver.get("https://www.youtube.com/feed/subscriptions")
@@ -89,18 +89,30 @@ def search(detail):
 
 streamingData_before = []
 def sort():
+    global streamingChannels, streamingData_before
+
     # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
     for strDa in streamingData_before:
         if strDa["channelId"] in str(streamingChannels):
+
+            # 既存データの視聴者数・ライブポイント・動画タイトルを更新
+            streamingNumber = False
+            livePoint       = False
+            videoTitle      = False
+            for liver in streamingChannels:
+                if strDa["channelId"] == liver["channelId"]:
+                    streamingNumber = liver["streamingNumber"]
+                    livePoint       = liver["livePoint"]
+                    videoTitle      = liver["videoTitle"]
 
             streamingData.append({ # 既存ライバー追加
                 "channelId": strDa["channelId"],
                 "userName": strDa["userName"],
                 "twitterId": strDa["twitterId"],
-                "streamingNumber": strDa["streamingNumber"],
-                "videoTitle": strDa["videoTitle"],
+                "streamingNumber": streamingNumber,
+                "videoTitle": videoTitle,
                 "photo": strDa["photo"],
-                "livePoint": strDa["livePoint"],
+                "livePoint": livePoint,
                 "lastLiveDate": strDa["lastLiveDate"],
                 "iconUpdateCount": strDa["iconUpdateCount"],
                 "lastIconUpdateDate": strDa["lastIconUpdateDate"],
@@ -113,7 +125,7 @@ def sort():
     for strCha in streamingChannels:
         if strCha["channelId"] not in str(streamingData_before):
 
-            streamingData.append({
+            streamingData.append({ # 現在取得したライバー追加
                 "channelId": strCha["channelId"],
                 "userName": strCha["userName"],
                 "twitterId": strCha["twitterId"],
@@ -202,7 +214,9 @@ def collab(videoTitle):
 while True:
     # セマフォ確認
     while True:
-        if "0" == open(".semaphore", "r").read(): sleep(60)
+        if "0" == open(".semaphore", "r").read():
+            print("処理待機")
+            sleep(60)
         else: break
     open(".semaphore", "w").write("0")
     try:
@@ -269,7 +283,7 @@ while True:
             # チャンネルデータのソート　新しいデータは末尾に追加する
             sort()
 
-        print("取得チャンネル数：{}　配信者数：{}".format(str(len(details)), str(len(streamingChannels))))
+        print(f"取得チャンネル数：{len(streamingChannels)}　配信者数：{len(streamingChannels)}")
 
         # 書き込み
         with open(settings.streamingDataPath(os), "w") as f:
