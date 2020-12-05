@@ -1,5 +1,5 @@
 var games = [];
-
+var cutIndex = 0;
 // 検索名欄ID
 var searchNameIds = [];
 // 製品名欄ID
@@ -17,6 +17,7 @@ window.onload = function() {
             if (xhr.status === 200) {
                 var answer = document.getElementById('answer');
                 answer.value = xhr.responseText;
+                console.log(xhr.responseText);
             }
         }
     };
@@ -72,7 +73,7 @@ function WRITE(HTML){
 function viewDB(){
     // inner HTML write
     var HTML = "";
-    for(var i = 0; i < games.length; i++){
+    for(var i = cutIndex; i < games.length; i++){
         var SNid  = searchNameIds[i];
         var PNid  = productNameIds[i];
         var OSLid = officialSiteLinkIds[i];
@@ -87,7 +88,8 @@ function viewDB(){
 }
 
 function submit(){
-    for(var i = 0; i < games.length; i++){
+    // set data json
+    for(var i = cutIndex; i < games.length; i++){
         var SNid  = searchNameIds[i];
         var PNid  = productNameIds[i];
         var OSLid = officialSiteLinkIds[i];
@@ -103,6 +105,13 @@ function submit(){
     }
 }
 
+function allview(){
+    cutIndex = 0;
+    /* write */
+    let HTML = viewDB();
+    WRITE(HTML);
+}
+
 function add(){
     submit();
     searchNameIds.push(getObjId());
@@ -111,7 +120,7 @@ function add(){
     ProductPhotoIds.push(getObjId());
     games.push({"word": false, "product": false, "url": false, "photo": false});
     /* write */
-    var HTML = viewDB();
+    let HTML = viewDB();
     WRITE(HTML);
 }
 
@@ -122,7 +131,7 @@ function del(index){
     officialSiteLinkIds.splice(index,1);
     ProductPhotoIds.splice(index,1);
     /* write */
-    var HTML = viewDB();
+    let HTML = viewDB();
     WRITE(HTML);
 }
 
@@ -139,7 +148,8 @@ function getGames(jsonData){
         officialSiteLinkIds.push(getObjId());
         ProductPhotoIds.push(getObjId());
     });
-    var HTML = viewDB();
+    cutIndex = games.length - 11;
+    let HTML = viewDB();
     WRITE(HTML);
 }
 $.post('../getData.php?mode=getGames_local', {}, function(data){
