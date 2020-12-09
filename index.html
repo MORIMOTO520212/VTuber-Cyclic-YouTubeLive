@@ -40,11 +40,6 @@
         <div class="status">
             <div class="box1">
 
-                <!--
-                <div class="list left_top_radius"><p>streaming ID</p></div>
-                <div class="list right_top_radius"><p id="streamingId">ライブ配信は1分ごとに切り替わります</p></div>
-                -->
-
                 <div class="list"><p>現在の配信者</p></div><!-- 総配信者数の欄を小さいアイコンに変えて並べる -->
                 <div class="list"><div class="streamings" id="streamings"><p>ロード中...</p></div></div>
 
@@ -85,9 +80,11 @@
                         <option value="30" >30分</option>
                     </select>
                     <a id="chatplay" href="javascript:chatPlay();">コメントを表示する</a>
+                    <a id="chatform" href="javascript:chatform();">チャットを表示する</a>
                 </div>
             </div>
         </div>
+        <iframe class="chatform" width="350" height="270" frameborder="0" src="https://www.youtube.com/live_chat?v=raCfyjAYtro&embed_domain=localhost" allowfullscreen></iframe>
         <div class="footer">
             <a href="about" target="_blank"><p>このサイトについて</p></a>
             <a href="vtuber" target="_blank"><p>VTuberについて</p></a>

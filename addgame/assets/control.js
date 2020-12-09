@@ -59,7 +59,8 @@ function createSrc(index, SNid, PNid, OSLid, PPid, SNV, PNV, OSLV, PPV){
     if(!(PNV)){ PNV = "" };
     if(!(OSLV)){ OSLV = "" };
     if(!(PPV)){ PPV = "" };
-    source = "<p>Index "+index+"</p><a href=\"javascript:del("+index+")\">削除</a><div class=\"input-main searchName\"><input type=\"text\" id=\""+SNid+"\" placeholder=\"検索名\" value=\""+SNV+"\"></div>";
+    source = "<div class=\"img\"><img src=\""+PPV+"\"></div>";
+    source += "<p>Index "+index+"</p><a href=\"javascript:del("+index+")\">削除</a><div class=\"input-main searchName\"><input type=\"text\" id=\""+SNid+"\" placeholder=\"検索名\" value=\""+SNV+"\"></div>";
     source += "<div class=\"input-main productName\"><input type=\"text\" id=\""+PNid+"\" placeholder=\"製品名\"value=\""+PNV+"\"></div>";
     source += "<div class=\"input-main officialSiteLink\"><input type=\"text\" id=\""+OSLid+"\" placeholder=\"公式サイトリンク\" value=\""+OSLV+"\"></div>";
     source += "<div class=\"input-main productPhoto\"><input type=\"text\" id=\""+PPid+"\" placeholder=\"画像リンク\" value=\""+PPV+"\"></div>";

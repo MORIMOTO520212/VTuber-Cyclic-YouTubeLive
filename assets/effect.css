@@ -259,6 +259,14 @@ div.footer a{
     width: 30%;
 }
 
+iframe.chatform{
+    position: absolute;
+    top: 0;
+    right: 9%;
+    width: 20%;
+    height: 72%;
+}
+
 @media screen and (max-width: 959px){
     div.block{
         opacity: 1;
