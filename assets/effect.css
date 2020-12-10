@@ -233,7 +233,7 @@ div.list.setting a{
     border-radius: 30px;
 }
 
-#chatplay{
+a.ctrlbtn{
     padding: 5px;
     border: solid 1px;
     border-radius: 30px;

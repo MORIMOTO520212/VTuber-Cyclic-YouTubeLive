@@ -41,6 +41,8 @@ var element_playgame_photo  = document.getElementById("playgame_photo");
 var element_playgame_link   = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
 var element_chatplay = document.getElementById("chatplay");
+var element_chatform = document.getElementById("chatform");
+var element_chatformbtn = document.getElementById("chatformbtn");
 
 var streamings;
 function intervalStreamingData(){
@@ -86,8 +88,9 @@ var chart = new Chart(ctx, {
 
 var chatlist = [];
 var lastmessageDate = 0; // 最新チャット時間
-var videoId = "";
+var videoId;
 var chatStatus = false; // チャットオンオフ
+var chatformStatus = false; // チャット欄オンオフ
 var si_ca;
 function StreamingChatData(liveChatData){ // チャットをchatlistに格納
     console.log("StreamingChatData");
@@ -184,6 +187,7 @@ function randomSetYouTube(){
             activeStatus["20"], activeStatus["21"], activeStatus["22"], activeStatus["23"]
         ];
         chart.update();
+        videoId = streamings[i]["videoId"];
     }
     setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける
 
@@ -194,7 +198,6 @@ function randomSetYouTube(){
 
     // チャット読み込み chatStatus - True 再生 False 停止
     if(chatStatus){
-        videoId = streamings[i]["videoId"];
         loadStreamingChatData(videoId);
     }
 }
@@ -263,5 +266,21 @@ function chatPlay(){
         // 開始する
         chatStatus = true;
         element_chatplay.innerText = "コメントを非表示にする";
+    }
+}
+
+function chatform(){
+    if(chatformStatus){
+        // 停止する
+        chatformStatus = false;
+        element_chatformbtn.innerText = "チャットを表示する";
+        element_chatform.innerHTML = "";
+    }else{
+        // 開始する
+        chatformStatus = true;
+        element_chatformbtn.innerText = "チャットを非表示にする";
+        domain = "localhost";
+        url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
+        element_chatform.innerHTML = "<iframe id=\"chatform\" class=\"chatform\" frameborder=\"0\" src=\""+url+"\" allowfullscreen></iframe>";
     }
 }
