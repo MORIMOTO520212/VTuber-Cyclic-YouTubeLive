@@ -28,6 +28,7 @@
             申し訳ございませんが、現在モバイル端末には対応していません。PC閲覧モードに設定するか、パソコンまたはタブレット端末でのアクセスをお願いします。<br>
             スマホでアクセス：<a href="collabnetwork">コラボネットワーク</a> <a href="status">ステータス</a>
         </p></div>
+        <div id="jquery-ui-draggable" class="ui-widget-content"></div>
         <div class="player">
             <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
             <iframe id="startpage" class="startpage" width="1280" height="720" src="startpage.html" style="opacity: 1;"></iframe>
@@ -42,7 +43,6 @@
         </div>
         <div class="status">
             <div class="box1">
-
                 <div class="list"><p>現在の配信者</p></div><!-- 総配信者数の欄を小さいアイコンに変えて並べる -->
                 <div class="list"><div class="streamings" id="streamings"><p>ロード中...</p></div></div>
 
@@ -72,7 +72,7 @@
                     <canvas id="myChart" width="5" height="2"></canvas>
                 </div>
 
-                <div class="list setting">
+                <div class="list active setting">
                     <p>巡回速度</p>
                     <select id="speed" onChange="changeSpeed()">
                         <option value="0.5">30秒</option>
@@ -82,12 +82,11 @@
                         <option value="10" >10分</option>
                         <option value="30" >30分</option>
                     </select>
+                    <a class="ctrlbtn" id="chatformbtn" href="javascript:chatform();">チャットを表示する</a>
                     <a class="ctrlbtn" id="chatplay" href="javascript:chatPlay();">コメントを表示する</a>
-                    <!--<a class="ctrlbtn" id="chatformbtn" href="javascript:chatform();">チャットを表示する</a>-->
                 </div>
             </div>
         </div>
-        <div id="jquery-ui-draggable" class="ui-widget-content"></div>
         <div class="footer">
             <a href="about" target="_blank"><p>このサイトについて</p></a>
             <a href="vtuber" target="_blank"><p>VTuberについて</p></a>
