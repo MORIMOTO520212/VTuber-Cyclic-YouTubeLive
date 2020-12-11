@@ -259,18 +259,54 @@ div.footer a{
     width: 30%;
 }
 
-iframe.chatform{
-    position: absolute;
-    top: 0;
-    right: 9%;
+/* チャットドラッグ移動 */
+#jquery-ui-draggable {
     width: 20%;
     height: 72%;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    background: #0000;
+    z-index: 2;
+}
+#jquery-ui-draggable div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: move;
+    background: #0000;
+    border: none;
+    border-radius: 30px;
+    z-index: 2;
+}
+iframe.ui-widget-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+#chatform iframe.chatform {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: move;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 959px){
     div.block{
         opacity: 1;
         width: 100%;
+        z-index: 1;
     }
     div.player{
         opacity: 0;

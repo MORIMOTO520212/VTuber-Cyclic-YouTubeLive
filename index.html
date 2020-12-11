@@ -15,16 +15,19 @@
         <meta name="keywords" content="vtuber, vtuber おすすめ">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<script src="https://www.youtube.com/iframe_api"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="assets/nncomment.js"></script>
+        <link type="text/css" rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/effect.css">
     </head>
     <body>
-        <div class="block"><p>現在モバイル端末には対応していません。パソコンまたはタブレット端末でのアクセスが可能です。</p></div>
-        <!--<video src="" autoplay onplay="audiobrock()"></video>-->
+        <div class="block"><p>
+            申し訳ございませんが、現在モバイル端末には対応していません。PC閲覧モードに設定するか、パソコンまたはタブレット端末でのアクセスをお願いします。<br>
+            スマホでアクセス：<a href="collabnetwork">コラボネットワーク</a> <a href="status">ステータス</a>
+        </p></div>
         <div class="player">
             <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
             <iframe id="startpage" class="startpage" width="1280" height="720" src="startpage.html" style="opacity: 1;"></iframe>
@@ -80,11 +83,11 @@
                         <option value="30" >30分</option>
                     </select>
                     <a class="ctrlbtn" id="chatplay" href="javascript:chatPlay();">コメントを表示する</a>
-                    <a class="ctrlbtn" id="chatformbtn" href="javascript:chatform();">チャットを表示する</a>
+                    <!--<a class="ctrlbtn" id="chatformbtn" href="javascript:chatform();">チャットを表示する</a>-->
                 </div>
             </div>
         </div>
-        <div id=chatform></div>
+        <div id="jquery-ui-draggable" class="ui-widget-content"></div>
         <div class="footer">
             <a href="about" target="_blank"><p>このサイトについて</p></a>
             <a href="vtuber" target="_blank"><p>VTuberについて</p></a>

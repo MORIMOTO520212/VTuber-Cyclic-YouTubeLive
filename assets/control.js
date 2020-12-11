@@ -41,7 +41,7 @@ var element_playgame_photo  = document.getElementById("playgame_photo");
 var element_playgame_link   = document.getElementById("playgame_link");
 var ctx = document.getElementById("myChart");
 var element_chatplay = document.getElementById("chatplay");
-var element_chatform = document.getElementById("chatform");
+var element_chatform = document.getElementById("jquery-ui-draggable");
 var element_chatformbtn = document.getElementById("chatformbtn");
 
 var streamings;
@@ -269,6 +269,12 @@ function chatPlay(){
     }
 }
 
+/* チャットドラッグ移動 */
+jQuery(function() {
+    jQuery('#jquery-ui-draggable').draggable({
+        handle: 'div',
+    });
+});
 function chatform(){
     if(chatformStatus){
         // 停止する
@@ -281,6 +287,6 @@ function chatform(){
         element_chatformbtn.innerText = "チャットを非表示にする";
         domain = "localhost";
         url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
-        element_chatform.innerHTML = "<iframe id=\"chatform\" class=\"chatform\" frameborder=\"0\" src=\""+url+"\" allowfullscreen></iframe>";
+        element_chatform.innerHTML = "<div class=\"ui-widget-header\"></div><iframe class=\"ui-widget-header\" frameborder=\"0\" src=\""+url+"\" allowfullscreen></iframe>";
     }
 }
