@@ -191,7 +191,7 @@ function randomSetYouTube(){
 
         // チャット読み込み
         if(chatformStatus){
-            domain = "localhost";
+            domain = document.domain;
             url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
             element_chatform.innerHTML = "<div class=\"ui-widget-header\"></div><iframe class=\"ui-widget-header\" frameborder=\"0\" src=\""+url+"\" allowfullscreen></iframe>";
         }
@@ -297,7 +297,7 @@ function chatform(){
         chatformStatus = true;
         element_chatformbtn.innerText = "チャットを非表示にする";
         element_chatform.setAttribute("style", "position:relative;");
-        domain = "localhost";
+        domain = document.domain;
         url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
         element_chatform.innerHTML = "<div class=\"ui-widget-header\"></div><iframe class=\"ui-widget-header\" frameborder=\"0\" src=\""+url+"\" allowfullscreen></iframe>";
     }
