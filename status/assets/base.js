@@ -1,6 +1,7 @@
 var streamData = new Array();
 var dateList = new Array();
 var body = document.getElementById("main");
+var user_number = document.getElementById("user_number");
 var source = "";
 
 function parseDate(date, lastLiveDate){
@@ -54,7 +55,7 @@ function sort_Date(){
     body.innerHTML = source;
 }
 
-function reverse_Date(){
+function reverse_Date(){ // 最新から
     source = "";
     dateList.sort(function(a, b) {
         if (a[1] < b[1]) { return 1; }
@@ -79,7 +80,8 @@ function StreamingData(jsonData){
     Object.keys(streamData).forEach(channelId => {
         dateList.push( Array(channelId, Number(streamData[channelId]["lastLiveDate"].replace(/[\/: ]/g, ""))));
     });
-    sort_Date();
+    user_number.innerText = "ユーザー数："+dateList.length;
+    reverse_Date();
 }
 $.post('../getData.php?mode=getStreamData', {}, function(data){
     console.log("getStreamData");
