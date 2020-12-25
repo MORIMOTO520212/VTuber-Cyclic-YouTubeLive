@@ -27,6 +27,7 @@ GCPでサイトを公開し、データは自宅のストレージサーバー�
 使用言語：JS, Python, PHP  
 
 ### ファイル説明  
+.semaphore - streamdata.jsonの排他制御を行います。これはstreamingSearchFirefox.pyとupdateTwitterIcon.pyが利用します。
 index.html - ストリーミングファイル  
 streamtest.html - チャンネルが埋め込み許可をしているかどうかを調べます。  
 startpage.html - index.htmlで使います。再生前の注意事項などを記載したファイルです。  
@@ -38,50 +39,71 @@ getChat.php - YouTube Data API v3からライブ配信のチャットを取得�
 chromedriver.exe - streamingSearchChrome.pyでseleniumを使います。Chromeブラウザに合ったバージョンを使ってください。  
 geckodriver.exe - streamingSearchFirefox.pyでseleniumを使います。  
 setting.py - ファイルの場所などの設定が書かれているモジュールです。  
-requirements.txt - Pythonのプログラムで使うモジュールをまとめたファイル。
-channels.txt - addStreamData.pyで一括でファイルを追加するためのテキストファイル。
+requirements.txt - Pythonのプログラムで使うモジュールをまとめたファイルです。
+channels.txt - addStreamData.pyで一括でファイルを追加するためのテキストファイルです。
 YouTubeDataAPI_liveChat.json - YouTubeData API v3で取得したチャットを記録する。サンプルファイルなので他のプログラムには直結しない。
 dbAdd.py - 既存のstreamdata.jsonに新しく追加するキーを全てに適応するためのプログラム。
 
 assets/  
-control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
-effect.css - index.htmlのスタイルシートです。  
-streaming.json - ライブ配信中のチャンネルIDを配列で記録しています。  
-nncomment.js - ニコニコ弾幕の再現ソースコード　開発者：https://github.com/wmoai/jquery.nncomment
+    control.js - index.htmlのjsファイルです。ストリームの操作を行っています。  
+    effect.css - index.htmlのスタイルシートです。  
+    streaming.json - ライブ配信中のチャンネルIDを配列で記録しています。  
+    nncomment.js - ニコニコ弾幕の再現ソースコード　開発者：https://github.com/wmoai/jquery.nncomment
 
 database/  
-streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。  
-idChangeData.json - スクレイピングでユーザーIDで取得された場合にチャンネルIDに変更します。  
-guide.mp4 - index.htmlで使うファイルです。  
+    streamdata.json - ライバーの情報（ユーザー名・Twitter IDなど）が記録されています。  
+    idChangeData.json - スクレイピングでユーザーIDで取得された場合にチャンネルIDに変更します。  
+    games.json - ゲーム配信中にゲームを検出するために使うデータファイルです。
 
 about/  
-index.html - このサイトについての情報が書かれている。  
-style.css  - index.htmlのスタイル  
+    index.html - このサイトについての情報が書かれている。  
+    style.css  - index.htmlのスタイル  
+
+addgame/
+    index.html - games.jsonにゲーム情報を登録するためのサイトです。
+    assets/
+        control.js - index.htmlで使うファイルで、データの整理をしています。
+        style.css - index.htmlのスタイルシートです。
+        write.php - control.jsから送られたjson情報をgames.jsonに上書きします。
 
 usage/  
-index.html - このサイトの使い方について書かれている。  
-style.css  - index.htmlのスタイル  
+    index.html - このサイトの使い方について書かれている。  
+    style.css  - index.htmlのスタイル  
 
 vtuber/  
-index.html - このサイトに登録しているVTuberについて書かれている。  
-style.css  - index.htmlのスタイル  
+    index.html - このサイトに登録しているVTuberについて書かれている。  
+    style.css  - index.htmlのスタイル  
 
 bugreport/  
-index.html - このサイトのバグについて書かれている。  
-style.css  - index.htmlのスタイル  
+    index.html - このサイトのバグについて書かれている。  
+    style.css  - index.htmlのスタイル  
 
 collabnetwork/  
-index.html - コラボ状況について書かれている。
-assets/ network.js - コラボ状況の操作  
-assets/ style.css  - index.htmlのスタイル  
+    index.html - コラボ状況について書かれている。
+    assets/ network.js - コラボ状況の操作  
+    assets/ style.css  - index.htmlのスタイル  
 
 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
 
-### 未登録ライバー
-
-### 未登録ゲーム 
+### 気になるライバー
+真神ラフィ 埋め込み禁止中
+YouTube:https://www.youtube.com/channel/UCBaSCYQid-__CE6bnUPWXrw  
+Twitter:https://twitter.com/maga3_raffi  
+白夢レイン 準備中
+Twitter:https://twitter.com/Rain_Hakumu
+妖鬼水晶 準備中
+YouTube:https://www.youtube.com/channel/UCrNekQmlZQSQhxjov1Jz5Yw
+Twitter:https://twitter.com/Suisyou_cha
+園原満琴 準備中
+YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw
+Twitter:https://twitter.com/makoto_sono
+南方フィニー 埋め込み禁止中
+YouTube:https://www.youtube.com/channel/UCvcfm4qLaP8AD3IYL30smcA
+Twitter:https://twitter.com/37_finney
 
 NOTE  
+
+
 データを一部だけ変更するプログラムの作成
 6時から23時までgoodそれ以外bad  
 統計人数：8人  
