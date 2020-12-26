@@ -97,9 +97,6 @@ Twitter:https://twitter.com/Suisyou_cha
 園原満琴 準備中
 YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw
 Twitter:https://twitter.com/makoto_sono
-南方フィニー 埋め込み禁止中
-YouTube:https://www.youtube.com/channel/UCvcfm4qLaP8AD3IYL30smcA
-Twitter:https://twitter.com/37_finney
 
 NOTE  
 
