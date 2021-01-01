@@ -35,7 +35,9 @@
                 element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+element_input1.value);
             }
             function test2(){
-                element.setAttribute("src", "https://www.youtube.com/embed/"+element_input2.value);
+                url = element_input2.value;
+                id = url.replace("https://www.youtube.com/watch?v=", "");
+                element.setAttribute("src", "https://www.youtube.com/embed/"+id);
             }
     </script>
 </html>

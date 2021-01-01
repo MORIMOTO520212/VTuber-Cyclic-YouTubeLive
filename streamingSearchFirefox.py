@@ -251,7 +251,7 @@ while True:
                         try:
                             usrRoot = streamdata[channelId]
                         except:
-                            raise ValueError(channelId+" チャンネルが登録されていません。")
+                            raise ValueError(channelId+" idChangeDataにしか登録されていません。")
 
                         # タイトルにゲーム名がある場合取得
                         play = playGame(videoTitle)
