@@ -99,7 +99,8 @@ YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw
 Twitter:https://twitter.com/makoto_sono
 
 NOTE  
-
+配信中の埋め込みにはGoogle Adsenseの認証が必要である。
+黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
 
 データを一部だけ変更するプログラムの作成
 6時から23時までgoodそれ以外bad  
