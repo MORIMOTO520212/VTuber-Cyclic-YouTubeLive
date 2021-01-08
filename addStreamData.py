@@ -83,10 +83,6 @@ else:
         while i < len(channels)-1:
             in_userName = channels[i]
 
-            if in_userName in userName:
-                print(in_userName, "既に登録済みのユーザーです。\n")
-                continue
-
             i += 1 # 2 TwitterId
             in_twitterId = channels[i]
             # TweepyでTwitterアイコン取得
@@ -103,7 +99,11 @@ else:
             print(in_twitterId)
             print(channels[i])
             print("-------------------------------------------")
-            add(in_userName, in_twitterId, photo, channels[i])
+
+            if in_userName in userName:
+                print(in_userName, "既に登録済みのユーザーです。\n")
+            else:
+                add(in_userName, in_twitterId, photo, channels[i])
             i += 1
     except KeyboardInterrupt:
         input("\nエンターキーを押して終了します。")
