@@ -101,7 +101,7 @@ else:
             print("-------------------------------------------")
 
             if in_userName in userName:
-                print(in_userName, "既に登録済みのユーザーです。\n")
+                print(in_userName, "既に登録済みのユーザーです。")
             else:
                 add(in_userName, in_twitterId, photo, channels[i])
             i += 1
