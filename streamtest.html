@@ -32,7 +32,9 @@
             element_input1 = document.getElementById("input1");
             element_input2 = document.getElementById("input2");
             function test1(){
-                element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+element_input1.value);
+                url = element_input1.value
+                id = url.replace("https://www.youtube.com/channel/", "");
+                element.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+id);
             }
             function test2(){
                 url = element_input2.value;
