@@ -83,12 +83,12 @@ collabnetwork/
     assets/ network.js - コラボ状況の操作  
     assets/ style.css  - index.htmlのスタイル  
 
-画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。
+Work_Labo/  
+    work.md - 作業内容を記載する。
+    work.py - 作業用Pythonファイル。
+
 
 ### 気になるライバー
-真神ラフィ 埋め込み禁止中
-YouTube:https://www.youtube.com/channel/UCBaSCYQid-__CE6bnUPWXrw  
-Twitter:https://twitter.com/maga3_raffi  
 白夢レイン 準備中
 Twitter:https://twitter.com/Rain_Hakumu
 妖鬼水晶 準備中
@@ -97,15 +97,24 @@ Twitter:https://twitter.com/Suisyou_cha
 園原満琴 準備中
 YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw
 Twitter:https://twitter.com/makoto_sono
+七瀬タク 調査中
+YouTube:https://www.youtube.com/channel/UCiqHlJh_i0z3PUadvlcWpEg
+Twitter:https://twitter.com/7se_taku
+百世アソブ 調査中
+YouTube:https://www.youtube.com/channel/UCxzjHuyG5kd56vMDtUWzKAw
+Twitter:https://twitter.com/Momose_Asobu
 
 NOTE  
-配信中の埋め込みにはGoogle Adsenseの認証が必要である。
-黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
+message -> 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。  
+twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
+streamdata.json -> あやひなチャンネルはグループチャンネルなので削除する。  
+VTuberギルド -> ライブ配信ドバイザリー  VTuberギルドに参加しているライバーのライブ配信を分析しアドバイスする。
+各ライバーのゲーム配信における”最高同時接続者数”を記録する。  
+各ライバーの1週間のライブ配信数を記録する。
 
-データを一部だけ変更するプログラムの作成
 6時から23時までgoodそれ以外bad  
 統計人数：8人  
-深夜帯倍率：36.83686608469389 %  
+深夜帯倍率：36.837 %  
 
 good 1087  bad 157  
 good 1281  bad 467  
@@ -121,29 +130,3 @@ good 605   bad 486
 
 ※健康度がプラスになれば健康、マイナスなら不健康  
 健康度：(good ÷ bad) - 健康倍率   
-
-
-ch1 - [ch2,ch3,ch4]
-ch2 - [ch1,ch3,ch6]
-ch3 - [ch1,ch2,ch5]
-ch4 - [ch1,ch3,ch5]
-ch5 - [ch3,ch4]
-ch6 - [ch2]
-
-channel = GET data.json
-already = []
-edges = []
-for channel {
-    check = true
-    for already {
-        if channel == already {
-            check = false
-        }
-    }
-    if check {
-        edges append {from ch to ch}
-    }
-}
-
-json
-"collab": ["channelId","channelId"]
