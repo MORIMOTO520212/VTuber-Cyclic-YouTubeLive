@@ -283,11 +283,11 @@ while True:
             # チャンネルデータのソート　新しいデータは末尾に追加する
             sort()
 
-        print(f"取得チャンネル数：{len(streamingChannels)}　配信者数：{len(streamingChannels)}")
+        print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 
         # 書き込み
         with open(settings.streamingDataPath(os), "w") as f:
-            json.dump(streamingData, f, indent=4)
+            json.dump(streamingData, f)
 
         with open(settings.streamDataPath(os), "w") as f:
             json.dump(streamdata, f, indent=4)
