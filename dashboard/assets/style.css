@@ -127,6 +127,7 @@ div.box .ck .badge{
 }
 
 
+
 div.streamData{
     display: inline-block;
     vertical-align: middle;
@@ -139,6 +140,24 @@ div.streamData{
 div.streamData .now{
     width: 100%;
     height: 30%;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+}
+div.streamData .visual{
+    width: 100%;
+    height: 70%;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+}
+
+
+
+div.cntadd{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 25%;
+    height: 85%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
