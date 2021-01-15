@@ -161,3 +161,15 @@ div.cntadd{
     border: solid 1px #fff;
     box-sizing: border-box;
 }
+div.control{
+    width: 100%;
+    height: 20%;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+}
+div.addgame{
+    width: 100%;
+    height: 80%;
+    border: solid 1px #fff;
+    box-sizing: border-box;
+}
