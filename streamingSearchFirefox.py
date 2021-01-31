@@ -242,8 +242,11 @@ while True:
                         channelId = idChangeData[channelId]
                     except:
                         print("未登録のライバー："+channelId)
-                        open("message.log", "a").write("未登録のライバー："+channelId+"\n")
-                        channelId = "unregistered"
+                        with open("message.log", "r") as f:
+                            ck_message = f.read()
+                        if "未登録のライバー："+channelId not in ck_message:
+                            open("message.log", "a").write("未登録のライバー："+channelId+"\n")
+                            channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
                     
