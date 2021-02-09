@@ -36,10 +36,28 @@ ul.list {
 li.item{
     display: inline-block;
     vertical-align: middle;
+    position: relative;
     width: 174px;
     height: 174px;
     margin: 0 20px 20px 0;
 
     border: solid 1px;
     box-sizing:border-box;
+}
+
+img.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 174px;
+    height: 174px;
+    object-fit: cover;
+    z-index: 10;
+}
+
+div.info .title{
+    z-index: 2;
+}
+div.info .name{
+    z-index: 20;
 }
