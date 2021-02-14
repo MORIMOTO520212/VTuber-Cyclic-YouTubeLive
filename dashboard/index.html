@@ -26,31 +26,25 @@
                 </div>
                 <div class="channel">
                     <div class="msg"><p>配信中のチャンネル</p></div>
-                    <div class="counter"><p>40人</p></div>
-                    <div id="live">
-                        <div id="" class="box">
-                            <a href="">
+                    <div id="counter"><p>[Liver Counter]</p></div>
+                    <div id="streamings">
+                        <!-- id - channelId  link - YouTube URL -->
+                        <div id="[YouTube Channel ID]" class="box">
+                            <a href="javascript:streamSelect(channelId);[Streaming Video Selected]">
                                 <div class="img">
-                                    <img src="https://pbs.twimg.com/profile_images/1347163961515380736/riZqPuFA_400x400.jpg">
+                                    <img src="[Twitter icon]">
                                 </div>
-                                <div class="name"><p>しぇりんばーガンディ</p></div>
-                                <div class="title"><p>ここへタイトルここへタイトルここへタイトル</p></div>
+                                <div class="name"><p>[User Name]</p></div>
+                                <div class="title"><p>[Movie Title]</p></div>
                             </a>
                             <div class="ck">
-                                <div><a href=""><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
-                                <div><a href=""><img src="assets/yt_icon_rgb.png"></a></div>
+                                <div><a href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
+                                <div><a href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
                                 <!-- 認証バッジ 埋め込み許可のチャンネルのみ与えられる -->
                                 <div class="badge"><img src="assets/badge.png"></div>
                             </div>
                         </div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
-                        <div id="" class="box"></div>
+
                     </div>
                 </div>
             </div>
@@ -65,7 +59,9 @@
             </div>
 
             <div class="cntadd">
-                <div class="control"></div>
+                <div class="control">
+
+                </div>
                 <div class="addgame">
                     <div class="inp" id="main">
                         <div class="img">
@@ -85,10 +81,14 @@
                             <input type="text" id="d" placeholder="画像リンク" value="">
                         </div>
                     </div>
+                    <div class="submit"><a href="javascript:allview()"><p>全て表示</p></a></div>
+                    <div class="submit"><a href="javascript:add()"><p>追加</p></a></div>
+                    <div class="submit"><a href="javascript:send()"><p>保存</p></a></div>
                 </div>
             </div>
-
         </div>
         <script src="assets/base.js"></script>
+        <script src="assets/control.js"></script>
+        <script src="assets/stream-control.js"></script>
     </body>
 </html>
