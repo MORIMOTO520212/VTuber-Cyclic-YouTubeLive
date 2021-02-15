@@ -145,7 +145,7 @@ div.streamData{
 }
 div.streamData .now{
     width: 100%;
-    height: 40%;
+    /*height: 40%;*/
     border: solid 1px #fff;
     box-sizing: border-box;
 }
@@ -156,15 +156,17 @@ div.streamData .now .list{
     vertical-align: top;
     margin: 0;
     width: 48%;
-    font-size: 10px;
+    font-size: 0.7vw;
+}
+#playgame_photo{
+    width: 35%;
 }
 div.streamData .visual{
     width: 100%;
-    height: 60%;
+    /*height: 60%;*/
     border: solid 1px #fff;
     box-sizing: border-box;
 }
-
 
 
 
@@ -191,7 +193,7 @@ div.addgame{
     border: solid 1px #fff;
     box-sizing: border-box;
     overflow-y: scroll;
-    font-size: 10px;
+    font-size: 0.7vw;
 }
 div.submit{
     background-color: #4a7956;
@@ -200,7 +202,7 @@ div.submit{
 #main input{
     width: 50%;
     height: 25px;
-    font-size: 10px;
+    font-size: 0.7vw;
     background-color: #ffd770;
 }
 #main .img{

@@ -21,7 +21,7 @@
                 </div>
                 <div class="m-check">
                     <div>
-                        <input type="text" id="" placeholder="Channel ID"><a href="">検証</a>
+                        <input type="text" id="embedVerify" placeholder="Channel ID" value=""><a href="javascript:embed_verify();">検証</a>
                     </div>
                 </div>
                 <div class="channel">
@@ -65,7 +65,11 @@
                     <div class="list"><p id="videoTitle">[ videoTitle ]</p></div>
     
                     <div class="list"><p id="playgame_name">プレイ中のゲーム</p></div>
-                    <div class="list"><a id="playgame_link" href="" target="_blank" rel="noopener"><img id="playgame_photo" src=""></a></div>
+                    <div class="list">
+                        <a id="playgame_link" href="" target="_blank" rel="noopener">
+                            <img id="playgame_photo" src="">
+                        </a>
+                    </div>
     
                     <div class="list"><p>同時接続者数</p></div>
                     <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>

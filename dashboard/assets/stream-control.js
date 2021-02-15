@@ -11,27 +11,19 @@
 
 var streamingChannel    = "";
 var element_youtube     = document.getElementById("youtube");
-var element_startpage   = document.getElementById("startpage");
-var element_streamingId = document.getElementById("streamingId");
 var element_streamings  = document.getElementById("streamings");
 var element_channelId   = document.getElementById("channelId");
 var element_userName    = document.getElementById("userName");
-var element_videoTitle  = document.getElementById("videoTitle");
 var element_twitterId   = document.getElementById("twitterId");
-var element_counter     = document.getElementById("counter");
-var element_streamingNumber = document.getElementById("streamingNumber");
-var element_main_userName   = document.getElementById("main_userName");
-var element_main_videoTitle = document.getElementById("main_videoTitle");
-var element_photo     = document.getElementById("photo");
-var element_livePoint = document.getElementById("livePoint");
-var element_play      = document.getElementById("play");
-var element_speed     = document.getElementById("speed");
+var element_videoTitle  = document.getElementById("videoTitle");
 var element_playgame_photo  = document.getElementById("playgame_photo");
 var element_playgame_link   = document.getElementById("playgame_link");
-var ctx = document.getElementById("myChart");
-var element_chatplay = document.getElementById("chatplay");
-var element_chatform = document.getElementById("jquery-ui-draggable");
-var element_chatformbtn = document.getElementById("chatformbtn");
+var element_streamingNumber = document.getElementById("streamingNumber");
+var element_livePoint       = document.getElementById("livePoint");
+var element_counter         = document.getElementById("counter");
+var element_embed_verify    = document.getElementById("embedVerify");
+
+
 
 
 /* Streaming Update 5.0s */
@@ -62,8 +54,23 @@ setInterval(intervalStreamingData, 5000);
 var videoId;
 function setYouTube(channelId){
     console.log("setYouTube");
-
     element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+channelId+"&enablejsapi=1");
+    var ch_metadata = streamings.filter(elem => {
+        return channelId == elem.channelId;
+    });
+    element_channelId.innerText       = channelId;
+    element_userName.innerText        = ch_metadata[0].userName;
+    element_twitterId.innerText       = ch_metadata[0].twitterId;
+    element_streamingNumber.innerText = ch_metadata[0].streamingNumber;
+    element_videoTitle.innerText      = ch_metadata[0].videoTitle;
+    element_livePoint.innerText       = ch_metadata[0].livePoint;
+    
+    if(ch_metadata[0].play){
+        console.log(ch_metadata[0].play);
+        element_playgame_photo.setAttribute("src", ch_metadata[0].play.photo);
+        element_playgame_link.setAttribute("href", ch_metadata[0].play.url);
+    }
+    
 }
 
 
@@ -90,4 +97,11 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
     console.log("onPlayerStateChange "+event.data);
     apiCheck = true;
+}
+
+/* embed verify */
+function embed_verify() {
+    channelId = element_embed_verify.value;
+    channelId = channelId.replace("https://www.youtube.com/channel/", "");
+    setYouTube(channelId);
 }
