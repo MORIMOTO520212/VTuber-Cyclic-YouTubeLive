@@ -18,10 +18,13 @@ a{
     text-decoration: none;
 }
 div.main{
-    width: 90%;
+    /*width: 90%;*/
+    width: 1550px;
     height: 100%;
     margin: 0 auto;
 }
+
+
 
 /* ---- Channel Live Stream ---- */
 div.smart{
@@ -130,6 +133,7 @@ div.box .ck .badge{
 
 
 
+/* Streaming Data Viewer */
 div.streamData{
     display: inline-block;
     vertical-align: middle;
@@ -141,16 +145,26 @@ div.streamData{
 }
 div.streamData .now{
     width: 100%;
-    height: 30%;
+    height: 40%;
     border: solid 1px #fff;
     box-sizing: border-box;
+}
+div.streamData .now .list{
+    display: inline-block;
+    border: solid 1px #565656;
+    word-wrap: break-word;
+    vertical-align: top;
+    margin: 0;
+    width: 48%;
+    font-size: 10px;
 }
 div.streamData .visual{
     width: 100%;
-    height: 70%;
+    height: 60%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
+
 
 
 
@@ -158,7 +172,7 @@ div.cntadd{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    width: 25%;
+    width: 40%;
     height: 85%;
     border: solid 1px #fff;
     box-sizing: border-box;
@@ -177,6 +191,7 @@ div.addgame{
     border: solid 1px #fff;
     box-sizing: border-box;
     overflow-y: scroll;
+    font-size: 10px;
 }
 div.submit{
     background-color: #4a7956;
@@ -185,7 +200,7 @@ div.submit{
 #main input{
     width: 50%;
     height: 25px;
-    font-size: 16px;
+    font-size: 10px;
     background-color: #ffd770;
 }
 #main .img{
