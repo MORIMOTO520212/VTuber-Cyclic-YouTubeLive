@@ -145,9 +145,10 @@ div.streamData{
 }
 div.streamData .now{
     width: 100%;
-    /*height: 40%;*/
+    height: 30%;
     border: solid 1px #fff;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 div.streamData .now .list{
     display: inline-block;
@@ -161,14 +162,42 @@ div.streamData .now .list{
 #playgame_photo{
     width: 35%;
 }
+
+/* stream data editor */
 div.streamData .visual{
     width: 100%;
-    /*height: 60%;*/
+    height: 70%;
     border: solid 1px #fff;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
+#visual_main{
+    width: 100%;
+    font-size: 0.7vw;
+}
+#visual_main input{
+    background-color: #181818;
+    color: #eee;
+    font-size: 0.7vw;
+    border: 0;
+}
+#visual_main .channelId{
+    margin: 0 0 0 20px;
+}
+#visual_main .channelId p{
+    display: inline-block;
+}
+#visual_main .ct{
+    margin: 0 0 0 20px;
 
-
+}
+#visual_main .elem2{
+    margin: 0 0 0 40px;
+}
+#visual_main .elem2 p{
+    display: inline-block;
+    color: #52c6d2;
+}
 
 div.cntadd{
     display: inline-block;

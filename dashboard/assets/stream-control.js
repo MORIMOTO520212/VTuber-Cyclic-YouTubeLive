@@ -22,7 +22,7 @@ var element_streamingNumber = document.getElementById("streamingNumber");
 var element_livePoint       = document.getElementById("livePoint");
 var element_counter         = document.getElementById("counter");
 var element_embed_verify    = document.getElementById("embedVerify");
-
+var visual_main             = document.getElementById("visual_main");
 
 
 
@@ -105,3 +105,27 @@ function embed_verify() {
     channelId = channelId.replace("https://www.youtube.com/channel/", "");
     setYouTube(channelId);
 }
+
+
+
+/* stream data editor */
+var streamData;
+var streamElementSource;
+function StreamData(jsonData){
+    stremData = jsonData;
+    streamElementSource = "<p>{</p>";
+    Object.keys(stremData).forEach(channelId => {
+        let userName = stremData[channelId]["userName"];
+        let twitterId = stremData[channelId]["twitterId"];
+        let photo = stremData[channelId]["photo"];
+        streamElementSource += "<div class=\"channelId\"><input type=\"text\" id=\"\" value=\""+ channelId +"\"><p>: {</p></div><div class=\"elem2 userName\"><p>\"userName\": </p><input type=\"text\" id=\"\" value=\""+ userName +"\"></div><div class=\"elem2 twitterId\"><p>\"twitterId\": </p><input type=\"text\" id=\"\" value=\""+ twitterId +"\"></div><div class=\"elem2 photo\"><p>\"photo\": </p><input type=\"text\" id=\"\" value=\""+ photo +"\"></div><p class=\"ct\">},</p>";
+    });
+    streamElementSource += "<p>}</p>";
+    visual_main.innerHTML = streamElementSource;
+}
+$.post('../getData.php?mode=getStreamData', {}, function(data){
+    console.log("getStreamData");
+    jsonData = JSON.parse(data);
+    StreamData(jsonData);
+});
+
