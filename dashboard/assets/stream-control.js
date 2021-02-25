@@ -22,8 +22,9 @@ var element_streamingNumber = document.getElementById("streamingNumber");
 var element_livePoint       = document.getElementById("livePoint");
 var element_counter         = document.getElementById("counter");
 var element_embed_verify    = document.getElementById("embedVerify");
-var visual_main             = document.getElementById("visual_main");
-
+var element_visual_main     = document.getElementById("visual_main");
+var element_message_log     = document.getElementById("message_log");
+var element_error_log       = document.getElementById("error_log");
 
 
 /* Streaming Update 5.0s */
@@ -121,7 +122,7 @@ function StreamData(jsonData){
         streamElementSource += "<div class=\"channelId\"><input type=\"text\" id=\"\" value=\""+ channelId +"\"><p>: {</p></div><div class=\"elem2 userName\"><p>\"userName\": </p><input type=\"text\" id=\"\" value=\""+ userName +"\"></div><div class=\"elem2 twitterId\"><p>\"twitterId\": </p><input type=\"text\" id=\"\" value=\""+ twitterId +"\"></div><div class=\"elem2 photo\"><p>\"photo\": </p><input type=\"text\" id=\"\" value=\""+ photo +"\"></div><p class=\"ct\">},</p>";
     });
     streamElementSource += "<p>}</p>";
-    visual_main.innerHTML = streamElementSource;
+    element_visual_main.innerHTML = streamElementSource;
 }
 $.post('../getData.php?mode=getStreamData', {}, function(data){
     console.log("getStreamData");
@@ -129,15 +130,22 @@ $.post('../getData.php?mode=getStreamData', {}, function(data){
     StreamData(jsonData);
 });
 
-/* get message log */
-function messageLog(data){
-    
-}
-$.ajax({
-    type: 'POST',
-    url: '../getData.php?mode=message_log',
-    dataType: 'html',
-    success: function(data){
-        messageLog(data);
+/* get log */
+function intervalLog(){
+    function messageLog(log){
+        console.log("get message log.");
+        element_message_log.innerText = "- message log -" + log;
     }
-});
+    function errorLog(log){
+        console.log("get error log.");
+        element_error_log.innerText = "- error log -" + log;
+    }
+    $.post('../getData.php?mode=message_log', {}, function(data){
+        messageLog(data);
+    });
+    $.post('../getData.php?mode=error_log', {}, function(data){
+        errorLog(data);
+    });
+}
+intervalLog();
+setInterval(intervalLog, 10000);

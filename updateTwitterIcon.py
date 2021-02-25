@@ -1,11 +1,12 @@
 # updateTwitterIcon.py
 # ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。
 # Created : 2020/10/29
-import json, settings, tweepy, datetime
+import os, json, settings, tweepy, datetime
 from time import sleep
 
 # 動作環境
-os = "windows"
+if os.name == "nt": OS = "windows"
+if os.name == "posix": OS = "linux"
 # 更新間隔(秒)
 delay = 3600*12 # 12時間
 
@@ -20,7 +21,7 @@ api = tweepy.API(auth_handler=auth)
 
 def main():
     try:
-        with open(settings.streamDataPath(os), "r") as f:
+        with open(settings.streamDataPath(OS), "r") as f:
             streamdata = json.load(f)
         now = datetime.datetime.now()
 
@@ -36,11 +37,14 @@ def main():
                     usrRoot["iconUpdateCount"] += 1
                     # 最終アイコンアップデート日
                     usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                    print(usrRoot["userName"]+"さんのアイコンデータを更新しました。")
+                    
+                    message = "[{}] [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
+                    open("/var/www/html/log/message.log", "a").write(message)
+                    print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
             except Exception as e:
                 if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-                    message = "[{}] {}さんのTwitterのアカウントが見つかりませんでした。".format(channelId, usrRoot["userName"])
-                    open("message.log", "a").write("[UpdateTwitterIcon.py] "+message+"\n")
+                    message = "[{}] [UTI] [{}] {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
+                    open("/var/www/html/log/message.log", "a").write(message)
                     print(message)
             sleep(1)
         return streamdata
@@ -57,16 +61,16 @@ while True:
     open(".semaphore", "w").write("0")
 
     try:
-        streamdata = main()
-        with open(settings.streamDataPath(os), "w") as f:
-            json.dump(streamdata, f, indent=4)
+        streamdata = main() # 更新したデータを返す
+        with open(settings.streamDataPath(OS), "w") as f:
+            json.dump(streamdata, f, indent=4) # 保存
         now = datetime.datetime.now()
-        open("message.log", "a").write("[UpdateTwitterIcon.py] update: {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+        open("/var/www/html/log/message.log", "a").write("[{}] [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
         open(".semaphore", "w").write("1")
         print("待機中...")
         sleep(delay)
     except KeyboardInterrupt:
-        print("キーが押されたので終了します。")
+        print("キーが押されたので終了します.")
         open(".semaphore", "w").write("1")
         exit()

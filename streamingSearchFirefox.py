@@ -243,10 +243,11 @@ while True:
                         channelId = idChangeData[channelId]
                     except:
                         print("未登録のライバー："+channelId)
-                        with open("message.log", "r") as f:
-                            ck_message = f.read()
+                        ck_message = open("/var/www/html/log/message.log", "r").read()
+
                         if "未登録のライバー："+channelId not in ck_message:
-                            open("message.log", "a").write("未登録のライバー："+channelId+"\n")
+                            now = datetime.datetime.now()
+                            open("/var/www/html/log/message.log", "a").write("[{}] [SSF] 未登録のライバー：{}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
                             channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
@@ -255,7 +256,7 @@ while True:
                         try:
                             usrRoot = streamdata[channelId]
                         except:
-                            raise ValueError(channelId+" idChangeDataにしか登録されていません。")
+                            raise ValueError(channelId+" idChangeDataにしか登録されていません.")
 
                         # タイトルにゲーム名がある場合取得
                         play = playGame(videoTitle)
@@ -290,10 +291,10 @@ while True:
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 
         # 書き込み
-        with open(settings.streamingDataPath(os), "w") as f:
+        with open(settings.streamingDataPath(OS), "w") as f:
             json.dump(streamingData, f)
 
-        with open(settings.streamDataPath(os), "w") as f:
+        with open(settings.streamDataPath(OS), "w") as f:
             json.dump(streamdata, f, indent=4)
 
         # データを保持　次のクロール時にデータを比較するため
@@ -311,5 +312,6 @@ while True:
     
     except Exception as e:
         print("main Error: "+str(e))
-        open("error.log", "a").write(str(e)+"\n")
+        now = datetime.datetime.now()
+        open("/var/www/html/log/error.log", "a").write("[{}] [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
         open(".semaphore", "w").write("1")
