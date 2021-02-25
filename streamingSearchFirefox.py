@@ -1,38 +1,39 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
-import json, settings, datetime
+import os, json, settings, datetime
 
 
 print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
 
 
 # 動作環境の設定 windows | linux
-os = "linux"
+if os.name == "nt": OS = "windows"
+if os.name == "posix": OS = "linux"
 # 更新待機時間 (秒)
 delay = 120
 # 名前解析　周辺にある文字から名前を特定する
 true_noise_L = ["【", "・", "/", " ", "　"]
 true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
-print("動作オペレーティングシステム："+os)
+print("動作オペレーティングシステム："+OS)
 
 print("selenium webdriver...")
 # ヘッドレスモードでユーザープロファイルを使う
 Options = webdriver.FirefoxOptions()
 Options.headless = True #Options.set_headless() Linuxでは非推奨
-PROFILE_PATH = settings.firefoxProfilePath(os)
+PROFILE_PATH = settings.firefoxProfilePath(OS)
 Options.profile = PROFILE_PATH
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
 idChangeData = streamdata = gamesData = {}
 def loadDataFiles():
     global idChangeData, streamdata, gamesData
-    with open(settings.idChangeDataPath(os), "r") as f:
+    with open(settings.idChangeDataPath(OS), "r") as f:
         idChangeData = json.load(f)
-    with open(settings.streamDataPath(os), "r") as f:
+    with open(settings.streamDataPath(OS), "r") as f:
         streamdata = json.load(f)
-    with open(settings.gamesDataPath(os), "r") as f:
+    with open(settings.gamesDataPath(OS), "r") as f:
         gamesData = json.load(f)
 
 print("complete!")

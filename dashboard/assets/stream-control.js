@@ -129,3 +129,15 @@ $.post('../getData.php?mode=getStreamData', {}, function(data){
     StreamData(jsonData);
 });
 
+/* get message log */
+function messageLog(data){
+    
+}
+$.ajax({
+    type: 'POST',
+    url: '../getData.php?mode=message_log',
+    dataType: 'html',
+    success: function(data){
+        messageLog(data);
+    }
+});
