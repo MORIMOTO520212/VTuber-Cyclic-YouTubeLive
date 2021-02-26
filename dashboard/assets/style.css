@@ -104,6 +104,9 @@ div.box .img img{
 div.box .name{
     display: inline-block;
     vertical-align: middle;
+    width: 80%;
+    height: 25%;
+    overflow-y: hidden;
 }
 div.box .title{
     width: 100%;
@@ -160,7 +163,7 @@ div.streamData .now .list{
     font-size: 0.7vw;
 }
 #playgame_photo{
-    width: 35%;
+    width: 70%;
 }
 
 /* stream data editor */
