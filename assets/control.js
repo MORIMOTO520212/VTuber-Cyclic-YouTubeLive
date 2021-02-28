@@ -1,7 +1,7 @@
 /* * * * * * * * * * * * * * * * * * *
 
     VTuber Cyclic Live Streaming 
-    update: 2020/10/13
+    create: 2020/10/13
     GitHub:
     Twitter: @Medaka_bridle
 

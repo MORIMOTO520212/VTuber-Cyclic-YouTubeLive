@@ -31,13 +31,13 @@ div.smart{
     display: inline-block;
     vertical-align: middle;
     width: 25%;
-    height: 85%;
+    height: 100%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
 div.movie{
     width: 100%;
-    height: 30%;
+    height: 25%;
 }
 div.movie iframe{
     width: 100% !important;
@@ -46,7 +46,7 @@ div.movie iframe{
 div.m-check{
     position: relative;
     width: 100%;
-    height: 5%;
+    height: 3%;
 }
 div.m-check div{
     position: absolute;
@@ -56,7 +56,7 @@ div.m-check div{
 div.channel{
     position: relative;
     width: 100%;
-    height: 65%;
+    height: 72%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ div.streamData{
     vertical-align: middle;
     position: relative;
     width: 25%;
-    height: 85%;
+    height: 100%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
@@ -222,7 +222,7 @@ div.cntadd{
     vertical-align: top;
     position: relative;
     width: 40%;
-    height: 85%;
+    height: 100%;
     border: solid 1px #fff;
     box-sizing: border-box;
 }
@@ -267,7 +267,7 @@ div.submit{
 /* ----- viewer ----- */
 div.viewer{
     width: 1550px;
-    height: 15%;
+    height: 50%;
     /* border: solid 1px #fff; */
     /* box-sizing: border-box; */
 }
@@ -277,7 +277,7 @@ div.viewer{
     display: inline-block;
     vertical-align: middle;
     width: 30%;
-    height: 70%;
+    height: 80%;
     margin-top: 1%;
     border: solid 1px #fff;
     box-sizing: border-box;
