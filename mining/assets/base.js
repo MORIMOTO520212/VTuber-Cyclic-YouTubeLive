@@ -59,7 +59,7 @@ function randomSetYouTube(){
 
 
     function sleep1(){
-        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1");
+        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1&mute=1");
 
         streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
@@ -147,3 +147,10 @@ function changeSpeed(){
 function streamStop(){
     clearInterval(interval);
 }
+
+/* status window */
+jQuery(function() { // 要素ドラッグ移動
+    jQuery('#jquery-ui-draggable').draggable({
+        handle: 'div'
+    });
+});

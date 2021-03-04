@@ -13,19 +13,13 @@
         <link rel="stylesheet" type="text/css" href="assets/style.css">
     </head>
     <body>
-        <div class="main">
-            <ul class="list">
-                <li class="item">
-                    <a href="">
-                        <span class="icon"></span>
-                        <span class="watching"></span>
-                        <div class="info">
-                            <p class="title">タイトル</p>
-                            <p class="name">名前</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+        <div id="jquery-ui-draggable" class="ui-widget-content">
+            <div class="ui-widget-header"></div>
+            <div class="yt-status"></div>
+            <div class="ytplayer">
+                <iframe id="yt" class="yt" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="yt-chat"></div>
         </div>
         <script src="assets/base.js"></script>
     </body>
