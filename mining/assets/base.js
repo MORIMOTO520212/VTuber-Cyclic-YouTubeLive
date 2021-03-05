@@ -59,7 +59,7 @@ function randomSetYouTube(){
 
 
     function sleep1(){
-        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&enablejsapi=1&mute=1");
+        element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&mute=1");
 
         streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
@@ -115,7 +115,7 @@ function onPlayerStateChange(event) {
     }
 }
 
-var interval;
+var yt_interval;
 var playStatus;
 var speed = 60000; // 初期値60秒
 function streaming(){
@@ -127,7 +127,7 @@ function streaming(){
         element_youtube.setAttribute("style", "opacity: 1;");
     
         randomSetYouTube();
-        interval = setInterval(randomSetYouTube, speed);
+        yt_interval = setInterval(randomSetYouTube, speed);
     }else{
         alert("Opps!\nYouTube Player APIでエラーが発生しました。サイトをリロードします。");
         location.reload();
@@ -138,19 +138,12 @@ function changeSpeed(){
     speed = element_speed.value*60000;
     console.log("changeSpeed "+speed);
     if(playStatus){
-        clearInterval(interval);
-        interval = setInterval(randomSetYouTube, speed);
+        clearInterval(yt_interval);
+        yt_interval = setInterval(randomSetYouTube, speed);
     }
 }
 
 
 function streamStop(){
-    clearInterval(interval);
+    clearInterval(yt_interval);
 }
-
-/* status window */
-jQuery(function() { // 要素ドラッグ移動
-    jQuery('#jquery-ui-draggable').draggable({
-        handle: 'div'
-    });
-});
