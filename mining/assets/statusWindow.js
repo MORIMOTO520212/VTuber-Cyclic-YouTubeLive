@@ -1,3 +1,4 @@
+var element_youtube = document.getElementById("youtube");
 var element_statusWindow = document.getElementById("jquery-ui-draggable");
 var element_mask = document.getElementById("mask");
 var element_chatform = document.getElementById("chatform");
@@ -10,13 +11,15 @@ jQuery(function() { // 要素ドラッグ移動
 });
 
 function status(channelId){
-    clearInterval(yt_interval); // stop youtube interval
-    console.log(channelId);
-    element_mask.setAttribute("style", "display: block;");
-    element_statusWindow.setAttribute("style", "");
+    // stop youtube interval
+    clearInterval(yt_interval); // stop interval
+    element_yt.setAttribute("src", "../startpage.html"); // set top page
+
+    console.log("status "+channelId);
+    element_mask.setAttribute("style", "display: block;"); // set mask
+    element_statusWindow.setAttribute("style", ""); // status window on display
     let videoId;
     for(let i=0;  i < streamings.length; i++){
-        console.log(streamings[i]["channelId"]);
         if(channelId == streamings[i]["channelId"]){
             videoId = streamings[i]["videoId"];
         }
@@ -28,8 +31,13 @@ function status(channelId){
 }
 
 function closeStatusWindow(){
-    yt_interval = setInterval(randomSetYouTube, speed); // restart youtube interval
+    // start youtube interval
+    randomSetYouTube();
+    yt_interval = setInterval(randomSetYouTube, speed);
+
     console.log("close status window.");
-    element_mask.setAttribute("style", "display: none;");
-    element_statusWindow.setAttribute("style", "display: none;");
+    element_mask.setAttribute("style", "display: none;"); // close mask
+    element_statusWindow.setAttribute("style", "display: none;"); // close window
+    element_chatform.setAttribute("src", ""); // close chat
+    element_youtube.setAttribute("src", ""); // close youtube
 }

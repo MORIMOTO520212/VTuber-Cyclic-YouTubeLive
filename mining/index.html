@@ -21,10 +21,11 @@
         <link rel="stylesheet" type="text/css" href="assets/style.css">
     </head>
     <body>
+        <div id="mask" style="display: none;"><a href="javascript:closeStatusWindow();"></a></div>
         <div class="main">
             <div class="top">
                 <div class="player">
-                    <iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
+                    <iframe id="yt" class="yt" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
                     <iframe id="startpage" class="startpage" width="1280" height="720" src="../startpage.html" style="opacity: 1;"></iframe>
                     <div id="screen" class="nnc-screen"></div>
                     <div id="curtain" class="curtain close"><!-- 幕 -->
@@ -34,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <ul class="list">
+            <ul id="list">
                 <li class="item">
                     <img class="background" src="https://i.ytimg.com/vi/PQzbWqcjUEk/hqdefault_live.jpg?sqp=-oaymwEbCNIBEHZIVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBVBjJlMFsQiQPey3NRksVDWg06Xw">
                     <a href="javascript:status('CHANNEL ID HERE');"></a>
@@ -45,59 +46,46 @@
                     <div class="watching"><p>2000</p></div>
                     <div class="videoTitle"><p>タイトル</p></div>
                 </li>
-                <li class="item">
-                    <img class="background" src="">
-                    <a href=""></a>
-                    <div class="user">
-                        <div class="icon"><img src=""></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="title"><p>タイトル</p></div>
-                </li>
-                <li class="item">
-                    <img class="background" src="">
-                    <a href=""></a>
-                    <div class="user">
-                        <div class="icon"><img src=""></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="title"><p>タイトル</p></div>
-                </li>
-                <li class="item">
-                    <img class="background" src="">
-                    <a href=""></a>
-                    <div class="user">
-                        <div class="icon"><img src=""></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="title"><p>タイトル</p></div>
-                </li>
-                <li class="item">
-                    <img class="background" src="">
-                    <a href=""></a>
-                    <div class="user">
-                        <div class="icon"><img src=""></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="title"><p>タイトル</p></div>
-                </li>
-                <li class="item">
-                    <img class="background" src="">
-                    <a href=""></a>
-                    <div class="user">
-                        <div class="icon"><img src=""></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="title"><p>タイトル</p></div>
-                </li>
             </ul>
+        </div>
+        <div id="jquery-ui-draggable" class="ui-widget-content" style="display: none;">
+            <div class="ui-widget-header"></div>
+            <div class="yt-status">
+                <div class="list"><p>Channel ID</p></div>
+                <div class="list"><p id="channelId">[ channelId ]</p></div>
+
+                <div class="list"><p>ユーザー名</p></div>
+                <div class="list"><p id="userName">[ userName ]</p></div>
+
+                <div class="list"><p>Twitter ID</p></div>
+                <div class="list"><p id="twitterId">[ twitterId ]</p></div>
+
+                <div class="list" style="display: block;"><p>動画タイトル</p><p id="videoTitle">[ videoTitle ]</p></div>
+
+                <div class="list" style="display: block;">
+                    <p id="playgame_name">プレイ中のゲーム</p>
+                    <a id="playgame_link" href="" target="_blank" rel="noopener">
+                        <img id="playgame_photo" src="">
+                    </a>
+                </div>
+
+                <div class="list"><p>同時接続者数</p></div>
+                <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>
+
+                <div class="list"><p>ライブポイント</p></div>
+                <div class="list"><p id="livePoint">[ livePoint ]</p></div>
+            </div>
+            <div class="yt-main">
+                <div class="ytplayer"><iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                <div class="yt-details">
+                </div>
+            </div>
+            <div class="yt-chat">
+                <iframe id="chatform" frameborder="0" src="" allowfullscreen></iframe>
+            </div>
         </div>
         <script src="assets/base.js"></script>
         <script src="assets/statusWindow.js"></script>
+        <script src="assets/liver.js"></script>
     </body>
 </html>
