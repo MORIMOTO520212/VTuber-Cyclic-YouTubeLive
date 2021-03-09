@@ -32,11 +32,15 @@ var element_speed           = document.getElementById("speed");
 
 var streamings;
 var streamDataCheck = false;
+var _chlog = 0;
 function intervalStreamingData(){
     function StreamingData(jsonData){
         streamings = jsonData;
         streamDataCheck = true;
-        liverViewer();
+        if(_chlog != streamings.length){
+            liverViewer(); // update liver viewer
+            _chlog = streamings.length;
+        }
     }
     $.post('../getData.php?mode=getStreaming', {}, function(data){
         console.log("getStreaming");

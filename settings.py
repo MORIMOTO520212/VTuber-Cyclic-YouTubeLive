@@ -26,6 +26,22 @@ def idChangeDataPath(os):
         return "/var/www/html/database/idChangeData.json"
     return False
 
+# メッセージログの場所
+def messageLogPath(os):
+    if os == "windows":
+        return "message.log"
+    if os == "linux":
+        return "/var/www/html/log/message.log"
+    return False
+
+# エラーログの場所
+def errorLogPath(os):
+    if os == "windows":
+        return "error.log"
+    if os == "linux":
+        return "/var/www/html/log/error.log"
+    return False
+
 # Chromeのプロファイルの場所（streamingSearchChrome.pyを使う場合）
 def chromeProfilePath(os):
     if os == "windows":
@@ -58,6 +74,7 @@ def gamesDataPath(os):
         return "/var/www/html/database/games.json"
     return False
 
+# Tweepy
 def tweepyKeyPath():
     consumer_key    = 'fOr1fbI9mCK1ztiqbEIMlHfLV'
     consumer_secret = 'PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'

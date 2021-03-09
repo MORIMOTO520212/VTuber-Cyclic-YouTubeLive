@@ -53,6 +53,7 @@ def getSource():
             break
         else:
             print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
+            open(settings.errorLogPath(OS), "a").write("{} [SSF] 再試行{}：2つのチャンネルブロックのロードが完了しませんでした。\n".format(str(_+1)))
             driver.execute_script("window.scrollTo(0, 1000);")
 
     details = soup.find_all("div", id="details")
@@ -63,6 +64,7 @@ def search(detail):
     streamingNumber = ""
     videoTitle      = ""
     videoId         = ""
+    thumbnailUrl    = ""
     channelLink = detail.find("a", class_=["yt-simple-endpoint style-scope", "yt-formatted-string"]).get("href")
     channelId   = channelLink.replace("/channel/", "")
     try:
@@ -81,12 +83,15 @@ def search(detail):
         videoTitle = detail.find_all("a", id="video-title")[0].get("title")
 
         # 動画ID抽出
-        videoURL = detail.find_all("a", class_=["yt-simple-endpoint.style-scope", "ytd-grid-video-renderer"])[0].get("href")
-        videoId = videoURL.replace("/watch?v=", "")
+        videoUrl = detail.find_all("a", class_=["yt-simple-endpoint.style-scope", "ytd-grid-video-renderer"])[0].get("href")
+        videoId = videoUrl.replace("/watch?v=", "")
+
+        # サムネイルリンクの抽出
+        thumbnailUrl = f"https://i.ytimg.com/vi/{videoId}/hqdefault_live.jpg"
     except:
         streamingNow = False
 
-    return channelId, streamingNow, streamingNumber, videoTitle, videoId
+    return channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl
 
 streamingData_before = []
 def sort():
@@ -119,7 +124,8 @@ def sort():
                 "lastIconUpdateDate": strDa["lastIconUpdateDate"],
                 "livePointStatus" : strDa["livePointStatus"],
                 "videoId": strDa["videoId"],
-                "play": strDa["play"]
+                "play": strDa["play"],
+                "thumbnailUrl": strDa["thumbnailUrl"]
             })
 
     # 書き込み用データにまだ含まれていない場合末尾に書く
@@ -139,7 +145,8 @@ def sort():
                 "lastIconUpdateDate": strCha["lastIconUpdateDate"],
                 "livePointStatus" : strCha["livePointStatus"],
                 "videoId": strCha["videoId"],
-                "play": strCha["play"]
+                "play": strCha["play"],
+                "thumbnailUrl": strCha["thumbnailUrl"]
             })
 
 def playGame(videoTitle):
@@ -231,7 +238,7 @@ while True:
 
         # スクレイピング
         for detail in details:
-            channelId, streamingNow, streamingNumber, videoTitle, videoId = search(detail)
+            channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl = search(detail)
 
             if streamingNow == "ライブ配信中" or streamingNow == "LIVE NOW":
                 # 登録済か未登録か
@@ -243,11 +250,11 @@ while True:
                         channelId = idChangeData[channelId]
                     except:
                         print("未登録のライバー："+channelId)
-                        ck_message = open("/var/www/html/log/message.log", "r").read()
+                        ck_message = open(settings.messageLogPath(OS), "r").read()
 
                         if "未登録のライバー："+channelId not in ck_message:
                             now = datetime.datetime.now()
-                            open("/var/www/html/log/message.log", "a").write("[{}] [SSF] 未登録のライバー：{}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
+                            open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：{}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
                             channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
@@ -277,7 +284,8 @@ while True:
                             "lastIconUpdateDate": usrRoot["lastIconUpdateDate"],
                             "livePointStatus" : usrRoot["livePointStatus"],
                             "videoId": videoId,
-                            "play": play
+                            "play": play,
+                            "thumbnailUrl": thumbnailUrl
                         })
 
                         # ライバーステータス更新
@@ -313,5 +321,5 @@ while True:
     except Exception as e:
         print("main Error: "+str(e))
         now = datetime.datetime.now()
-        open("/var/www/html/log/error.log", "a").write("[{}] [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
+        open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
         open(".semaphore", "w").write("1")

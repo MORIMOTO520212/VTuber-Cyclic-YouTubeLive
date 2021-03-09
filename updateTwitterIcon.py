@@ -23,9 +23,9 @@ def main():
     try:
         with open(settings.streamDataPath(OS), "r") as f:
             streamdata = json.load(f)
-        now = datetime.datetime.now()
 
         for channelId in streamdata.keys():
+            now = datetime.datetime.now()
             usrRoot = streamdata[channelId]
             try:
                 print(usrRoot["userName"])
@@ -38,13 +38,13 @@ def main():
                     # 最終アイコンアップデート日
                     usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                     
-                    message = "[{}] [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
-                    open("/var/www/html/log/message.log", "a").write(message)
+                    message = "{} [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
+                    open(settings.messageLogPath(OS), "a").write(message)
                     print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
             except Exception as e:
                 if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-                    message = "[{}] [UTI] [{}] {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
-                    open("/var/www/html/log/message.log", "a").write(message)
+                    message = "{} [UTI] \"{}\" {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
+                    open(settings.messageLogPath(OS), "a").write(message)
                     print(message)
             sleep(1)
         return streamdata
@@ -65,7 +65,7 @@ while True:
         with open(settings.streamDataPath(OS), "w") as f:
             json.dump(streamdata, f, indent=4) # 保存
         now = datetime.datetime.now()
-        open("/var/www/html/log/message.log", "a").write("[{}] [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+        open(settings.messageLogPath(OS), "a").write("[{}] [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
         open(".semaphore", "w").write("1")
         print("待機中...")

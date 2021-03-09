@@ -1,6 +1,6 @@
-import json, tweepy, settings, datetime
+import os, json, tweepy, settings, datetime
 
-consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
+consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath() # settings.py -> tweepyKeyPath()
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
@@ -10,14 +10,12 @@ print(" - VTuberの情報をストリームデータに追加します。 -\nCtr
 print("自動登録する場合はchannels.txtファイルを作成し、名前, TwitterID, チャンネルIDの順に改行を入れて保存してください。\n")
 
 # 動作環境の設定 windows | linux
-if "1" == input("Windowsを使っている場合は1, Linuxの場合は2："):
-    os = "windows"
-else:
-    os = "linux"
+if os.name == "nt": OS = "windows"
+if os.name == "posix": OS = "linux"
 
-print("動作オペレーティングシステム："+os)
+print("動作オペレーティングシステム："+OS)
 
-with open(settings.streamDataPath(os), "r") as f:
+with open(settings.streamDataPath(OS), "r") as f:
     data = json.load(f)
 userName = []
 for channelId in data:
@@ -112,6 +110,6 @@ else:
 
 if "y" == input("この情報でよろしいですか。y/n："):
     print("書き込み中")
-    with open(settings.streamDataPath(os), "w") as f:
+    with open(settings.streamDataPath(OS), "w") as f:
         json.dump(data, f, indent=4)
     print("書き込み完了")
