@@ -39,5 +39,5 @@ function closeStatusWindow(){
     element_mask.setAttribute("style", "display: none;"); // close mask
     element_statusWindow.setAttribute("style", "display: none;"); // close window
     element_chatform.setAttribute("src", ""); // close chat
-    element_youtube.setAttribute("src", ""); // close youtube
+    element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel=?"); // close youtube
 }

@@ -5,7 +5,7 @@ function getObjId(){
 }
 function liverViewer(){
     let source = "";
-    for(let i=0;  i < streamings.length; i++){
+    for(var i=0;  i < streamings.length; i++){
         /* streamings[i]["background"] // user background           */
         let channelId  = streamings[i]["channelId"]       // channelId
         let userName   = streamings[i]["userName"]        // user name

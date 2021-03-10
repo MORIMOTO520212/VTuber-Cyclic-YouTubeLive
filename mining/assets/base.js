@@ -39,6 +39,7 @@ function intervalStreamingData(){
         streamDataCheck = true;
         if(_chlog != streamings.length){
             liverViewer(); // update liver viewer
+            gameFilter();  // update play games list
             _chlog = streamings.length;
         }
     }
@@ -140,7 +141,7 @@ function streaming(){
     }
 }
 
-function changeSpeed(){
+function changeSpeed(){ // (int)seconds
     speed = element_speed.value*60000;
     console.log("changeSpeed "+speed);
     if(playStatus){
