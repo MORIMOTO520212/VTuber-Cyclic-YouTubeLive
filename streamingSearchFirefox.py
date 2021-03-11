@@ -246,16 +246,15 @@ while True:
                     if channelIdData == channelId:
                         break
                 else:
-                    try: # ユーザー名でチャンネルIDが取得された場合
+                    try: # ユーザーIDでチャンネルIDが取得された場合
                         channelId = idChangeData[channelId]
                     except:
+                        channelId = "unregistered"
                         print("未登録のライバー："+channelId)
                         ck_message = open(settings.messageLogPath(OS), "r").read()
-
                         if "未登録のライバー："+channelId not in ck_message:
                             now = datetime.datetime.now()
-                            open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：{}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
-                            channelId = "unregistered"
+                            open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：\"{}\"\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
                     
@@ -263,7 +262,7 @@ while True:
                         try:
                             usrRoot = streamdata[channelId]
                         except:
-                            raise ValueError(channelId+" idChangeDataにしか登録されていません.")
+                            raise ValueError(f"\"{channelId}\" idChangeDataにしか登録されていません.")
 
                         # タイトルにゲーム名がある場合取得
                         play = playGame(videoTitle)
@@ -292,8 +291,7 @@ while True:
                         updateStatus(usrRoot, play)
 
 
-        if streamingChannels != []: # （未完成）ライブ配信を誰もしていない場合は今後の予定を記録する
-            # チャンネルデータのソート　新しいデータは末尾に追加する
+        if streamingChannels != []:# チャンネルデータのソート　新しいデータは末尾に追加する
             sort()
 
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")

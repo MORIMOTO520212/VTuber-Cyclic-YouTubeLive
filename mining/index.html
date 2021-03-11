@@ -45,13 +45,7 @@
                     <ul class="ddmenu">
                         <li>
                             <a href="#" onclick="return false;"><p>ゲーム</p></a>
-                            <ul id="games">
-                                <li><a href="#" onclick="return false;">アピール増加</a></li>
-                                <li><a href="#" onclick="return false;">ボルテージ増加</a></li>
-                                <li><a href="#" onclick="return false;">ボルテージ獲得</a></li>
-                                <li><a href="#" onclick="return false;">クリティカル率上昇</a></li>
-                                <li><a href="#" onclick="return false;">クリティカル値上昇</a></li>
-                            </ul>
+                            <ul id="games"></ul>
                         </li>
                     </ul>
                 </div>
@@ -81,9 +75,9 @@
                 <div class="list"><p>Twitter ID</p></div>
                 <div class="list"><p id="twitterId">[ twitterId ]</p></div>
 
-                <div class="list" style="display: block;"><p>動画タイトル</p><p id="videoTitle">[ videoTitle ]</p></div>
+                <div class="list" style="display: block; width: 100%;"><p>動画タイトル</p><p id="videoTitle">[ videoTitle ]</p></div>
 
-                <div class="list" style="display: block;">
+                <div class="list" style="display: block; width: 100%;">
                     <p id="playgame_name">プレイ中のゲーム</p>
                     <a id="playgame_link" href="" target="_blank" rel="noopener">
                         <img id="playgame_photo" src="">
@@ -97,8 +91,8 @@
                 <div class="list"><p id="livePoint">[ livePoint ]</p></div>
 
                 <div class="list">
-                    <div class="ty-logo"><a href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
-                    <div class="ty-logo"><a href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
+                    <div class="ty-logo"><a id="twitterId_link" href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
+                    <div class="ty-logo"><a id="youtubeId_link" href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
                 </div>
             </div>
             <div class="yt-main">

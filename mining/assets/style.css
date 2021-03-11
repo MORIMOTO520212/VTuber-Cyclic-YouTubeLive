@@ -399,6 +399,9 @@ div.yt-status .list{
     width: 48%;
     font-size: 0.8vw;
 }
+#playgame_photo{
+    width: 100%;
+}
 div.ty-logo{
     display: inline-block;
     vertical-align: middle;

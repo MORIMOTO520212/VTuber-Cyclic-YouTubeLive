@@ -46,6 +46,8 @@ def main():
                     message = "{} [UTI] \"{}\" {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
                     open(settings.messageLogPath(OS), "a").write(message)
                     print(message)
+                else:
+                    open(settings.errorLogPath(OS), "a").write("{} [UTI] {}".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
             sleep(1)
         return streamdata
     except Exception as e:
@@ -65,7 +67,7 @@ while True:
         with open(settings.streamDataPath(OS), "w") as f:
             json.dump(streamdata, f, indent=4) # 保存
         now = datetime.datetime.now()
-        open(settings.messageLogPath(OS), "a").write("[{}] [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+        open(settings.messageLogPath(OS), "a").write("{} [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
         open(".semaphore", "w").write("1")
         print("待機中...")
