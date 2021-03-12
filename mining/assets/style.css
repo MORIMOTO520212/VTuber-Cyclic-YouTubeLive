@@ -393,11 +393,14 @@ div.yt-status p{
 div.yt-status .list{
     display: inline-block;
     /*border: solid 1px #565656;*/
-    word-wrap: break-word;
+    word-break: break-all;
     vertical-align: top;
-    margin: 0;
     width: 48%;
-    font-size: 0.8vw;
+    font-size: 16px;
+    border: solid 1px #c1c1c1;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5px;
 }
 #playgame_photo{
     width: 100%;
@@ -433,8 +436,6 @@ div.yt-details{
     height: 47%;
     margin-top: 1%;
     background-color: #fff;
-    border: solid 1px #000;
-    box-sizing: border-box;
 }
 div.yt-chat{
     display: inline-block;
