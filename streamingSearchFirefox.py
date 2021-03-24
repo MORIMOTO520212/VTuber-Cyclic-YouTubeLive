@@ -38,6 +38,10 @@ def loadDataFiles():
 
 print("complete!")
 
+# スタートアップメッセージ
+now = datetime.datetime.now()
+open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+
 def getSource():
     driver.get("https://www.youtube.com/feed/subscriptions")
 
@@ -249,12 +253,12 @@ while True:
                     try: # ユーザーIDでチャンネルIDが取得された場合
                         channelId = idChangeData[channelId]
                     except:
-                        channelId = "unregistered"
                         print("未登録のライバー："+channelId)
                         ck_message = open(settings.messageLogPath(OS), "r").read()
-                        if "未登録のライバー："+channelId not in ck_message:
+                        if f"未登録のライバー：\"{channelId}\"" not in ck_message:
                             now = datetime.datetime.now()
                             open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：\"{}\"\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
+                        channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
                     

@@ -89,27 +89,29 @@ Work_Labo/
 
 
 ### 気になるライバー
-白夢レイン 準備中
-YouTube:https://www.youtube.com/channel/UCIoM9dnD47MpnzV3EqEbg_g
-Twitter:https://twitter.com/Rain_Hakumu
-妖鬼水晶 活動中
-YouTube:https://www.youtube.com/channel/UCrNekQmlZQSQhxjov1Jz5Yw
-Twitter:https://twitter.com/Suisyou_cha
-園原満琴 活動中
-YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw
-Twitter:https://twitter.com/makoto_sono
-七瀬タク 連絡する
-YouTube:https://www.youtube.com/channel/UCiqHlJh_i0z3PUadvlcWpEg
-Twitter:https://twitter.com/7se_taku
-百世アソブ 連絡する　配信頻度：低
-YouTube:https://www.youtube.com/channel/UCxzjHuyG5kd56vMDtUWzKAw
-Twitter:https://twitter.com/Momose_Asobu
-切取せん 連絡する
-YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A
-Twitter:https://twitter.com/k1ri_sen
+和木悠 登録する  
+YouTube:https://www.youtube.com/channel/UCjdiYI75znTKoam52M1LBMQ  
+Twitter:https://twitter.com/Yu_Yawaragi  
+白夢レイン 準備中  
+YouTube:https://www.youtube.com/channel/UCIoM9dnD47MpnzV3EqEbg_g  
+Twitter:https://twitter.com/Rain_Hakumu  
+妖鬼水晶 活動中  
+YouTube:https://www.youtube.com/channel/UCrNekQmlZQSQhxjov1Jz5Yw  
+Twitter:https://twitter.com/Suisyou_cha  
+園原満琴 活動中  
+YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw  
+Twitter:https://twitter.com/makoto_sono  
+七瀬タク 連絡する  
+YouTube:https://www.youtube.com/channel/UCiqHlJh_i0z3PUadvlcWpEg  
+Twitter:https://twitter.com/7se_taku  
+百世アソブ 連絡する　配信頻度：低  
+YouTube:https://www.youtube.com/channel/UCxzjHuyG5kd56vMDtUWzKAw  
+Twitter:https://twitter.com/Momose_Asobu  
+切取せん 連絡する  
+YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A  
+Twitter:https://twitter.com/k1ri_sen  
 
-NOTE  
-message -> 画質が落ちた場合、現在このサイトは画質変更機能がないのでYouTubeにアクセスし画質を戻してからこのサイトに戻ってください。  
+NOTE   
 twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
 streamdata.json -> あやひなチャンネルはグループチャンネルなので削除する。  
 VTuberギルド -> ライブ配信ドバイザリー  VTuberギルドに参加しているライバーのライブ配信を分析しアドバイスする。

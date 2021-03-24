@@ -19,6 +19,12 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth_handler=auth)
 
+print("complete.")
+
+# スタートアップメッセージ
+now = datetime.datetime.now()
+open(settings.messageLogPath(OS), "a").write("{} ---- run updateTwitterIcon.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+
 def main():
     try:
         with open(settings.streamDataPath(OS), "r") as f:
