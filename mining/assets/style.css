@@ -242,6 +242,7 @@ ul.ddmenu li:hover ul {
 ul#list {
     overflow: hidden;
     padding-left: 0px;
+    text-align: center;
 }
 li.item{
     display: inline-block;
@@ -249,7 +250,7 @@ li.item{
     position: relative;
     width: 200px;
     height: 150px;
-    margin: 0 20px 20px 0;
+    margin: 0 10px 20px 10px;
     background-color: #dc944f;
     border: solid 1px;
     border-radius: 10px;
