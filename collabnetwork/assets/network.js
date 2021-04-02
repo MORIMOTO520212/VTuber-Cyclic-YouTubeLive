@@ -1,3 +1,8 @@
+/*
+    Playing with Physics
+    https://visjs.github.io/vis-network/examples/network/physics/physicsConfiguration.html
+*/
+
 var already = [];
 var nodes = [];
 var edges = [];
@@ -5,7 +10,7 @@ var edges = [];
 var container = document.getElementById("mynetwork");
 var msg = document.getElementById("msg");
 function StreamData(jsonData){
-    msg.innerHTML = "<p>ネットワークを構築中...<\/p>";
+    msg.innerHTML = "<p>ネットワークを構築中...<\/p><p>※環境によって表示されるまで2～3分かかる場合がございます。<\/p>";
     streamData = jsonData;
 
     Object.keys(streamData).forEach(channelId => {
@@ -14,7 +19,7 @@ function StreamData(jsonData){
             nodes.push({
                 id:    channelId,
                 label: streamData[channelId]["userName"],
-                size:  streamData[channelId]["collab"].length*2+10,
+                size:  streamData[channelId]["collab"].length*2+5,
                 image: streamData[channelId]["photo"]
             });
             // エッジ作成
@@ -53,11 +58,19 @@ function StreamData(jsonData){
                 color: "#eee"
             },
             brokenImage: "assets/favicon.png",
-            size: 10,
+            size: 10
+        },
+        physics: {
+            barnesHut: {
+                centralGravity: 0.3,
+                springLength: 300,
+                damping: 0.15,
+                avoidOverlap: 0.2
+            }
         }
     };
     var network = new vis.Network(container, data, options);
-    msg.innerHTML = "";
+    setTimeout(function(){ msg.innerHTML = ""; }, 1000*80);
 }
 
 $.post('../getData.php?mode=getStreamData', {}, function(data){
