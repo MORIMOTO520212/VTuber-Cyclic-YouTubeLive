@@ -29,7 +29,7 @@ var element_main_userName   = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo           = document.getElementById("photo");
 var element_speed           = document.getElementById("speed");
-
+var e_counter = document.getElementById("counter");
 var streamings;
 var streamDataCheck = false;
 var _chlog = 0;
@@ -40,6 +40,7 @@ function intervalStreamingData(){
         if(_chlog != streamings.length){
             liverViewer(); // update liver viewer
             gameFilter();  // update play games list
+            e_counter.innerText = streamings.length;
             _chlog = streamings.length;
         }
     }

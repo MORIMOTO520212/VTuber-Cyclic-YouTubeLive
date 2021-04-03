@@ -19,9 +19,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/m-style.css">
     </head>
     <body>
-        <div id="mask" style="display: none;"><a href="javascript:closeStatusWindow();"></a></div>
+        <div id="mask" style="display:none"><a href="javascript:closeStatusWindow()"></a></div>
         <div class="header">
             <div class="fav"><img src="assets/favicon.ico"></div>
             <div class="title"><p>VTuber採掘所</p></div>
@@ -29,8 +30,8 @@
         <div class="main">
             <div class="top">
                 <div class="player">
-                    <iframe id="yt" class="yt" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity: 0;"></iframe>
-                    <iframe id="startpage" class="startpage" width="1280" height="720" src="../startpage.html" style="opacity: 1;"></iframe>
+                    <iframe id="yt" class="yt" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity:0"></iframe>
+                    <iframe id="startpage" class="startpage" width="1280" height="720" src="../startpage.html" style="opacity:1"></iframe>
                     <div id="screen" class="nnc-screen"></div>
                     <div id="curtain" class="curtain close"><!-- 幕 -->
                         <div class="profile"><img id="photo" src="../assets/favicon.ico"></div>
@@ -40,18 +41,19 @@
                 </div>
             </div>
             <div class="control">
+                <div class="counter"><p style="margin-left:0">配信者数：</p><p id="counter">40</p><p>名</p></div>
                 <div class="filter"><p>フィルター：</p></div>
                 <div class="game-filter">
                     <ul class="ddmenu">
                         <li>
-                            <a href="#" onclick="return false;"><p>ゲーム</p></a>
+                            <a href="#" onclick="return false;"><p id="game_filter_top">ゲーム</p></a>
                             <ul id="games"></ul>
                         </li>
                     </ul>
                 </div>
             </div>
             <ul id="list">
-                <li class="item">
+                <li class="item" style="display:none;">
                     <img class="background" src="VIDEO THUMBNAIL URL HERE">
                     <a href="javascript:status('CHANNEL ID HERE');"></a>
                     <div class="user">
@@ -63,24 +65,31 @@
                 </li>
             </ul>
         </div>
-        <div id="jquery-ui-draggable" class="ui-widget-content" style="display: none;">
+        <div id="jquery-ui-draggable" class="ui-widget-content" style="display:none">
             <div class="ui-widget-header"></div>
             <div class="yt-status">
-                <div class="list"><p>Channel ID</p></div>
-                <div class="list"><p id="channelId">[ channelId ]</p></div>
+                
+                <div class="block">
+                    <div class="list"><p>ユーザー名</p></div>
+                    <div class="list"><p id="userName">[ userName ]</p></div>
+                </div>
+                <div class="block">
+                    <div class="list"><p>Twitter ID</p></div>
+                    <div class="list"><p id="twitterId">[ twitterId ]</p></div>
+                </div>
+                <div class="block">
+                    <div class="list"><p>Channel ID</p></div>
+                    <div class="list"><p id="channelId">[ channelId ]</p></div>
+                </div>
+                <div class="block">
+                    <p>動画タイトル</p>
+                    <p id="videoTitle">[ videoTitle ]</p>
+                </div>
 
-                <div class="list"><p>ユーザー名</p></div>
-                <div class="list"><p id="userName">[ userName ]</p></div>
-
-                <div class="list"><p>Twitter ID</p></div>
-                <div class="list"><p id="twitterId">[ twitterId ]</p></div>
-
-                <div class="list" style="display:block;width:100%;"><p>動画タイトル</p><p id="videoTitle">[ videoTitle ]</p></div>
-
-                <div id="playgame" class="list" style="display:none;width:100%;">
+                <div id="playgame" class="block" style="display:none;width:100%;">
                     <p id="playgame_name">プレイ中のゲーム</p>
-                    <a id="playgame_link" href="" target="_blank" rel="noopener">
-                        <img id="playgame_photo" src="">
+                    <a id="playgame_link" href target="_blank" rel="noopener">
+                        <img id="playgame_photo" src>
                     </a>
                 </div>
 
@@ -93,6 +102,17 @@
                 <div class="list" style="border: none;">
                     <div class="ty-logo"><a id="twitterId_link" href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
                     <div class="ty-logo"><a id="youtubeId_link" href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
+                </div>
+
+                <div class="list chatbtn">
+                    <div class="btn">
+                        <a href="javascript:underChatform()"></a>
+                        <p id="underChatBtn">チャット欄を表示</p>
+                    </div>
+                </div>
+
+                <div id="underChat" style="display:none">
+                    <iframe id="underChatform" frameborder="0" src="" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="yt-main">

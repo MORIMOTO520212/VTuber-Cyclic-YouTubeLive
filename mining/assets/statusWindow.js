@@ -3,6 +3,9 @@ var element_youtube = document.getElementById("youtube");
 var element_statusWindow = document.getElementById("jquery-ui-draggable");
 var element_mask = document.getElementById("mask");
 var element_chatform = document.getElementById("chatform");
+var e_underChatform = document.getElementById("underChatform");
+var e_underChat = document.getElementById("underChat");
+var e_underChatBtn = document.getElementById("underChatBtn");
 var element_channelId = document.getElementById("channelId");
 var element_userName = document.getElementById("userName");
 var element_twitterId = document.getElementById("twitterId");
@@ -16,7 +19,7 @@ var element_playgame_link = document.getElementById("playgame_link");
 var element_playgame_photo = document.getElementById("playgame_photo");
 
 /* status window */
-jQuery(function() { // 要素ドラッグ移動
+jQuery(function() { // element move draggable
     jQuery('#jquery-ui-draggable').draggable({
         handle: 'div'
     });
@@ -39,6 +42,8 @@ var chart = new Chart(ctx, {
     }
 });
 
+var underChat_status = 0;
+
 function status(channelId){
     // stop youtube interval
     clearInterval(yt_interval); // stop interval
@@ -47,7 +52,7 @@ function status(channelId){
     console.log("status "+channelId);
     element_mask.setAttribute("style", "display: block;"); // set mask
     element_statusWindow.setAttribute("style", ""); // status window on display
-    let videoId;
+    var videoId;
     for(let i=0;  i < streamings.length; i++){
         if(channelId == streamings[i]["channelId"]){
             videoId = streamings[i]["videoId"];
@@ -89,10 +94,28 @@ function closeStatusWindow(){
     // start youtube interval
     randomSetYouTube();
     yt_interval = setInterval(randomSetYouTube, speed);
-
     console.log("close status window.");
     element_mask.setAttribute("style", "display: none;"); // close mask
     element_statusWindow.setAttribute("style", "display: none;"); // close window
     element_chatform.setAttribute("src", ""); // close chat
     element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel=?"); // close youtube
+    underChat_status = 0; // close under chat
+}
+
+
+function underChatform(){
+    if(!underChat_status){
+        console.log("under chat form.")
+        let domain = document.domain;
+        let chat_url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
+        e_underChat.setAttribute("style", "display:block");
+        e_underChatform.setAttribute("src", chat_url);
+        e_underChatBtn.innerText = "チャット欄を非表示";
+        underChat_status = 1; // display under chat
+    }else{
+        e_underChat.setAttribute("style", "display:none");
+        e_underChatform.setAttribute("src", "");
+        e_underChatBtn.innerText = "チャット欄を表示";
+        underChat_status = 0; // close under chat
+    }
 }

@@ -1,6 +1,7 @@
 var element_games = document.getElementById("games");
+var e_game_filter_top = document.getElementById("game_filter_top");
 
-function gameFilter(){
+function gameFilter() { // update game list.
     let games = [];
     let source = "";
     for(var i=0; i<streamings.length; i++){
@@ -13,16 +14,19 @@ function gameFilter(){
     }
     source += "<li><a href=\"#\" onclick=\"javascript:noneFilter();return false;\">フィルター解除</a></li>";
     element_games.innerHTML = source;
+    
 }
 // streamings[i][play] -> [product], [url], [photo]
 
-function gameFiltering(productName){
+function gameFiltering(productName) {
     console.log("filtering: "+productName);
     filtering_game = productName;
+    e_game_filter_top.innerText = filtering_game;
     liverViewer(); // update
 }
 
-function noneFilter(){
+function noneFilter() {
     filtering_game = "";
+    e_game_filter_top.innerText = "ゲーム";
     liverViewer(); // update
 }

@@ -1,0 +1,42 @@
+@media screen and (max-width: 1700px) {
+    #jquery-ui-draggable{
+        margin-left: -39%;
+        margin-top: -20%;
+    }
+}
+@media screen and (max-width: 1650px) {
+    #jquery-ui-draggable{
+        margin-left: -43%;
+        margin-top: -22%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    #jquery-ui-draggable{
+        margin-left: -47%;
+    }
+}
+@media screen and (max-width: 1350px) {
+    #jquery-ui-draggable{
+        width: 1000px;
+        margin-left: -40%;
+        margin-top: -27%;
+    }
+    div.yt-status{
+        width: 37.4%;
+    }
+    div.yt-main{
+        width: 62%;
+    }
+    div.yt-chat{
+        display: none;
+    }
+    div.yt-status .chatbtn{
+        display: inline-block !important;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #jquery-ui-draggable{
+        margin-left: -46%;
+        margin-top: -31%;
+    }
+}
