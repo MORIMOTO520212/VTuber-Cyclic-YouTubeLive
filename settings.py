@@ -4,6 +4,7 @@
 
 # ストリームデータの場所
 def streamDataPath(os):
+    'streamDataPath(str) <- windows, linux'
     if os == "windows":
         return "database/streamdata.json"
     if os == "linux":
@@ -12,6 +13,7 @@ def streamDataPath(os):
 
 # ストリーミングデータの場所
 def streamingDataPath(os):
+    'streamingDataPath(str) <- windows, linux'
     if os == "windows":
         return "assets/streaming.json"
     if os == "linux":
@@ -20,6 +22,7 @@ def streamingDataPath(os):
 
 # ユーザーID変換データの場所
 def idChangeDataPath(os):
+    'idChangeDataPath(str) <- windows, linux'
     if os == "windows":
         return "database/idChangeData.json"
     if os == "linux":
@@ -28,6 +31,7 @@ def idChangeDataPath(os):
 
 # メッセージログの場所
 def messageLogPath(os):
+    'messageLogPath(str) <- windows, linux'
     if os == "windows":
         return "message.log"
     if os == "linux":
@@ -36,6 +40,7 @@ def messageLogPath(os):
 
 # エラーログの場所
 def errorLogPath(os):
+    'errorLogPath(str) <- windows, linux'
     if os == "windows":
         return "error.log"
     if os == "linux":
@@ -44,6 +49,7 @@ def errorLogPath(os):
 
 # Chromeのプロファイルの場所（streamingSearchChrome.pyを使う場合）
 def chromeProfilePath(os):
+    'chromeProfilePath(str) <- windows, linux'
     if os == "windows":
         return "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
     if os == "linux":
@@ -52,6 +58,7 @@ def chromeProfilePath(os):
 
 # Firefoxのプロファイルの場所
 def firefoxProfilePath(os):
+    'firefoxProfilePath(str) <- windows, linux'
     if os == "windows":
         return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
     if os == "linux":
@@ -60,6 +67,7 @@ def firefoxProfilePath(os):
 
 # Firefoxブラウザーの場所
 def firefoxBinaryPath(os):
+    'firefoxBinaryPath(str) <- windows, linux'
     if os == "windows":
         return "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
     if os == "linux":
@@ -68,6 +76,7 @@ def firefoxBinaryPath(os):
 
 # ゲームデータの場所
 def gamesDataPath(os):
+    'gamesDataPath(str) <- windows, linux'
     if os == "windows":
         return "database/games.json"
     if os == "linux":

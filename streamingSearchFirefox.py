@@ -3,9 +3,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import os, json, settings, datetime
 
-
 print("ライブ配信サーチ\n3分ごとに更新します。終了するにはCtril + Cを押してください。")
-
 
 # 動作環境の設定 windows | linux
 if os.name == "nt": OS = "windows"
@@ -26,23 +24,33 @@ PROFILE_PATH = settings.firefoxProfilePath(OS)
 Options.profile = PROFILE_PATH
 driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
 
+# streamingDataの初期化
+print("cleanup streamingData...")
+with open(settings.streamingDataPath(OS), "w") as f:
+    json.dump([], f)
+
+# スタートアップメッセージ
+print("complete!")
+now = datetime.datetime.now()
+open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+
+streamingData_before = []
 idChangeData = streamdata = gamesData = {}
+
 def loadDataFiles():
-    global idChangeData, streamdata, gamesData
+    'データを読み込む'
+    global idChangeData, streamdata, gamesData, streamingData_before
     with open(settings.idChangeDataPath(OS), "r") as f:
         idChangeData = json.load(f)
     with open(settings.streamDataPath(OS), "r") as f:
         streamdata = json.load(f)
     with open(settings.gamesDataPath(OS), "r") as f:
         gamesData = json.load(f)
-
-print("complete!")
-
-# スタートアップメッセージ
-now = datetime.datetime.now()
-open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+    with open(settings.streamingDataPath(OS), "r") as f:
+        streamingData_before = json.load(f)
 
 def getSource():
+    'YouTubeからデータをスクレイピングする'
     driver.get("https://www.youtube.com/feed/subscriptions")
 
     # 2つ目のチャンネルブロックを取得するために最下部までスクロール
@@ -53,8 +61,7 @@ def getSource():
         source = driver.page_source
         soup = BeautifulSoup(source, 'html.parser')
         channelbrock = soup.find_all("ytd-item-section-renderer", class_=["style-scope", "ytd-section-list-renderer"])
-        if 2 == len(channelbrock):
-            break
+        if 2 == len(channelbrock): break
         else:
             print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
             open(settings.errorLogPath(OS), "a").write("{} [SSF] 再試行{}：2つのチャンネルブロックのロードが完了しませんでした。\n".format(str(_+1)))
@@ -64,7 +71,7 @@ def getSource():
     return details
 
 def search(detail):
-    # Channel IDの取得
+    '配信者のデータを抽出する'
     streamingNumber = ""
     videoTitle      = ""
     videoId         = ""
@@ -97,8 +104,8 @@ def search(detail):
 
     return channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl
 
-streamingData_before = []
 def sort():
+    'チャンネルデータのソート　新しいデータは末尾に追加する'
     global streamingChannels, streamingData_before
 
     # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
@@ -119,6 +126,7 @@ def sort():
                 "channelId": strDa["channelId"],
                 "userName": strDa["userName"],
                 "twitterId": strDa["twitterId"],
+                "active_badge": strDa["active_badge"],
                 "streamingNumber": streamingNumber,
                 "videoTitle": videoTitle,
                 "photo": strDa["photo"],
@@ -140,6 +148,7 @@ def sort():
                 "channelId": strCha["channelId"],
                 "userName": strCha["userName"],
                 "twitterId": strCha["twitterId"],
+                "active_badge": strCha["active_badge"],
                 "streamingNumber": strCha["streamingNumber"],
                 "videoTitle": strCha["videoTitle"],
                 "photo": strCha["photo"],
@@ -154,6 +163,7 @@ def sort():
             })
 
 def playGame(videoTitle):
+    'タイトルにゲーム名がある場合抽出する'
     game = {}
 
     videoTitle = str.upper(videoTitle) # アルファベット大文字変換
@@ -175,6 +185,7 @@ def playGame(videoTitle):
     return game
 
 def updateStatus(usrRoot, play):
+    'ユーザーの登録情報を更新する'
     now = datetime.datetime.now()
     # ライブポイント
     usrRoot["livePoint"] += 1
@@ -194,6 +205,7 @@ def updateStatus(usrRoot, play):
             usrRoot["games"].append(play)
 
 def collab(videoTitle):
+    '動画のタイトルからコラボを検出する'
     collab_list = []
     for channelId in streamdata.keys():
         userName = streamdata[channelId]["userName"]
@@ -222,6 +234,14 @@ def collab(videoTitle):
                 else: # コラボライバーを配列に記録
                     streamdata[channelId_collab]["collab"].append(cc_other)
 
+def activBadgeCheck():
+    'アクティブバッジを更新する'
+    i=0
+    while i < len(streamingData_before):
+        channelId = streamingData_before[i]["channelId"]
+        active_badge = streamingData_before[i]["active_badge"]
+        streamdata[channelId]["active_badge"] = active_badge
+        i += 1
 
 while True:
     # セマフォ確認
@@ -235,9 +255,8 @@ while True:
         streamingChannels = [] # 取得したデータを書き込む
         streamingData     = [] # 書き込み用
 
-        loadDataFiles() # データをロード
+        loadDataFiles()
 
-        # YouTubeからデータを取得
         details = getSource()
 
         # スクレイピング
@@ -250,14 +269,11 @@ while True:
                     if channelIdData == channelId:
                         break
                 else:
-                    try: # ユーザーIDでチャンネルIDが取得された場合
-                        channelId = idChangeData[channelId]
+                    try: channelId = idChangeData[channelId] # ユーザーIDでチャンネルIDが取得できた場合
                     except:
                         print("未登録のライバー："+channelId)
-                        ck_message = open(settings.messageLogPath(OS), "r").read()
-                        if f"未登録のライバー：\"{channelId}\"" not in ck_message:
-                            now = datetime.datetime.now()
-                            open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：\"{}\"\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
+                        now = datetime.datetime.now()
+                        open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：\"{}\"\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
                         channelId = "unregistered"
 
                 if channelId != "unregistered": # 登録済みユーザーのみ
@@ -268,16 +284,15 @@ while True:
                         except:
                             raise ValueError(f"\"{channelId}\" idChangeDataにしか登録されていません.")
 
-                        # タイトルにゲーム名がある場合取得
                         play = playGame(videoTitle)
 
-                        # コラボ検出
                         collab(videoTitle)
 
                         streamingChannels.append({ # ストリーミングに追加
                             "channelId": channelId,
                             "userName": usrRoot["userName"],
                             "twitterId": usrRoot["twitterId"],
+                            "active_badge": usrRoot["active_badge"],
                             "streamingNumber": streamingNumber,
                             "videoTitle": videoTitle,
                             "photo": usrRoot["photo"],
@@ -295,8 +310,9 @@ while True:
                         updateStatus(usrRoot, play)
 
 
-        if streamingChannels != []:# チャンネルデータのソート　新しいデータは末尾に追加する
+        if streamingChannels != []: # 配信者がいた場合
             sort()
+            activBadgeCheck()
 
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 
@@ -306,9 +322,6 @@ while True:
 
         with open(settings.streamDataPath(OS), "w") as f:
             json.dump(streamdata, f, indent=4)
-
-        # データを保持　次のクロール時にデータを比較するため
-        streamingData_before = streamingData
 
         # 3分間待機
         open(".semaphore", "w").write("1")

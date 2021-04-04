@@ -33,28 +33,29 @@ def main():
         for channelId in streamdata.keys():
             now = datetime.datetime.now()
             usrRoot = streamdata[channelId]
-            try:
-                print(usrRoot["userName"])
-                userStatus = api.get_user(usrRoot["twitterId"])
-                photo = userStatus.profile_image_url_https
-                photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
-                if photo != usrRoot["photo"]:
-                    usrRoot["photo"] = photo
-                    usrRoot["iconUpdateCount"] += 1
-                    # 最終アイコンアップデート日
-                    usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
-                    
-                    message = "{} [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
-                    open(settings.messageLogPath(OS), "a").write(message)
-                    print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
-            except Exception as e:
-                if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-                    message = "{} [UTI] \"{}\" {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
-                    open(settings.messageLogPath(OS), "a").write(message)
-                    print(message)
-                else:
-                    open(settings.errorLogPath(OS), "a").write("{} [UTI] {}".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
-            sleep(1)
+            if usrRoot["active_badge"]:
+                try:
+                    print(usrRoot["userName"])
+                    userStatus = api.get_user(usrRoot["twitterId"])
+                    photo = userStatus.profile_image_url_https
+                    photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+                    if photo != usrRoot["photo"]:
+                        usrRoot["photo"] = photo
+                        usrRoot["iconUpdateCount"] += 1
+                        # 最終アイコンアップデート日
+                        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+                        
+                        message = "{} [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
+                        open(settings.messageLogPath(OS), "a").write(message)
+                        print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
+                except Exception as e:
+                    if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
+                        message = "{} [UTI] \"{}\" {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
+                        open(settings.messageLogPath(OS), "a").write(message)
+                        print(message)
+                    else:
+                        open(settings.errorLogPath(OS), "a").write("{} [UTI] {}".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
+                sleep(1)
         return streamdata
     except Exception as e:
         print(str(e))
