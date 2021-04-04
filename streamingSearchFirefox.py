@@ -200,6 +200,7 @@ def updateStatus(usrRoot, play):
         # プレイ中のゲームが記録されていなければ新しく追加する
         for game in usrRoot["games"]:
             if play["product"] == game["product"]:
+                game["lastPlayDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
                 break
         else:
             usrRoot["games"].append(play)

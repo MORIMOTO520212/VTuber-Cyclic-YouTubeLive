@@ -145,8 +145,8 @@
         "userName": "\u672c\u9593\u3072\u307e\u308f\u308a",
         "twitterId": "honmahimawari",
         "photo": "https://pbs.twimg.com/profile_images/1377655420257333253/q8eVtnj__400x400.jpg",
-        "livePoint": 5534,
-        "lastLiveDate": "2021/04/04 16:24:02",
+        "livePoint": 5535,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/02 11:30:57",
         "livePointStatus": {
@@ -173,7 +173,7 @@
             "20": 320,
             "21": 590,
             "22": 769,
-            "23": 792
+            "23": 793
         },
         "games": [
             {
@@ -345,8 +345,8 @@
         "userName": "\u5cf6\u6751\u30b7\u30e3\u30eb\u30ed\u30c3\u30c8",
         "twitterId": "Charlotte_HNST",
         "photo": "https://pbs.twimg.com/profile_images/1016873012824424452/EhaWQ_th_400x400.jpg",
-        "livePoint": 10756,
-        "lastLiveDate": "2021/04/04 20:01:10",
+        "livePoint": 10757,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 14:55:31",
         "livePointStatus": {
@@ -373,7 +373,7 @@
             "20": 368,
             "21": 636,
             "22": 567,
-            "23": 1851
+            "23": 1852
         },
         "games": [
             {
@@ -745,8 +745,8 @@
         "userName": "\u795e\u697d\u3059\u305a",
         "twitterId": "kagura_suzu",
         "photo": "https://pbs.twimg.com/profile_images/1231274945478422528/VUPh1tvM_400x400.jpg",
-        "livePoint": 5108,
-        "lastLiveDate": "2021/04/03 18:01:42",
+        "livePoint": 5109,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:59:45",
         "livePointStatus": {
@@ -773,7 +773,7 @@
             "20": 148,
             "21": 287,
             "22": 773,
-            "23": 1019
+            "23": 1020
         },
         "games": [
             {
@@ -1159,8 +1159,8 @@
         "userName": "\u90e1\u9053\u7f8e\u73b2",
         "twitterId": "g9v9g_mirei",
         "photo": "https://pbs.twimg.com/profile_images/1351902295676518401/XaefnsWJ_400x400.jpg",
-        "livePoint": 12578,
-        "lastLiveDate": "2021/04/04 03:48:29",
+        "livePoint": 12579,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/21 03:58:45",
         "livePointStatus": {
@@ -1187,13 +1187,14 @@
             "20": 498,
             "21": 479,
             "22": 809,
-            "23": 910
+            "23": 911
         },
         "games": [
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
                 "url": "https://mahjongsoul.com/",
-                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
+                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -1416,8 +1417,8 @@
         "userName": "\u767d\u96ea\u5df4",
         "twitterId": "tomoe_shirayuki",
         "photo": "https://pbs.twimg.com/profile_images/1378514134250176520/btBc4kpa_400x400.jpg",
-        "livePoint": 9000,
-        "lastLiveDate": "2021/03/30 23:19:30",
+        "livePoint": 9001,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/04 12:07:18",
         "livePointStatus": {
@@ -1444,7 +1445,7 @@
             "20": 526,
             "21": 520,
             "22": 1609,
-            "23": 1862
+            "23": 1863
         },
         "games": [
             {
@@ -2324,8 +2325,8 @@
         "userName": "\u52a0\u8cc0\u7f8e\u30cf\u30e4\u30c8",
         "twitterId": "H_KAGAMI2434",
         "photo": "https://pbs.twimg.com/profile_images/1187670367784931328/UUbSXYim_400x400.png",
-        "livePoint": 9042,
-        "lastLiveDate": "2021/04/03 04:20:53",
+        "livePoint": 9043,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 02:00:04",
         "livePointStatus": {
@@ -2352,7 +2353,7 @@
             "20": 262,
             "21": 474,
             "22": 844,
-            "23": 1809
+            "23": 1810
         },
         "games": [
             {
@@ -2406,8 +2407,8 @@
         "userName": "\u30ea\u30bc\u30fb\u30d8\u30eb\u30a8\u30b9\u30bf",
         "twitterId": "Lize_Helesta",
         "photo": "https://pbs.twimg.com/profile_images/1377456982320287744/HudfpuXT_400x400.jpg",
-        "livePoint": 2772,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 2773,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:08",
         "livePointStatus": {
@@ -2434,7 +2435,7 @@
             "20": 904,
             "21": 824,
             "22": 479,
-            "23": 229
+            "23": 230
         },
         "games": [
             {
@@ -2470,7 +2471,8 @@
             {
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
                 "url": "https://umamusume.jp/",
-                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg"
+                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -2497,8 +2499,8 @@
         "userName": "\u9b54\u4f7f\u30de\u30aa",
         "twitterId": "matsukai_mao",
         "photo": "https://pbs.twimg.com/profile_images/1188888005311729665/D7B61cz2_400x400.jpg",
-        "livePoint": 6757,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 6758,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 03:31:38",
         "livePointStatus": {
@@ -2525,7 +2527,7 @@
             "20": 538,
             "21": 638,
             "22": 473,
-            "23": 626
+            "23": 627
         },
         "games": [
             {
@@ -2571,7 +2573,8 @@
             {
                 "product": "Ark: Survival Evolved",
                 "url": "https://www.spike-chunsoft.co.jp/ark/",
-                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
@@ -2895,8 +2898,8 @@
         "userName": "\u53f6",
         "twitterId": "Kanae_2434",
         "photo": "https://pbs.twimg.com/profile_images/1248189956779991040/ibYsBhi9_400x400.jpg",
-        "livePoint": 27236,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 27237,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 04:10:20",
         "livePointStatus": {
@@ -2923,13 +2926,14 @@
             "20": 1222,
             "21": 1702,
             "22": 2020,
-            "23": 2175
+            "23": 2176
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "\u539f\u795e",
@@ -3428,8 +3432,8 @@
         "userName": "\u30a2\u30ad\u30ed\u30bc",
         "twitterId": "akirosenthal",
         "photo": "https://pbs.twimg.com/profile_images/1377638717343469570/O_a9euP5_400x400.jpg",
-        "livePoint": 6866,
-        "lastLiveDate": "2021/03/27 16:20:26",
+        "livePoint": 6867,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 9,
         "lastIconUpdateDate": "2021/04/02 11:31:48",
         "livePointStatus": {
@@ -3456,7 +3460,7 @@
             "20": 52,
             "21": 148,
             "22": 272,
-            "23": 691
+            "23": 692
         },
         "games": [
             {
@@ -3493,6 +3497,11 @@
                 "product": "Undertale",
                 "url": "https://undertale.jp/",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/44bea8c565db26c0c470a6325a47c9ea031633945cb91e4b5e1b1a39b01a2cdb.jpg"
+            },
+            {
+                "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
+                "url": "https://www.capcom.co.jp/monsterhunter/rise/",
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
             }
         ],
         "collab": [
@@ -3880,8 +3889,8 @@
         "userName": "\u67da\u539f\u3044\u3065\u307f",
         "twitterId": "Izumi_Yunohara",
         "photo": "https://pbs.twimg.com/profile_images/1377614772145905667/XXLtMCVb_400x400.jpg",
-        "livePoint": 8146,
-        "lastLiveDate": "2021/04/03 23:24:25",
+        "livePoint": 8147,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:30",
         "livePointStatus": {
@@ -3908,7 +3917,7 @@
             "20": 352,
             "21": 744,
             "22": 2094,
-            "23": 743
+            "23": 744
         },
         "games": [
             {
@@ -4097,8 +4106,8 @@
         "userName": "\u6e0b\u8c37\u30cf\u30b8\u30e1",
         "twitterId": "sibuya_hajime",
         "photo": "https://pbs.twimg.com/profile_images/1337437738413395968/YQaZjzuq_400x400.jpg",
-        "livePoint": 24685,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 24686,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/12/12 01:49:21",
         "livePointStatus": {
@@ -4125,7 +4134,7 @@
             "20": 1033,
             "21": 1093,
             "22": 1374,
-            "23": 1478
+            "23": 1479
         },
         "games": [
             {
@@ -4181,7 +4190,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -4200,8 +4210,8 @@
         "userName": "\u82b1\u7551\u30c1\u30e3\u30a4\u30ab",
         "twitterId": "ZulmIhP1nlMOT5y",
         "photo": "https://pbs.twimg.com/profile_images/1113362075730894848/Sfq3sEHw_400x400.jpg",
-        "livePoint": 2292,
-        "lastLiveDate": "2021/03/31 00:33:55",
+        "livePoint": 2293,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:53:11",
         "livePointStatus": {
@@ -4228,7 +4238,7 @@
             "20": 205,
             "21": 209,
             "22": 188,
-            "23": 453
+            "23": 454
         },
         "games": [
             {
@@ -4254,7 +4264,8 @@
             {
                 "product": "Ark: Survival Evolved",
                 "url": "https://www.spike-chunsoft.co.jp/ark/",
-                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -4610,8 +4621,8 @@
         "userName": "\u661f\u5ddd\u30b5\u30e9",
         "twitterId": "Sara_Hoshikawa ",
         "photo": "https://pbs.twimg.com/profile_images/1317062991284588544/kDPQYANH_400x400.jpg",
-        "livePoint": 5294,
-        "lastLiveDate": "2021/04/04 01:55:48",
+        "livePoint": 5295,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/24 20:58:42",
         "livePointStatus": {
@@ -4638,7 +4649,7 @@
             "20": 531,
             "21": 524,
             "22": 803,
-            "23": 958
+            "23": 959
         },
         "games": [
             {
@@ -5123,8 +5134,8 @@
         "userName": "\u5b97\u8c37\u3044\u3061\u304b",
         "twitterId": "Ichika_Souya",
         "photo": "https://pbs.twimg.com/profile_images/1377645481501749252/VpwZOXWg_400x400.jpg",
-        "livePoint": 7259,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 7260,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/02 11:32:14",
         "livePointStatus": {
@@ -5151,7 +5162,7 @@
             "20": 297,
             "21": 799,
             "22": 1447,
-            "23": 964
+            "23": 965
         },
         "games": [
             {
@@ -5880,8 +5891,8 @@
         "userName": "\u845b\u8449",
         "twitterId": "Vamp_Kuzu",
         "photo": "https://pbs.twimg.com/profile_images/1135233496463491072/j61CdEPG_400x400.png",
-        "livePoint": 20172,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 20173,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:24:08",
         "livePointStatus": {
@@ -5908,13 +5919,14 @@
             "20": 819,
             "21": 1063,
             "22": 1387,
-            "23": 1663
+            "23": 1664
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Among Us",
@@ -5967,8 +5979,8 @@
         "userName": "\u30a4\u30d6\u30e9\u30d2\u30e0",
         "twitterId": "honmono_ibrahim",
         "photo": "https://pbs.twimg.com/profile_images/1221692992613842945/Sjax9T-b_400x400.jpg",
-        "livePoint": 13527,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 13528,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 22:10:01",
         "livePointStatus": {
@@ -5995,13 +6007,14 @@
             "20": 1137,
             "21": 1691,
             "22": 2052,
-            "23": 1898
+            "23": 1899
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Minecraft",
@@ -6425,8 +6438,8 @@
         "userName": "\u590f\u8272\u307e\u3064\u308a",
         "twitterId": "natsuiromatsuri",
         "photo": "https://pbs.twimg.com/profile_images/1377634993208401925/hZ3xmgaS_400x400.jpg",
-        "livePoint": 7047,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 7048,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/04/02 11:32:34",
         "livePointStatus": {
@@ -6453,7 +6466,7 @@
             "20": 437,
             "21": 668,
             "22": 941,
-            "23": 1516
+            "23": 1517
         },
         "games": [
             {
@@ -6509,7 +6522,8 @@
             {
                 "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
                 "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
-                "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
+                "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -6598,8 +6612,8 @@
         "userName": "\u795e\u697d\u3081\u3042",
         "twitterId": "KaguraMea_VoV",
         "photo": "https://pbs.twimg.com/profile_images/1334432694642434050/IwJEcrIQ_400x400.jpg",
-        "livePoint": 3273,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 3274,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/12/03 23:32:24",
         "livePointStatus": {
@@ -6626,7 +6640,7 @@
             "20": 169,
             "21": 359,
             "22": 464,
-            "23": 541
+            "23": 542
         },
         "games": [
             {
@@ -6663,8 +6677,8 @@
         "userName": "\u30b8\u30e7\u30fc\u30fb\u529b\u4e00",
         "twitterId": "JoeRikiichi",
         "photo": "https://pbs.twimg.com/profile_images/1377547222854762496/CBYwLbfL_400x400.jpg",
-        "livePoint": 4398,
-        "lastLiveDate": "2021/04/03 01:40:52",
+        "livePoint": 4399,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:23:13",
         "livePointStatus": {
@@ -6691,7 +6705,7 @@
             "20": 160,
             "21": 264,
             "22": 530,
-            "23": 544
+            "23": 545
         },
         "games": [
             {
@@ -7166,8 +7180,8 @@
         "userName": "\u9df9\u5bae\u30ea\u30aa\u30f3",
         "twitterId": "TakamiyaRion",
         "photo": "https://pbs.twimg.com/profile_images/1377620144256598016/I5AItVY3_400x400.jpg",
-        "livePoint": 10004,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 10005,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:23:22",
         "livePointStatus": {
@@ -7194,7 +7208,7 @@
             "20": 872,
             "21": 716,
             "22": 734,
-            "23": 923
+            "23": 924
         },
         "games": [
             {
@@ -7255,7 +7269,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -7365,8 +7380,8 @@
         "userName": "\u865a\u7121",
         "twitterId": "kyomu_lwl",
         "photo": "https://pbs.twimg.com/profile_images/1361830673305141248/X_XdRsSA_400x400.jpg",
-        "livePoint": 16661,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 16662,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/02/17 11:19:15",
         "livePointStatus": {
@@ -7393,7 +7408,7 @@
             "20": 937,
             "21": 1765,
             "22": 1760,
-            "23": 1770
+            "23": 1771
         },
         "games": [
             {
@@ -7409,7 +7424,8 @@
             {
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -7563,8 +7579,8 @@
         "userName": "\u6e4a\u3042\u304f\u3042",
         "twitterId": "minatoaqua",
         "photo": "https://pbs.twimg.com/profile_images/1369535451082616839/Zy2iNIoV_400x400.jpg",
-        "livePoint": 11591,
-        "lastLiveDate": "2021/04/04 00:30:06",
+        "livePoint": 11592,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/03/10 18:24:03",
         "livePointStatus": {
@@ -7591,7 +7607,7 @@
             "20": 605,
             "21": 839,
             "22": 1257,
-            "23": 1496
+            "23": 1497
         },
         "games": [
             {
@@ -7882,8 +7898,8 @@
         "userName": "\u7652\u6708\u3061\u3087\u3053",
         "twitterId": "yuzukichococh",
         "photo": "https://pbs.twimg.com/profile_images/1361823454639497216/aJ2tZai__400x400.jpg",
-        "livePoint": 5571,
-        "lastLiveDate": "2021/04/04 01:17:29",
+        "livePoint": 5572,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 13,
         "lastIconUpdateDate": "2021/02/17 11:19:15",
         "livePointStatus": {
@@ -7910,7 +7926,7 @@
             "20": 402,
             "21": 339,
             "22": 308,
-            "23": 339
+            "23": 340
         },
         "games": [
             {
@@ -7941,7 +7957,8 @@
             {
                 "product": "\u9f8d\u304c\u5982\u304f\u30b7\u30ea\u30fc\u30ba",
                 "url": "http://ryu-ga-gotoku.com/",
-                "photo": "https://ryu-ga-gotoku.com/kiwami/assets/img/pre/logo.png"
+                "photo": "https://ryu-ga-gotoku.com/kiwami/assets/img/pre/logo.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -8207,8 +8224,8 @@
         "userName": "\u82b1\u82bd\u3059\u307f\u308c",
         "twitterId": "sumire_kaga",
         "photo": "https://pbs.twimg.com/profile_images/1376943236380430336/CgnVbh3S_400x400.jpg",
-        "livePoint": 9668,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 9669,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/03/31 10:57:48",
         "livePointStatus": {
@@ -8235,7 +8252,7 @@
             "20": 754,
             "21": 957,
             "22": 1106,
-            "23": 1096
+            "23": 1097
         },
         "games": [
             {
@@ -8251,7 +8268,8 @@
             {
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Minecraft",
@@ -9088,8 +9106,8 @@
         "userName": "\u9234\u539f\u308b\u308b",
         "twitterId": "lulu_suzuhara",
         "photo": "https://pbs.twimg.com/profile_images/1236004510679490561/cp71cFmq_400x400.jpg",
-        "livePoint": 5678,
-        "lastLiveDate": "2021/04/04 02:31:52",
+        "livePoint": 5679,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/10 01:00:39",
         "livePointStatus": {
@@ -9116,7 +9134,7 @@
             "20": 63,
             "21": 148,
             "22": 557,
-            "23": 1215
+            "23": 1216
         },
         "games": [
             {
@@ -9415,8 +9433,8 @@
         "userName": "\u9b54\u51ac\u3042\u3093\u305a",
         "twitterId": "SUSHIANZ",
         "photo": "https://pbs.twimg.com/profile_images/1369329667333906434/tipiB1vY_400x400.jpg",
-        "livePoint": 7109,
-        "lastLiveDate": "2021/04/03 08:28:44",
+        "livePoint": 7110,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/03/10 06:15:22",
         "livePointStatus": {
@@ -9443,13 +9461,14 @@
             "20": 686,
             "21": 825,
             "22": 722,
-            "23": 682
+            "23": 683
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Among Us",
@@ -9497,8 +9516,8 @@
         "userName": "\u5929\u5ddd\u306f\u306e",
         "twitterId": "sb_hano_",
         "photo": "https://pbs.twimg.com/profile_images/1322812750456741888/YHggfikC_400x400.jpg",
-        "livePoint": 15464,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 15465,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/11/03 18:09:53",
         "livePointStatus": {
@@ -9525,7 +9544,7 @@
             "20": 1716,
             "21": 2457,
             "22": 1902,
-            "23": 1402
+            "23": 1403
         },
         "games": [
             {
@@ -10143,8 +10162,8 @@
         "userName": "\u96ea\u57ce\u771e\u5c0b",
         "twitterId": "MahiroYukishiro",
         "photo": "https://pbs.twimg.com/profile_images/1377457064469884928/u2PcV2BS_400x400.jpg",
-        "livePoint": 8064,
-        "lastLiveDate": "2021/04/03 16:02:12",
+        "livePoint": 8065,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:24:09",
         "livePointStatus": {
@@ -10171,7 +10190,7 @@
             "20": 566,
             "21": 724,
             "22": 539,
-            "23": 594
+            "23": 595
         },
         "games": [
             {
@@ -10182,7 +10201,8 @@
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "\u539f\u795e",
@@ -10308,8 +10328,8 @@
         "userName": "\u30af\u30ec\u30a2",
         "twitterId": "Claire_sensei",
         "photo": "https://pbs.twimg.com/profile_images/1342496345559470080/NkU_rTK8_400x400.jpg",
-        "livePoint": 3822,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 3823,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/26 06:33:37",
         "livePointStatus": {
@@ -10336,7 +10356,7 @@
             "20": 501,
             "21": 1091,
             "22": 1062,
-            "23": 668
+            "23": 669
         },
         "games": [
             {
@@ -10540,8 +10560,8 @@
         "userName": "\u795e\u57ce\u304f\u308c\u3042",
         "twitterId": "kamishiro_kurea",
         "photo": "https://pbs.twimg.com/profile_images/1362177049952014337/bV-YnCxN_400x400.jpg",
-        "livePoint": 9234,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 9235,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/02/18 11:36:14",
         "livePointStatus": {
@@ -10568,7 +10588,7 @@
             "20": 18,
             "21": 266,
             "22": 773,
-            "23": 1002
+            "23": 1003
         },
         "games": [
             {
@@ -10594,7 +10614,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -10655,8 +10676,8 @@
         "userName": "\u96ea\u82b1\u30e9\u30df\u30a3",
         "twitterId": "yukihanalamy",
         "photo": "https://pbs.twimg.com/profile_images/1369948216695791619/Yf1LNF2S_400x400.jpg",
-        "livePoint": 13364,
-        "lastLiveDate": "2021/04/03 23:58:16",
+        "livePoint": 13365,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/03/11 20:02:45",
         "livePointStatus": {
@@ -10683,7 +10704,7 @@
             "20": 214,
             "21": 212,
             "22": 796,
-            "23": 1599
+            "23": 1600
         },
         "games": [
             {
@@ -10735,6 +10756,11 @@
                 "product": "\u30ea\u30f3\u30b0\u30d5\u30a3\u30c3\u30c8 \u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc",
                 "url": "https://www.nintendo.co.jp/ring/",
                 "photo": "https://i.ytimg.com/vi/pmUS1nXq9RI/maxresdefault.jpg"
+            },
+            {
+                "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
+                "url": "https://www.capcom.co.jp/monsterhunter/rise/",
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
             }
         ],
         "collab": [
@@ -10820,8 +10846,8 @@
         "userName": "\u4e38\u9905\u3064\u304d\u307f",
         "twitterId": "tukimi_marumoti",
         "photo": "https://pbs.twimg.com/profile_images/1364913339109842944/UPT4RY3g_400x400.jpg",
-        "livePoint": 4182,
-        "lastLiveDate": "2021/04/04 00:48:09",
+        "livePoint": 4183,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 9,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -10848,7 +10874,7 @@
             "20": 141,
             "21": 385,
             "22": 2197,
-            "23": 1104
+            "23": 1105
         },
         "games": [
             {
@@ -11555,8 +11581,8 @@
         "userName": "\u7345\u767d\u307c\u305f\u3093",
         "twitterId": "shishirobotan",
         "photo": "https://pbs.twimg.com/profile_images/1345431069881892865/i3FSgEgv_400x400.jpg",
-        "livePoint": 10349,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 10350,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/03 10:26:36",
         "livePointStatus": {
@@ -11583,7 +11609,7 @@
             "20": 378,
             "21": 1066,
             "22": 1738,
-            "23": 1715
+            "23": 1716
         },
         "games": [
             {
@@ -11644,7 +11670,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -12554,8 +12581,8 @@
         "userName": "\u661f\u6cb3\u30c6\u30d5",
         "twitterId": "Hoshi_Tefu",
         "photo": "https://pbs.twimg.com/profile_images/1377691747900215296/wnBVHNO6_400x400.jpg",
-        "livePoint": 136,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 137,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 11:34:24",
         "livePointStatus": {
@@ -12582,7 +12609,7 @@
             "20": 0,
             "21": 4,
             "22": 17,
-            "23": 84
+            "23": 85
         },
         "games": [
             {
@@ -12593,7 +12620,8 @@
             {
                 "product": "Phasmophobia",
                 "url": "https://store.steampowered.com/app/739630/Phasmophobia/",
-                "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg"
+                "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -12603,8 +12631,8 @@
         "userName": "\u5317\u5c0f\u8def\u30d2\u30b9\u30a4",
         "twitterId": "Hisui_Kitakoji",
         "photo": "https://pbs.twimg.com/profile_images/1344597954699530240/WYXRRJWc_400x400.jpg",
-        "livePoint": 8972,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 8973,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/31 20:32:04",
         "livePointStatus": {
@@ -12631,7 +12659,7 @@
             "20": 365,
             "21": 479,
             "22": 746,
-            "23": 1039
+            "23": 1040
         },
         "games": [
             {
@@ -12677,7 +12705,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -12699,8 +12728,8 @@
         "userName": "\u5468\u592e\u30b5\u30f3\u30b4",
         "twitterId": "Suo_Sango",
         "photo": "https://pbs.twimg.com/profile_images/1290578128809504774/RRCWQb3e_400x400.jpg",
-        "livePoint": 5955,
-        "lastLiveDate": "2021/04/04 01:21:59",
+        "livePoint": 5956,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:34:49",
         "livePointStatus": {
@@ -12727,7 +12756,7 @@
             "20": 226,
             "21": 205,
             "22": 536,
-            "23": 1229
+            "23": 1230
         },
         "games": [
             {
@@ -13082,8 +13111,8 @@
         "userName": "\u732b\u53c8\u304a\u304b\u3086",
         "twitterId": "nekomataokayu",
         "photo": "https://pbs.twimg.com/profile_images/1377460391949688838/IHoZ1I_B_400x400.jpg",
-        "livePoint": 8578,
-        "lastLiveDate": "2021/04/03 00:30:59",
+        "livePoint": 8579,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/04/01 23:25:02",
         "livePointStatus": {
@@ -13110,7 +13139,7 @@
             "20": 343,
             "21": 664,
             "22": 1504,
-            "23": 1884
+            "23": 1885
         },
         "games": [
             {
@@ -13137,6 +13166,11 @@
                 "product": "Papers, Please",
                 "url": "https://store.steampowered.com/app/239030/Papers_Please/?l=japanese",
                 "photo": "http://papers-please.info/index.php?plugin=attach&refer=FrontPage&openfile=Title.png"
+            },
+            {
+                "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
+                "url": "https://www.capcom.co.jp/monsterhunter/rise/",
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
             }
         ],
         "collab": [
@@ -13320,8 +13354,8 @@
         "userName": "\u4f0f\u898b\u30ac\u30af",
         "twitterId": "gaku_fushimi",
         "photo": "https://pbs.twimg.com/profile_images/1377594437283454981/Wpb4D81s_400x400.jpg",
-        "livePoint": 4728,
-        "lastLiveDate": "2021/04/04 02:49:53",
+        "livePoint": 4729,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:25:08",
         "livePointStatus": {
@@ -13348,7 +13382,7 @@
             "20": 112,
             "21": 223,
             "22": 589,
-            "23": 1120
+            "23": 1121
         },
         "games": [
             {
@@ -13483,8 +13517,8 @@
         "userName": "\u5929\u30ce\u96eb",
         "twitterId": "shizukuamano1",
         "photo": "https://pbs.twimg.com/profile_images/1362613245526204416/wBcpsr-p_400x400.jpg",
-        "livePoint": 5385,
-        "lastLiveDate": "2021/04/03 00:51:16",
+        "livePoint": 5386,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/02/20 00:01:15",
         "livePointStatus": {
@@ -13511,7 +13545,7 @@
             "20": 0,
             "21": 142,
             "22": 754,
-            "23": 1603
+            "23": 1604
         },
         "games": [
             {
@@ -13956,8 +13990,8 @@
         "userName": "\u6681\u6708\u30af\u30e9\u30e9",
         "twitterId": "akatsukiclara",
         "photo": "https://pbs.twimg.com/profile_images/1374703137790001153/TtikSQvB_400x400.jpg",
-        "livePoint": 3001,
-        "lastLiveDate": "2021/04/03 22:43:46",
+        "livePoint": 3002,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/03/25 09:13:39",
         "livePointStatus": {
@@ -13984,7 +14018,7 @@
             "20": 237,
             "21": 526,
             "22": 508,
-            "23": 530
+            "23": 531
         },
         "games": [
             {
@@ -14328,8 +14362,8 @@
         "userName": "\u78a7\u90a3\u30a2\u30a4\u30eb",
         "twitterId": "Ail_Hekina",
         "photo": "https://pbs.twimg.com/profile_images/1365508938276302850/EKCfBNTS_400x400.jpg",
-        "livePoint": 2492,
-        "lastLiveDate": "2021/04/01 00:09:43",
+        "livePoint": 2493,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -14356,7 +14390,7 @@
             "20": 0,
             "21": 381,
             "22": 1135,
-            "23": 803
+            "23": 804
         },
         "games": [
             {
@@ -14446,8 +14480,8 @@
         "userName": "\u767d\u97f3\u3086\u304d",
         "twitterId": "Shirane_Yuki",
         "photo": "https://pbs.twimg.com/profile_images/1377542956417097729/sVppWAMP_400x400.jpg",
-        "livePoint": 7935,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 7936,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/04/01 23:25:26",
         "livePointStatus": {
@@ -14474,7 +14508,7 @@
             "20": 574,
             "21": 1123,
             "22": 1069,
-            "23": 1045
+            "23": 1046
         },
         "games": [
             {
@@ -14485,7 +14519,8 @@
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Project Winter",
@@ -14697,8 +14732,8 @@
         "userName": "\u72ac\u5c71\u305f\u307e\u304d",
         "twitterId": "norioo_",
         "photo": "https://pbs.twimg.com/profile_images/1377527677200965635/wdAH7JRg_400x400.png",
-        "livePoint": 5159,
-        "lastLiveDate": "2021/04/03 23:58:16",
+        "livePoint": 5160,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:25:32",
         "livePointStatus": {
@@ -14725,7 +14760,7 @@
             "20": 193,
             "21": 313,
             "22": 128,
-            "23": 2695
+            "23": 2696
         },
         "games": [
             {
@@ -15093,8 +15128,8 @@
         "userName": "\u8a00\u30ce\u8449\u30ad\u30ea\u30e4",
         "twitterId": "kotonohakiliya",
         "photo": "https://pbs.twimg.com/profile_images/1378341575202250752/q1ssn6cV_400x400.jpg",
-        "livePoint": 595,
-        "lastLiveDate": "2021/03/31 22:25:44",
+        "livePoint": 596,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 11,
         "lastIconUpdateDate": "2021/04/04 00:02:09",
         "livePointStatus": {
@@ -15121,7 +15156,7 @@
             "20": 108,
             "21": 217,
             "22": 145,
-            "23": 44
+            "23": 45
         },
         "games": [
             {
@@ -15153,6 +15188,11 @@
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
                 "url": "https://umamusume.jp/",
                 "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg"
+            },
+            {
+                "product": "Phasmophobia",
+                "url": "https://store.steampowered.com/app/739630/Phasmophobia/",
+                "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg"
             }
         ],
         "collab": [],
@@ -15825,8 +15865,8 @@
         "userName": "\u6ce1\u6cab\u30e1\u30e2\u30ea",
         "twitterId": "Memory_Utakata",
         "photo": "https://pbs.twimg.com/profile_images/1377638979479109632/y_3SW4YS_400x400.jpg",
-        "livePoint": 5093,
-        "lastLiveDate": "2021/04/02 22:02:03",
+        "livePoint": 5094,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/04/02 11:35:28",
         "livePointStatus": {
@@ -15853,7 +15893,7 @@
             "20": 540,
             "21": 1332,
             "22": 115,
-            "23": 1453
+            "23": 1454
         },
         "games": [
             {
@@ -16649,8 +16689,8 @@
         "userName": "\u6728\u66ae\u90c1\u679d",
         "twitterId": "ikue_seifukubu",
         "photo": "https://pbs.twimg.com/profile_images/1377347564572315649/FOY6Di-v_400x400.jpg",
-        "livePoint": 6836,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 6837,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/01 11:17:10",
         "livePointStatus": {
@@ -16677,7 +16717,7 @@
             "20": 19,
             "21": 71,
             "22": 326,
-            "23": 1231
+            "23": 1232
         },
         "games": [
             {
@@ -16708,8 +16748,8 @@
         "userName": "\u30b7\u30a7\u30ea\u30f3\u30fb\u30d0\u30fc\u30ac\u30f3\u30c7\u30a3",
         "twitterId": "ShellinBurgundy",
         "photo": "https://pbs.twimg.com/profile_images/1347567265181417473/wTmZ5mSm_400x400.jpg",
-        "livePoint": 7610,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 7611,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/09 12:33:13",
         "livePointStatus": {
@@ -16736,7 +16776,7 @@
             "20": 869,
             "21": 721,
             "22": 492,
-            "23": 321
+            "23": 322
         },
         "games": [
             {
@@ -16762,7 +16802,8 @@
             {
                 "product": "Ark: Survival Evolved",
                 "url": "https://www.spike-chunsoft.co.jp/ark/",
-                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -17033,8 +17074,8 @@
         "userName": "\u96ea\u4e38\u7396",
         "twitterId": "yukimarusen",
         "photo": "https://pbs.twimg.com/profile_images/1139491888409350144/JPDLkKIf_400x400.png",
-        "livePoint": 970,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 971,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 23:10:19",
         "livePointStatus": {
@@ -17061,7 +17102,7 @@
             "20": 0,
             "21": 135,
             "22": 416,
-            "23": 322
+            "23": 323
         },
         "games": [
             {
@@ -17077,7 +17118,8 @@
             {
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
                 "url": "https://umamusume.jp/",
-                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg"
+                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -17232,8 +17274,8 @@
         "userName": "\u4f0a\u6771\u30e9\u30a4\u30d5",
         "twitterId": "itolife",
         "photo": "https://pbs.twimg.com/profile_images/1294876636295213057/2QarZL-a_400x400.jpg",
-        "livePoint": 4605,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 4606,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 00:01:54",
         "livePointStatus": {
@@ -17260,7 +17302,7 @@
             "20": 128,
             "21": 190,
             "22": 940,
-            "23": 1378
+            "23": 1379
         },
         "games": [
             {
@@ -17276,7 +17318,8 @@
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
                 "url": "https://mahjongsoul.com/",
-                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
+                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "\u6843\u592a\u90ce\u96fb\u9244\u30b7\u30ea\u30fc\u30ba",
@@ -18129,8 +18172,8 @@
         "userName": "\u30eb\u30a4\u30b9\u30fb\u30ad\u30e3\u30df\u30fc",
         "twitterId": "Luis_Cammy",
         "photo": "https://pbs.twimg.com/profile_images/1375907913466662912/g0eX2V2f_400x400.jpg",
-        "livePoint": 5836,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 5837,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/03/28 10:08:39",
         "livePointStatus": {
@@ -18157,7 +18200,7 @@
             "20": 457,
             "21": 455,
             "22": 502,
-            "23": 397
+            "23": 398
         },
         "games": [
             {
@@ -18193,7 +18236,8 @@
             {
                 "product": "Ark: Survival Evolved",
                 "url": "https://www.spike-chunsoft.co.jp/ark/",
-                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg"
+                "photo": "https://news.denfaminicogamer.jp/wp-content/uploads/2020/02/28204129/header.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -18491,8 +18535,8 @@
         "userName": "\u68ee\u30ab\u30ea\u30aa\u30da",
         "twitterId": "moricalliope",
         "photo": "https://pbs.twimg.com/profile_images/1365548729437097989/NFwaOzI3_400x400.jpg",
-        "livePoint": 7337,
-        "lastLiveDate": "2021/04/02 02:36:51",
+        "livePoint": 7338,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -18519,7 +18563,7 @@
             "20": 85,
             "21": 143,
             "22": 319,
-            "23": 838
+            "23": 839
         },
         "games": [
             {
@@ -18624,8 +18668,8 @@
         "userName": "\u693f\u9b3c\u3044\u308d\u306f",
         "twitterId": "iroha_Vt",
         "photo": "https://pbs.twimg.com/profile_images/1360903478864793602/PD9IMLaa_400x400.jpg",
-        "livePoint": 5570,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 5571,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/02/14 22:39:26",
         "livePointStatus": {
@@ -18652,7 +18696,7 @@
             "20": 261,
             "21": 526,
             "22": 602,
-            "23": 436
+            "23": 437
         },
         "games": [
             {
@@ -18909,8 +18953,8 @@
         "userName": "\u514e\u97a0\u307e\u308a",
         "twitterId": "tomari_mari",
         "photo": "https://pbs.twimg.com/profile_images/1317127953495412736/LD_yDt9b_400x400.jpg",
-        "livePoint": 5882,
-        "lastLiveDate": "2021/04/03 22:41:31",
+        "livePoint": 5883,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/28 23:42:50",
         "livePointStatus": {
@@ -18937,7 +18981,7 @@
             "20": 720,
             "21": 1923,
             "22": 1368,
-            "23": 760
+            "23": 761
         },
         "games": [
             {
@@ -19199,8 +19243,8 @@
         "userName": "\u306d\u3080\u307f",
         "twitterId": "nemumi_0v0",
         "photo": "https://pbs.twimg.com/profile_images/1119076163681304576/kqCTN36Z_400x400.jpg",
-        "livePoint": 14991,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 14992,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 20:16:06",
         "livePointStatus": {
@@ -19227,7 +19271,7 @@
             "20": 2274,
             "21": 2024,
             "22": 1658,
-            "23": 1380
+            "23": 1381
         },
         "games": [
             {
@@ -19263,7 +19307,8 @@
             {
                 "product": "\u30c9\u30e9\u30b4\u30f3\u30af\u30a8\u30b9\u30c8X",
                 "url": "https://www.dqx.jp/",
-                "photo": "https://renote.jp/uploads/image/file/64773/20130322185051.jpg"
+                "photo": "https://renote.jp/uploads/image/file/64773/20130322185051.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -19355,8 +19400,8 @@
         "userName": "\u8aad\u8c37\u5c71\u6587\u4e43",
         "twitterId": "HuminoYomiyama",
         "photo": "https://pbs.twimg.com/profile_images/1377456549958848516/deCJLzwP_400x400.jpg",
-        "livePoint": 15054,
-        "lastLiveDate": "2021/04/04 20:12:26",
+        "livePoint": 15055,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/04/01 23:27:04",
         "livePointStatus": {
@@ -19383,7 +19428,7 @@
             "20": 1427,
             "21": 421,
             "22": 1441,
-            "23": 2806
+            "23": 2807
         },
         "games": [
             {
@@ -19525,8 +19570,8 @@
         "userName": "\u6b4c\u8863\u30e1\u30a4\u30ab",
         "twitterId": "meikahaotoko",
         "photo": "https://pbs.twimg.com/profile_images/1377948756457361410/0LPEpZFZ_400x400.jpg",
-        "livePoint": 15312,
-        "lastLiveDate": "2021/04/04 03:10:10",
+        "livePoint": 15313,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 23:46:08",
         "livePointStatus": {
@@ -19553,7 +19598,7 @@
             "20": 1112,
             "21": 1395,
             "22": 2332,
-            "23": 2186
+            "23": 2187
         },
         "games": [
             {
@@ -19775,8 +19820,8 @@
         "userName": "\u304d\u305f\u3053\u3057",
         "twitterId": "kitakoshi3",
         "photo": "https://pbs.twimg.com/profile_images/1357246499613147138/vl3aQLuR_400x400.jpg",
-        "livePoint": 9725,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 9726,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/02/04 19:56:55",
         "livePointStatus": {
@@ -19803,7 +19848,7 @@
             "20": 28,
             "21": 1223,
             "22": 2240,
-            "23": 2028
+            "23": 2029
         },
         "games": [
             {
@@ -19903,8 +19948,8 @@
         "userName": "\u9e7f\u4e43",
         "twitterId": "kano_san_",
         "photo": "https://pbs.twimg.com/profile_images/1377478665148067847/12Ufucj1_400x400.jpg",
-        "livePoint": 12996,
-        "lastLiveDate": "2021/04/04 06:01:24",
+        "livePoint": 12997,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/04/01 23:27:15",
         "livePointStatus": {
@@ -19931,7 +19976,7 @@
             "20": 0,
             "21": 8,
             "22": 120,
-            "23": 3336
+            "23": 3337
         },
         "games": [
             {
@@ -19957,7 +20002,8 @@
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -20041,8 +20087,8 @@
         "userName": "\u7cf8\u8272\u521d\u82bd",
         "twitterId": "zettun_y",
         "photo": "https://pbs.twimg.com/profile_images/1305141688315256839/EIkDWPMG_400x400.jpg",
-        "livePoint": 2481,
-        "lastLiveDate": "2021/04/01 01:46:38",
+        "livePoint": 2482,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 01:38:56",
         "livePointStatus": {
@@ -20069,7 +20115,7 @@
             "20": 177,
             "21": 210,
             "22": 197,
-            "23": 309
+            "23": 310
         },
         "games": [
             {
@@ -20654,8 +20700,8 @@
         "userName": "\u306f\u3065\u304d\u307f\u3086",
         "twitterId": "hazukimiyu2525",
         "photo": "https://pbs.twimg.com/profile_images/1377497115044179970/kIDueYRN_400x400.png",
-        "livePoint": 6019,
-        "lastLiveDate": "2021/04/03 23:58:16",
+        "livePoint": 6020,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/01 23:27:30",
         "livePointStatus": {
@@ -20682,7 +20728,7 @@
             "20": 167,
             "21": 655,
             "22": 1615,
-            "23": 1292
+            "23": 1293
         },
         "games": [
             {
@@ -20693,7 +20739,8 @@
             {
                 "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
                 "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
-                "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg"
+                "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "SEKIRO: SHADOWS DIE TWICE",
@@ -21004,8 +21051,8 @@
         "userName": "\u4e00\u30ce\u702c\u3046\u308b\u306f",
         "twitterId": "uruha_ichinose",
         "photo": "https://pbs.twimg.com/profile_images/1363109028209905664/AZQ-dmKq_400x400.jpg",
-        "livePoint": 8892,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 8893,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/02/21 00:18:00",
         "livePointStatus": {
@@ -21032,7 +21079,7 @@
             "20": 496,
             "21": 908,
             "22": 1227,
-            "23": 1293
+            "23": 1294
         },
         "games": [
             {
@@ -21043,7 +21090,8 @@
             {
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "DARK SOULS",
@@ -21552,8 +21600,8 @@
         "userName": "\u5009\u6301\u4eac\u5b50",
         "twitterId": "kuramochikyoko",
         "photo": "https://pbs.twimg.com/profile_images/1377620412591390734/lfe06_q6_400x400.jpg",
-        "livePoint": 5811,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 5812,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/04/01 23:27:48",
         "livePointStatus": {
@@ -21580,7 +21628,7 @@
             "20": 362,
             "21": 721,
             "22": 965,
-            "23": 1038
+            "23": 1039
         },
         "games": [
             {
@@ -21611,7 +21659,8 @@
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3\u30b7\u30ea\u30fc\u30ba",
@@ -22339,8 +22388,8 @@
         "userName": "\u80e1\u6843\u306e\u3042",
         "twitterId": "n0ah_kurumi",
         "photo": "https://pbs.twimg.com/profile_images/1360246517026627584/fSg6F0On_400x400.jpg",
-        "livePoint": 12019,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 12020,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/02/13 10:15:26",
         "livePointStatus": {
@@ -22367,7 +22416,7 @@
             "20": 139,
             "21": 765,
             "22": 1875,
-            "23": 1948
+            "23": 1949
         },
         "games": [
             {
@@ -22378,7 +22427,8 @@
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
-                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Among Us",
@@ -22694,8 +22744,8 @@
         "userName": "\u5cb8\u5802\u5929\u771f",
         "twitterId": "kishidotemma",
         "photo": "https://pbs.twimg.com/profile_images/1370682307699376128/34UtnKMd_400x400.jpg",
-        "livePoint": 9194,
-        "lastLiveDate": "2021/04/04 01:58:03",
+        "livePoint": 9195,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/03/13 20:39:10",
         "livePointStatus": {
@@ -22722,7 +22772,7 @@
             "20": 292,
             "21": 305,
             "22": 519,
-            "23": 539
+            "23": 540
         },
         "games": [
             {
@@ -23455,8 +23505,8 @@
         "userName": "\u840c\u3005\u5ac1\u3082\u304b",
         "twitterId": "mochatan0214",
         "photo": "https://pbs.twimg.com/profile_images/1311323343409176576/H6VbsM2F_400x400.jpg",
-        "livePoint": 3367,
-        "lastLiveDate": "2021/04/03 23:28:56",
+        "livePoint": 3368,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 22:16:54",
         "livePointStatus": {
@@ -23483,7 +23533,7 @@
             "20": 146,
             "21": 200,
             "22": 684,
-            "23": 1021
+            "23": 1022
         },
         "games": [
             {
@@ -23951,8 +24001,8 @@
         "userName": "\u308a\u3068\u308b\u3093",
         "twitterId": "RitorunGames",
         "photo": "https://pbs.twimg.com/profile_images/1367735279834963972/I9PuRnFn_400x400.jpg",
-        "livePoint": 9,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 10,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -23979,7 +24029,7 @@
             "20": 0,
             "21": 9,
             "22": 0,
-            "23": 0
+            "23": 1
         },
         "games": [],
         "collab": [
@@ -24157,8 +24207,8 @@
         "userName": "\u65e5\u30ce\u68ee\u3042\u3093\u305a",
         "twitterId": "anzu_chaaaan",
         "photo": "https://pbs.twimg.com/profile_images/1356184995237249025/PfxhlpnH_400x400.jpg",
-        "livePoint": 15447,
-        "lastLiveDate": "2021/04/03 19:31:55",
+        "livePoint": 15448,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/02/02 07:16:41",
         "livePointStatus": {
@@ -24185,7 +24235,7 @@
             "20": 361,
             "21": 452,
             "22": 648,
-            "23": 1560
+            "23": 1561
         },
         "games": [
             {
@@ -25367,8 +25417,8 @@
         "userName": "\u5343\u7fbd\u9ed2\u4e43",
         "twitterId": "senba_crow",
         "photo": "https://pbs.twimg.com/profile_images/1169215628227383296/__4tgGmq_400x400.jpg",
-        "livePoint": 4484,
-        "lastLiveDate": "2021/04/02 22:31:24",
+        "livePoint": 4485,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 22:28:18",
         "livePointStatus": {
@@ -25395,7 +25445,7 @@
             "20": 655,
             "21": 957,
             "22": 1001,
-            "23": 745
+            "23": 746
         },
         "games": [
             {
@@ -25406,7 +25456,8 @@
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
                 "url": "https://mahjongsoul.com/",
-                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg"
+                "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Among Us",
@@ -25580,8 +25631,8 @@
         "userName": "\u661f\u6708\u30eb\u30f3\u30ca",
         "twitterId": "hoshizukilunna",
         "photo": "https://pbs.twimg.com/profile_images/1377596656711921664/MJTNDuy5_400x400.jpg",
-        "livePoint": 770,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 771,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/04/01 23:29:09",
         "livePointStatus": {
@@ -25608,13 +25659,14 @@
             "20": 53,
             "21": 45,
             "22": 19,
-            "23": 39
+            "23": 40
         },
         "games": [
             {
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -25624,8 +25676,8 @@
         "userName": "\u5929\u4f7f\u30ea\u30ea\u30a8\u30eb",
         "twitterId": "Amatsuka_Lilyel",
         "photo": "https://pbs.twimg.com/profile_images/1374749254992941060/PnShshfK_400x400.jpg",
-        "livePoint": 9121,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 9122,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/03/25 09:17:12",
         "livePointStatus": {
@@ -25652,7 +25704,7 @@
             "20": 304,
             "21": 1031,
             "22": 2006,
-            "23": 1605
+            "23": 1606
         },
         "games": [
             {
@@ -25703,7 +25755,8 @@
             {
                 "product": "\u30e2\u30f3\u30b9\u30bf\u30fc\u30cf\u30f3\u30bf\u30fc\u30e9\u30a4\u30ba",
                 "url": "https://www.capcom.co.jp/monsterhunter/rise/",
-                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png"
+                "photo": "https://www.capcom.co.jp/monsterhunter/rise/assets/images/common/share.png",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [
@@ -25985,8 +26038,8 @@
         "userName": "\u30ac\u30c3\u30c1\u30de\u30f3",
         "twitterId": "gatchman666",
         "photo": "https://pbs.twimg.com/profile_images/1342815616416169985/f5ep7XPT_400x400.jpg",
-        "livePoint": 516,
-        "lastLiveDate": "2021/04/04 17:06:54",
+        "livePoint": 517,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/27 06:55:36",
         "livePointStatus": {
@@ -26013,7 +26066,7 @@
             "20": 26,
             "21": 25,
             "22": 97,
-            "23": 98
+            "23": 99
         },
         "games": [
             {
@@ -26317,8 +26370,8 @@
         "userName": "\u4e5d\u91cd\u3053\u306e\u306e",
         "twitterId": "coconoeconono",
         "photo": "https://pbs.twimg.com/profile_images/1337348618634739712/1KifyRMj_400x400.jpg",
-        "livePoint": 2630,
-        "lastLiveDate": "2021/03/28 23:45:01",
+        "livePoint": 2631,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/12 01:49:21",
         "livePointStatus": {
@@ -26345,7 +26398,7 @@
             "20": 27,
             "21": 386,
             "22": 627,
-            "23": 552
+            "23": 553
         },
         "games": [
             {
@@ -26381,7 +26434,8 @@
             {
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
                 "url": "https://umamusume.jp/",
-                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg"
+                "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Papers, Please",
@@ -26802,8 +26856,8 @@
         "userName": "\u306d\u304d",
         "twitterId": "vt_neki_yuri",
         "photo": "https://pbs.twimg.com/profile_images/1377605264543604738/rntm6tGk_400x400.jpg",
-        "livePoint": 3047,
-        "lastLiveDate": "2021/04/04 17:31:42",
+        "livePoint": 3048,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/04/01 23:29:35",
         "livePointStatus": {
@@ -26830,7 +26884,7 @@
             "20": 105,
             "21": 156,
             "22": 229,
-            "23": 749
+            "23": 750
         },
         "games": [
             {
@@ -27397,8 +27451,8 @@
         "userName": "\u6c37\u96ea\u3042\u3044\u306d",
         "twitterId": "hiyukiaine",
         "photo": "https://pbs.twimg.com/profile_images/1373540521830871040/3P1GmmlC_400x400.jpg",
-        "livePoint": 7075,
-        "lastLiveDate": "2021/04/04 00:59:26",
+        "livePoint": 7076,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/03/22 00:20:04",
         "livePointStatus": {
@@ -27425,7 +27479,7 @@
             "20": 0,
             "21": 12,
             "22": 147,
-            "23": 2004
+            "23": 2005
         },
         "games": [
             {
@@ -28165,8 +28219,8 @@
         "userName": "\u7dcb\u6708",
         "twitterId": "redmoon1009",
         "photo": "https://pbs.twimg.com/profile_images/1377454462265008128/PeKP0rEQ_400x400.jpg",
-        "livePoint": 6472,
-        "lastLiveDate": "2021/04/04 16:21:47",
+        "livePoint": 6473,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/01 23:30:09",
         "livePointStatus": {
@@ -28193,7 +28247,7 @@
             "20": 434,
             "21": 641,
             "22": 1235,
-            "23": 1034
+            "23": 1035
         },
         "games": [
             {
@@ -28759,8 +28813,8 @@
         "userName": "\u514e\u6708\u30c6\u30a3\u30a2",
         "twitterId": "uzukitia",
         "photo": "https://pbs.twimg.com/profile_images/1302868474335645696/TwOvwv-Y_400x400.jpg",
-        "livePoint": 925,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 926,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/11 22:42:54",
         "livePointStatus": {
@@ -28787,7 +28841,7 @@
             "20": 13,
             "21": 182,
             "22": 366,
-            "23": 103
+            "23": 104
         },
         "games": [
             {
@@ -28798,7 +28852,8 @@
             {
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
-                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg"
+                "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             }
         ],
         "collab": [],
@@ -28808,8 +28863,8 @@
         "userName": "\u51a0\u57ce\u306e\u3048\u308b",
         "twitterId": "Noel_f_Kaburagi",
         "photo": "https://pbs.twimg.com/profile_images/1378015288155799553/f2gRTVC-_400x400.jpg",
-        "livePoint": 2720,
-        "lastLiveDate": "2021/04/04 21:35:45",
+        "livePoint": 2721,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/04/03 11:58:00",
         "livePointStatus": {
@@ -28836,13 +28891,14 @@
             "20": 94,
             "21": 308,
             "22": 450,
-            "23": 371
+            "23": 372
         },
         "games": [
             {
                 "product": "\u539f\u795e",
                 "url": "https://genshin.mihoyo.com/ja",
-                "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg"
+                "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg",
+                "lastPlayDate": "2021/04/04 23:14:02"
             },
             {
                 "product": "Minecraft",
@@ -29341,8 +29397,8 @@
         "userName": "\u795e\u6708\u5929",
         "twitterId": "kandukiama",
         "photo": "https://pbs.twimg.com/profile_images/1317773066340978688/mLAtQTLM_400x400.jpg",
-        "livePoint": 513,
-        "lastLiveDate": "2021/04/04 01:42:16",
+        "livePoint": 514,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/24 21:23:33",
         "livePointStatus": {
@@ -29369,7 +29425,7 @@
             "20": 65,
             "21": 100,
             "22": 60,
-            "23": 60
+            "23": 61
         },
         "games": [
             {
@@ -29466,8 +29522,8 @@
         "userName": "\u60e1\u30ce\u308d\u304f",
         "twitterId": "Akuno_69",
         "photo": "https://pbs.twimg.com/profile_images/1331989573358874624/XZ3fJdHu_400x400.jpg",
-        "livePoint": 677,
-        "lastLiveDate": "2021/04/04 20:07:56",
+        "livePoint": 678,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/31 23:02:50",
         "livePointStatus": {
@@ -29494,7 +29550,7 @@
             "20": 31,
             "21": 31,
             "22": 21,
-            "23": 62
+            "23": 63
         },
         "games": [],
         "collab": [],
@@ -29706,8 +29762,8 @@
         "userName": "\u6795\u3061\u304a",
         "twitterId": "chio_ung",
         "photo": "https://pbs.twimg.com/profile_images/1377617233799680003/GgXuHMh5_400x400.jpg",
-        "livePoint": 278,
-        "lastLiveDate": "2021/04/04 06:05:54",
+        "livePoint": 279,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:30:53",
         "livePointStatus": {
@@ -29734,7 +29790,7 @@
             "20": 26,
             "21": 27,
             "22": 12,
-            "23": 34
+            "23": 35
         },
         "games": [],
         "collab": [],
@@ -29744,8 +29800,8 @@
         "userName": "\u672a\u4e43\u548c\u307e\u308a\u3093",
         "twitterId": "marin_ma_rin",
         "photo": "https://pbs.twimg.com/profile_images/1300708758356590592/kmziSxWf_400x400.png",
-        "livePoint": 0,
-        "lastLiveDate": "2021/04/04 10:29:31",
+        "livePoint": 1,
+        "lastLiveDate": "2021/04/04 23:14:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/04/04 10:29:31",
         "livePointStatus": {
@@ -29772,9 +29828,15 @@
             "20": 0,
             "21": 0,
             "22": 0,
-            "23": 0
+            "23": 1
         },
-        "games": [],
+        "games": [
+            {
+                "product": "Minecraft",
+                "url": "https://www.minecraft.net/ja-jp",
+                "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg"
+            }
+        ],
         "collab": [],
         "active_badge": true
     },
