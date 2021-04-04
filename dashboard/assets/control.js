@@ -38,7 +38,7 @@ function post(data) {
 }
 
 
-viewElement = document.getElementById("main");
+var viewElement = document.getElementById("main");
 
 function getObjId(){
     return window.btoa(Math.random()*10000000000);

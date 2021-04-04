@@ -23,9 +23,6 @@ var element_livePoint       = document.getElementById("livePoint");
 var element_counter         = document.getElementById("counter");
 var element_embed_verify    = document.getElementById("embedVerify");
 var element_visual_main     = document.getElementById("visual_main");
-var element_message_log     = document.getElementById("message_log");
-var element_error_log       = document.getElementById("error_log");
-
 
 /* Streaming Update 5.0s */
 var streamings;
@@ -119,7 +116,22 @@ function StreamData(jsonData){
         let userName = stremData[channelId]["userName"];
         let twitterId = stremData[channelId]["twitterId"];
         let photo = stremData[channelId]["photo"];
-        streamElementSource += "<div class=\"channelId\"><input type=\"text\" id=\"\" value=\""+ channelId +"\"><p>: {</p></div><div class=\"elem2 userName\"><p>\"userName\": </p><input type=\"text\" id=\"\" value=\""+ userName +"\"></div><div class=\"elem2 twitterId\"><p>\"twitterId\": </p><input type=\"text\" id=\"\" value=\""+ twitterId +"\"></div><div class=\"elem2 photo\"><p>\"photo\": </p><input type=\"text\" id=\"\" value=\""+ photo +"\"></div><p class=\"ct\">},</p>";
+        streamElementSource += '\
+        <div class="channelId">\
+            <input type="text" id="" style="width:'+channelId.length*8+'px" value="'+ channelId +'"><p>: {</p></div>\
+            <div class="elem2 userName">\
+                <p>"userName": </p>\
+                <input type="text" id="" style="width:'+userName.length*15+'px" value="'+ userName +'">\
+            </div>\
+            <div class="elem2 twitterId">\
+                <p>"twitterId": </p>\
+                <input type="text" id="" style="width:'+twitterId.length*8+'px" value=\"'+ twitterId +'">\
+            </div>\
+            <div class="elem2 photo">\
+                <p>"photo": </p>\
+                <input type="text" id="" style="width:255px" value="'+ photo +'">\
+            </div>\
+            <p class="ct">},</p>';
     });
     streamElementSource += "<p>}</p>";
     element_visual_main.innerHTML = streamElementSource;
@@ -129,23 +141,3 @@ $.post('../getData.php?mode=getStreamData', {}, function(data){
     jsonData = JSON.parse(data);
     StreamData(jsonData);
 });
-
-/* get log */
-function intervalLog(){
-    function messageLog(log){
-        console.log("get message log.");
-        element_message_log.innerText = "- message log -" + log;
-    }
-    function errorLog(log){
-        console.log("get error log.");
-        element_error_log.innerText = "- error log -" + log;
-    }
-    $.post('../getData.php?mode=message_log', {}, function(data){
-        messageLog(data);
-    });
-    $.post('../getData.php?mode=error_log', {}, function(data){
-        errorLog(data);
-    });
-}
-intervalLog();
-setInterval(intervalLog, 10000);

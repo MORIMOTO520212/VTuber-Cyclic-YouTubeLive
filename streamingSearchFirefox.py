@@ -4,7 +4,7 @@ from time import sleep
 import os, json, settings, datetime
 
 
-print("ライブ配信サーチ\n5分ごとに更新します。終了するにはCtril + Cを押してください。")
+print("ライブ配信サーチ\n3分ごとに更新します。終了するにはCtril + Cを押してください。")
 
 
 # 動作環境の設定 windows | linux
