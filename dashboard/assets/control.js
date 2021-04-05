@@ -25,6 +25,7 @@ window.onload = function() {
 function post(data) {
     xhr.open('POST', 'assets/write.php', true);
     xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.setRequestHeader("Post-Type", "games");
     // フォームに入力した値をリクエストとして設定
     xhr.onload = () => {
         console.log(xhr.status);
