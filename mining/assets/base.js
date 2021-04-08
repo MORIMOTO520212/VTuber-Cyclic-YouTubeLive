@@ -73,7 +73,7 @@ function randomSetYouTube(){
         element_main_userName.innerHTML    = streamings[i]["userName"];          // メイン画面のユーザー名
         element_photo.setAttribute("src", streamings[i]["photo"]);               // メイン画面のTwitterアイコン
 
-        videoId = streamings[i]["videoId"];
+        let videoId = streamings[i]["videoId"];
 
     }
     setTimeout(sleep1, 1000); // 切り替え1秒前に幕を掛ける

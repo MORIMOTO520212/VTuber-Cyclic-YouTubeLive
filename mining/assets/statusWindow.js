@@ -17,6 +17,7 @@ var element_youtubeId_link = document.getElementById("youtubeId_link");
 var element_playgame = document.getElementById("playgame");
 var element_playgame_link = document.getElementById("playgame_link");
 var element_playgame_photo = document.getElementById("playgame_photo");
+var videoId = "";
 
 /* status window */
 jQuery(function() { // element move draggable
@@ -48,11 +49,10 @@ function status(channelId){
     // stop youtube interval
     clearInterval(yt_interval); // stop interval
     element_yt.setAttribute("src", "../startpage.html"); // set top page
-
     console.log("status "+channelId);
     element_mask.setAttribute("style", "display: block;"); // set mask
     element_statusWindow.setAttribute("style", ""); // status window on display
-    var videoId;
+    
     for(let i=0;  i < streamings.length; i++){
         if(channelId == streamings[i]["channelId"]){
             videoId = streamings[i]["videoId"];
