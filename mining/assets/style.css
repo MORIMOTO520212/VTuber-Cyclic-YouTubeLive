@@ -16,7 +16,9 @@ p{
 ul{
     list-style-type: none;
 }
-
+hr{
+    margin-bottom: 100px;
+}
 
 /* header */
 div.header{
@@ -283,7 +285,7 @@ li.item a{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 li.item p{
     font-size: 12px;
@@ -352,6 +354,16 @@ div.videoTitle{
     height: 25%;
     overflow-y: hidden;
 }
+iframe.smart-yt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 2;
+}
+
 
 
 /* status window */

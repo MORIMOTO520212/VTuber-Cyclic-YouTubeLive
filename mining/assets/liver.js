@@ -1,13 +1,15 @@
 var element_liverlist = document.getElementById("list");
 var filtering_game = ""; // filtering game product name
+var channel_list = {};
 
-function getObjId(){
+function getObjId() {
     return window.btoa(Math.random()*10000000000);
 }
-function liverViewer(){
+function liverViewer() {
     let source = "";
     let _streamings = [];
     let separate_index;
+    channel_list = {};
     for(var i=0;  i < streamings.length; i++){
         let productName = streamings[i]["play"]["product"];
         if(productName == filtering_game){
@@ -33,8 +35,42 @@ function liverViewer(){
             let videoTitle = streamings[i]["videoTitle"]      // video title
             let photo      = streamings[i]["photo"]           // user photo
             let thumbnail  = streamings[i]["thumbnailUrl"]    // video thumbnail
-            source += "<li id=\""+getObjId()+"\" class=\"item\"><img class=\"background\" src=\""+thumbnail+"\"><a href=\"javascript:status(\'"+channelId+"\');\"></a><div class=\"user\"><div class=\"icon\"><img src=\""+photo+"\"></div><div class=\"name\"><p>"+userName+"</p></div></div><div class=\"watching\"><p>"+streamNum+"</p></div><div class=\"videoTitle\"><p>"+videoTitle+"</p></div></li>";
+            let videoId = streamings[i]["videoId"];
+            let listId = getObjId();
+            channel_list[listId] = videoId;
+            source += '\
+            <li id="'+listId+'" class="item">\
+                <iframe id="smart_yt" class="smart-yt" src="" style="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\
+                <img class="background" src="'+thumbnail+'">\
+                <a href="javascript:status(\''+channelId+'\');"></a>\
+                <div class="user">\
+                    <div class="icon"><img src="'+photo+'"></div>\
+                    <div class="name"><p>'+userName+'</p></div>\
+                </div>\
+                <div class="watching"><p>'+streamNum+'</p></div>\
+                <div class="videoTitle"><p>'+videoTitle+'</p></div>\
+            </li>';
         }
     }
     element_liverlist.innerHTML = source;
+
+    for(let list_id in channel_list){
+        document.getElementById(list_id).addEventListener("mouseenter", function(event){
+            setTimeout(function(){smart_preview(list_id, false)}, 500);
+        });
+        document.getElementById(list_id).addEventListener("mouseover", function(event){
+            setTimeout(function(){smart_preview(list_id, true)}, 500);
+        });
+    }
 }
+
+function smart_preview(list_id, status) {
+    if(status){
+        console.log("set", channel_list[list_id]);
+        document.getElementById(list_id).children[0].setAttribute("src", "https://www.youtube.com/embed/"+channel_list[list_id]+"?autoplay=1&mute=1");
+    }else{
+        console.log("clear", channel_list[list_id]);
+        document.getElementById(list_id).children[0].setAttribute("src", "");
+    }
+}
+
