@@ -64,7 +64,7 @@ function randomSetYouTube(){
     curtainOC(); // close curtain
 
     function sleep1(){
-        element_yt.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1&mute=1");
+        element_yt.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1&mute=1&controls=0&modestbranding=0&showinfo=0");
 
         streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);

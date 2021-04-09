@@ -39,7 +39,7 @@ function liverViewer() {
             let listId = getObjId();
             channel_list[listId] = videoId;
             source += '\
-            <li id="'+listId+'" class="item">\
+            <li id="'+listId+'" class="item" onmouseover="smart_preview(\''+listId+'\','+true+')" onmouseout="smart_preview(\''+listId+'\','+false+')">\
                 <iframe id="smart_yt" class="smart-yt" src="" style="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>\
                 <img class="background" src="'+thumbnail+'">\
                 <a href="javascript:status(\''+channelId+'\');"></a>\
@@ -54,6 +54,7 @@ function liverViewer() {
     }
     element_liverlist.innerHTML = source;
 
+    /*
     for(let list_id in channel_list){
         document.getElementById(list_id).addEventListener("mouseenter", function(event){
             setTimeout(function(){smart_preview(list_id, false)}, 500);
@@ -61,15 +62,13 @@ function liverViewer() {
         document.getElementById(list_id).addEventListener("mouseover", function(event){
             setTimeout(function(){smart_preview(list_id, true)}, 500);
         });
-    }
+    }*/
 }
 
 function smart_preview(list_id, status) {
     if(status){
-        console.log("set", channel_list[list_id]);
-        document.getElementById(list_id).children[0].setAttribute("src", "https://www.youtube.com/embed/"+channel_list[list_id]+"?autoplay=1&mute=1");
+        document.getElementById(list_id).children[0].setAttribute("src", "https://www.youtube.com/embed/"+channel_list[list_id]+"?autoplay=1&mute=1&controls=0&modestbranding=0&showinfo=0");
     }else{
-        console.log("clear", channel_list[list_id]);
         document.getElementById(list_id).children[0].setAttribute("src", "");
     }
 }

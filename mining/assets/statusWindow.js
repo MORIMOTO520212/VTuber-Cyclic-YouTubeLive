@@ -87,7 +87,7 @@ function status(channelId){
     let domain = document.domain;
     let chat_url = "https://www.youtube.com/live_chat?v="+videoId+"&embed_domain="+domain;
     element_chatform.setAttribute("src", chat_url);
-    element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+channelId+"&enablejsapi=1");
+    element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+channelId+"&enablejsapi=1&controls=0");
 }
 
 function closeStatusWindow(){
