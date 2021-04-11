@@ -115,8 +115,8 @@ YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A
 Twitter:https://twitter.com/k1ri_sen  
 
 NOTE   
+yukihime_ringo -> YUKIHIME_IV
 twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
-streamdata.json -> あやひなチャンネルはグループチャンネルなので削除する。  
 VTuberギルド -> ライブ配信ドバイザリー  VTuberギルドに参加しているライバーのライブ配信を分析しアドバイスする。
 各ライバーのゲーム配信における”最高同時接続者数”を記録する。  
 各ライバーの1週間のライブ配信数を記録する。

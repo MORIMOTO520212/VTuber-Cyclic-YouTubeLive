@@ -13,8 +13,8 @@ function errorLog(log){
 function intervalLog(){
     $.post('../getData.php?mode=message_log', {}, function(data){messageLog(data)});
     $.post('../getData.php?mode=error_log', {}, function(data){errorLog(data)});
-    e_message_log.scrollTop = e_message_log.scrollHeight;
-    e_error_log.scrollTop = e_error_log.scrollHeight;
+    if(0 == e_message_log.scrollTop || e_message_log.scrollHeight == e_message_log.scrollTop) e_message_log.scrollTop = e_message_log.scrollHeight;
+    if(0 == e_error_log.scrollTop || e_error_log.scrollHeight == e_error_log.scrollTop) e_error_log.scrollTop = e_error_log.scrollHeight;
 }
 intervalLog();
 setInterval(intervalLog, 10000);

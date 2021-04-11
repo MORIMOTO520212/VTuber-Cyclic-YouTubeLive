@@ -43,6 +43,7 @@ def add(in_userName, in_twitterId, photo, channelId):
     }
     userData["games"]  = []
     userData["collab"] = []
+    userData["active_badge"] = True
     data[channelId] = userData
     userName.append(in_userName)
 
