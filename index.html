@@ -3,27 +3,29 @@
     <head>
         <title>VTuber配信巡回</title>
         <link rel="icon" href="assets/favicon.ico">
-        <!-- Global site tag (gtag.js) - Google Analytics
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151169093-2"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-151169093-2');
-        </script> -->
+            if("localhost" != location.hostname){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-151169093-2');
+            }
+        </script>
         <script data-ad-client="ca-pub-3026228951496261" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta name="description" content="総勢300名近くのVTuberのライブ配信を順に巡回しながらストリーミングするウェブアプリケーションです。">
         <meta name="keywords" content="vtuber, vtuber おすすめ">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@xsusa_vtuber">
-        <meta name="twitter:title" content="VTuber配信巡回ウェブアプリ">
+        <meta name="twitter:title" content="VTuber配信巡回">
         <meta name="twitter:description" content="小規模ながら、400名以上のVTuberのライブ配信を巡回して配信するウェブアプリケーションを公開しています。">
         <meta name="twitter:image" content="http://xsusa.xyz/vcyclic/Album/index.html_2020_10_31.png">
-        <meta property="og:title" content="VTuber配信巡回ウェブアプリ" />
+        <meta property="og:title" content="VTuber配信巡回" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="小規模ながら、390名のVTuberのライブ配信を巡回して配信するウェブアプリケーションを公開しています。" />
         <meta property="og:url" content="https://xsusa.xyz/vcyclic" />
-        <meta property="og:site_name" content="Vcyclic" />
+        <meta property="og:site_name" content="VTuber配信巡回ウェブアプリケーション" />
         <meta property="og:image" content="http://xsusa.xyz/vcyclic/Album/index.html_2020_10_31.png" />
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">

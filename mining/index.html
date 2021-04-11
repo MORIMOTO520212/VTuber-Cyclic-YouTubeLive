@@ -3,14 +3,16 @@
     <head>
         <title>VTuber採掘所</title>
         <link rel="icon" href="assets/favicon.ico">
-        <!-- Global site tag (gtag.js) - Google Analytics
+        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151169093-2"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-151169093-2');
-        </script> -->
+            if("localhost" != location.hostname){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-151169093-2');
+            }
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -31,7 +33,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:description" content="総勢400名近くのVTuberのライブ配信をリアルタイムに見ることができます。" />
         <meta property="og:url" content="https://xsusa.xyz/vcyclic/mining" />
-        <meta property="og:site_name" content="VTuber採掘所" />
+        <meta property="og:site_name" content="VTuber配信巡回ウェブアプリケーション" />
         <meta property="og:image" content="https://xsusa.xyz/vcyclic/Album/mining2_2021_03_10.png" />
     </head>
     <body>

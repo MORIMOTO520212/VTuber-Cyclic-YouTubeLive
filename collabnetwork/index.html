@@ -3,6 +3,16 @@
 <html>
     <head>
         <title>コラボネットワーク</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151169093-2"></script>
+        <script>
+            if("localhost" != location.hostname){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-151169093-2');
+            }
+        </script>
         <link rel="icon" href="../assets/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
@@ -20,7 +30,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:description" content="VTuberの動画内のコラボデータを集め、1つのネットワーク図として見ることができます。PC・スマートフォン対応" />
         <meta property="og:url" content="https://xsusa.xyz/vcyclic/collabnetwork/" />
-        <meta property="og:site_name" content="VTuber配信巡回ウェブアプリ🌸" />
+        <meta property="og:site_name" content="VTuber配信巡回ウェブアプリケーション" />
         <meta property="og:image" content="https://xsusa.xyz/vcyclic/Album/collabnetwork02_2021_04_02.png" />
     </head>
     <body>
