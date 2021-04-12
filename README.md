@@ -92,9 +92,6 @@ Work_Labo/
 奈辺陽鹿 再生不可 連絡中
 YouTube:https://www.youtube.com/channel/UCunmKT34H-FRMKwmSpwKDBA
 Twitter:https://twitter.com/youka_nabe
-和木悠 登録する  
-YouTube:https://www.youtube.com/channel/UCjdiYI75znTKoam52M1LBMQ  
-Twitter:https://twitter.com/Yu_Yawaragi  
 白夢レイン 準備中  
 YouTube:https://www.youtube.com/channel/UCIoM9dnD47MpnzV3EqEbg_g  
 Twitter:https://twitter.com/Rain_Hakumu  
@@ -114,12 +111,16 @@ Twitter:https://twitter.com/Momose_Asobu
 YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A  
 Twitter:https://twitter.com/k1ri_sen  
 
-NOTE   
-yukihime_ringo -> YUKIHIME_IV
-twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。
-VTuberギルド -> ライブ配信ドバイザリー  VTuberギルドに参加しているライバーのライブ配信を分析しアドバイスする。
+# NOTE   
+twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。  
+VTuberギルド -> ライブ配信ドバイザリー  VTuberギルドに参加しているライバーのライブ配信を分析しアドバイスする。  
 各ライバーのゲーム配信における”最高同時接続者数”を記録する。  
-各ライバーの1週間のライブ配信数を記録する。
+各ライバーの1週間のライブ配信数を記録する。  
+
+
+# streamdata.json 修正
+yukihime_ringo -> YUKIHIME_IV  
+IceBullet_301 -> BoraiNun  
 
 6時から23時までgoodそれ以外bad  
 統計人数：8人  
