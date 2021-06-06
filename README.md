@@ -135,8 +135,6 @@ Work_Labo/
     - コラボデータ（YouTubeチャンネルリスト）
     - アクティブバッジ（Boolean値）
 
-
-
 ### 気になるライバー
 奈辺陽鹿 再生不可 連絡中  
 YouTube:https://www.youtube.com/channel/UCunmKT34H-FRMKwmSpwKDBA  
