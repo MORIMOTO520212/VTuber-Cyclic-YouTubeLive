@@ -149,6 +149,7 @@ VTuberギルド -> ライブ配信アドバイザリー  VTuberギルドに参�
 
 
 # streamdata.json 修正
+ware_yakami -> ware_channel
 
 
 

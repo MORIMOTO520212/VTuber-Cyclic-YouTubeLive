@@ -40,13 +40,13 @@ idChangeData = streamdata = gamesData = {}
 def loadDataFiles():
     'データを読み込む'
     global idChangeData, streamdata, gamesData, streamingData_before
-    with open(settings.idChangeDataPath(OS), "r") as f:
+    with open(settings.idChangeDataPath(OS), "r") as f:  # idChangeData.json
         idChangeData = json.load(f)
-    with open(settings.streamDataPath(OS), "r") as f:
+    with open(settings.streamDataPath(OS), "r") as f:    # streamdata.json
         streamdata = json.load(f)
-    with open(settings.gamesDataPath(OS), "r") as f:
+    with open(settings.gamesDataPath(OS), "r") as f:     # games.json
         gamesData = json.load(f)
-    with open(settings.streamingDataPath(OS), "r") as f:
+    with open(settings.streamingDataPath(OS), "r") as f: # streamdata.json
         streamingData_before = json.load(f)
 
 def getSource():
