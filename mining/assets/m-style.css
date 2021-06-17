@@ -3,6 +3,7 @@
         margin-left: -39%;
         margin-top: -20%;
     }
+    div.yt-chat{ width: 29%; }
 }
 @media screen and (max-width: 1650px) {
     #jquery-ui-draggable{
@@ -39,4 +40,20 @@
         margin-left: -46%;
         margin-top: -31%;
     }
+}
+@media screen and (max-width: 450px) {
+    div.top{ display: none; }
+    div.control{ margin-top: 0; }
+    li.item{
+        width: 190px;
+        margin: 0 2px 20px 2px;
+    }
+}
+@media screen and (max-width: 400px) {
+    li.item{
+        width: 80%;
+        margin: 0 2px 20px 2px;
+        height: 186px;
+    }
+    li.item p{ font-size: 14px; }
 }

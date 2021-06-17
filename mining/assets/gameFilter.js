@@ -27,6 +27,6 @@ function gameFiltering(productName) {
 
 function noneFilter() {
     filtering_game = "";
-    e_game_filter_top.innerText = "ゲーム";
+    e_game_filter_top.innerText = "ゲーム選択";
     liverViewer(); // update
 }
