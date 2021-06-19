@@ -1,7 +1,7 @@
 <?php
 # jsonファイルの内容を取得してその内容を返す #
 # リンクはストレージサーバーにアクセス
-$ngrok = "https://eb86502b98e1.ngrok.io";
+$ngrok = "https://bece39171004.ngrok.io";
 
 function getStreaming() {
     global $ngrok;

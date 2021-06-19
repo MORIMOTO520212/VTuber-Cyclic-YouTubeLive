@@ -187,7 +187,21 @@ twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未�
 https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=%E9%85%8D%E4%BF%A1%E4%B8%AD%E3%81%AEVTuber%E3%82%92%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%A7%E5%B7%A1%E5%9B%9E%E3%81%97%E3%81%A6%E8%A6%8B%E3%82%8B%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%83%84%E3%83%BC%E3%83%AB+%40xsusa_vtuber&tw_p=tweetbutton&url=https%3A%2F%2Fxsusa.xyz%2Fvcyclic%2Fmining
 ----------------------------------------------------------------------------------
 
+### サーバー再稼働
+自宅サーバーの立ち上げ  
+Apache2立ち上げ  
+screen -S ngrok  
+ngrok http 80  
+screen -S ssf  
+python3 streamingSearchFirefox.py  
+screen -S uti  
+python3 updateTwitterIcon.py  
+getData.phpのngrokアドレス更新  
 
+GCP VMインスタンスの立ち上げ  
+Apache2立ち上げ  
+getData.phpの書き換え  
+お名前ドットコムでDNS更新  
 
 ### streamdata.json 修正
 ware_yakami -> ware_channel
