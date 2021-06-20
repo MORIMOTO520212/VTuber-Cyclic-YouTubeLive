@@ -135,7 +135,18 @@ Work_Labo/
     - コラボデータ（YouTubeチャンネルリスト）
     - アクティブバッジ（Boolean値）
 
-### 気になるライバー
+### 連絡
+天使イム 再生不可 連絡する  
+Twitter:https://twitter.com/_10416_  
+咲月ほたる 再生不可 連絡する  
+Twitter:https://twitter.com/hotaru_satsuki3  
+モフモふうら 再生不可 連絡する  
+Twitter:https://twitter.com/mofumo_fuura  
+お料理お姉さん 再生不可 連絡する  
+Twitter:https://twitter.com/cooking_onesan  
+茶村椿 再生不可 連絡する  
+Twitter:https://twitter.com/Tsubaki_Samura  
+
 奈辺陽鹿 再生不可 連絡中  
 YouTube:https://www.youtube.com/channel/UCunmKT34H-FRMKwmSpwKDBA  
 Twitter:https://twitter.com/youka_nabe  
@@ -205,7 +216,8 @@ getData.phpの書き換え
 
 ### streamdata.json 修正
 ware_yakami -> ware_channel
-
+Cutoluruhu_migo -> 消失
+UCL4gvO_wg0SA-ecWiVKN-MQ ぜっぽりーね削除
 
 
 6時から23時までgoodそれ以外bad  

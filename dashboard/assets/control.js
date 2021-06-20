@@ -36,6 +36,21 @@ function post(data) {
         console.log("error!");
     };
     xhr.send(JSON.stringify(data));
+
+    xhr.open('POST', 'https://bece39171004.ngrok.io/assets/write.php', true);
+    xhr.setRequestHeader("Content-Type", "application/json");
+    xhr.setRequestHeader("Post-Type", "games_server");
+    // フォームに入力した値をリクエストとして設定
+    xhr.onload = () => {
+        console.log(xhr.status);
+        console.log("success!");
+    };
+    xhr.onerror = () => {
+        console.log(xhr.status);
+        console.log("error!");
+        alert("Error!\nhttps://bece39171004.ngrok.io/assets/write.php");
+    };
+    xhr.send(JSON.stringify(data));
 }
 
 
