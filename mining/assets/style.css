@@ -46,6 +46,15 @@ div.header .title p{
     color: #fff;
     margin: 0;
 }
+div.header .category{
+    display: inline-block;
+    vertical-align: middle;
+}
+div.header .category p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
 
 div.main{
     max-width: 1130px;
@@ -297,7 +306,7 @@ li.item .background{
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 65%;
     /*height: 113px;*/
     border-radius: 10px 10px 0 0;
     object-fit: cover;
