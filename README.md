@@ -168,6 +168,8 @@ Twitter:https://twitter.com/Momose_Asobu
 切取せん 連絡する  
 YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A  
 Twitter:https://twitter.com/k1ri_sen  
+鬼竺さつき 再生不可
+YouTube:https://www.youtube.com/channel/UC6MMhdArr5vhdms4TqVRgpg 
 
 ### streamdata.json 修正
 ware_yakami -> ware_channel
@@ -187,6 +189,7 @@ twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未�
     時間別の配信頻度グラフを表示する。
     注目のVtuber
     フィルターをもう少し増やす
+
 
 ### 再生不可のご連絡
 失礼します。

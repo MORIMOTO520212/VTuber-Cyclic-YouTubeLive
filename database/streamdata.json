@@ -3,12 +3,12 @@
         "userName": "\u59eb\u68ee\u30eb\u30fc\u30ca",
         "twitterId": "himemoriluna",
         "photo": "https://pbs.twimg.com/profile_images/1417636719294181377/HuE0XbLG_400x400.jpg",
-        "livePoint": 14080,
-        "lastLiveDate": "2021/08/06 01:44:52",
+        "livePoint": 14131,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 19,
         "lastIconUpdateDate": "2021/07/28 22:36:47",
         "livePointStatus": {
-            "00": 1763,
+            "00": 1779,
             "01": 1940,
             "02": 1155,
             "03": 599,
@@ -29,9 +29,9 @@
             "18": 683,
             "19": 784,
             "20": 552,
-            "21": 437,
-            "22": 546,
-            "23": 1003
+            "21": 464,
+            "22": 553,
+            "23": 1004
         },
         "games": [
             {
@@ -188,12 +188,12 @@
         "userName": "\u672c\u9593\u3072\u307e\u308f\u308a",
         "twitterId": "honmahimawari",
         "photo": "https://pbs.twimg.com/profile_images/1380743666944208896/VUSZqAwm_400x400.jpg",
-        "livePoint": 11816,
-        "lastLiveDate": "2021/08/05 18:06:14",
+        "livePoint": 11911,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/11 01:46:30",
         "livePointStatus": {
-            "00": 1452,
+            "00": 1468,
             "01": 930,
             "02": 447,
             "03": 159,
@@ -214,16 +214,16 @@
             "18": 564,
             "19": 1023,
             "20": 799,
-            "21": 1277,
-            "22": 1717,
-            "23": 1741
+            "21": 1303,
+            "22": 1744,
+            "23": 1767
         },
         "games": [
             {
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/01 00:21:49"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Among Us",
@@ -304,7 +304,8 @@
             "UC9EjSJ8pvxtvPdxLOElv73w",
             "UCtpB6Bvhs1Um93ziEDACQ8g",
             "UCKMYISTJAQ8xTplUPHiABlA",
-            "UCdpUojq0KWZCN9bxXnZwz5w"
+            "UCdpUojq0KWZCN9bxXnZwz5w",
+            "UCo2N7C-Z91waaR6lF3LL_jw"
         ],
         "active_badge": true
     },
@@ -512,7 +513,8 @@
             "UC3EhsuKdEkI99TWZwZgWutg",
             "UCDh2bWI5EDu7PavqwICkVpA",
             "UCeLzT-7b2PBcunJplmWtoDg",
-            "UCyb-cllCkMREr9de-hoiDrg"
+            "UCyb-cllCkMREr9de-hoiDrg",
+            "UC0Owc36U9lOyi9Gx9Ic-4qg"
         ],
         "active_badge": true
     },
@@ -913,12 +915,12 @@
         "userName": "\u795e\u697d\u3059\u305a",
         "twitterId": "kagura_suzu",
         "photo": "https://pbs.twimg.com/profile_images/1231274945478422528/VUPh1tvM_400x400.jpg",
-        "livePoint": 10597,
-        "lastLiveDate": "2021/08/06 20:10:42",
+        "livePoint": 10639,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:59:45",
         "livePointStatus": {
-            "00": 1363,
+            "00": 1379,
             "01": 537,
             "02": 266,
             "03": 41,
@@ -941,7 +943,7 @@
             "20": 292,
             "21": 655,
             "22": 1595,
-            "23": 2082
+            "23": 2108
         },
         "games": [
             {
@@ -994,7 +996,7 @@
                 "product": "\u8056\u5263\u4f1d\u8aac\u30b3\u30ec\u30af\u30b7\u30e7\u30f3",
                 "url": "https://www.jp.square-enix.com/seiken_collection/",
                 "photo": "https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwdee3743d/products/D70010000000312/heroBanner/e429cd091295382ebc573c0071cd6b5c94de384a21fd965a29435336bb468487.jpg",
-                "lastPlayDate": "2021/08/01 09:01:30"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "\u30ea\u30ba\u30e0\u5929\u56fd",
@@ -1140,12 +1142,12 @@
         "userName": "\u8d64\u4e95\u306f\u3042\u3068",
         "twitterId": "akaihaato",
         "photo": "https://pbs.twimg.com/profile_images/1396447965284159490/Zotb6IDW_400x400.jpg",
-        "livePoint": 7430,
-        "lastLiveDate": "2021/08/05 01:02:21",
+        "livePoint": 7478,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/05/23 22:32:29",
         "livePointStatus": {
-            "00": 955,
+            "00": 970,
             "01": 579,
             "02": 226,
             "03": 92,
@@ -1166,8 +1168,8 @@
             "18": 350,
             "19": 964,
             "20": 721,
-            "21": 419,
-            "22": 639,
+            "21": 445,
+            "22": 646,
             "23": 427
         },
         "games": [
@@ -1175,7 +1177,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/07/31 02:15:59"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Among Us",
@@ -1686,8 +1688,8 @@
         "userName": "\u52c7\u6c17\u3061\u3072\u308d",
         "twitterId": "Chihiro_yuki23",
         "photo": "https://pbs.twimg.com/profile_images/1240289078525825024/Ex126_cO_400x400.jpg",
-        "livePoint": 36207,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 36257,
+        "lastLiveDate": "2021/08/06 22:07:54",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:06:23",
         "livePointStatus": {
@@ -1711,9 +1713,9 @@
             "17": 2677,
             "18": 3368,
             "19": 3679,
-            "20": 4108,
-            "21": 3978,
-            "22": 3718,
+            "20": 4127,
+            "21": 4005,
+            "22": 3722,
             "23": 2807
         },
         "games": [
@@ -1721,7 +1723,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 22:07:54"
             },
             {
                 "product": "Minecraft",
@@ -1757,12 +1759,12 @@
         "userName": "\u767d\u96ea\u5df4",
         "twitterId": "tomoe_shirayuki",
         "photo": "https://pbs.twimg.com/profile_images/1378514134250176520/btBc4kpa_400x400.jpg",
-        "livePoint": 14896,
-        "lastLiveDate": "2021/08/04 23:52:33",
+        "livePoint": 14965,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/04 12:07:18",
         "livePointStatus": {
-            "00": 2108,
+            "00": 2124,
             "01": 1093,
             "02": 605,
             "03": 357,
@@ -1784,8 +1786,8 @@
             "19": 318,
             "20": 886,
             "21": 1244,
-            "22": 2769,
-            "23": 2978
+            "22": 2796,
+            "23": 3004
         },
         "games": [
             {
@@ -1956,8 +1958,8 @@
         "userName": "\u7b39\u6728\u54b2",
         "twitterId": "saku_sasaki",
         "photo": "https://pbs.twimg.com/profile_images/1344736522180857858/mWH8VzSv_400x400.jpg",
-        "livePoint": 9234,
-        "lastLiveDate": "2021/08/05 16:33:56",
+        "livePoint": 9285,
+        "lastLiveDate": "2021/08/06 22:55:16",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/01/01 08:42:39",
         "livePointStatus": {
@@ -1982,8 +1984,8 @@
             "18": 505,
             "19": 998,
             "20": 1210,
-            "21": 799,
-            "22": 562,
+            "21": 825,
+            "22": 587,
             "23": 817
         },
         "games": [
@@ -2274,12 +2276,12 @@
         "userName": "\u30a2\u30f3\u30b8\u30e5\u30fb\u30ab\u30c8\u30ea\u30fc\u30ca",
         "twitterId": "ange_katrina_",
         "photo": "https://pbs.twimg.com/profile_images/1377645349649608704/GnVLdfFQ_400x400.jpg",
-        "livePoint": 5721,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 5823,
+        "lastLiveDate": "2021/08/07 00:05:08",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 11:31:23",
         "livePointStatus": {
-            "00": 757,
+            "00": 760,
             "01": 331,
             "02": 192,
             "03": 107,
@@ -2299,10 +2301,10 @@
             "17": 70,
             "18": 84,
             "19": 121,
-            "20": 146,
-            "21": 429,
-            "22": 1563,
-            "23": 1540
+            "20": 165,
+            "21": 456,
+            "22": 1590,
+            "23": 1566
         },
         "games": [
             {
@@ -2469,8 +2471,8 @@
         "userName": "\u5c3e\u4e38\u30dd\u30eb\u30ab",
         "twitterId": "omarupolka",
         "photo": "https://pbs.twimg.com/profile_images/1350426652610711552/jmOf8XDJ_400x400.jpg",
-        "livePoint": 16107,
-        "lastLiveDate": "2021/08/05 00:24:05",
+        "livePoint": 16140,
+        "lastLiveDate": "2021/08/06 22:14:40",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/01/17 02:54:41",
         "livePointStatus": {
@@ -2495,8 +2497,8 @@
             "18": 670,
             "19": 633,
             "20": 744,
-            "21": 894,
-            "22": 1187,
+            "21": 920,
+            "22": 1194,
             "23": 1521
         },
         "games": [
@@ -2903,12 +2905,12 @@
         "userName": "\u52a0\u8cc0\u7f8e\u30cf\u30e4\u30c8",
         "twitterId": "H_KAGAMI2434",
         "photo": "https://pbs.twimg.com/profile_images/1187670367784931328/UUbSXYim_400x400.png",
-        "livePoint": 17001,
-        "lastLiveDate": "2021/08/05 01:51:52",
+        "livePoint": 17110,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 02:00:04",
         "livePointStatus": {
-            "00": 3574,
+            "00": 3590,
             "01": 2807,
             "02": 1952,
             "03": 988,
@@ -2928,10 +2930,10 @@
             "17": 59,
             "18": 105,
             "19": 173,
-            "20": 525,
-            "21": 860,
-            "22": 1824,
-            "23": 3368
+            "20": 538,
+            "21": 887,
+            "22": 1851,
+            "23": 3394
         },
         "games": [
             {
@@ -3027,12 +3029,12 @@
         "userName": "\u30ea\u30bc\u30fb\u30d8\u30eb\u30a8\u30b9\u30bf",
         "twitterId": "Lize_Helesta",
         "photo": "https://pbs.twimg.com/profile_images/1377456982320287744/HudfpuXT_400x400.jpg",
-        "livePoint": 5626,
-        "lastLiveDate": "2021/08/03 22:39:36",
+        "livePoint": 5690,
+        "lastLiveDate": "2021/08/07 00:23:09",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:08",
         "livePointStatus": {
-            "00": 157,
+            "00": 168,
             "01": 38,
             "02": 0,
             "03": 0,
@@ -3054,8 +3056,8 @@
             "19": 180,
             "20": 1718,
             "21": 1587,
-            "22": 1054,
-            "23": 522
+            "22": 1081,
+            "23": 548
         },
         "games": [
             {
@@ -3131,12 +3133,12 @@
         "userName": "\u9b54\u4f7f\u30de\u30aa",
         "twitterId": "matsukai_mao",
         "photo": "https://pbs.twimg.com/profile_images/1398617223711711238/tRHeO8Ze_400x400.jpg",
-        "livePoint": 11111,
-        "lastLiveDate": "2021/08/04 19:58:12",
+        "livePoint": 11165,
+        "lastLiveDate": "2021/08/07 00:00:37",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/05/30 04:38:30",
         "livePointStatus": {
-            "00": 1046,
+            "00": 1047,
             "01": 1013,
             "02": 624,
             "03": 350,
@@ -3158,8 +3160,8 @@
             "19": 310,
             "20": 1194,
             "21": 1324,
-            "22": 990,
-            "23": 951
+            "22": 1017,
+            "23": 977
         },
         "games": [
             {
@@ -3603,12 +3605,12 @@
         "userName": "\u53f6",
         "twitterId": "Kanae_2434",
         "photo": "https://pbs.twimg.com/profile_images/1248189956779991040/ibYsBhi9_400x400.jpg",
-        "livePoint": 41738,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 41845,
+        "lastLiveDate": "2021/08/07 00:16:23",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 04:10:20",
         "livePointStatus": {
-            "00": 4442,
+            "00": 4450,
             "01": 4068,
             "02": 3427,
             "03": 2566,
@@ -3628,17 +3630,17 @@
             "17": 1119,
             "18": 1282,
             "19": 1658,
-            "20": 1921,
-            "21": 2878,
-            "22": 3579,
-            "23": 4052
+            "20": 1940,
+            "21": 2905,
+            "22": 3606,
+            "23": 4078
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/07 00:16:23"
             },
             {
                 "product": "\u539f\u795e",
@@ -3735,8 +3737,8 @@
         "userName": "\u9234\u8c37\u30a2\u30ad",
         "twitterId": "aki_suzuya",
         "photo": "https://pbs.twimg.com/profile_images/1377456301379264514/ZaLQ0oQh_400x400.jpg",
-        "livePoint": 5640,
-        "lastLiveDate": "2021/08/05 22:44:40",
+        "livePoint": 5671,
+        "lastLiveDate": "2021/08/06 22:39:29",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:18",
         "livePointStatus": {
@@ -3761,8 +3763,8 @@
             "18": 26,
             "19": 3,
             "20": 24,
-            "21": 1861,
-            "22": 3146,
+            "21": 1874,
+            "22": 3164,
             "23": 314
         },
         "games": [
@@ -3913,12 +3915,12 @@
         "userName": "\u7532\u6590\u7530\u6674",
         "twitterId": "Kaida_Haru",
         "photo": "https://pbs.twimg.com/profile_images/1291032768672014337/hmUzUGOy_400x400.jpg",
-        "livePoint": 23073,
-        "lastLiveDate": "2021/08/06 02:54:39",
+        "livePoint": 23168,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:06:20",
         "livePointStatus": {
-            "00": 1791,
+            "00": 1807,
             "01": 650,
             "02": 278,
             "03": 138,
@@ -3939,9 +3941,9 @@
             "18": 732,
             "19": 690,
             "20": 1323,
-            "21": 3882,
-            "22": 4749,
-            "23": 3839
+            "21": 3908,
+            "22": 4776,
+            "23": 3865
         },
         "games": [
             {
@@ -3954,7 +3956,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/06 02:54:39"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -4039,7 +4041,8 @@
             "UC8C1LLhBhf_E2IBPLSDJXlQ",
             "UC6wvdADTJ88OfIbJYIpAaDA",
             "UC1QgXt46-GEvtNjEC1paHnw",
-            "UCKMYISTJAQ8xTplUPHiABlA"
+            "UCKMYISTJAQ8xTplUPHiABlA",
+            "UC0g1AE0DOjBYnLhkgoRWN1w"
         ],
         "active_badge": true
     },
@@ -4487,8 +4490,8 @@
         "userName": "\u767d\u4e0a\u30d5\u30d6\u30ad",
         "twitterId": "shirakamifubuki",
         "photo": "https://pbs.twimg.com/profile_images/1421777221191036934/7EAcq39V_400x400.jpg",
-        "livePoint": 19224,
-        "lastLiveDate": "2021/08/06 08:23:05",
+        "livePoint": 19254,
+        "lastLiveDate": "2021/08/06 23:08:48",
         "iconUpdateCount": 16,
         "lastIconUpdateDate": "2021/08/06 19:38:47",
         "livePointStatus": {
@@ -4514,8 +4517,8 @@
             "19": 786,
             "20": 835,
             "21": 1885,
-            "22": 3026,
-            "23": 2578
+            "22": 3052,
+            "23": 2582
         },
         "games": [
             {
@@ -4648,8 +4651,8 @@
         "userName": "\u3068\u304d\u306e\u305d\u3089",
         "twitterId": "tokino_sora",
         "photo": "https://pbs.twimg.com/profile_images/1421767500669153282/_Xm7em5Z_400x400.jpg",
-        "livePoint": 8401,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 8423,
+        "lastLiveDate": "2021/08/06 21:04:46",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/08/06 19:38:48",
         "livePointStatus": {
@@ -4673,8 +4676,8 @@
             "17": 275,
             "18": 171,
             "19": 350,
-            "20": 613,
-            "21": 1455,
+            "20": 632,
+            "21": 1458,
             "22": 1663,
             "23": 1035
         },
@@ -4739,8 +4742,8 @@
         "userName": "\u591c\u7a7a\u30e1\u30eb",
         "twitterId": "yozoramel",
         "photo": "https://pbs.twimg.com/profile_images/1413845050430156801/nQpIsvDv_400x400.jpg",
-        "livePoint": 4747,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 4754,
+        "lastLiveDate": "2021/08/06 20:30:59",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/16 08:50:35",
         "livePointStatus": {
@@ -4764,7 +4767,7 @@
             "17": 78,
             "18": 164,
             "19": 246,
-            "20": 326,
+            "20": 333,
             "21": 563,
             "22": 700,
             "23": 667
@@ -4842,8 +4845,8 @@
         "userName": "\u67da\u539f\u3044\u3065\u307f",
         "twitterId": "Izumi_Yunohara",
         "photo": "https://pbs.twimg.com/profile_images/1377614772145905667/XXLtMCVb_400x400.jpg",
-        "livePoint": 14349,
-        "lastLiveDate": "2021/08/04 13:04:01",
+        "livePoint": 14386,
+        "lastLiveDate": "2021/08/06 23:22:19",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:30",
         "livePointStatus": {
@@ -4869,8 +4872,8 @@
             "19": 403,
             "20": 610,
             "21": 1048,
-            "22": 3453,
-            "23": 1333
+            "22": 3480,
+            "23": 1343
         },
         "games": [
             {
@@ -5248,12 +5251,12 @@
         "userName": "\u82b1\u7551\u30c1\u30e3\u30a4\u30ab",
         "twitterId": "ZulmIhP1nlMOT5y",
         "photo": "https://pbs.twimg.com/profile_images/1113362075730894848/Sfq3sEHw_400x400.jpg",
-        "livePoint": 5456,
-        "lastLiveDate": "2021/08/05 23:07:14",
+        "livePoint": 5510,
+        "lastLiveDate": "2021/08/07 00:00:37",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:53:11",
         "livePointStatus": {
-            "00": 1044,
+            "00": 1045,
             "01": 676,
             "02": 343,
             "03": 169,
@@ -5275,8 +5278,8 @@
             "19": 221,
             "20": 526,
             "21": 547,
-            "22": 665,
-            "23": 992
+            "22": 692,
+            "23": 1018
         },
         "games": [
             {
@@ -5753,12 +5756,12 @@
         "userName": "\u661f\u5ddd\u30b5\u30e9",
         "twitterId": "Sara_Hoshikawa ",
         "photo": "https://pbs.twimg.com/profile_images/1317062991284588544/kDPQYANH_400x400.jpg",
-        "livePoint": 9750,
-        "lastLiveDate": "2021/08/04 22:17:54",
+        "livePoint": 9772,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/10/24 20:58:42",
         "livePointStatus": {
-            "00": 997,
+            "00": 1013,
             "01": 546,
             "02": 213,
             "03": 119,
@@ -5781,7 +5784,7 @@
             "20": 896,
             "21": 1114,
             "22": 1715,
-            "23": 1754
+            "23": 1760
         },
         "games": [
             {
@@ -5900,8 +5903,8 @@
         "userName": "\u5c71\u795e\u30ab\u30eb\u30bf",
         "twitterId": "Karuta_Yamagami",
         "photo": "https://pbs.twimg.com/profile_images/1407631497239040000/KjzWizdG_400x400.jpg",
-        "livePoint": 8375,
-        "lastLiveDate": "2021/08/05 00:26:20",
+        "livePoint": 8388,
+        "lastLiveDate": "2021/08/06 23:31:20",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/06/24 04:19:34",
         "livePointStatus": {
@@ -5928,7 +5931,7 @@
             "20": 169,
             "21": 327,
             "22": 879,
-            "23": 1935
+            "23": 1948
         },
         "games": [
             {
@@ -6813,7 +6816,9 @@
             "UC_WOBIopwUih0rytRnr_1Ag",
             "UCLhUvJ_wO9hOvv_yYENu4fQ",
             "UC5CwaMl1eIgY8h02uZw7u8A",
-            "UC3Ruo_5doyu514PesWGvCAg"
+            "UC3Ruo_5doyu514PesWGvCAg",
+            "UCYTz3uIgwVY3ZU-IQJS8r3A",
+            "UCDh2bWI5EDu7PavqwICkVpA"
         ],
         "active_badge": true
     },
@@ -6892,12 +6897,12 @@
         "userName": "\u767d\u5bae\u307f\u307f",
         "twitterId": "shiromiya_mimi",
         "photo": "https://pbs.twimg.com/profile_images/1377556977761460233/V7C97dew_400x400.jpg",
-        "livePoint": 13561,
-        "lastLiveDate": "2021/08/02 03:15:30",
+        "livePoint": 13576,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:22:54",
         "livePointStatus": {
-            "00": 1910,
+            "00": 1925,
             "01": 1604,
             "02": 1129,
             "03": 723,
@@ -7416,12 +7421,12 @@
         "userName": "\u845b\u8449",
         "twitterId": "Vamp_Kuzu",
         "photo": "https://pbs.twimg.com/profile_images/1135233496463491072/j61CdEPG_400x400.png",
-        "livePoint": 34332,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 34441,
+        "lastLiveDate": "2021/08/07 00:20:54",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:24:08",
         "livePointStatus": {
-            "00": 3123,
+            "00": 3133,
             "01": 2781,
             "02": 2492,
             "03": 2100,
@@ -7441,17 +7446,17 @@
             "17": 707,
             "18": 845,
             "19": 1167,
-            "20": 1654,
-            "21": 2198,
-            "22": 2742,
-            "23": 3196
+            "20": 1673,
+            "21": 2225,
+            "22": 2769,
+            "23": 3222
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/07 00:20:54"
             },
             {
                 "product": "Among Us",
@@ -7540,8 +7545,8 @@
         "userName": "\u30a4\u30d6\u30e9\u30d2\u30e0",
         "twitterId": "honmono_ibrahim",
         "photo": "https://pbs.twimg.com/profile_images/1221692992613842945/Sjax9T-b_400x400.jpg",
-        "livePoint": 22795,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 22886,
+        "lastLiveDate": "2021/08/06 23:40:21",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 22:10:01",
         "livePointStatus": {
@@ -7565,17 +7570,17 @@
             "17": 422,
             "18": 952,
             "19": 1729,
-            "20": 2338,
-            "21": 2681,
-            "22": 3032,
-            "23": 2900
+            "20": 2357,
+            "21": 2708,
+            "22": 3059,
+            "23": 2918
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 23:40:21"
             },
             {
                 "product": "Minecraft",
@@ -7932,12 +7937,12 @@
         "userName": "\u4e0d\u77e5\u706b\u30d5\u30ec\u30a2",
         "twitterId": "shiranuiflare",
         "photo": "https://pbs.twimg.com/profile_images/1377440425644945413/6DE3JvFJ_400x400.png",
-        "livePoint": 25271,
-        "lastLiveDate": "2021/08/05 00:24:05",
+        "livePoint": 25296,
+        "lastLiveDate": "2021/08/07 00:27:39",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 11:14:23",
         "livePointStatus": {
-            "00": 4314,
+            "00": 4327,
             "01": 3791,
             "02": 2987,
             "03": 2114,
@@ -7960,7 +7965,7 @@
             "20": 698,
             "21": 727,
             "22": 1799,
-            "23": 3602
+            "23": 3614
         },
         "games": [
             {
@@ -8032,8 +8037,8 @@
         "userName": "\u30ed\u30dc\u5b50",
         "twitterId": "robocosan",
         "photo": "https://pbs.twimg.com/profile_images/1418732837356728324/SEHyG9oy_400x400.jpg",
-        "livePoint": 20125,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 20183,
+        "lastLiveDate": "2021/08/06 23:11:03",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/07/28 22:38:16",
         "livePointStatus": {
@@ -8057,10 +8062,10 @@
             "17": 1263,
             "18": 1115,
             "19": 962,
-            "20": 728,
-            "21": 884,
-            "22": 991,
-            "23": 1642
+            "20": 747,
+            "21": 892,
+            "22": 1017,
+            "23": 1647
         },
         "games": [
             {
@@ -8305,8 +8310,8 @@
         "userName": "AZKi",
         "twitterId": "AZKi_VDiVA",
         "photo": "https://pbs.twimg.com/profile_images/1396267467232534530/g9hbbZFI_400x400.jpg",
-        "livePoint": 2428,
-        "lastLiveDate": "2021/07/21 23:29:08",
+        "livePoint": 2470,
+        "lastLiveDate": "2021/08/06 23:35:50",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/05/23 10:24:44",
         "livePointStatus": {
@@ -8332,8 +8337,8 @@
             "19": 366,
             "20": 203,
             "21": 251,
-            "22": 522,
-            "23": 444
+            "22": 548,
+            "23": 460
         },
         "games": [
             {
@@ -8608,8 +8613,8 @@
         "userName": "\u897f\u5712\u5bfa\u30e1\u30a2\u30ea",
         "twitterId": "Mary_HNST",
         "photo": "https://pbs.twimg.com/profile_images/1245384865572253696/1tpZhaxB_400x400.jpg",
-        "livePoint": 11550,
-        "lastLiveDate": "2021/08/06 01:15:37",
+        "livePoint": 11584,
+        "lastLiveDate": "2021/08/06 23:17:49",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 01:06:43",
         "livePointStatus": {
@@ -8635,8 +8640,8 @@
             "19": 133,
             "20": 1061,
             "21": 1458,
-            "22": 1043,
-            "23": 749
+            "22": 1069,
+            "23": 757
         },
         "games": [
             {
@@ -8699,7 +8704,8 @@
             "UCXp7sNC0F_qkjickvlYkg-Q",
             "UCjlmCrq4TP1I4xguOtJ-31w",
             "UCfiK42sBHraMBK6eNWtsy7A",
-            "UC5YTIcyZ_lstc3FstTX4acA"
+            "UC5YTIcyZ_lstc3FstTX4acA",
+            "UCyb-cllCkMREr9de-hoiDrg"
         ],
         "active_badge": true
     },
@@ -8944,8 +8950,8 @@
         "userName": "\u795e\u7530\u7b11\u4e00",
         "twitterId": "Kanda_Shoichi",
         "photo": "https://pbs.twimg.com/profile_images/1082535627822755898/mF0gZyk7_400x400.jpg",
-        "livePoint": 12412,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 12419,
+        "lastLiveDate": "2021/08/06 20:30:59",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 22:59:46",
         "livePointStatus": {
@@ -8969,7 +8975,7 @@
             "17": 929,
             "18": 875,
             "19": 841,
-            "20": 1057,
+            "20": 1064,
             "21": 990,
             "22": 1232,
             "23": 1121
@@ -9064,8 +9070,8 @@
         "userName": "\u9df9\u5bae\u30ea\u30aa\u30f3",
         "twitterId": "TakamiyaRion",
         "photo": "https://pbs.twimg.com/profile_images/1377620144256598016/I5AItVY3_400x400.jpg",
-        "livePoint": 16934,
-        "lastLiveDate": "2021/08/06 08:45:35",
+        "livePoint": 16975,
+        "lastLiveDate": "2021/08/06 22:32:43",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:23:22",
         "livePointStatus": {
@@ -9090,8 +9096,8 @@
             "18": 808,
             "19": 1393,
             "20": 1552,
-            "21": 1333,
-            "22": 1309,
+            "21": 1359,
+            "22": 1324,
             "23": 1473
         },
         "games": [
@@ -9424,12 +9430,12 @@
         "userName": "\u514e\u7530\u307a\u3053\u3089",
         "twitterId": "usadapekora",
         "photo": "https://pbs.twimg.com/profile_images/1417395387527098371/sp6Dzzep_400x400.jpg",
-        "livePoint": 26511,
-        "lastLiveDate": "2021/08/06 00:10:20",
+        "livePoint": 26566,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/07/28 22:38:33",
         "livePointStatus": {
-            "00": 2506,
+            "00": 2522,
             "01": 1418,
             "02": 755,
             "03": 363,
@@ -9451,8 +9457,8 @@
             "19": 1030,
             "20": 1753,
             "21": 3039,
-            "22": 3238,
-            "23": 3095
+            "22": 3251,
+            "23": 3121
         },
         "games": [
             {
@@ -9845,8 +9851,8 @@
         "userName": "\u5927\u7a7a\u30b9\u30d0\u30eb",
         "twitterId": "oozorasubaru",
         "photo": "https://pbs.twimg.com/profile_images/1395742750188793857/gnvtjlKu_400x400.jpg",
-        "livePoint": 15594,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 15626,
+        "lastLiveDate": "2021/08/06 21:27:20",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/05/22 10:06:38",
         "livePointStatus": {
@@ -9870,8 +9876,8 @@
             "17": 1138,
             "18": 601,
             "19": 438,
-            "20": 1309,
-            "21": 1866,
+            "20": 1328,
+            "21": 1879,
             "22": 1601,
             "23": 836
         },
@@ -10410,8 +10416,8 @@
         "userName": "\u685c\u51db\u6708",
         "twitterId": "SAKURA_RITSUKI",
         "photo": "https://pbs.twimg.com/profile_images/1164666617311006721/HUFUQk63_400x400.jpg",
-        "livePoint": 13519,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 13535,
+        "lastLiveDate": "2021/08/06 20:51:16",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 20:54:45",
         "livePointStatus": {
@@ -10435,7 +10441,7 @@
             "17": 44,
             "18": 1088,
             "19": 4456,
-            "20": 2974,
+            "20": 2990,
             "21": 750,
             "22": 395,
             "23": 239
@@ -10445,7 +10451,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 20:51:16"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -10841,7 +10847,9 @@
             "UCC0i9nECi4Gz7TU63xZwodg",
             "UCRvpMpzAXBRKJQuk-8-Sdvg",
             "UC_WOBIopwUih0rytRnr_1Ag",
-            "UCXp7sNC0F_qkjickvlYkg-Q"
+            "UCXp7sNC0F_qkjickvlYkg-Q",
+            "UC0Owc36U9lOyi9Gx9Ic-4qg",
+            "UCyb-cllCkMREr9de-hoiDrg"
         ],
         "active_badge": true
     },
@@ -10849,8 +10857,8 @@
         "userName": "\u620c\u4ea5\u3068\u3053",
         "twitterId": "inui_toko",
         "photo": "https://pbs.twimg.com/profile_images/1410184635061915652/IHpqfjQp_400x400.jpg",
-        "livePoint": 3290,
-        "lastLiveDate": "2021/08/04 21:26:03",
+        "livePoint": 3349,
+        "lastLiveDate": "2021/08/06 23:13:19",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/07/03 00:51:18",
         "livePointStatus": {
@@ -10875,9 +10883,9 @@
             "18": 138,
             "19": 194,
             "20": 290,
-            "21": 348,
-            "22": 361,
-            "23": 452
+            "21": 374,
+            "22": 388,
+            "23": 458
         },
         "games": [
             {
@@ -11329,12 +11337,12 @@
         "userName": "\u7a7a\u661f\u304d\u3089\u3081",
         "twitterId": "kirame_2434",
         "photo": "https://pbs.twimg.com/profile_images/1410225359006539778/NcUjo_WV_400x400.jpg",
-        "livePoint": 12476,
-        "lastLiveDate": "2021/08/04 03:25:37",
+        "livePoint": 12492,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/07/03 00:51:24",
         "livePointStatus": {
-            "00": 1742,
+            "00": 1758,
             "01": 1222,
             "02": 834,
             "03": 546,
@@ -11595,8 +11603,8 @@
         "userName": "\u4e0d\u7834\u6e4a",
         "twitterId": "Fuwa_Minato",
         "photo": "https://pbs.twimg.com/profile_images/1383771209070874632/mfYCnTZV_400x400.jpg",
-        "livePoint": 20376,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 20467,
+        "lastLiveDate": "2021/08/06 23:40:21",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/04/19 06:32:11",
         "livePointStatus": {
@@ -11620,17 +11628,17 @@
             "17": 468,
             "18": 638,
             "19": 660,
-            "20": 1004,
-            "21": 1330,
-            "22": 1936,
-            "23": 2700
+            "20": 1023,
+            "21": 1357,
+            "22": 1963,
+            "23": 2718
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 23:40:21"
             },
             {
                 "product": "Among Us",
@@ -11942,12 +11950,12 @@
         "userName": "\u5929\u5ddd\u306f\u306e",
         "twitterId": "sb_hano_",
         "photo": "https://pbs.twimg.com/profile_images/1423374494278721536/hl9Acbr-_400x400.jpg",
-        "livePoint": 23204,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 23304,
+        "lastLiveDate": "2021/08/07 00:00:38",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/08/06 19:40:12",
         "livePointStatus": {
-            "00": 2344,
+            "00": 2345,
             "01": 1329,
             "02": 249,
             "03": 50,
@@ -11967,10 +11975,10 @@
             "17": 26,
             "18": 147,
             "19": 267,
-            "20": 2859,
-            "21": 4281,
-            "22": 3340,
-            "23": 2285
+            "20": 2878,
+            "21": 4308,
+            "22": 3367,
+            "23": 2311
         },
         "games": [
             {
@@ -12040,7 +12048,7 @@
                 "product": "Undertale",
                 "url": "https://undertale.jp/",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/44bea8c565db26c0c470a6325a47c9ea031633945cb91e4b5e1b1a39b01a2cdb.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/07 00:00:38"
             }
         ],
         "collab": [
@@ -12889,12 +12897,12 @@
         "userName": "\u30af\u30ec\u30a2",
         "twitterId": "Claire_sensei",
         "photo": "https://pbs.twimg.com/profile_images/1415510929924448258/2pv9rUCJ_400x400.jpg",
-        "livePoint": 7234,
-        "lastLiveDate": "2021/08/05 01:00:06",
+        "livePoint": 7299,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/16 08:52:06",
         "livePointStatus": {
-            "00": 372,
+            "00": 388,
             "01": 17,
             "02": 0,
             "03": 0,
@@ -12916,8 +12924,8 @@
             "19": 47,
             "20": 662,
             "21": 2208,
-            "22": 2233,
-            "23": 1202
+            "22": 2256,
+            "23": 1228
         },
         "games": [
             {
@@ -12956,8 +12964,8 @@
         "userName": "\u3055\u304f\u3089\u307f\u3053",
         "twitterId": "sakuramiko35",
         "photo": "https://pbs.twimg.com/profile_images/1411692442894565379/0J9JPi7s_400x400.jpg",
-        "livePoint": 22059,
-        "lastLiveDate": "2021/08/06 14:00:34",
+        "livePoint": 22093,
+        "lastLiveDate": "2021/08/06 22:14:40",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/16 08:52:07",
         "livePointStatus": {
@@ -12982,8 +12990,8 @@
             "18": 799,
             "19": 1728,
             "20": 1747,
-            "21": 1731,
-            "22": 2389,
+            "21": 1758,
+            "22": 2396,
             "23": 2949
         },
         "games": [
@@ -13346,8 +13354,8 @@
         "userName": "\u96ea\u82b1\u30e9\u30df\u30a3",
         "twitterId": "yukihanalamy",
         "photo": "https://pbs.twimg.com/profile_images/1399655597725782016/BHhzZ3Tx_400x400.jpg",
-        "livePoint": 24698,
-        "lastLiveDate": "2021/08/06 12:21:37",
+        "livePoint": 24731,
+        "lastLiveDate": "2021/08/06 22:14:40",
         "iconUpdateCount": 9,
         "lastIconUpdateDate": "2021/06/02 05:33:51",
         "livePointStatus": {
@@ -13372,8 +13380,8 @@
             "18": 186,
             "19": 182,
             "20": 305,
-            "21": 552,
-            "22": 2000,
+            "21": 578,
+            "22": 2007,
             "23": 3060
         },
         "games": [
@@ -13547,8 +13555,8 @@
         "userName": "\u4e38\u9905\u3064\u304d\u307f",
         "twitterId": "tukimi_marumoti",
         "photo": "https://pbs.twimg.com/profile_images/1413563411795873793/opeaIe7r_400x400.jpg",
-        "livePoint": 7638,
-        "lastLiveDate": "2021/08/05 23:38:48",
+        "livePoint": 7665,
+        "lastLiveDate": "2021/08/06 22:59:47",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/07/16 08:52:13",
         "livePointStatus": {
@@ -13574,7 +13582,7 @@
             "19": 107,
             "20": 312,
             "21": 1002,
-            "22": 3337,
+            "22": 3364,
             "23": 1966
         },
         "games": [
@@ -13629,8 +13637,8 @@
         "userName": "\u5922\u5ddd\u304b\u306a\u3046",
         "twitterId": "Kanau_Yumekawa",
         "photo": "https://pbs.twimg.com/profile_images/1409848800605196298/dO7w483d_400x400.jpg",
-        "livePoint": 4367,
-        "lastLiveDate": "2021/08/05 22:08:35",
+        "livePoint": 4417,
+        "lastLiveDate": "2021/08/06 22:55:16",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/07/03 00:51:53",
         "livePointStatus": {
@@ -13655,8 +13663,8 @@
             "18": 93,
             "19": 240,
             "20": 600,
-            "21": 1098,
-            "22": 1107,
+            "21": 1123,
+            "22": 1132,
             "23": 646
         },
         "games": [
@@ -13724,8 +13732,8 @@
         "userName": "\u5deb\u6708\u3057\u304a",
         "twitterId": "shio_mitsuki",
         "photo": "https://pbs.twimg.com/profile_images/1391716989593264131/nknig9Lh_400x400.jpg",
-        "livePoint": 15528,
-        "lastLiveDate": "2021/08/05 21:30:16",
+        "livePoint": 15572,
+        "lastLiveDate": "2021/08/06 22:07:54",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/05/11 06:43:00",
         "livePointStatus": {
@@ -13749,9 +13757,9 @@
             "17": 386,
             "18": 204,
             "19": 437,
-            "20": 3276,
-            "21": 2730,
-            "22": 1696,
+            "20": 3289,
+            "21": 2757,
+            "22": 1700,
             "23": 1123
         },
         "games": [
@@ -13811,12 +13819,12 @@
         "userName": "\u5468\u9632\u30d1\u30c8\u30e9",
         "twitterId": "Patra_HNST",
         "photo": "https://pbs.twimg.com/profile_images/1377497224762982401/PX8ocIxS_400x400.jpg",
-        "livePoint": 16109,
-        "lastLiveDate": "2021/08/06 00:53:06",
+        "livePoint": 16124,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:24:24",
         "livePointStatus": {
-            "00": 2410,
+            "00": 2425,
             "01": 1528,
             "02": 78,
             "03": 0,
@@ -14246,8 +14254,8 @@
         "userName": "\u767d\u9280\u30ce\u30a8\u30eb",
         "twitterId": "shiroganenoel",
         "photo": "https://pbs.twimg.com/profile_images/1420706517079138308/5tcSlWOd_400x400.jpg",
-        "livePoint": 16842,
-        "lastLiveDate": "2021/08/05 23:54:34",
+        "livePoint": 16876,
+        "lastLiveDate": "2021/08/06 22:14:40",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/08/06 19:40:42",
         "livePointStatus": {
@@ -14272,8 +14280,8 @@
             "18": 789,
             "19": 1338,
             "20": 1332,
-            "21": 889,
-            "22": 1019,
+            "21": 916,
+            "22": 1026,
             "23": 1191
         },
         "games": [
@@ -14368,12 +14376,12 @@
         "userName": "\u82b1\u82bd\u306a\u305a\u306a",
         "twitterId": "nazuna_kaga",
         "photo": "https://pbs.twimg.com/profile_images/1420831163652841473/BE-OjEHK_400x400.jpg",
-        "livePoint": 12542,
-        "lastLiveDate": "2021/08/06 14:27:35",
+        "livePoint": 12555,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 10,
         "lastIconUpdateDate": "2021/08/06 19:40:43",
         "livePointStatus": {
-            "00": 655,
+            "00": 668,
             "01": 848,
             "02": 762,
             "03": 536,
@@ -14408,7 +14416,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 14:27:35"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "PlayerUnknown's Battlegrounds",
@@ -14678,12 +14686,12 @@
         "userName": "\u30a2\u30eb\u30b9\u30fb\u30a2\u30eb\u30de\u30eb",
         "twitterId": "ars_almal",
         "photo": "https://pbs.twimg.com/profile_images/1377639027730313217/ZiGyr6Bw_400x400.jpg",
-        "livePoint": 28258,
-        "lastLiveDate": "2021/08/06 07:31:20",
+        "livePoint": 28353,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/04/02 11:34:08",
         "livePointStatus": {
-            "00": 1334,
+            "00": 1350,
             "01": 1904,
             "02": 3151,
             "03": 3423,
@@ -14704,16 +14712,16 @@
             "18": 529,
             "19": 781,
             "20": 1008,
-            "21": 1195,
-            "22": 1261,
-            "23": 1149
+            "21": 1221,
+            "22": 1288,
+            "23": 1175
         },
         "games": [
             {
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/06 07:31:20"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Fall Guys",
@@ -14900,12 +14908,12 @@
         "userName": "\u3048\u307e\u2605\u304a\u3046\u304c\u3059\u3068",
         "twitterId": "emma_august_",
         "photo": "https://pbs.twimg.com/profile_images/1270564875819839489/hIPlU1Hr_400x400.jpg",
-        "livePoint": 4469,
-        "lastLiveDate": "2021/08/03 02:44:22",
+        "livePoint": 4498,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 02:47:29",
         "livePointStatus": {
-            "00": 838,
+            "00": 854,
             "01": 712,
             "02": 384,
             "03": 346,
@@ -14928,7 +14936,7 @@
             "20": 171,
             "21": 272,
             "22": 273,
-            "23": 591
+            "23": 604
         },
         "games": [
             {
@@ -15194,8 +15202,8 @@
         "userName": "\u5929\u958b\u53f8",
         "twitterId": "tenkaitukasa",
         "photo": "https://pbs.twimg.com/profile_images/1307298282276708353/-6DmSULe_400x400.jpg",
-        "livePoint": 16043,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 16090,
+        "lastLiveDate": "2021/08/06 22:01:09",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/11/03 18:09:53",
         "livePointStatus": {
@@ -15219,9 +15227,9 @@
             "17": 173,
             "18": 228,
             "19": 635,
-            "20": 4360,
-            "21": 4264,
-            "22": 2781,
+            "20": 4379,
+            "21": 4291,
+            "22": 2782,
             "23": 1531
         },
         "games": [
@@ -15325,8 +15333,8 @@
         "userName": "\u5b9d\u9418\u30de\u30ea\u30f3",
         "twitterId": "houshoumarine",
         "photo": "https://pbs.twimg.com/profile_images/1374737519095521284/6XhQ8wFU_400x400.jpg",
-        "livePoint": 12342,
-        "lastLiveDate": "2021/08/05 01:15:52",
+        "livePoint": 12377,
+        "lastLiveDate": "2021/08/06 22:16:56",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/03/25 09:13:11",
         "livePointStatus": {
@@ -15351,8 +15359,8 @@
             "18": 351,
             "19": 645,
             "20": 1848,
-            "21": 2219,
-            "22": 2366,
+            "21": 2246,
+            "22": 2374,
             "23": 1777
         },
         "games": [
@@ -15456,12 +15464,12 @@
         "userName": "\u9db4\u6765\u3064\u3086",
         "twitterId": "tsuru_vlive",
         "photo": "https://pbs.twimg.com/profile_images/1351514981422886915/Dwc9zM_W_400x400.png",
-        "livePoint": 1527,
-        "lastLiveDate": "2021/08/03 01:16:37",
+        "livePoint": 1570,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/20 03:42:55",
         "livePointStatus": {
-            "00": 166,
+            "00": 182,
             "01": 82,
             "02": 35,
             "03": 30,
@@ -15483,8 +15491,8 @@
             "19": 13,
             "20": 61,
             "21": 161,
-            "22": 528,
-            "23": 433
+            "22": 529,
+            "23": 459
         },
         "games": [],
         "collab": [],
@@ -15695,12 +15703,12 @@
         "userName": "\u661f\u6cb3\u30c6\u30d5",
         "twitterId": "Hoshi_Tefu",
         "photo": "https://pbs.twimg.com/profile_images/1377691747900215296/wnBVHNO6_400x400.jpg",
-        "livePoint": 885,
-        "lastLiveDate": "2021/08/06 01:56:07",
+        "livePoint": 927,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 11:34:24",
         "livePointStatus": {
-            "00": 361,
+            "00": 377,
             "01": 179,
             "02": 44,
             "03": 0,
@@ -15723,7 +15731,7 @@
             "20": 0,
             "21": 14,
             "22": 44,
-            "23": 243
+            "23": 269
         },
         "games": [
             {
@@ -15751,12 +15759,12 @@
         "userName": "\u5317\u5c0f\u8def\u30d2\u30b9\u30a4",
         "twitterId": "Hisui_Kitakoji",
         "photo": "https://pbs.twimg.com/profile_images/1344597954699530240/WYXRRJWc_400x400.jpg",
-        "livePoint": 14038,
-        "lastLiveDate": "2021/08/05 14:43:39",
+        "livePoint": 14105,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/31 20:32:04",
         "livePointStatus": {
-            "00": 1638,
+            "00": 1654,
             "01": 1489,
             "02": 1239,
             "03": 881,
@@ -15778,8 +15786,8 @@
             "19": 541,
             "20": 647,
             "21": 841,
-            "22": 1219,
-            "23": 1676
+            "22": 1244,
+            "23": 1702
         },
         "games": [
             {
@@ -15792,7 +15800,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/07/18 07:16:06"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "\u30b0\u30e9\u30f3\u30c9\u30fb\u30bb\u30d5\u30c8\u30fb\u30aa\u30fc\u30c8\u30b7\u30ea\u30fc\u30ba",
@@ -15998,12 +16006,12 @@
         "userName": "\u59eb\u718a\u308a\u307c\u3093",
         "twitterId": "sb_ribon_",
         "photo": "https://pbs.twimg.com/profile_images/1419497217266651137/V3ecDvBl_400x400.jpg",
-        "livePoint": 22653,
-        "lastLiveDate": "2021/08/06 00:57:36",
+        "livePoint": 22669,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/28 22:40:01",
         "livePointStatus": {
-            "00": 2798,
+            "00": 2814,
             "01": 1920,
             "02": 1005,
             "03": 318,
@@ -16283,8 +16291,8 @@
         "userName": "\u732b\u53c8\u304a\u304b\u3086",
         "twitterId": "nekomataokayu",
         "photo": "https://pbs.twimg.com/profile_images/1415963677258248192/_41c-KMx_400x400.jpg",
-        "livePoint": 16243,
-        "lastLiveDate": "2021/08/06 03:44:08",
+        "livePoint": 16277,
+        "lastLiveDate": "2021/08/06 22:14:40",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/07/28 22:40:04",
         "livePointStatus": {
@@ -16309,8 +16317,8 @@
             "18": 42,
             "19": 486,
             "20": 722,
-            "21": 1288,
-            "22": 2896,
+            "21": 1315,
+            "22": 2903,
             "23": 3251
         },
         "games": [
@@ -16429,12 +16437,12 @@
         "userName": "\u30d0\u30fc\u30c1\u30e3\u30eb\u304a\u3070\u3042\u3061\u3083\u3093",
         "twitterId": "virtual_obachan",
         "photo": "https://pbs.twimg.com/profile_images/957656796793004038/gT4MsWaE_400x400.jpg",
-        "livePoint": 5972,
-        "lastLiveDate": "2021/08/04 01:39:51",
+        "livePoint": 6041,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 23:49:49",
         "livePointStatus": {
-            "00": 715,
+            "00": 731,
             "01": 133,
             "02": 42,
             "03": 27,
@@ -16456,8 +16464,8 @@
             "19": 27,
             "20": 27,
             "21": 44,
-            "22": 1935,
-            "23": 1857
+            "22": 1962,
+            "23": 1883
         },
         "games": [
             {
@@ -16565,12 +16573,12 @@
         "userName": "\u4f0f\u898b\u30ac\u30af",
         "twitterId": "gaku_fushimi",
         "photo": "https://pbs.twimg.com/profile_images/1377594437283454981/Wpb4D81s_400x400.jpg",
-        "livePoint": 8676,
-        "lastLiveDate": "2021/08/06 00:35:06",
+        "livePoint": 8711,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:25:08",
         "livePointStatus": {
-            "00": 1380,
+            "00": 1396,
             "01": 686,
             "02": 405,
             "03": 171,
@@ -16593,7 +16601,7 @@
             "20": 252,
             "21": 408,
             "22": 927,
-            "23": 2092
+            "23": 2111
         },
         "games": [
             {
@@ -17318,12 +17326,12 @@
         "userName": "\u6681\u6708\u30af\u30e9\u30e9",
         "twitterId": "akatsukiclara",
         "photo": "https://pbs.twimg.com/profile_images/1397821141956186114/qqyvoPoV_400x400.jpg",
-        "livePoint": 7082,
-        "lastLiveDate": "2021/08/06 00:19:20",
+        "livePoint": 7089,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/05/27 23:50:49",
         "livePointStatus": {
-            "00": 1176,
+            "00": 1183,
             "01": 428,
             "02": 112,
             "03": 25,
@@ -18148,12 +18156,12 @@
         "userName": "\u5343\u8349\u306f\u306a",
         "twitterId": "hanachigusa_ch",
         "photo": "https://pbs.twimg.com/profile_images/1412403716326449152/bTrExvMP_400x400.jpg",
-        "livePoint": 2146,
-        "lastLiveDate": "2021/07/27 18:43:26",
+        "livePoint": 2161,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/07/16 08:53:15",
         "livePointStatus": {
-            "00": 92,
+            "00": 107,
             "01": 37,
             "02": 0,
             "03": 0,
@@ -18995,7 +19003,9 @@
             "UC66DRsVkzrPAp6hZV7-HBGw",
             "UCUZ5AlC3rTlM-rA2cj5RP6w",
             "UCYTz3uIgwVY3ZU-IQJS8r3A",
-            "UCP9ZgeIJ3Ri9En69R0kJc9Q"
+            "UCP9ZgeIJ3Ri9En69R0kJc9Q",
+            "UCwePpiw1ocZRSNSkpKvVISw",
+            "UCDh2bWI5EDu7PavqwICkVpA"
         ],
         "active_badge": true
     },
@@ -19383,8 +19393,8 @@
         "userName": "\u732b\u3005",
         "twitterId": "maomao_mew",
         "photo": "https://pbs.twimg.com/profile_images/1388380202837843971/PZoNRfvQ_400x400.jpg",
-        "livePoint": 10378,
-        "lastLiveDate": "2021/08/05 23:23:01",
+        "livePoint": 10415,
+        "lastLiveDate": "2021/08/06 22:25:57",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/05/01 15:48:24",
         "livePointStatus": {
@@ -19409,8 +19419,8 @@
             "18": 46,
             "19": 72,
             "20": 870,
-            "21": 3389,
-            "22": 2325,
+            "21": 3414,
+            "22": 2337,
             "23": 1455
         },
         "games": [
@@ -19871,8 +19881,8 @@
         "userName": "\u696a\u5e06\u6ce2",
         "twitterId": "Yuzuriha_honami",
         "photo": "https://pbs.twimg.com/profile_images/1404440879570452483/Qusvlz7i_400x400.jpg",
-        "livePoint": 4306,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 4342,
+        "lastLiveDate": "2021/08/06 21:36:21",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/06/15 09:30:54",
         "livePointStatus": {
@@ -19896,8 +19906,8 @@
             "17": 54,
             "18": 68,
             "19": 156,
-            "20": 324,
-            "21": 1707,
+            "20": 343,
+            "21": 1724,
             "22": 1331,
             "23": 481
         },
@@ -19947,8 +19957,8 @@
         "userName": "\u7d19\u4ee3\u306a\u3064\u3081",
         "twitterId": "kmsr_natsume",
         "photo": "https://pbs.twimg.com/profile_images/1377477571504267265/iJTayrj-_400x400.jpg",
-        "livePoint": 7667,
-        "lastLiveDate": "2021/08/05 22:58:13",
+        "livePoint": 7695,
+        "lastLiveDate": "2021/08/06 22:03:24",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/04/01 23:26:00",
         "livePointStatus": {
@@ -19973,8 +19983,8 @@
             "18": 146,
             "19": 444,
             "20": 1247,
-            "21": 2105,
-            "22": 727,
+            "21": 2131,
+            "22": 729,
             "23": 41
         },
         "games": [
@@ -20006,8 +20016,8 @@
         "userName": "\u661f\u4e43\u3081\u3050\u308a",
         "twitterId": "hoshi_no_meguri",
         "photo": "https://pbs.twimg.com/profile_images/1377278805207699456/kzDjOcxY_400x400.jpg",
-        "livePoint": 7228,
-        "lastLiveDate": "2021/08/05 22:42:25",
+        "livePoint": 7281,
+        "lastLiveDate": "2021/08/06 22:59:47",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 11:17:01",
         "livePointStatus": {
@@ -20032,8 +20042,8 @@
             "18": 194,
             "19": 161,
             "20": 360,
-            "21": 1886,
-            "22": 2629,
+            "21": 1912,
+            "22": 2656,
             "23": 1153
         },
         "games": [
@@ -20041,7 +20051,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/07/23 01:15:25"
+                "lastPlayDate": "2021/08/06 22:59:47"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -20177,12 +20187,12 @@
         "userName": "Moona Hoshinova",
         "twitterId": "moonahoshinova",
         "photo": "https://pbs.twimg.com/profile_images/1422003391920852994/xC3buYJR_400x400.jpg",
-        "livePoint": 13358,
-        "lastLiveDate": "2021/08/06 01:22:22",
+        "livePoint": 13448,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/08/06 19:42:05",
         "livePointStatus": {
-            "00": 2061,
+            "00": 2077,
             "01": 1616,
             "02": 978,
             "03": 461,
@@ -20203,9 +20213,9 @@
             "18": 227,
             "19": 159,
             "20": 92,
-            "21": 595,
-            "22": 2246,
-            "23": 2556
+            "21": 621,
+            "22": 2273,
+            "23": 2577
         },
         "games": [
             {
@@ -20320,12 +20330,12 @@
         "userName": "\u7345\u5802\u30ea\u30aa",
         "twitterId": "ShidoLio",
         "photo": "https://pbs.twimg.com/profile_images/1419685648823328771/l-eqcTxw_400x400.jpg",
-        "livePoint": 27528,
-        "lastLiveDate": "2021/08/05 00:55:36",
+        "livePoint": 27561,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/28 22:41:22",
         "livePointStatus": {
-            "00": 2302,
+            "00": 2318,
             "01": 1629,
             "02": 1145,
             "03": 628,
@@ -20348,7 +20358,7 @@
             "20": 1253,
             "21": 2540,
             "22": 3486,
-            "23": 3345
+            "23": 3362
         },
         "games": [
             {
@@ -20365,7 +20375,7 @@
                 "product": "\u30a6\u30de\u5a18 \u30d7\u30ea\u30c6\u30a3\u30fc\u30c0\u30fc\u30d3\u30fc",
                 "url": "https://umamusume.jp/",
                 "photo": "https://kamigame.jp/wp-content/uploads/%E3%82%A6%E3%83%9E%E5%A8%98%E3%80%80%E3%82%B5%E3%83%A0%E3%83%8D.jpeg",
-                "lastPlayDate": "2021/08/05 00:55:36"
+                "lastPlayDate": "2021/08/07 00:34:24"
             }
         ],
         "collab": [
@@ -20827,8 +20837,8 @@
         "userName": "\u767d\u96ea\u30ec\u30a4\u30c9",
         "twitterId": "Shirayuki_Reid",
         "photo": "https://pbs.twimg.com/profile_images/1244729872506736640/7mTMCtEj_400x400.jpg",
-        "livePoint": 33627,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 33718,
+        "lastLiveDate": "2021/08/06 23:40:21",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 15:48:18",
         "livePointStatus": {
@@ -20852,17 +20862,17 @@
             "17": 1477,
             "18": 1710,
             "19": 1691,
-            "20": 2164,
-            "21": 3177,
-            "22": 3205,
-            "23": 2808
+            "20": 2183,
+            "21": 3204,
+            "22": 3232,
+            "23": 2826
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 23:40:21"
             },
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
@@ -21066,12 +21076,12 @@
         "userName": "\u767d\u767e\u5408\u30ea\u30ea\u30a3",
         "twitterId": "SRYR_0",
         "photo": "https://pbs.twimg.com/profile_images/1396861333237161986/RqDyHkJ9_400x400.jpg",
-        "livePoint": 25879,
-        "lastLiveDate": "2021/08/05 23:59:04",
+        "livePoint": 25947,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/05/25 11:04:22",
         "livePointStatus": {
-            "00": 815,
+            "00": 831,
             "01": 652,
             "02": 489,
             "03": 410,
@@ -21093,8 +21103,8 @@
             "19": 1489,
             "20": 577,
             "21": 429,
-            "22": 6812,
-            "23": 1182
+            "22": 6838,
+            "23": 1208
         },
         "games": [
             {
@@ -21177,8 +21187,8 @@
         "userName": "\u9ad8\u751f\u7d33\u58eb",
         "twitterId": "takao_shinji",
         "photo": "https://pbs.twimg.com/profile_images/1368185157312598016/naf84YQt_400x400.jpg",
-        "livePoint": 9204,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 9297,
+        "lastLiveDate": "2021/08/06 23:44:51",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -21202,10 +21212,10 @@
             "17": 158,
             "18": 156,
             "19": 407,
-            "20": 1939,
-            "21": 2271,
-            "22": 1729,
-            "23": 1128
+            "20": 1958,
+            "21": 2298,
+            "22": 1756,
+            "23": 1148
         },
         "games": [
             {
@@ -21544,8 +21554,8 @@
         "userName": "\u99ac\u5c0f\u5c4b\u306d\u308b\u5b50",
         "twitterId": "u_neruko",
         "photo": "https://pbs.twimg.com/profile_images/1120570802825416704/8a1Jk7on_400x400.png",
-        "livePoint": 7409,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 7449,
+        "lastLiveDate": "2021/08/06 22:53:00",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 00:50:35",
         "livePointStatus": {
@@ -21569,9 +21579,9 @@
             "17": 10,
             "18": 63,
             "19": 287,
-            "20": 1014,
+            "20": 1033,
             "21": 2915,
-            "22": 1587,
+            "22": 1608,
             "23": 598
         },
         "games": [
@@ -21590,7 +21600,7 @@
                 "product": "\u30b9\u30fc\u30d1\u30fc\u30dc\u30f3\u30d0\u30fc\u30de\u30f3 R",
                 "url": "https://www.konami.com/games/bomberman/r/jp/ja/",
                 "photo": "https://www.konami.com/games/bomberman/r/s/img/thumb_g4_launch.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 20:58:01"
             }
         ],
         "collab": [],
@@ -21664,12 +21674,12 @@
         "userName": "\u30df\u30fc\u30b4",
         "twitterId": "Cutoluruhu_migo",
         "photo": "https://pbs.twimg.com/profile_images/1135796647525376000/LgKnbTrg_400x400.png",
-        "livePoint": 18910,
-        "lastLiveDate": "2021/08/06 00:53:06",
+        "livePoint": 18994,
+        "lastLiveDate": "2021/08/07 00:14:08",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 20:45:28",
         "livePointStatus": {
-            "00": 917,
+            "00": 924,
             "01": 670,
             "02": 490,
             "03": 200,
@@ -21690,9 +21700,9 @@
             "18": 980,
             "19": 599,
             "20": 843,
-            "21": 2136,
-            "22": 2427,
-            "23": 1978
+            "21": 2160,
+            "22": 2454,
+            "23": 2004
         },
         "games": [
             {
@@ -22316,12 +22326,12 @@
         "userName": "\u4eee\u60f3\u5a18\u3074\u307e",
         "twitterId": "pima_vtuber",
         "photo": "https://pbs.twimg.com/profile_images/1398889832550584322/UcH7-BNs_400x400.jpg",
-        "livePoint": 5828,
-        "lastLiveDate": "2021/08/02 03:53:44",
+        "livePoint": 5914,
+        "lastLiveDate": "2021/08/07 00:25:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/05/30 16:51:22",
         "livePointStatus": {
-            "00": 311,
+            "00": 323,
             "01": 243,
             "02": 269,
             "03": 225,
@@ -22342,9 +22352,9 @@
             "18": 277,
             "19": 24,
             "20": 131,
-            "21": 1248,
-            "22": 1272,
-            "23": 921
+            "21": 1269,
+            "22": 1299,
+            "23": 947
         },
         "games": [
             {
@@ -22761,8 +22771,8 @@
         "userName": "\u82b1\u54b2\u30a2\u30e4\u30e1",
         "twitterId": "IRIS_Fl0wer",
         "photo": "https://pbs.twimg.com/profile_images/1404687526086860805/Y3BvAdp1_400x400.png",
-        "livePoint": 2512,
-        "lastLiveDate": "2021/08/04 22:56:14",
+        "livePoint": 2561,
+        "lastLiveDate": "2021/08/06 22:53:00",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/06/15 21:40:34",
         "livePointStatus": {
@@ -22787,8 +22797,8 @@
             "18": 83,
             "19": 90,
             "20": 207,
-            "21": 1021,
-            "22": 778,
+            "21": 1046,
+            "22": 802,
             "23": 203
         },
         "games": [
@@ -22971,12 +22981,12 @@
         "userName": "\u693f\u9b3c\u3044\u308d\u306f",
         "twitterId": "iroha_Vt",
         "photo": "https://pbs.twimg.com/profile_images/1420610203481870342/kUWCDWyt_400x400.jpg",
-        "livePoint": 14862,
-        "lastLiveDate": "2021/08/06 02:05:07",
+        "livePoint": 14930,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 11,
         "lastIconUpdateDate": "2021/08/06 19:42:47",
         "livePointStatus": {
-            "00": 1057,
+            "00": 1073,
             "01": 1256,
             "02": 882,
             "03": 576,
@@ -22998,8 +23008,8 @@
             "19": 1611,
             "20": 620,
             "21": 1770,
-            "22": 1824,
-            "23": 1345
+            "22": 1850,
+            "23": 1371
         },
         "games": [
             {
@@ -23210,8 +23220,8 @@
         "userName": "\u732b\u8292\u30d9\u30eb",
         "twitterId": "Bell_Nekonogi",
         "photo": "https://pbs.twimg.com/profile_images/1397060272611729410/Hb1LqpPA_400x400.jpg",
-        "livePoint": 10539,
-        "lastLiveDate": "2021/08/05 20:58:44",
+        "livePoint": 10565,
+        "lastLiveDate": "2021/08/06 22:01:09",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/05/25 23:14:12",
         "livePointStatus": {
@@ -23236,8 +23246,8 @@
             "18": 105,
             "19": 810,
             "20": 1734,
-            "21": 2447,
-            "22": 138,
+            "21": 2472,
+            "22": 139,
             "23": 1221
         },
         "games": [
@@ -23322,8 +23332,8 @@
         "userName": "\u514e\u97a0\u307e\u308a",
         "twitterId": "tomari_mari",
         "photo": "https://pbs.twimg.com/profile_images/1406166305732915206/uEIQqD-1_400x400.jpg",
-        "livePoint": 10263,
-        "lastLiveDate": "2021/08/04 00:14:17",
+        "livePoint": 10303,
+        "lastLiveDate": "2021/08/06 22:30:28",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/06/20 03:09:18",
         "livePointStatus": {
@@ -23348,8 +23358,8 @@
             "18": 92,
             "19": 485,
             "20": 1000,
-            "21": 3155,
-            "22": 2832,
+            "21": 3181,
+            "22": 2846,
             "23": 1637
         },
         "games": [
@@ -23459,8 +23469,8 @@
         "userName": "\u5fa1\u5f71\u30a2\u30af\u30c8",
         "twitterId": "act_mikage",
         "photo": "https://pbs.twimg.com/profile_images/1377539392743464961/8e-fNkBa_400x400.jpg",
-        "livePoint": 9388,
-        "lastLiveDate": "2021/08/06 00:01:19",
+        "livePoint": 9433,
+        "lastLiveDate": "2021/08/06 23:42:36",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/04/01 23:26:58",
         "livePointStatus": {
@@ -23486,8 +23496,8 @@
             "19": 131,
             "20": 433,
             "21": 1880,
-            "22": 3128,
-            "23": 2173
+            "22": 3154,
+            "23": 2192
         },
         "games": [
             {
@@ -23672,12 +23682,12 @@
         "userName": "\u306d\u3080\u307f",
         "twitterId": "nemumi_0v0",
         "photo": "https://pbs.twimg.com/profile_images/1119076163681304576/kqCTN36Z_400x400.jpg",
-        "livePoint": 23705,
-        "lastLiveDate": "2021/08/05 23:27:32",
+        "livePoint": 23768,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/27 20:16:06",
         "livePointStatus": {
-            "00": 825,
+            "00": 841,
             "01": 199,
             "02": 61,
             "03": 0,
@@ -23698,9 +23708,9 @@
             "18": 109,
             "19": 914,
             "20": 3157,
-            "21": 3262,
-            "22": 3019,
-            "23": 2599
+            "21": 3288,
+            "22": 3022,
+            "23": 2617
         },
         "games": [
             {
@@ -23857,12 +23867,12 @@
         "userName": "\u8aad\u8c37\u5c71\u6587\u4e43",
         "twitterId": "HuminoYomiyama",
         "photo": "https://pbs.twimg.com/profile_images/1399591299922087939/SwCAHBNd_400x400.jpg",
-        "livePoint": 21824,
-        "lastLiveDate": "2021/08/05 20:33:57",
+        "livePoint": 21873,
+        "lastLiveDate": "2021/08/07 00:18:38",
         "iconUpdateCount": 10,
         "lastIconUpdateDate": "2021/06/01 17:27:21",
         "livePointStatus": {
-            "00": 2724,
+            "00": 2733,
             "01": 671,
             "02": 290,
             "03": 178,
@@ -23884,8 +23894,8 @@
             "19": 1546,
             "20": 1796,
             "21": 514,
-            "22": 2729,
-            "23": 5243
+            "22": 2743,
+            "23": 5269
         },
         "games": [
             {
@@ -24053,8 +24063,8 @@
         "userName": "\u6b4c\u8863\u30e1\u30a4\u30ab",
         "twitterId": "meikahaotoko",
         "photo": "https://pbs.twimg.com/profile_images/1377948756457361410/0LPEpZFZ_400x400.jpg",
-        "livePoint": 24880,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 24959,
+        "lastLiveDate": "2021/08/06 23:26:49",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 23:46:08",
         "livePointStatus": {
@@ -24078,23 +24088,23 @@
             "17": 634,
             "18": 825,
             "19": 1226,
-            "20": 2505,
-            "21": 2942,
-            "22": 4666,
-            "23": 3842
+            "20": 2524,
+            "21": 2967,
+            "22": 4689,
+            "23": 3854
         },
         "games": [
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg",
-                "lastPlayDate": "2021/08/03 23:58:30"
+                "lastPlayDate": "2021/08/06 23:26:49"
             },
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 21:54:23"
             },
             {
                 "product": "Fall Guys",
@@ -24272,12 +24282,12 @@
         "userName": "\u5929\u66f0\u3072\u3088",
         "twitterId": "amaihiyo",
         "photo": "https://pbs.twimg.com/profile_images/1419323628680667138/bJk1M4-W_400x400.jpg",
-        "livePoint": 13563,
-        "lastLiveDate": "2021/08/04 00:12:02",
+        "livePoint": 13619,
+        "lastLiveDate": "2021/08/07 00:05:08",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/07/28 22:42:20",
         "livePointStatus": {
-            "00": 882,
+            "00": 885,
             "01": 495,
             "02": 175,
             "03": 17,
@@ -24299,8 +24309,8 @@
             "19": 17,
             "20": 117,
             "21": 927,
-            "22": 3741,
-            "23": 2544
+            "22": 3768,
+            "23": 2570
         },
         "games": [
             {
@@ -24511,12 +24521,12 @@
         "userName": "\u9e7f\u4e43",
         "twitterId": "kano_san_",
         "photo": "https://pbs.twimg.com/profile_images/1377478665148067847/12Ufucj1_400x400.jpg",
-        "livePoint": 24285,
-        "lastLiveDate": "2021/08/05 23:25:16",
+        "livePoint": 24327,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/04/01 23:27:15",
         "livePointStatus": {
-            "00": 6791,
+            "00": 6807,
             "01": 3468,
             "02": 2358,
             "03": 1859,
@@ -24539,7 +24549,7 @@
             "20": 4,
             "21": 144,
             "22": 360,
-            "23": 6151
+            "23": 6177
         },
         "games": [
             {
@@ -24570,7 +24580,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/05 23:25:16"
+                "lastPlayDate": "2021/08/07 00:34:24"
             }
         ],
         "collab": [
@@ -24585,12 +24595,12 @@
         "userName": "\u732b\u4e43\u30df\u30b3\u30c8",
         "twitterId": "nekono_mikoto",
         "photo": "https://pbs.twimg.com/profile_images/1405432055991701506/CfE_47q8_400x400.jpg",
-        "livePoint": 22647,
-        "lastLiveDate": "2021/08/06 00:53:06",
+        "livePoint": 22689,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/06/19 15:00:30",
         "livePointStatus": {
-            "00": 6997,
+            "00": 7013,
             "01": 2044,
             "02": 367,
             "03": 186,
@@ -24613,7 +24623,7 @@
             "20": 0,
             "21": 13,
             "22": 385,
-            "23": 7156
+            "23": 7182
         },
         "games": [
             {
@@ -24893,12 +24903,12 @@
         "userName": "\u3055\u3068\u3046\u306a\u3080",
         "twitterId": "_310_76_",
         "photo": "https://pbs.twimg.com/profile_images/1418201417811075073/ZtoGp9Ck_400x400.jpg",
-        "livePoint": 8628,
-        "lastLiveDate": "2021/08/04 00:05:16",
+        "livePoint": 8660,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/28 22:42:30",
         "livePointStatus": {
-            "00": 1315,
+            "00": 1331,
             "01": 298,
             "02": 159,
             "03": 76,
@@ -24921,7 +24931,7 @@
             "20": 66,
             "21": 256,
             "22": 2184,
-            "23": 3923
+            "23": 3939
         },
         "games": [
             {
@@ -25136,12 +25146,12 @@
         "userName": "\u5148\u7aef\u6050\u6016\u75c7",
         "twitterId": "SentanKyofusho",
         "photo": "https://pbs.twimg.com/profile_images/1342241543143321600/pkAAZSZj_400x400.jpg",
-        "livePoint": 30220,
-        "lastLiveDate": "2021/08/06 02:27:36",
+        "livePoint": 30316,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2020/12/25 18:24:00",
         "livePointStatus": {
-            "00": 5195,
+            "00": 5211,
             "01": 2807,
             "02": 1177,
             "03": 365,
@@ -25162,9 +25172,9 @@
             "18": 286,
             "19": 505,
             "20": 624,
-            "21": 5330,
-            "22": 6278,
-            "23": 6310
+            "21": 5357,
+            "22": 6305,
+            "23": 6336
         },
         "games": [
             {
@@ -25177,7 +25187,7 @@
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
-                "lastPlayDate": "2021/08/06 00:21:36"
+                "lastPlayDate": "2021/08/07 00:11:53"
             },
             {
                 "product": "\u6843\u592a\u90ce\u96fb\u9244\u30b7\u30ea\u30fc\u30ba",
@@ -25288,12 +25298,12 @@
         "userName": "\u79cb\u96ea\u3053\u306f\u304f",
         "twitterId": "Syusetu_kohaku",
         "photo": "https://pbs.twimg.com/profile_images/1422537716550438920/d_3TdMdw_400x400.jpg",
-        "livePoint": 19775,
-        "lastLiveDate": "2021/08/06 00:12:35",
+        "livePoint": 19834,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/08/06 19:43:24",
         "livePointStatus": {
-            "00": 1332,
+            "00": 1348,
             "01": 961,
             "02": 728,
             "03": 567,
@@ -25315,8 +25325,8 @@
             "19": 1107,
             "20": 1497,
             "21": 2292,
-            "22": 2288,
-            "23": 1924
+            "22": 2305,
+            "23": 1950
         },
         "games": [
             {
@@ -25539,8 +25549,8 @@
         "userName": "\u91d1\u718a\u304d\u3051\u3093",
         "twitterId": "OOnZadesuku",
         "photo": "https://pbs.twimg.com/profile_images/1347155000649076736/hbDf9cO0_400x400.jpg",
-        "livePoint": 9210,
-        "lastLiveDate": "2021/08/06 08:00:35",
+        "livePoint": 9252,
+        "lastLiveDate": "2021/08/06 22:32:43",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/08 00:02:32",
         "livePointStatus": {
@@ -25565,8 +25575,8 @@
             "18": 146,
             "19": 219,
             "20": 612,
-            "21": 1491,
-            "22": 926,
+            "21": 1518,
+            "22": 941,
             "23": 154
         },
         "games": [
@@ -25580,7 +25590,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/04 22:47:13"
+                "lastPlayDate": "2021/08/06 22:32:43"
             },
             {
                 "product": "Among Us",
@@ -25784,8 +25794,8 @@
         "userName": "\u4e00\u30ce\u702c\u3046\u308b\u306f",
         "twitterId": "uruha_ichinose",
         "photo": "https://pbs.twimg.com/profile_images/1363109028209905664/AZQ-dmKq_400x400.jpg",
-        "livePoint": 16486,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 16534,
+        "lastLiveDate": "2021/08/06 22:03:24",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/02/21 00:18:00",
         "livePointStatus": {
@@ -25809,9 +25819,9 @@
             "17": 644,
             "18": 927,
             "19": 841,
-            "20": 1083,
-            "21": 2008,
-            "22": 2467,
+            "20": 1102,
+            "21": 2035,
+            "22": 2469,
             "23": 2418
         },
         "games": [
@@ -25819,7 +25829,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 22:03:24"
             },
             {
                 "product": "Among Us",
@@ -25982,8 +25992,8 @@
         "userName": "\u304a\u3058\u304d\u3061\u3083\u3093\uff08\u72ec\u773cP\uff09",
         "twitterId": "dokuganP",
         "photo": "https://pbs.twimg.com/profile_images/1411642139667156997/d_0I6v68_400x400.jpg",
-        "livePoint": 24321,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 24388,
+        "lastLiveDate": "2021/08/06 22:46:15",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/07/16 08:55:15",
         "livePointStatus": {
@@ -26007,9 +26017,9 @@
             "17": 1227,
             "18": 969,
             "19": 525,
-            "20": 689,
-            "21": 1109,
-            "22": 2436,
+            "20": 708,
+            "21": 1136,
+            "22": 2457,
             "23": 2582
         },
         "games": [
@@ -26406,8 +26416,8 @@
         "userName": "\u6839\u7fbd\u6e05\u30b3\u30b3\u30ed\uff08\u30ed\u30fc\u30c8\u88fd\u85ac\uff09",
         "twitterId": "rohto_cocoro",
         "photo": "https://pbs.twimg.com/profile_images/1270892049894526978/wu_SIPBQ_400x400.jpg",
-        "livePoint": 2192,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 2241,
+        "lastLiveDate": "2021/08/06 22:05:39",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/25 20:53:11",
         "livePointStatus": {
@@ -26431,9 +26441,9 @@
             "17": 53,
             "18": 79,
             "19": 283,
-            "20": 1133,
-            "21": 546,
-            "22": 51,
+            "20": 1152,
+            "21": 573,
+            "22": 54,
             "23": 22
         },
         "games": [
@@ -26479,8 +26489,8 @@
         "userName": "\u5009\u6301\u4eac\u5b50",
         "twitterId": "kuramochikyoko",
         "photo": "https://pbs.twimg.com/profile_images/1411028733822083073/TSUC_Spf_400x400.jpg",
-        "livePoint": 10036,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 10078,
+        "lastLiveDate": "2021/08/06 21:49:53",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/07/16 08:55:22",
         "livePointStatus": {
@@ -26504,8 +26514,8 @@
             "17": 57,
             "18": 109,
             "19": 276,
-            "20": 632,
-            "21": 1171,
+            "20": 651,
+            "21": 1194,
             "22": 1767,
             "23": 2008
         },
@@ -26818,12 +26828,12 @@
         "userName": "\u6ce2\u591a\u898b\u3044\u305a\u3082",
         "twitterId": "hatami_izumo",
         "photo": "https://pbs.twimg.com/profile_images/1342826564136837121/szQEABwQ_400x400.jpg",
-        "livePoint": 5977,
-        "lastLiveDate": "2021/08/04 22:53:58",
+        "livePoint": 6046,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2020/12/27 06:55:36",
         "livePointStatus": {
-            "00": 416,
+            "00": 432,
             "01": 151,
             "02": 44,
             "03": 3,
@@ -26845,15 +26855,15 @@
             "19": 101,
             "20": 137,
             "21": 760,
-            "22": 2268,
-            "23": 1562
+            "22": 2295,
+            "23": 1588
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/04 22:53:58"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Among Us",
@@ -27080,8 +27090,8 @@
         "userName": "\u7dcb\u7b20\u30c8\u30e2\u30b7\u30ab",
         "twitterId": "Tomoshika_H",
         "photo": "https://pbs.twimg.com/profile_images/1226794299074826241/0tvpEJiQ_400x400.jpg",
-        "livePoint": 5864,
-        "lastLiveDate": "2021/08/03 22:41:52",
+        "livePoint": 5904,
+        "lastLiveDate": "2021/08/06 22:30:28",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/26 22:14:34",
         "livePointStatus": {
@@ -27106,8 +27116,8 @@
             "18": 107,
             "19": 122,
             "20": 602,
-            "21": 1163,
-            "22": 1159,
+            "21": 1189,
+            "22": 1173,
             "23": 776
         },
         "games": [
@@ -27241,12 +27251,12 @@
         "userName": "\u8def\u99c5\u3068\u307e\u308b",
         "twitterId": "Tomaru_Michieki",
         "photo": "https://pbs.twimg.com/profile_images/1420764286335393793/Zk4D2tdw_400x400.jpg",
-        "livePoint": 9609,
-        "lastLiveDate": "2021/08/06 02:14:07",
+        "livePoint": 9663,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/08/06 19:43:55",
         "livePointStatus": {
-            "00": 1234,
+            "00": 1250,
             "01": 783,
             "02": 374,
             "03": 160,
@@ -27268,8 +27278,8 @@
             "19": 151,
             "20": 43,
             "21": 114,
-            "22": 1104,
-            "23": 1536
+            "22": 1116,
+            "23": 1562
         },
         "games": [
             {
@@ -27363,8 +27373,8 @@
         "userName": "\u80e1\u6843\u306e\u3042",
         "twitterId": "n0ah_kurumi",
         "photo": "https://pbs.twimg.com/profile_images/1360246517026627584/fSg6F0On_400x400.jpg",
-        "livePoint": 21801,
-        "lastLiveDate": "2021/08/06 18:55:25",
+        "livePoint": 21865,
+        "lastLiveDate": "2021/08/06 23:24:34",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/02/13 10:15:26",
         "livePointStatus": {
@@ -27389,9 +27399,9 @@
             "18": 455,
             "19": 529,
             "20": 850,
-            "21": 2018,
-            "22": 3378,
-            "23": 3212
+            "21": 2044,
+            "22": 3405,
+            "23": 3223
         },
         "games": [
             {
@@ -27444,6 +27454,12 @@
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
                 "lastPlayDate": "2021/07/11 02:38:41"
+            },
+            {
+                "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
+                "url": "https://www.ubisoft.com/ja-jp/game/rainbow-six/siege",
+                "photo": "https://img.gamewith.jp/img/0b60e9a108c69948ff35b18f2af49f23.jpg",
+                "lastPlayDate": "2021/08/06 23:24:34"
             }
         ],
         "collab": [
@@ -27552,8 +27568,8 @@
         "userName": "\u5e02\u4e38\u30a4\u30c1",
         "twitterId": "1maru_1",
         "photo": "https://pbs.twimg.com/profile_images/1415177616504475648/dQOFnF5A_400x400.jpg",
-        "livePoint": 13706,
-        "lastLiveDate": "2021/08/06 14:16:20",
+        "livePoint": 13753,
+        "lastLiveDate": "2021/08/06 22:57:32",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/07/16 08:55:40",
         "livePointStatus": {
@@ -27578,8 +27594,8 @@
             "18": 106,
             "19": 97,
             "20": 618,
-            "21": 1082,
-            "22": 905,
+            "21": 1103,
+            "22": 931,
             "23": 437
         },
         "games": [
@@ -27890,12 +27906,12 @@
         "userName": "\u9ed2\u4e43\u304f\u308c\u306f",
         "twitterId": "KurehaKurono",
         "photo": "https://pbs.twimg.com/profile_images/1357995784382205952/pssR4vng_400x400.jpg",
-        "livePoint": 11223,
-        "lastLiveDate": "2021/08/05 23:47:48",
+        "livePoint": 11291,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/02/06 20:29:05",
         "livePointStatus": {
-            "00": 516,
+            "00": 532,
             "01": 396,
             "02": 175,
             "03": 43,
@@ -27917,8 +27933,8 @@
             "19": 1033,
             "20": 1522,
             "21": 1055,
-            "22": 1256,
-            "23": 922
+            "22": 1282,
+            "23": 948
         },
         "games": [
             {
@@ -28086,8 +28102,8 @@
         "userName": "\u6843\u661f\u611b\u82b1",
         "twitterId": "manachan_momo",
         "photo": "https://pbs.twimg.com/profile_images/1379022349375217664/5CJhrpsd_400x400.jpg",
-        "livePoint": 7811,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 7836,
+        "lastLiveDate": "2021/08/06 21:11:33",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/06 00:26:21",
         "livePointStatus": {
@@ -28111,8 +28127,8 @@
             "17": 71,
             "18": 13,
             "19": 46,
-            "20": 4231,
-            "21": 1308,
+            "20": 4250,
+            "21": 1314,
             "22": 156,
             "23": 718
         },
@@ -28243,8 +28259,8 @@
         "userName": "\u3048\u308a\u308b\u308b",
         "twitterId": "eriruru3",
         "photo": "https://pbs.twimg.com/profile_images/1161552322108903424/RVykkQxi_400x400.png",
-        "livePoint": 3993,
-        "lastLiveDate": "2021/08/05 21:30:16",
+        "livePoint": 4033,
+        "lastLiveDate": "2021/08/06 23:29:04",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/28 23:49:50",
         "livePointStatus": {
@@ -28270,15 +28286,15 @@
             "19": 53,
             "20": 72,
             "21": 180,
-            "22": 1805,
-            "23": 1342
+            "22": 1832,
+            "23": 1355
         },
         "games": [
             {
                 "product": "\u30e9\u30b0\u30ca\u30ed\u30af\u30aa\u30f3\u30e9\u30a4\u30f3",
                 "url": "https://ragnarokonline.gungho.jp/",
                 "photo": "https://ragnarokonline.gungho.jp/news/information/kue8e600000122eb-img/kue8e600000122h6.jpg",
-                "lastPlayDate": "2021/08/05 21:30:16"
+                "lastPlayDate": "2021/08/06 23:29:04"
             },
             {
                 "product": "Fall Guys",
@@ -28465,12 +28481,12 @@
         "userName": "\u7dbe\u97a0\u307a\u3053",
         "twitterId": "ayamari_peco",
         "photo": "https://pbs.twimg.com/profile_images/1340318440716832770/FFa-M8x-_400x400.jpg",
-        "livePoint": 5540,
-        "lastLiveDate": "2021/08/04 22:35:57",
+        "livePoint": 5624,
+        "lastLiveDate": "2021/08/07 00:09:38",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2020/12/20 04:29:35",
         "livePointStatus": {
-            "00": 651,
+            "00": 656,
             "01": 303,
             "02": 204,
             "03": 136,
@@ -28491,9 +28507,9 @@
             "18": 53,
             "19": 11,
             "20": 13,
-            "21": 364,
-            "22": 1165,
-            "23": 1128
+            "21": 390,
+            "22": 1192,
+            "23": 1154
         },
         "games": [
             {
@@ -28534,12 +28550,12 @@
         "userName": "\u5929\u4f7f\u306a\u306e",
         "twitterId": "angelnano1004",
         "photo": "https://pbs.twimg.com/profile_images/1371167981430968327/L_0NZNCK_400x400.jpg",
-        "livePoint": 8205,
-        "lastLiveDate": "2021/08/05 23:47:48",
+        "livePoint": 8247,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/03/15 09:04:09",
         "livePointStatus": {
-            "00": 348,
+            "00": 364,
             "01": 160,
             "02": 69,
             "03": 64,
@@ -28562,7 +28578,7 @@
             "20": 1830,
             "21": 1920,
             "22": 1419,
-            "23": 862
+            "23": 888
         },
         "games": [
             {
@@ -28925,8 +28941,8 @@
         "userName": "\u5915\u523b\u30ed\u30d9\u30eb",
         "twitterId": "yukokuroberu",
         "photo": "https://pbs.twimg.com/profile_images/1272003522838421505/ZgcZkiU8_400x400.jpg",
-        "livePoint": 15414,
-        "lastLiveDate": "2021/08/06 18:35:10",
+        "livePoint": 15481,
+        "lastLiveDate": "2021/08/06 23:31:20",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 17:19:46",
         "livePointStatus": {
@@ -28951,9 +28967,9 @@
             "18": 1079,
             "19": 646,
             "20": 1063,
-            "21": 854,
-            "22": 670,
-            "23": 465
+            "21": 880,
+            "22": 697,
+            "23": 479
         },
         "games": [
             {
@@ -29042,8 +29058,8 @@
         "userName": "\u82b1\u4e38\u306f\u308c\u308b",
         "twitterId": "hanamaruhareru",
         "photo": "https://pbs.twimg.com/profile_images/1241097883522191360/LR9063i3_400x400.png",
-        "livePoint": 1945,
-        "lastLiveDate": "2021/07/11 23:17:57",
+        "livePoint": 2001,
+        "lastLiveDate": "2021/08/06 23:06:32",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/22 00:03:01",
         "livePointStatus": {
@@ -29068,9 +29084,9 @@
             "18": 0,
             "19": 0,
             "20": 95,
-            "21": 605,
-            "22": 667,
-            "23": 373
+            "21": 631,
+            "22": 694,
+            "23": 376
         },
         "games": [
             {
@@ -29191,8 +29207,8 @@
         "userName": "\u308a\u3068\u308b\u3093",
         "twitterId": "RitorunGames",
         "photo": "https://pbs.twimg.com/profile_images/1367735279834963972/I9PuRnFn_400x400.jpg",
-        "livePoint": 8311,
-        "lastLiveDate": "2021/08/05 22:58:13",
+        "livePoint": 8371,
+        "lastLiveDate": "2021/08/06 23:13:19",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -29217,9 +29233,9 @@
             "18": 47,
             "19": 30,
             "20": 382,
-            "21": 2462,
-            "22": 2206,
-            "23": 754
+            "21": 2489,
+            "22": 2233,
+            "23": 760
         },
         "games": [
             {
@@ -29262,7 +29278,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/02 23:03:43"
+                "lastPlayDate": "2021/08/06 23:13:19"
             }
         ],
         "collab": [
@@ -29275,12 +29291,12 @@
         "userName": "\u30de\u30b0\u30ed\u30ca",
         "twitterId": "ukyo_rst",
         "photo": "https://pbs.twimg.com/profile_images/1282639098855829510/ELZvCfZw_400x400.jpg",
-        "livePoint": 22682,
-        "lastLiveDate": "2021/08/06 01:38:07",
+        "livePoint": 22744,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 18:57:38",
         "livePointStatus": {
-            "00": 1767,
+            "00": 1782,
             "01": 1398,
             "02": 1065,
             "03": 858,
@@ -29301,9 +29317,9 @@
             "18": 1181,
             "19": 1519,
             "20": 2172,
-            "21": 2470,
-            "22": 2508,
-            "23": 2246
+            "21": 2489,
+            "22": 2535,
+            "23": 2247
         },
         "games": [
             {
@@ -29374,8 +29390,8 @@
         "userName": "\u3060\u3066\u3093\u3061\u3086\u3042",
         "twitterId": "datenti_yua",
         "photo": "https://pbs.twimg.com/profile_images/1361999058311606276/ZTapE9nt_400x400.jpg",
-        "livePoint": 11967,
-        "lastLiveDate": "2021/08/06 18:26:09",
+        "livePoint": 11994,
+        "lastLiveDate": "2021/08/06 23:58:22",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/02/17 23:28:12",
         "livePointStatus": {
@@ -29401,8 +29417,8 @@
             "19": 314,
             "20": 2116,
             "21": 2018,
-            "22": 1379,
-            "23": 779
+            "22": 1380,
+            "23": 805
         },
         "games": [
             {
@@ -29737,12 +29753,12 @@
         "userName": "\u516b\u795e\u308f\u308c",
         "twitterId": "ware_yakami",
         "photo": "https://pbs.twimg.com/profile_images/1375356075327725569/n-aBQ-Al_400x400.jpg",
-        "livePoint": 12798,
-        "lastLiveDate": "2021/08/06 16:56:06",
+        "livePoint": 12880,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 22,
         "lastIconUpdateDate": "2021/03/26 21:44:16",
         "livePointStatus": {
-            "00": 957,
+            "00": 973,
             "01": 439,
             "02": 209,
             "03": 72,
@@ -29763,9 +29779,9 @@
             "18": 397,
             "19": 1836,
             "20": 2215,
-            "21": 1272,
-            "22": 1002,
-            "23": 1380
+            "21": 1285,
+            "22": 1029,
+            "23": 1406
         },
         "games": [
             {
@@ -29898,12 +29914,12 @@
         "userName": "\u5929\u7fbd\u3088\u3064\u306f",
         "twitterId": "amahane428",
         "photo": "https://pbs.twimg.com/profile_images/1412719151857033221/aZm8sJCG_400x400.jpg",
-        "livePoint": 8106,
-        "lastLiveDate": "2021/08/05 20:54:13",
+        "livePoint": 8146,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/16 08:56:12",
         "livePointStatus": {
-            "00": 460,
+            "00": 476,
             "01": 162,
             "02": 48,
             "03": 17,
@@ -29926,7 +29942,7 @@
             "20": 1290,
             "21": 1082,
             "22": 652,
-            "23": 721
+            "23": 745
         },
         "games": [
             {
@@ -29944,7 +29960,7 @@
                 "product": "Among Us",
                 "url": "https://store.steampowered.com/app/945360/Among_Us/",
                 "photo": "https://sm.ign.com/ign_jp/screenshot/default/amongus_tkhu.jpg",
-                "lastPlayDate": "2021/08/05 20:54:13"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "\u30ec\u30a4\u30f3\u30dc\u30fc\u30b7\u30c3\u30af\u30b9",
@@ -30078,8 +30094,8 @@
         "userName": "\u82b1\u5712\u30bb\u30ec\u30ca",
         "twitterId": "hanazono_serena",
         "photo": "https://pbs.twimg.com/profile_images/1416293845361315840/6YkieXJT_400x400.jpg",
-        "livePoint": 2130,
-        "lastLiveDate": "2021/07/23 20:27:20",
+        "livePoint": 2159,
+        "lastLiveDate": "2021/08/06 23:06:32",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/28 22:43:49",
         "livePointStatus": {
@@ -30105,8 +30121,8 @@
             "19": 87,
             "20": 350,
             "21": 494,
-            "22": 628,
-            "23": 383
+            "22": 654,
+            "23": 386
         },
         "games": [
             {
@@ -30577,8 +30593,8 @@
         "userName": "\u9dfa\u539f\u9234\u97f3",
         "twitterId": "rinne_210",
         "photo": "https://pbs.twimg.com/profile_images/1311319982538543105/creOyHzu_400x400.jpg",
-        "livePoint": 15657,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 15685,
+        "lastLiveDate": "2021/08/06 21:18:19",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 22:28:16",
         "livePointStatus": {
@@ -30602,8 +30618,8 @@
             "17": 783,
             "18": 457,
             "19": 3377,
-            "20": 3599,
-            "21": 1848,
+            "20": 3618,
+            "21": 1857,
             "22": 993,
             "23": 265
         },
@@ -30691,8 +30707,8 @@
         "userName": "\u6238\u5b9a\u68a8\u9999",
         "twitterId": "Tojou_Linca",
         "photo": "https://pbs.twimg.com/profile_images/1412240896188325889/1M8ZdS5f_400x400.jpg",
-        "livePoint": 6427,
-        "lastLiveDate": "2021/08/01 20:57:13",
+        "livePoint": 6495,
+        "lastLiveDate": "2021/08/06 23:02:02",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/07/16 08:56:22",
         "livePointStatus": {
@@ -30716,17 +30732,17 @@
             "17": 207,
             "18": 304,
             "19": 544,
-            "20": 835,
-            "21": 1476,
-            "22": 1307,
-            "23": 817
+            "20": 848,
+            "21": 1503,
+            "22": 1334,
+            "23": 818
         },
         "games": [
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
                 "url": "https://mahjongsoul.com/",
                 "photo": "https://game.watch.impress.co.jp/img/gmw/docs/1259/958/image01_l.jpg",
-                "lastPlayDate": "2021/08/01 20:57:13"
+                "lastPlayDate": "2021/08/06 23:02:02"
             },
             {
                 "product": "Fall Guys",
@@ -30861,12 +30877,12 @@
         "userName": "\u674f\u4ec1\u30df\u30eb",
         "twitterId": "AnninMirudayo",
         "photo": "https://pbs.twimg.com/profile_images/1414241123220951044/RqIU1TII_400x400.jpg",
-        "livePoint": 18591,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 18696,
+        "lastLiveDate": "2021/08/07 00:11:53",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/07/16 08:56:25",
         "livePointStatus": {
-            "00": 2045,
+            "00": 2051,
             "01": 1290,
             "02": 661,
             "03": 330,
@@ -30886,10 +30902,10 @@
             "17": 598,
             "18": 622,
             "19": 592,
-            "20": 1201,
-            "21": 3320,
-            "22": 3284,
-            "23": 2812
+            "20": 1220,
+            "21": 3347,
+            "22": 3311,
+            "23": 2838
         },
         "games": [
             {
@@ -30961,8 +30977,8 @@
         "userName": "\u304f\u3082\u306e\u4e0a\u30e6\u30e1\u30df",
         "twitterId": "Kumonoue_Yumemi",
         "photo": "https://pbs.twimg.com/profile_images/1367024439200673794/u4-8UkU__400x400.jpg",
-        "livePoint": 8977,
-        "lastLiveDate": "2021/08/05 17:50:28",
+        "livePoint": 8997,
+        "lastLiveDate": "2021/08/06 21:45:22",
         "iconUpdateCount": 5,
         "lastIconUpdateDate": "2021/03/09 18:07:07",
         "livePointStatus": {
@@ -30987,7 +31003,7 @@
             "18": 338,
             "19": 282,
             "20": 673,
-            "21": 2316,
+            "21": 2336,
             "22": 2004,
             "23": 718
         },
@@ -31026,12 +31042,12 @@
         "userName": "\u5343\u7fbd\u9ed2\u4e43",
         "twitterId": "senba_crow",
         "photo": "https://pbs.twimg.com/profile_images/1169215628227383296/__4tgGmq_400x400.jpg",
-        "livePoint": 8024,
-        "lastLiveDate": "2021/08/04 23:39:02",
+        "livePoint": 8120,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 22:28:18",
         "livePointStatus": {
-            "00": 522,
+            "00": 538,
             "01": 189,
             "02": 91,
             "03": 54,
@@ -31052,9 +31068,9 @@
             "18": 217,
             "19": 639,
             "20": 1005,
-            "21": 1921,
-            "22": 1985,
-            "23": 1250
+            "21": 1948,
+            "22": 2012,
+            "23": 1276
         },
         "games": [
             {
@@ -31189,8 +31205,8 @@
         "userName": "\u514e\u6843\u307f\u307f\u3053",
         "twitterId": "mimiko__2525",
         "photo": "https://pbs.twimg.com/profile_images/1369815201600602116/qBfnQXZo_400x400.jpg",
-        "livePoint": 18163,
-        "lastLiveDate": "2021/08/04 16:08:34",
+        "livePoint": 18194,
+        "lastLiveDate": "2021/08/06 22:12:25",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/03/11 18:39:53",
         "livePointStatus": {
@@ -31215,8 +31231,8 @@
             "18": 0,
             "19": 0,
             "20": 66,
-            "21": 1466,
-            "22": 1261,
+            "21": 1491,
+            "22": 1267,
             "23": 769
         },
         "games": [
@@ -31285,12 +31301,12 @@
         "userName": "\u661f\u6708\u30eb\u30f3\u30ca",
         "twitterId": "hoshizukilunna",
         "photo": "https://pbs.twimg.com/profile_images/1398252359948464134/33Em9oF6_400x400.jpg",
-        "livePoint": 11298,
-        "lastLiveDate": "2021/08/06 15:57:34",
+        "livePoint": 11356,
+        "lastLiveDate": "2021/08/07 00:11:53",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/05/29 04:26:42",
         "livePointStatus": {
-            "00": 837,
+            "00": 843,
             "01": 478,
             "02": 359,
             "03": 219,
@@ -31312,8 +31328,8 @@
             "19": 545,
             "20": 577,
             "21": 1153,
-            "22": 1472,
-            "23": 1223
+            "22": 1498,
+            "23": 1249
         },
         "games": [
             {
@@ -31339,6 +31355,12 @@
                 "url": "https://www.konami.com/games/bomberman/r/jp/ja/",
                 "photo": "https://www.konami.com/games/bomberman/r/s/img/thumb_g4_launch.jpg",
                 "lastPlayDate": "2021/05/27 14:08:52"
+            },
+            {
+                "product": "Phasmophobia",
+                "url": "https://store.steampowered.com/app/739630/Phasmophobia/",
+                "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg",
+                "lastPlayDate": "2021/08/07 00:11:53"
             }
         ],
         "collab": [
@@ -31715,8 +31737,8 @@
         "userName": "\u594f\u307f\u307f",
         "twitterId": "kanademimimi",
         "photo": "https://pbs.twimg.com/profile_images/1411306256107593733/y_XRI0ay_400x400.jpg",
-        "livePoint": 3734,
-        "lastLiveDate": "2021/08/04 23:18:46",
+        "livePoint": 3779,
+        "lastLiveDate": "2021/08/06 23:13:19",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/07/16 08:56:38",
         "livePointStatus": {
@@ -31741,9 +31763,9 @@
             "18": 0,
             "19": 7,
             "20": 66,
-            "21": 936,
-            "22": 1738,
-            "23": 569
+            "21": 948,
+            "22": 1765,
+            "23": 575
         },
         "games": [
             {
@@ -31853,8 +31875,8 @@
         "userName": "\u6765\u6816\u590f\u82bd",
         "twitterId": "kurusu72me",
         "photo": "https://pbs.twimg.com/profile_images/1377635637017239559/cgZGDACH_400x400.jpg",
-        "livePoint": 8880,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 8923,
+        "lastLiveDate": "2021/08/06 21:52:08",
         "iconUpdateCount": 3,
         "lastIconUpdateDate": "2021/04/02 11:39:18",
         "livePointStatus": {
@@ -31878,8 +31900,8 @@
             "17": 245,
             "18": 447,
             "19": 907,
-            "20": 1246,
-            "21": 1235,
+            "20": 1265,
+            "21": 1259,
             "22": 1639,
             "23": 1425
         },
@@ -31945,8 +31967,8 @@
         "userName": "\u6e0b\u8c37\u30cf\u30eb",
         "twitterId": "ShibuyaHAL",
         "photo": "https://pbs.twimg.com/profile_images/1177461259035275264/nBWmg-tS_400x400.png",
-        "livePoint": 42809,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 42908,
+        "lastLiveDate": "2021/08/06 23:58:22",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2020/10/29 22:28:21",
         "livePointStatus": {
@@ -31970,17 +31992,17 @@
             "17": 2573,
             "18": 2916,
             "19": 2957,
-            "20": 2954,
-            "21": 3560,
-            "22": 3382,
-            "23": 3550
+            "20": 2973,
+            "21": 3587,
+            "22": 3409,
+            "23": 3576
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 23:58:22"
             },
             {
                 "product": "Minecraft",
@@ -32716,12 +32738,12 @@
         "userName": "\u30ea\u30fc\u30b7\u30aa\u30f3",
         "twitterId": "LeeShionVG",
         "photo": "https://pbs.twimg.com/profile_images/1349780191778799616/lq3Ix0y__400x400.jpg",
-        "livePoint": 3746,
-        "lastLiveDate": "2021/08/01 22:16:01",
+        "livePoint": 3801,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/01/15 14:31:02",
         "livePointStatus": {
-            "00": 470,
+            "00": 486,
             "01": 310,
             "02": 235,
             "03": 160,
@@ -32743,8 +32765,8 @@
             "19": 224,
             "20": 253,
             "21": 393,
-            "22": 564,
-            "23": 532
+            "22": 577,
+            "23": 558
         },
         "games": [
             {
@@ -33106,12 +33128,12 @@
         "userName": "\u8056\u5973\u308c\u308a\u3042",
         "twitterId": "Hijirime_Laeria",
         "photo": "https://pbs.twimg.com/profile_images/1413797693856440323/bGgzMRn2_400x400.jpg",
-        "livePoint": 12492,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 12527,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/07/16 08:57:00",
         "livePointStatus": {
-            "00": 1926,
+            "00": 1941,
             "01": 1070,
             "02": 1011,
             "03": 894,
@@ -33131,8 +33153,8 @@
             "17": 114,
             "18": 198,
             "19": 254,
-            "20": 524,
-            "21": 867,
+            "20": 543,
+            "21": 868,
             "22": 1489,
             "23": 2035
         },
@@ -33141,7 +33163,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 20:15:13"
+                "lastPlayDate": "2021/08/06 21:00:16"
             },
             {
                 "product": "\u30b9\u30d7\u30e9\u30c8\u30a5\u30fc\u30f3\u30b7\u30ea\u30fc\u30ba",
@@ -33456,12 +33478,12 @@
         "userName": "\u6c37\u96ea\u3042\u3044\u306d",
         "twitterId": "hiyukiaine",
         "photo": "https://pbs.twimg.com/profile_images/1420797900997599232/wkHWqKYl_400x400.jpg",
-        "livePoint": 10194,
-        "lastLiveDate": "2021/08/05 01:04:36",
+        "livePoint": 10232,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 12,
         "lastIconUpdateDate": "2021/08/06 19:45:30",
         "livePointStatus": {
-            "00": 3398,
+            "00": 3414,
             "01": 1698,
             "02": 817,
             "03": 582,
@@ -33484,7 +33506,7 @@
             "20": 0,
             "21": 12,
             "22": 181,
-            "23": 3053
+            "23": 3075
         },
         "games": [
             {
@@ -34384,12 +34406,12 @@
         "userName": "\u7dcb\u6708",
         "twitterId": "redmoon1009",
         "photo": "https://pbs.twimg.com/profile_images/1421913552298778625/77FijnqJ_400x400.jpg",
-        "livePoint": 21841,
-        "lastLiveDate": "2021/08/06 12:19:22",
+        "livePoint": 21934,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 7,
         "lastIconUpdateDate": "2021/08/06 19:45:48",
         "livePointStatus": {
-            "00": 2643,
+            "00": 2656,
             "01": 2542,
             "02": 1643,
             "03": 308,
@@ -34410,9 +34432,9 @@
             "18": 5,
             "19": 29,
             "20": 1405,
-            "21": 2392,
-            "22": 3511,
-            "23": 3120
+            "21": 2419,
+            "22": 3538,
+            "23": 3146
         },
         "games": [
             {
@@ -34451,12 +34473,12 @@
         "userName": "\u7a7a\u6bec\u305b\u3093\u308d\u3093",
         "twitterId": "somari_senron",
         "photo": "https://pbs.twimg.com/profile_images/1420903851171848198/qth-I4Mh_400x400.jpg",
-        "livePoint": 19807,
-        "lastLiveDate": "2021/08/06 19:08:56",
+        "livePoint": 19822,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 11,
         "lastIconUpdateDate": "2021/08/06 19:45:50",
         "livePointStatus": {
-            "00": 1245,
+            "00": 1260,
             "01": 809,
             "02": 436,
             "03": 132,
@@ -34568,12 +34590,12 @@
         "userName": "\u82b1\u54b2\u307f\u3084\u3073",
         "twitterId": "miyabihanasaki",
         "photo": "https://pbs.twimg.com/profile_images/1377497546868748294/EZuhihHx_400x400.jpg",
-        "livePoint": 6833,
-        "lastLiveDate": "2021/08/06 01:22:22",
+        "livePoint": 6901,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 2,
         "lastIconUpdateDate": "2021/04/01 23:30:13",
         "livePointStatus": {
-            "00": 762,
+            "00": 778,
             "01": 416,
             "02": 312,
             "03": 234,
@@ -34595,8 +34617,8 @@
             "19": 245,
             "20": 225,
             "21": 370,
-            "22": 950,
-            "23": 1113
+            "22": 976,
+            "23": 1139
         },
         "games": [
             {
@@ -34648,7 +34670,7 @@
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/06 01:22:22"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "\u30d0\u30a4\u30aa\u30cf\u30b6\u30fc\u30c9\u30b7\u30ea\u30fc\u30ba",
@@ -34774,12 +34796,12 @@
         "userName": "\u304a\u72d0\u69d8\u3086\u3044\u306e",
         "twitterId": "yuino_fox",
         "photo": "https://pbs.twimg.com/profile_images/1399628262901309440/YH_JZGdZ_400x400.jpg",
-        "livePoint": 2012,
-        "lastLiveDate": "2021/08/06 15:08:05",
+        "livePoint": 2028,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/06/01 17:30:15",
         "livePointStatus": {
-            "00": 66,
+            "00": 82,
             "01": 33,
             "02": 36,
             "03": 7,
@@ -34881,12 +34903,12 @@
         "userName": "\u7d05\u82b1\u30ab\u30ec\u30f3",
         "twitterId": "k_karen_channel",
         "photo": "https://pbs.twimg.com/profile_images/1342060369167015937/LTrT-mVm_400x400.jpg",
-        "livePoint": 5371,
-        "lastLiveDate": "2021/08/06 01:13:22",
+        "livePoint": 5406,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/11 19:36:27",
         "livePointStatus": {
-            "00": 1242,
+            "00": 1258,
             "01": 781,
             "02": 462,
             "03": 181,
@@ -34909,7 +34931,7 @@
             "20": 143,
             "21": 190,
             "22": 600,
-            "23": 1242
+            "23": 1261
         },
         "games": [
             {
@@ -35187,12 +35209,12 @@
         "userName": "\u514e\u6708\u30c6\u30a3\u30a2",
         "twitterId": "uzukitia",
         "photo": "https://pbs.twimg.com/profile_images/1302868474335645696/TwOvwv-Y_400x400.jpg",
-        "livePoint": 10129,
-        "lastLiveDate": "2021/08/05 23:07:14",
+        "livePoint": 10192,
+        "lastLiveDate": "2021/08/07 00:23:09",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/11 22:42:54",
         "livePointStatus": {
-            "00": 217,
+            "00": 228,
             "01": 28,
             "02": 25,
             "03": 31,
@@ -35214,8 +35236,8 @@
             "19": 45,
             "20": 40,
             "21": 1906,
-            "22": 2966,
-            "23": 1412
+            "22": 2992,
+            "23": 1438
         },
         "games": [
             {
@@ -35247,6 +35269,12 @@
                 "url": "http://ryu-ga-gotoku.com/",
                 "photo": "https://ryu-ga-gotoku.com/kiwami/assets/img/pre/logo.png",
                 "lastPlayDate": "2021/07/18 23:21:15"
+            },
+            {
+                "product": "Phasmophobia",
+                "url": "https://store.steampowered.com/app/739630/Phasmophobia/",
+                "photo": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/capsule_616x353.jpg",
+                "lastPlayDate": "2021/08/07 00:23:09"
             }
         ],
         "collab": [
@@ -35258,8 +35286,8 @@
         "userName": "\u51a0\u57ce\u306e\u3048\u308b",
         "twitterId": "Noel_f_Kaburagi",
         "photo": "https://pbs.twimg.com/profile_images/1403166958850166785/VyufzLt-_400x400.jpg",
-        "livePoint": 11761,
-        "lastLiveDate": "2021/08/06 20:15:13",
+        "livePoint": 11835,
+        "lastLiveDate": "2021/08/06 23:02:02",
         "iconUpdateCount": 6,
         "lastIconUpdateDate": "2021/06/11 20:31:32",
         "livePointStatus": {
@@ -35283,10 +35311,10 @@
             "17": 747,
             "18": 944,
             "19": 169,
-            "20": 727,
-            "21": 1563,
-            "22": 1640,
-            "23": 1200
+            "20": 746,
+            "21": 1590,
+            "22": 1667,
+            "23": 1201
         },
         "games": [
             {
@@ -35408,12 +35436,12 @@
         "userName": "\u6960\u6728\u3055\u3089\u3089",
         "twitterId": "sarara_v",
         "photo": "https://pbs.twimg.com/profile_images/1377295809885048835/UnPj7B_o_400x400.jpg",
-        "livePoint": 16670,
-        "lastLiveDate": "2021/08/06 17:25:22",
+        "livePoint": 16765,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/04/01 11:21:08",
         "livePointStatus": {
-            "00": 2326,
+            "00": 2342,
             "01": 1920,
             "02": 979,
             "03": 262,
@@ -35434,9 +35462,9 @@
             "18": 459,
             "19": 75,
             "20": 84,
-            "21": 362,
-            "22": 2570,
-            "23": 2732
+            "21": 388,
+            "22": 2597,
+            "23": 2758
         },
         "games": [
             {
@@ -35849,12 +35877,12 @@
         "userName": "Kureiji Ollie",
         "twitterId": "kureijiollie",
         "photo": "https://pbs.twimg.com/profile_images/1413881951828594690/SSQBRL6u_400x400.jpg",
-        "livePoint": 6575,
-        "lastLiveDate": "2021/08/06 18:41:55",
+        "livePoint": 6629,
+        "lastLiveDate": "2021/08/07 00:32:09",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/07/16 08:57:54",
         "livePointStatus": {
-            "00": 391,
+            "00": 406,
             "01": 210,
             "02": 99,
             "03": 27,
@@ -35876,8 +35904,8 @@
             "19": 457,
             "20": 450,
             "21": 416,
-            "22": 646,
-            "23": 616
+            "22": 659,
+            "23": 642
         },
         "games": [
             {
@@ -36004,8 +36032,8 @@
         "userName": "\u795e\u6708\u5929",
         "twitterId": "kandukiama",
         "photo": "https://pbs.twimg.com/profile_images/1317773066340978688/mLAtQTLM_400x400.jpg",
-        "livePoint": 6725,
-        "lastLiveDate": "2021/08/06 14:20:50",
+        "livePoint": 6761,
+        "lastLiveDate": "2021/08/06 22:50:45",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/24 21:23:33",
         "livePointStatus": {
@@ -36030,8 +36058,8 @@
             "18": 49,
             "19": 228,
             "20": 547,
-            "21": 979,
-            "22": 1341,
+            "21": 992,
+            "22": 1364,
             "23": 1225
         },
         "games": [
@@ -36094,6 +36122,12 @@
                 "url": "https://genshin.mihoyo.com/ja",
                 "photo": "https://i.ytimg.com/vi/_yGsRVFa8YM/maxresdefault.jpg",
                 "lastPlayDate": "2021/07/09 08:01:15"
+            },
+            {
+                "product": "\u3042\u3064\u307e\u308c \u3069\u3046\u3076\u3064\u306e\u68ee",
+                "url": "https://www.nintendo.co.jp/switch/acbaa/index.html",
+                "photo": "https://assets.st-note.com/production/uploads/images/22149245/rectangle_large_type_2_958610f7cb3c99a23c89d98fbdcfb632.png",
+                "lastPlayDate": "2021/08/06 22:50:45"
             }
         ],
         "collab": [],
@@ -36103,8 +36137,8 @@
         "userName": "\u30ab\u30a4\u30e0\u30b2\u30fc\u30e0\u30ba",
         "twitterId": "KaimuGames_pad",
         "photo": "https://pbs.twimg.com/profile_images/1376469679347179521/xMtwmZOW_400x400.jpg",
-        "livePoint": 5787,
-        "lastLiveDate": "2021/08/05 01:04:36",
+        "livePoint": 5838,
+        "lastLiveDate": "2021/08/06 23:02:02",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/03/31 23:02:50",
         "livePointStatus": {
@@ -36129,9 +36163,9 @@
             "18": 68,
             "19": 39,
             "20": 142,
-            "21": 1228,
-            "22": 1425,
-            "23": 1140
+            "21": 1251,
+            "22": 1452,
+            "23": 1141
         },
         "games": [
             {
@@ -36240,8 +36274,8 @@
         "userName": "\u60e1\u30ce\u308d\u304f",
         "twitterId": "Akuno_69",
         "photo": "https://pbs.twimg.com/profile_images/1410562285899157511/xOCtOhnR_400x400.jpg",
-        "livePoint": 13092,
-        "lastLiveDate": "2021/08/06 17:54:39",
+        "livePoint": 13136,
+        "lastLiveDate": "2021/08/06 22:39:29",
         "iconUpdateCount": 8,
         "lastIconUpdateDate": "2021/07/03 00:57:48",
         "livePointStatus": {
@@ -36266,8 +36300,8 @@
             "18": 300,
             "19": 292,
             "20": 375,
-            "21": 975,
-            "22": 2204,
+            "21": 1001,
+            "22": 2222,
             "23": 2011
         },
         "games": [
@@ -36318,6 +36352,12 @@
                 "url": "https://www.epicgames.com/store/ja/product/overcooked/home",
                 "photo": "https://steamcdn-a.akamaihd.net/steam/apps/448510/capsule_616x353.jpg",
                 "lastPlayDate": "2021/07/18 23:25:45"
+            },
+            {
+                "product": "Apex Legends\u2122",
+                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
+                "lastPlayDate": "2021/08/06 22:39:29"
             }
         ],
         "collab": [],
@@ -36423,12 +36463,12 @@
         "userName": "\u732b\u7530\u306a\u3064\u306a",
         "twitterId": "Nukota_Natsuna",
         "photo": "https://pbs.twimg.com/profile_images/1422768622234005511/78a2Vcr6_400x400.jpg",
-        "livePoint": 13374,
-        "lastLiveDate": "2021/08/06 15:10:20",
+        "livePoint": 13459,
+        "lastLiveDate": "2021/08/07 00:11:53",
         "iconUpdateCount": 16,
         "lastIconUpdateDate": "2021/08/06 19:46:25",
         "livePointStatus": {
-            "00": 508,
+            "00": 514,
             "01": 259,
             "02": 191,
             "03": 198,
@@ -36449,9 +36489,9 @@
             "18": 469,
             "19": 1777,
             "20": 2196,
-            "21": 2150,
-            "22": 1504,
-            "23": 848
+            "21": 2176,
+            "22": 1531,
+            "23": 874
         },
         "games": [
             {
@@ -36476,7 +36516,7 @@
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/07/23 20:58:53"
+                "lastPlayDate": "2021/08/07 00:11:53"
             },
             {
                 "product": "\u30ea\u30f3\u30b0\u30d5\u30a3\u30c3\u30c8 \u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc",
@@ -37188,12 +37228,12 @@
         "userName": "\u8336\u6751\u693f",
         "twitterId": "Tsubaki_Samura",
         "photo": "https://pbs.twimg.com/profile_images/1380683457395707905/CX6fmLqq_400x400.jpg",
-        "livePoint": 4372,
-        "lastLiveDate": "2021/08/06 19:35:56",
+        "livePoint": 4443,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/04/11 19:16:29",
         "livePointStatus": {
-            "00": 205,
+            "00": 221,
             "01": 79,
             "02": 11,
             "03": 0,
@@ -37214,16 +37254,16 @@
             "18": 107,
             "19": 53,
             "20": 0,
-            "21": 107,
-            "22": 2049,
-            "23": 1083
+            "21": 109,
+            "22": 2076,
+            "23": 1109
         },
         "games": [
             {
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/06 19:35:56"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
@@ -37440,8 +37480,8 @@
         "userName": "\u5207\u53d6\u305b\u3093",
         "twitterId": "k1ri_sen",
         "photo": "https://pbs.twimg.com/profile_images/1422077585840754691/GBbIFkGM_400x400.jpg",
-        "livePoint": 6153,
-        "lastLiveDate": "2021/08/06 20:10:42",
+        "livePoint": 6213,
+        "lastLiveDate": "2021/08/06 23:53:52",
         "iconUpdateCount": 4,
         "lastIconUpdateDate": "2021/08/06 19:46:46",
         "livePointStatus": {
@@ -37466,9 +37506,9 @@
             "18": 664,
             "19": 624,
             "20": 563,
-            "21": 522,
-            "22": 318,
-            "23": 164
+            "21": 531,
+            "22": 345,
+            "23": 188
         },
         "games": [
             {
@@ -37590,8 +37630,8 @@
         "userName": "\u6dbc\u672c\u308a\u3083\u3046\u304b",
         "twitterId": "Ryoka_Suzumoto",
         "photo": "https://pbs.twimg.com/profile_images/1396425598763819012/WofzIg9P_400x400.jpg",
-        "livePoint": 12368,
-        "lastLiveDate": "2021/08/04 23:48:02",
+        "livePoint": 12433,
+        "lastLiveDate": "2021/08/06 23:26:50",
         "iconUpdateCount": 1,
         "lastIconUpdateDate": "2021/05/23 22:41:04",
         "livePointStatus": {
@@ -37616,16 +37656,16 @@
             "18": 1397,
             "19": 1185,
             "20": 927,
-            "21": 1275,
-            "22": 1108,
-            "23": 766
+            "21": 1301,
+            "22": 1135,
+            "23": 778
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/04 23:48:02"
+                "lastPlayDate": "2021/08/06 23:26:50"
             },
             {
                 "product": "\u96c0\u9b42 -\u3058\u3083\u3093\u305f\u307e-",
@@ -38214,8 +38254,8 @@
         "userName": "\u304a\u6599\u7406\u304a\u59c9\u3055\u3093",
         "twitterId": "cooking_onesan",
         "photo": "https://pbs.twimg.com/profile_images/1395338539374501890/no-XX68Y_400x400.jpg",
-        "livePoint": 1371,
-        "lastLiveDate": "2021/08/05 22:35:39",
+        "livePoint": 1417,
+        "lastLiveDate": "2021/08/06 22:43:59",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/06/06 18:46:44",
         "livePointStatus": {
@@ -38240,8 +38280,8 @@
             "18": 0,
             "19": 0,
             "20": 23,
-            "21": 412,
-            "22": 379,
+            "21": 438,
+            "22": 399,
             "23": 325
         },
         "games": [],
@@ -38417,8 +38457,8 @@
         "userName": "\u30a2\u30df\u30c0\u30b1\u30a4",
         "twitterId": "Amida_Kei",
         "photo": "https://pbs.twimg.com/profile_images/1402040991419224064/WycSw9Dk_400x400.jpg",
-        "livePoint": 2735,
-        "lastLiveDate": "2021/08/05 23:52:19",
+        "livePoint": 2768,
+        "lastLiveDate": "2021/08/06 23:26:50",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/06/19 15:24:36",
         "livePointStatus": {
@@ -38444,8 +38484,8 @@
             "19": 27,
             "20": 20,
             "21": 233,
-            "22": 904,
-            "23": 399
+            "22": 926,
+            "23": 410
         },
         "games": [
             {
@@ -38468,8 +38508,8 @@
         "userName": "\u5929\u4f7f\u30a4\u30e0",
         "twitterId": "_10416_",
         "photo": "https://pbs.twimg.com/profile_images/1377455990967205892/L-DQghhN_400x400.jpg",
-        "livePoint": 434,
-        "lastLiveDate": "2021/07/28 23:12:33",
+        "livePoint": 460,
+        "lastLiveDate": "2021/08/06 22:59:47",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/06/19 15:24:36",
         "livePointStatus": {
@@ -38495,7 +38535,7 @@
             "19": 0,
             "20": 11,
             "21": 26,
-            "22": 238,
+            "22": 264,
             "23": 129
         },
         "games": [
@@ -38503,7 +38543,7 @@
                 "product": "Undertale",
                 "url": "https://undertale.jp/",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/44bea8c565db26c0c470a6325a47c9ea031633945cb91e4b5e1b1a39b01a2cdb.jpg",
-                "lastPlayDate": "2021/07/28 23:12:33"
+                "lastPlayDate": "2021/08/06 22:59:47"
             }
         ],
         "collab": [],
@@ -38602,12 +38642,12 @@
         "userName": "\u54b2\u6708\u307b\u305f\u308b",
         "twitterId": "hotaru_satsuki3",
         "photo": "https://pbs.twimg.com/profile_images/1405489724567875586/FP5W98ES_400x400.jpg",
-        "livePoint": 9958,
-        "lastLiveDate": "2021/08/05 06:03:50",
+        "livePoint": 9986,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/06/20 18:42:37",
         "livePointStatus": {
-            "00": 850,
+            "00": 866,
             "01": 805,
             "02": 824,
             "03": 839,
@@ -38630,14 +38670,14 @@
             "20": 209,
             "21": 400,
             "22": 643,
-            "23": 834
+            "23": 846
         },
         "games": [
             {
                 "product": "Minecraft",
                 "url": "https://www.minecraft.net/ja-jp",
                 "photo": "https://img-eshop.cdn.nintendo.net/i/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f.jpg",
-                "lastPlayDate": "2021/08/05 06:03:50"
+                "lastPlayDate": "2021/08/07 00:34:24"
             },
             {
                 "product": "Apex Legends\u2122",
@@ -38665,12 +38705,12 @@
         "userName": "\u9b3c\u7afa\u3055\u3064\u304d",
         "twitterId": "Kijiku_Satsuki",
         "photo": "https://pbs.twimg.com/profile_images/1396387800765792258/BEm3WwwC_400x400.jpg",
-        "livePoint": 213,
-        "lastLiveDate": "2021/08/06 00:32:51",
+        "livePoint": 310,
+        "lastLiveDate": "2021/08/07 00:25:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/06/27 01:13:46",
         "livePointStatus": {
-            "00": 33,
+            "00": 45,
             "01": 23,
             "02": 0,
             "03": 0,
@@ -38690,17 +38730,17 @@
             "17": 0,
             "18": 0,
             "19": 0,
-            "20": 0,
-            "21": 4,
-            "22": 51,
-            "23": 77
+            "20": 5,
+            "21": 31,
+            "22": 78,
+            "23": 103
         },
         "games": [
             {
                 "product": "Apex Legends\u2122",
                 "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
                 "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg",
-                "lastPlayDate": "2021/08/06 00:32:51"
+                "lastPlayDate": "2021/08/07 00:25:24"
             }
         ],
         "collab": [],
@@ -39141,8 +39181,8 @@
         "userName": "\u306c\u308a\u305f\u304f\u308b",
         "twitterId": "Nuri_takuru_vt",
         "photo": "https://pbs.twimg.com/profile_images/1421787518819651588/10TSFBwX_400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:43",
+        "livePoint": 41,
+        "lastLiveDate": "2021/08/06 23:06:32",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:43",
         "livePointStatus": {
@@ -39167,9 +39207,9 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 0,
-            "22": 0,
-            "23": 0
+            "21": 11,
+            "22": 27,
+            "23": 3
         },
         "games": [],
         "collab": [],
@@ -39331,12 +39371,12 @@
         "userName": "\u3072\u306c\u3063\u3061",
         "twitterId": "hinugame",
         "photo": "https://pbs.twimg.com/profile_images/1421380045713461251/POxwKca__400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:50",
+        "livePoint": 1,
+        "lastLiveDate": "2021/08/07 00:34:24",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:50",
         "livePointStatus": {
-            "00": 0,
+            "00": 1,
             "01": 0,
             "02": 0,
             "03": 0,
@@ -39361,7 +39401,13 @@
             "22": 0,
             "23": 0
         },
-        "games": [],
+        "games": [
+            {
+                "product": "Apex Legends\u2122",
+                "url": "https://www.ea.com/ja-jp/games/apex-legends/about",
+                "photo": "https://research.image.itmedia.co.jp/wp-content/uploads/2020/09/apex-featured-image-16x9.adapt_.crop191x100.1200w-1.jpg"
+            }
+        ],
         "collab": [],
         "active_badge": true
     },
@@ -39407,8 +39453,8 @@
         "userName": "\u3072\u306a\u3069\u308a\u30c1\u30e3\u30f3\u30cd\u30eb",
         "twitterId": "3_hinadori",
         "photo": "https://pbs.twimg.com/profile_images/1369796814103187457/MMroSGj8_400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:52",
+        "livePoint": 73,
+        "lastLiveDate": "2021/08/06 23:58:22",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:52",
         "livePointStatus": {
@@ -39433,9 +39479,9 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 0,
-            "22": 0,
-            "23": 0
+            "21": 20,
+            "22": 27,
+            "23": 26
         },
         "games": [],
         "collab": [],
@@ -39483,8 +39529,8 @@
         "userName": "\u3070\u3063\u3061",
         "twitterId": "sniper_bacchi",
         "photo": "https://pbs.twimg.com/profile_images/1414072431677898752/ICbKP1KK_400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:53",
+        "livePoint": 4,
+        "lastLiveDate": "2021/08/06 23:26:50",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:53",
         "livePointStatus": {
@@ -39510,8 +39556,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 0,
-            "23": 0
+            "22": 1,
+            "23": 3
         },
         "games": [],
         "collab": [],
@@ -39521,8 +39567,8 @@
         "userName": "\u661f\u91ce\u30cb\u30a2\u300114\u6b73\u63a2\u5075",
         "twitterId": "near_d14",
         "photo": "https://pbs.twimg.com/profile_images/1331256889275924482/fTU8SAoC_400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:54",
+        "livePoint": 53,
+        "lastLiveDate": "2021/08/06 22:59:47",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:54",
         "livePointStatus": {
@@ -39547,8 +39593,8 @@
             "18": 0,
             "19": 0,
             "20": 0,
-            "21": 0,
-            "22": 0,
+            "21": 26,
+            "22": 27,
             "23": 0
         },
         "games": [],
@@ -39635,8 +39681,8 @@
         "userName": "\u864e\u72fc\u7345\u5bb6\u7518\u5a01",
         "twitterId": "Amai_5648",
         "photo": "https://pbs.twimg.com/profile_images/1375410055579795464/DbFteYV__400x400.jpg",
-        "livePoint": 0,
-        "lastLiveDate": "2021/08/06 20:15:56",
+        "livePoint": 49,
+        "lastLiveDate": "2021/08/06 23:51:37",
         "iconUpdateCount": 0,
         "lastIconUpdateDate": "2021/08/06 20:15:56",
         "livePointStatus": {
@@ -39662,8 +39708,8 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 0,
-            "23": 0
+            "22": 26,
+            "23": 23
         },
         "games": [],
         "collab": [],
