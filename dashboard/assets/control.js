@@ -23,6 +23,7 @@ window.onload = function() {
     };
 };
 function post(data) {
+    // ローカルに送信
     xhr.open('POST', 'assets/write.php', true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.setRequestHeader("Post-Type", "games");
@@ -36,10 +37,12 @@ function post(data) {
         console.log("error!");
     };
     xhr.send(JSON.stringify(data));
-
-    xhr.open('POST', 'https://bece39171004.ngrok.io/assets/write.php', true);
+    // サーバーに送信
+    /*
+    xhr.open('GET', 'https://bece39171004.ngrok.io/write.php', true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.setRequestHeader("Post-Type", "games_server");
+    xhr.withCredentials = true;
     // フォームに入力した値をリクエストとして設定
     xhr.onload = () => {
         console.log(xhr.status);
@@ -48,9 +51,10 @@ function post(data) {
     xhr.onerror = () => {
         console.log(xhr.status);
         console.log("error!");
-        alert("Error!\nhttps://bece39171004.ngrok.io/assets/write.php");
+        alert("Error!\nhttps://bece39171004.ngrok.io/write.php");
     };
     xhr.send(JSON.stringify(data));
+    */
 }
 
 

@@ -1,4 +1,10 @@
 <?php
+# レスポンスヘッダーの設定　クロスオリジン回避
+header("HTTP/1.0 200 OK");
+header("Access-Control-Allow-Credentials: true");
+$parsed_url = parse_url($_SERVER['HTTP_REFERER']);
+header('Access-Control-Allow-Origin: '.$parsed_url['scheme'].'://'.$parsed_url['host']);
+
 # control.jsからjson XHR受信
 $post_type = $_SERVER['HTTP_POST_TYPE'];
 

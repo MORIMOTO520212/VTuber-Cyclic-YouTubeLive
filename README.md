@@ -168,8 +168,10 @@ Twitter:https://twitter.com/Momose_Asobu
 切取せん 連絡する  
 YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A  
 Twitter:https://twitter.com/k1ri_sen  
-鬼竺さつき 再生不可
-YouTube:https://www.youtube.com/channel/UC6MMhdArr5vhdms4TqVRgpg 
+鬼竺さつき 再生不可  
+YouTube:https://www.youtube.com/channel/UC6MMhdArr5vhdms4TqVRgpg  
+遥斗 再生不可  
+YouTube:https://www.youtube.com/channel/UCGGwBROitlyHxAU1WbMIVXg
 
 ### streamdata.json 修正
 ware_yakami -> ware_channel
