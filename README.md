@@ -174,15 +174,15 @@ YouTube:https://www.youtube.com/channel/UC6MMhdArr5vhdms4TqVRgpg
 YouTube:https://www.youtube.com/channel/UCGGwBROitlyHxAU1WbMIVXg
 
 ### streamdata.json 修正
-ware_yakami -> ware_channel
-Cutoluruhu_migo -> 消失
-UCL4gvO_wg0SA-ecWiVKN-MQ ぜっぽりーね削除
+
 
 ### NOTE   
+VTuber採掘所でハイライト動画が再生されない
+idChangeData.jsonを参照する場合、すべて大文字にして小文字大文字判別しない
 twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。   
-恐らく皆さんも、エンコーダに張り付けるストリームキーを固定するために、  
-「前の設定でスケジュール」を利用していると思いますが、  
-その「前」が「埋め込み許可(オフ)」だと、その設定が継続されてしまっているのでは無いでしょうか？  
+    恐らく皆さんも、エンコーダに張り付けるストリームキーを固定するために、  
+    「前の設定でスケジュール」を利用していると思いますが、  
+    その「前」が「埋め込み許可(オフ)」だと、その設定が継続されてしまっているのでは無いでしょうか？  
 各ライバーのゲーム配信における”最高同時接続者数”を記録する。  
 各ライバーの1週間のライブ配信数を記録する。  
 
