@@ -2,8 +2,7 @@
 
     VTuber 採掘所 
     create: 2021/02/28
-    update: 2021/02/28
-    GitHub:
+    update: 2021/08/23
     Twitter: @Medaka_bridle
 
 * * * * * * * * * * * * * * * * * * */
@@ -21,15 +20,14 @@ function curtainOC(){
 }
 
 var i = 0;
-var streamingChannel    = "";
+var streamingChannel = "";
 
 var element_yt              = document.getElementById("yt");
-var element_startpage       = document.getElementById("startpage");
 var element_main_userName   = document.getElementById("main_userName");
 var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo           = document.getElementById("photo");
 var element_speed           = document.getElementById("speed");
-var e_counter = document.getElementById("counter");
+var e_counter               = document.getElementById("counter");
 var streamings;
 var streamDataCheck = false;
 var _chlog = 0;
@@ -69,7 +67,7 @@ function randomSetYouTube(){
         streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
         element_main_videoTitle.innerHTML  = streamings[i]["videoTitle"];        // メイン画面の動画タイトル
-        element_main_userName.innerHTML    = "undefined";                       // ~ 初期設定 ~
+        element_main_userName.innerHTML    = "undefined";                        // ~ 初期設定 ~
         element_main_userName.innerHTML    = streamings[i]["userName"];          // メイン画面のユーザー名
         element_photo.setAttribute("src", streamings[i]["photo"]);               // メイン画面のTwitterアイコン
 
@@ -84,13 +82,13 @@ function randomSetYouTube(){
     setTimeout(sleep2, 4500); // 幕を掛ける時間4.5秒
 }
 
-var tag = document.createElement('script');
 
+/* YouTube Player API */
+var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-/* YouTube Player API */
 var player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player("youtube",{
@@ -115,8 +113,6 @@ function onPlayerStateChange(event) {
         apiCheck = true;
         let wait=setInterval(function(){ // streamingが取得できるまで待機
             if(streamDataCheck){
-                console.log("Streaming start.");
-                streaming();
                 clearInterval(wait);
             }
         }, 500);
@@ -127,19 +123,13 @@ var yt_interval;
 var playStatus;
 var speed = 30000; // YouTube Cyclic Speed | initial: 30s
 function streaming(){
-    if(apiCheck){
-        playStatus = true;
+    playStatus = true;
     
-        // YouTube画面に切り替え
-        element_startpage.setAttribute("style", "opacity: 0;");
-        element_yt.setAttribute("style", "opacity: 1;");
+    // YouTube画面に切り替え
+    element_yt.setAttribute("style", "opacity: 1;");
     
-        randomSetYouTube();
-        yt_interval = setInterval(randomSetYouTube, speed);
-    }else{
-        alert("Opps!\nYouTube Player APIでエラーが発生しました。サイトをリロードします。");
-        location.reload();
-    }
+    randomSetYouTube();
+    yt_interval = setInterval(randomSetYouTube, speed);
 }
 
 function changeSpeed(){ // (int)seconds
@@ -155,3 +145,13 @@ function changeSpeed(){ // (int)seconds
 function streamStop(){
     clearInterval(yt_interval);
 }
+
+var sti;
+function streamInterval(){
+    if(streamDataCheck){
+        streaming();
+        console.log("Streaming start.");
+        clearInterval(sti);
+    }
+}
+sti = setInterval(streamInterval, 500);

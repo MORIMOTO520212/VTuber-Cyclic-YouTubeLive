@@ -20,7 +20,7 @@ hr{
     margin-bottom: 100px;
 }
 
-/* header */
+/* ----------------- Header ----------------- */
 div.header{
     width: 100%;
     height: 64px;
@@ -64,7 +64,7 @@ div.main{
 }
 
 
-/* top player */
+/* ----------------- top player ----------------- */
 div.top{
     position: relative;
     width: 90%;
@@ -190,7 +190,7 @@ div.status .box1 div.list{
 }
 
 
-/* viewer control */
+/* ----------------- viewer control ----------------- */
 div.control{
     /*width: 19%;*/
     height: 40px;
@@ -270,7 +270,7 @@ ul.ddmenu li:hover ul {
 }
 
 
-/* liver viewer */
+/* ----------------- liver viewer ----------------- */
 ul#list {
     overflow: hidden;
     padding-left: 0px;
@@ -350,19 +350,20 @@ div.watching{
     border-radius: 10px;
     z-index: 1;
 }
-/* watching */
+/* ----------------- watching ----------------- */
 div.watching p{
     font-size: 14px;
     color: #ff7c3e;
     font-weight: bold;
     margin: 1px 5px 0 5px;
 }
-/* video title */
+/* ----------------- video title ----------------- */
 div.videoTitle{
     position: absolute;
     top: 67%;
     width: 100%;
     height: 25%;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 div.videoTitle p{
@@ -379,7 +380,7 @@ iframe.smart-yt{
     z-index: 2;
 }
 
-/* status window */
+/* ----------------- status window ----------------- */
 #mask{
     position: absolute;
     top: 0;
