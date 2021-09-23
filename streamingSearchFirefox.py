@@ -68,6 +68,7 @@ def getSource():
             driver.execute_script("window.scrollTo(0, 1000);")
 
     details = soup.find_all("div", id="details")
+
     return details
 
 def search(detail):
@@ -336,6 +337,8 @@ while True:
     
     except Exception as e:
         print("main Error: "+str(e))
+        if "Tried to run command without establishing a connection" in str(e):
+            print("geckodriverのバージョンが古い可能性があります。")
         now = datetime.datetime.now()
         open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
         open(".semaphore", "w").write("1")

@@ -2,9 +2,11 @@ var element_liverlist = document.getElementById("list");
 var filtering_game = ""; // filtering game product name
 var channel_list = {};
 
+/* Create random id */
 function getObjId() {
     return window.btoa(Math.random()*10000000000);
 }
+
 function liverViewer() {
     let source = "";
     let _streamings = [];

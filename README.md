@@ -135,43 +135,9 @@ Work_Labo/
     - コラボデータ（YouTubeチャンネルリスト）
     - アクティブバッジ（Boolean値）
 
-### 連絡
-天使イム 再生不可 連絡する  
-Twitter:https://twitter.com/_10416_  
-咲月ほたる 再生不可 連絡する  
-Twitter:https://twitter.com/hotaru_satsuki3  
-モフモふうら 再生不可 連絡する  
-Twitter:https://twitter.com/mofumo_fuura  
-お料理お姉さん 再生不可 連絡する  
-Twitter:https://twitter.com/cooking_onesan  
-茶村椿 再生不可 連絡する  
-Twitter:https://twitter.com/Tsubaki_Samura  
-
-奈辺陽鹿 再生不可 連絡中  
-YouTube:https://www.youtube.com/channel/UCunmKT34H-FRMKwmSpwKDBA  
-Twitter:https://twitter.com/youka_nabe  
-白夢レイン 準備中  
-YouTube:https://www.youtube.com/channel/UCIoM9dnD47MpnzV3EqEbg_g  
-Twitter:https://twitter.com/Rain_Hakumu  
-妖鬼水晶 活動中  
-YouTube:https://www.youtube.com/channel/UCrNekQmlZQSQhxjov1Jz5Yw  
-Twitter:https://twitter.com/Suisyou_cha  
-園原満琴 活動中  
-YouTube:https://www.youtube.com/channel/UCtQcumufS2xj4nGzJl7BxIw  
-Twitter:https://twitter.com/makoto_sono  
-七瀬タク 連絡する  
-YouTube:https://www.youtube.com/channel/UCiqHlJh_i0z3PUadvlcWpEg  
-Twitter:https://twitter.com/7se_taku  
-百世アソブ 連絡する　配信頻度：低  
-YouTube:https://www.youtube.com/channel/UCxzjHuyG5kd56vMDtUWzKAw  
-Twitter:https://twitter.com/Momose_Asobu  
-切取せん 連絡する  
-YouTube:https://www.youtube.com/channel/UCSkAoufyYzfqBDlYPqjh_7A  
-Twitter:https://twitter.com/k1ri_sen  
-鬼竺さつき 再生不可  
-YouTube:https://www.youtube.com/channel/UC6MMhdArr5vhdms4TqVRgpg  
-遥斗 再生不可  
-YouTube:https://www.youtube.com/channel/UCGGwBROitlyHxAU1WbMIVXg
+### 削除ユーザー
+羽衣みらい
+YouTube: https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
 
 ### streamdata.json 修正
 
@@ -205,17 +171,16 @@ YouTube配信時に埋め込み許可をオンにしていない配信者をサ�
 YouTube Studio > 
 
 ### サーバー再稼働
-自宅サーバーの立ち上げ  
+自宅サーバーを立ち上げる  
 Apache2立ち上げ  
 screen -S ngrok  
 ngrok http 80  
-screen -S ssf  
+screen -S streamingSearchFirefox  
 python3 streamingSearchFirefox.py  
-screen -S uti  
+screen -S updateTwitterIcon  
 python3 updateTwitterIcon.py  
 getData.phpのngrokアドレス更新  
-
-GCP VMインスタンスの立ち上げ  
+GCP VMインスタンスを立ち上げる  
 Apache2立ち上げ  
 getData.phpの書き換え  
 お名前ドットコムでDNS更新  
