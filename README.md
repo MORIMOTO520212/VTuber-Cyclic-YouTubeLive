@@ -135,6 +135,23 @@ Work_Labo/
     - コラボデータ（YouTubeチャンネルリスト）
     - アクティブバッジ（Boolean値）
 
+# GeckoDriver
+公式ドキュメント：https://developer.mozilla.org/en-US/docs/Web/WebDriver
+GitHub: https://github.com/mozilla/geckodriver
+GitHub Release: https://github.com/mozilla/geckodriver/releases
+場所：/usr/local/bin
+現使用バージョン：geckodriver 0.30.0 (d372710b98a6 2021-09-16 10:29 +0300) - Linux64
+
+### バージョン確認
+```
+geckodriver --version
+```
+
+### 権限更新
+```
+$sudo chown xsusa:xsusa geckodriver
+```
+
 ### 削除ユーザー
 羽衣みらい
 YouTube: https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
