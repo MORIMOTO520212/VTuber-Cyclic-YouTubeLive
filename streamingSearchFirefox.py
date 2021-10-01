@@ -338,7 +338,7 @@ while True:
     except Exception as e:
         print("main Error: "+str(e))
         if "Tried to run command without establishing a connection" in str(e):
-            print("geckodriverのバージョンが古い可能性があります。")
+            exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
         now = datetime.datetime.now()
         open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
         open(".semaphore", "w").write("1")
