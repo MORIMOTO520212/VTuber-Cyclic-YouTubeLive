@@ -49,11 +49,20 @@ def loadDataFiles():
     with open(settings.streamingDataPath(OS), "r") as f: # streamdata.json
         streamingData_before = json.load(f)
 
+def writeLog(type, msg):
+    now = datetime.datetime.now()
+    if "message" == type:
+        open(settings.messageLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
+    if "error" == type:
+        open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
+    
 def getSource():
     'YouTubeからデータをスクレイピングする'
+    print("getSource: driver get.")
     driver.get("https://www.youtube.com/feed/subscriptions")
 
     # 2つ目のチャンネルブロックを取得するために最下部までスクロール
+    print("getSource: window scroll.")
     driver.execute_script("window.scrollTo(0, 5000);")
     soup = ""
     for _ in range(5): # スクロールの検出とソースの取得　タイムアウト時間最大50秒
@@ -64,9 +73,10 @@ def getSource():
         if 2 == len(channelbrock): break
         else:
             print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
-            open(settings.errorLogPath(OS), "a").write("{} [SSF] 再試行{}：2つのチャンネルブロックのロードが完了しませんでした。\n".format(str(_+1)))
+            writeLog('error', f'{str(_+1)}：2つのチャンネルブロックのロードが完了しませんでした。\n')
             driver.execute_script("window.scrollTo(0, 1000);")
 
+    print("getSource: find all div tag.")
     details = soup.find_all("div", id="details")
 
     return details
@@ -257,11 +267,14 @@ while True:
         streamingChannels = [] # 取得したデータを書き込む
         streamingData     = [] # 書き込み用
 
+        print("load data files.")
         loadDataFiles()
 
+        print("get youtube source.")
         details = getSource()
 
         # スクレイピング
+        print("process channels.")
         for detail in details:
             channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl = search(detail)
 
@@ -274,17 +287,17 @@ while True:
                     try: channelId = idChangeData[channelId] # ユーザーIDでチャンネルIDが取得できた場合
                     except:
                         print("未登録のライバー："+channelId)
-                        now = datetime.datetime.now()
-                        open(settings.messageLogPath(OS), "a").write("{} [SSF] 未登録のライバー：\"{}\"\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId))
-                        channelId = "unregistered"
+                        writeLog('message', f'未登録のライバー：\"{channelId}\"\n')
+                        channelId = 'unregistered'
 
-                if channelId != "unregistered": # 登録済みユーザーのみ
+                if channelId != 'unregistered': # 登録済みユーザーのみ
                     
                     if channelId not in str(streamingChannels): # 同じユーザーを2度取得している場合がある
                         try:
                             usrRoot = streamdata[channelId]
                         except:
-                            raise ValueError(f"\"{channelId}\" idChangeDataにしか登録されていません.")
+                            writeLog('error', f'\"{channelId}\" idChangeDataにしか登録されていません.')
+                            continue
 
                         play = playGame(videoTitle)
 
@@ -313,16 +326,18 @@ while True:
 
 
         if streamingChannels != []: # 配信者がいた場合
+            print("sort channel.")
             sort()
             activBadgeCheck()
 
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 
         # 書き込み
-        with open(settings.streamingDataPath(OS), "w") as f:
+        print("write log.")
+        with open(settings.streamingDataPath(OS), 'w') as f:
             json.dump(streamingData, f)
 
-        with open(settings.streamDataPath(OS), "w") as f:
+        with open(settings.streamDataPath(OS), 'w') as f:
             json.dump(streamdata, f, indent=4)
 
         # 3分間待機
@@ -338,7 +353,9 @@ while True:
     except Exception as e:
         print("main Error: "+str(e))
         if "Tried to run command without establishing a connection" in str(e):
+            writeLog('message', 'geckodriverのバージョンが古い可能性があります。\n終了します。')
+            open(".semaphore", "w").write('1')
             exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
-        now = datetime.datetime.now()
-        open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
+
+        writeLog('error', f'{str(e)}\n')
         open(".semaphore", "w").write("1")
