@@ -152,9 +152,11 @@ geckodriver --version
 $sudo chown xsusa:xsusa geckodriver
 ```
 
-### 削除ユーザー
+### 削除チャンネル
 羽衣みらい
-YouTube: https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
+https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
+イオス・セレスティア
+https://www.youtube.com/channel/UCGWuFFzyiCWoP-e426DoqZg
 
 ### streamdata.json 修正
 

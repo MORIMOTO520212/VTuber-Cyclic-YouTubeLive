@@ -9,6 +9,8 @@ if os.name == "nt": OS = "windows"
 if os.name == "posix": OS = "linux"
 # 更新間隔(秒)
 delay = 3600*12 # 12時間
+# クロールの分割
+segment = 0
 
 print("updateTwitterIcon.py")
 print("ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。")
@@ -26,11 +28,22 @@ now = datetime.datetime.now()
 open(settings.messageLogPath(OS), "a").write("{} ---- run updateTwitterIcon.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
 def main():
+    global segment
     try:
         with open(settings.streamDataPath(OS), "r") as f:
             streamdata = json.load(f)
 
-        for channelId in streamdata.keys():
+        channelKeys = list(streamdata.keys()) # channel id list
+
+        # channel id 2分割
+        if 0 == segment:
+            channelKeys = channelKeys[:int(len(list(streamdata.keys()))/2)]
+            segment = 1
+        elif 1 == segment:
+            channelKeys = channelKeys[int(len(list(streamdata.keys()))/2):]
+            segment = 0
+
+        for channelId in channelKeys:
             now = datetime.datetime.now()
             usrRoot = streamdata[channelId]
             if usrRoot["active_badge"]:

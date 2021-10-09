@@ -36,7 +36,7 @@ function intervalStreamingData(){
         streamings = jsonData;
         streamDataCheck = true;
         if(_chlog != streamings.length){
-            liverViewer(); // update liver viewer
+            liverViewer("", false); // update liver viewer
             gameFilter();  // update play games list
             e_counter.innerText = streamings.length;
             _chlog = streamings.length;
@@ -49,7 +49,7 @@ function intervalStreamingData(){
     });
 }
 intervalStreamingData(); // get streaming data at intervals
-setInterval(intervalStreamingData, 5000);
+setInterval(intervalStreamingData, 60000);
 
 
 

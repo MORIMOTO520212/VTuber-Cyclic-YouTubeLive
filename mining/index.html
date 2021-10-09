@@ -57,13 +57,16 @@
         </div>
         <div class="main">
             <div class="control">
-                <div class="counter"><p style="margin-left:0">配信者数：</p><p id="counter">40</p><p>名</p></div>
+                <div class="counter"><p style="margin-left:0">配信者数：</p><p id="counter">0</p><p>名</p></div>
                 <div class="filter"><p>フィルター：</p></div>
                 <div class="game-filter">
                     <ul class="ddmenu">
                         <li>
                             <a href="#" onclick="return false;"><p id="game_filter_top">ゲーム選択</p></a>
                             <ul id="games"></ul>
+                        </li>
+                        <li>
+                            <a href="#" onclick="liverViewer('', true); return false;"><p id="audience_top">同時接続数順</p></a>
                         </li>
                     </ul>
                 </div>

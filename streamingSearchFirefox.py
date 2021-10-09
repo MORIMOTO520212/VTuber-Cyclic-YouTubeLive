@@ -16,14 +16,6 @@ true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
 print("動作オペレーティングシステム："+OS)
 
-print("selenium webdriver...")
-# ヘッドレスモードでユーザープロファイルを使う
-Options = webdriver.FirefoxOptions()
-Options.headless = True #Options.set_headless() Linuxでは非推奨
-PROFILE_PATH = settings.firefoxProfilePath(OS)
-Options.profile = PROFILE_PATH
-driver = webdriver.Firefox(options=Options) # firefox_optionsはLinuxでは非推奨
-
 # streamingDataの初期化
 print("cleanup streamingData...")
 with open(settings.streamingDataPath(OS), "w") as f:
@@ -34,6 +26,7 @@ print("complete!")
 now = datetime.datetime.now()
 open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
+driver = None
 streamingData_before = []
 idChangeData = streamdata = gamesData = {}
 
@@ -55,10 +48,18 @@ def writeLog(type, msg):
         open(settings.messageLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
     if "error" == type:
         open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
-    
+
 def getSource():
     'YouTubeからデータをスクレイピングする'
+    global driver
+    
     print("getSource: driver get.")
+    # ヘッドレスモードでユーザープロファイルを使う
+    Options = webdriver.FirefoxOptions()
+    Options.headless = True #Options.set_headless() Linuxでは非推奨
+    PROFILE_PATH = settings.firefoxProfilePath(OS)
+    Options.profile = PROFILE_PATH
+    driver = webdriver.Firefox(options=Options) # ドライバー起動 firefox_optionsはLinuxでは非推奨
     driver.get("https://www.youtube.com/feed/subscriptions")
 
     # 2つ目のチャンネルブロックを取得するために最下部までスクロール
@@ -78,6 +79,7 @@ def getSource():
 
     print("getSource: find all div tag.")
     details = soup.find_all("div", id="details")
+    driver.quit()
 
     return details
 
@@ -355,6 +357,7 @@ while True:
         if "Tried to run command without establishing a connection" in str(e):
             writeLog('message', 'geckodriverのバージョンが古い可能性があります。\n終了します。')
             open(".semaphore", "w").write('1')
+            driver.quit()
             exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
 
         writeLog('error', f'{str(e)}\n')

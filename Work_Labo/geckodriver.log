@@ -1,0 +1,138 @@
+1633773927748	geckodriver	INFO	Listening on 127.0.0.1:28488
+1633773930813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofileyPAcOC"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1633773933522	Marionette	INFO	Listening on port 27011
+1633773934008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1633773953252	Marionette	INFO	Stopped listening on port 27011
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1633773960636	geckodriver	INFO	Listening on 127.0.0.1:1037
+1633773963677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofilez1Ioo5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1633773966377	Marionette	INFO	Listening on port 1049
+1633773966849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633773971584	Marionette	INFO	Stopped listening on port 1049
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1633773974487	geckodriver	INFO	Listening on 127.0.0.1:1045
+1633773977561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofiles7IpO8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1633773980249	Marionette	INFO	Listening on port 1068
+1633773980728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774005959	Marionette	INFO	Stopped listening on port 1068
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1633774191029	geckodriver	INFO	Listening on 127.0.0.1:17691
+1633774196472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofileUBCdVm"
+*** You are running in headless mode.
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1633774198576	Marionette	INFO	Listening on port 17701
+1633774198626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774203915	Marionette	INFO	Stopped listening on port 17701
+1633774207080	geckodriver	INFO	Listening on 127.0.0.1:8504
+1633774262924	geckodriver	INFO	Listening on 127.0.0.1:1036
+1633774268352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofileqR4hp1"
+*** You are running in headless mode.
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1633774270407	Marionette	INFO	Listening on port 1066
+1633774270497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774273266	Marionette	INFO	Stopped listening on port 1066
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633774277324	geckodriver	INFO	Listening on 127.0.0.1:1101
+1633774282993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofilexavAHc"
+*** You are running in headless mode.
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1633774285575	Marionette	INFO	Listening on port 1063
+1633774285668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774303813	geckodriver	INFO	Listening on 127.0.0.1:22329
+1633774309354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofiledqAth5"
+*** You are running in headless mode.
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1633774311687	Marionette	INFO	Listening on port 22341
+1633774312020	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774314292	Marionette	INFO	Stopped listening on port 22341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1633774318207	geckodriver	INFO	Listening on 127.0.0.1:23745
+1633774323737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofilepIzO3S"
+*** You are running in headless mode.
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1633774326015	Marionette	INFO	Listening on port 5960
+1633774326387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1633774334966	Marionette	INFO	Stopped listening on port 5960
+1633774335095	Sync.EngineManager	ERROR	Could not initialize engine : Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"(resource://gre/modules/AsyncShutdown.jsm:697:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:697:15
+addBlocker@AsyncShutdown.jsm:505:26
+addBlocker@AsyncShutdown.jsm:444:15
+JSONFile@JSONFile.jsm:129:20
+LegacyTracker@engines.js:209:19
+PasswordTracker@passwords.js:366:17
+get _tracker@engines.js:933:19
+SyncEngine@engines.js:766:3
+PasswordEngine@passwords.js:83:14
+register@engines.js:703:20
+_registerEngines@service.js:480:36
+1633774335099	Sync.EngineManager	ERROR	Could not initialize engine : Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"(resource://gre/modules/AsyncShutdown.jsm:697:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:697:15
+addBlocker@AsyncShutdown.jsm:505:26
+addBlocker@AsyncShutdown.jsm:444:15
+JSONFile@JSONFile.jsm:129:20
+SyncEngine@engines.js:769:26
+PrefsEngine@prefs.js:96:14
+register@engines.js:703:20
+_registerEngines@service.js:480:36
+1633774335102	Sync.EngineManager	ERROR	Could not initialize engine : Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"(resource://gre/modules/AsyncShutdown.jsm:697:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:697:15
+addBlocker@AsyncShutdown.jsm:505:26
+addBlocker@AsyncShutdown.jsm:444:15
+JSONFile@JSONFile.jsm:129:20
+SyncEngine@engines.js:769:26
+TabEngine@tabs.js:53:14
+register@engines.js:703:20
+_registerEngines@service.js:480:36
+1633774335108	Sync.EngineManager	ERROR	Could not initialize engine : Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"(resource://gre/modules/AsyncShutdown.jsm:697:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:697:15
+addBlocker@AsyncShutdown.jsm:505:26
+addBlocker@AsyncShutdown.jsm:444:15
+JSONFile@JSONFile.jsm:129:20
+SyncEngine@engines.js:769:26
+BaseBookmarksEngine@bookmarks.js:356:14
+BufferedBookmarksEngine@bookmarks.js:833:23
+register@engines.js:703:20
+registerAlternatives@engines.js:633:16
+_registerEngines@service.js:490:36
+1633774335112	Sync.EngineManager	ERROR	Could not initialize engine : Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"(resource://gre/modules/AsyncShutdown.jsm:697:15) JS Stack trace: addBlocker@AsyncShutdown.jsm:697:15
+addBlocker@AsyncShutdown.jsm:505:26
+addBlocker@AsyncShutdown.jsm:444:15
+JSONFile@JSONFile.jsm:129:20
+SyncEngine@engines.js:769:26
+ExtensionStorageEngineKinto@extension-storage.js:190:14
+register@engines.js:703:20
+registerAlternatives@engines.js:633:16
+_registerEngines@service.js:490:36
+1633774335115	Sync.Service	ERROR	Could not start history engine tracker: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://services-sync/engines/history.js :: onStart :: line 527"  data: no] Stack trace: onStart()@resource://services-sync/engines/history.js:527
+start()@resource://services-sync/engines.js:144
+startTracking()@resource://services-sync/engines.js:955
+_startTracking()@resource://services-sync/service.js:616
+onStartup()@resource://services-sync/service.js:403
