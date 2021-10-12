@@ -73,6 +73,7 @@ def getSource():
         channelbrock = soup.find_all("ytd-item-section-renderer", class_=["style-scope", "ytd-section-list-renderer"])
         if 2 == len(channelbrock): break
         else:
+            driver.save_screenshot("screenshot.png")
             print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
             writeLog('error', f'{str(_+1)}：2つのチャンネルブロックのロードが完了しませんでした。\n')
             driver.execute_script("window.scrollTo(0, 1000);")

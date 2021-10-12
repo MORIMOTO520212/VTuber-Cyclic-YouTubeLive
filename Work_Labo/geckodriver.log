@@ -65,8 +65,9 @@ Log warning: The log 'Services.Common.RESTRequest' is configured to use the pref
 Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
 1633774285575	Marionette	INFO	Listening on port 1063
 1633774285668	Marionette	WARN	TLS certificate errors will be ignored for this session
-1633774303813	geckodriver	INFO	Listening on 127.0.0.1:22329
-1633774309354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofiledqAth5"
+Exiting due to channel error.
+Exiting due to channel error.
+33774309354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kante\\AppData\\Local\\Temp\\rust_mozprofiledqAth5"
 *** You are running in headless mode.
 Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
 1633774311687	Marionette	INFO	Listening on port 22341
