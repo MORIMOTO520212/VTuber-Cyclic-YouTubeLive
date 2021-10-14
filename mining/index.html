@@ -47,7 +47,7 @@
         <div class="top">
             <div class="player">
                 <iframe id="yt" class="yt" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="opacity:0;"></iframe>
-                <div id="screen" class="nnc-screen"></div>
+                <div class="exposure"></div>
                 <div id="curtain" class="curtain close"><!-- 幕 -->
                     <div class="profile"><img id="photo" src="../assets/favicon.ico"></div>
                     <div class="userName"><p id="main_userName">VTuber Cyclic Live Streaming</p></div>
@@ -71,19 +71,7 @@
                     </ul>
                 </div>
             </div>
-            <ul id="list">
-                <li class="item" style="display:none;">
-                    <!--<iframe id="smart_yt" class="smart-yt" src="" style="width:100%;height:100%;display:none;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>-->
-                    <img class="background" src="VIDEO THUMBNAIL URL HERE">
-                    <a href="javascript:status('CHANNEL ID HERE');"></a>
-                    <div class="user">
-                        <div class="icon"><img src="TWITTER ICON URL HERE"></div>
-                        <div class="name"><p>名前</p></div>
-                    </div>
-                    <div class="watching"><p>2000</p></div>
-                    <div class="videoTitle"><p>タイトル</p></div>
-                </li>
-            </ul>
+            <ul id="list"></ul>
         </div>
         <div id="jquery-ui-draggable" class="ui-widget-content" style="display:none">
             <div class="ui-widget-header"></div>
@@ -148,6 +136,7 @@
         <script src="assets/base.js"></script>
         <script src="assets/statusWindow.js"></script>
         <script src="assets/liver.js"></script>
+        <script src="assets/smartPreview.js"></script>
         <script src="assets/gameFilter.js"></script>
     </body>
 </html>

@@ -1,10 +1,10 @@
 html{
-    /*height: 100%;*/
+    height: 100%;
 }
 body{
     position: relative;
     background-color: #F7F7F7;
-    /*height: 100%;*/
+    height: 100%;
     margin: 0;
 }
 p{
@@ -42,7 +42,7 @@ div.header .title{
 }
 div.header .title p{
     font-size: 20px;
-    color: #e0e0e0;
+    color: #fff;
     margin: 0;
 }
 div.header .category{
@@ -63,14 +63,14 @@ div.main{
 
 
 /* ----------------- top player ----------------- */
-div.top{
+.top{
     position: relative;
     width: 100%;
     height: 326px;
     margin: 0 auto;
     background-color: #202124;
 }
-div.player{
+.player{
     position: relative;
     width: 100%;
     height: 100%;
@@ -82,7 +82,15 @@ div.player{
     display: block;
     padding-top: 56.25%;
 }
-div.player .curtain{
+.exposure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+}
+.player .curtain{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -341,7 +349,7 @@ div.watching{
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #e0e0e0;
+    background-color: #fff;
     border-radius: 10px;
     z-index: 1;
 }
