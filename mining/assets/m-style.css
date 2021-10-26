@@ -5,50 +5,71 @@
     }
     div.yt-chat{ width: 29%; }
 }
+
 @media screen and (max-width: 1650px) {
     #jquery-ui-draggable{
         margin-left: -43%;
         margin-top: -22%;
     }
 }
+
 @media screen and (max-width: 1500px) {
-    #jquery-ui-draggable{
-        margin-left: -47%;
-    }
+    #jquery-ui-draggable{ margin-left: -47%; }
 }
+
 @media screen and (max-width: 1350px) {
     #jquery-ui-draggable{
         width: 1000px;
         margin-left: -40%;
         margin-top: -27%;
     }
-    div.yt-status{
-        width: 37.4%;
-    }
-    div.yt-main{
-        width: 62%;
-    }
-    div.yt-chat{
-        display: none;
-    }
-    div.yt-status .chatbtn{
-        display: inline-block !important;
-    }
+    div.yt-status{ width: 37.4%; }
+    div.yt-main{ width: 62%; }
+    div.yt-chat{ display: none; }
+    div.yt-status .chatbtn{ display: inline-block !important; }
 }
+
 @media screen and (max-width: 1200px) {
     #jquery-ui-draggable{
         margin-left: -46%;
         margin-top: -31%;
     }
 }
+
 @media screen and (max-width: 450px) {
+    #jquery-ui-draggable{
+        top: 3%;
+        left: 5%;
+        width: 369px;
+        margin-top: unset;
+        margin-left: unset;
+    }
     div.top{ display: none; }
-    div.control{ margin-top: 0; }
+    div.control{
+        margin-top: 0;
+        height: unset;
+    }
+    div.control .game-filter{ width: 215px; }
+    div.counter{ display: block !important; }
     li.item{
         width: 190px;
         margin: 0 2px 20px 2px;
     }
+    div.yt-status{
+        position: absolute;
+        top: 30%;
+        height: 70%;
+        width: 100%;
+    }
+    div.ytplayer{
+        position: absolute;
+        top: 0;
+        height: 30%;
+    }
+    div.yt-details{ display: none; }
+    div.yt-chat{ display: none; }
 }
+
 @media screen and (max-width: 400px) {
     li.item{
         width: 80%;

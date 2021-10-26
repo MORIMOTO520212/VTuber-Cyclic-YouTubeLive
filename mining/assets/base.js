@@ -64,8 +64,8 @@ function randomSetYouTube(){
     function sleep1(){
         element_yt.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel="+streamings[i]["channelId"]+"&autoplay=1&mute=1&controls=0&modestbranding=0&showinfo=0");
 
-        streamingChannel                   = streamings[i]["channelId"];
         console.log("Channel ID: "+streamings[i]["channelId"]);
+        streamingChannel                   = streamings[i]["channelId"];
         element_main_videoTitle.innerHTML  = streamings[i]["videoTitle"];        // メイン画面の動画タイトル
         element_main_userName.innerHTML    = "undefined";                        // ~ 初期設定 ~
         element_main_userName.innerHTML    = streamings[i]["userName"];          // メイン画面のユーザー名

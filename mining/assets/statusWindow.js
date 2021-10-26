@@ -99,6 +99,10 @@ function closeStatusWindow(){
     element_statusWindow.setAttribute("style", "display: none;"); // close window
     element_chatform.setAttribute("src", ""); // close chat
     element_youtube.setAttribute("src", "https://www.youtube.com/embed/live_stream?channel=?"); // close youtube
+    // close chat
+    e_underChat.setAttribute("style", "display:none");
+    e_underChatform.setAttribute("src", "");
+    e_underChatBtn.innerText = "チャット欄を表示";
     underChat_status = 0; // close under chat
 }
 
