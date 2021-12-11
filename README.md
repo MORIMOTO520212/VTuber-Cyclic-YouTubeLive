@@ -165,6 +165,8 @@ https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
 https://www.youtube.com/channel/UCGWuFFzyiCWoP-e426DoqZg
 ぬりたくる
 https://www.youtube.com/channel/UCqMtUZ2VHZS2lvi-fwh9icA
+星五レア
+https://www.youtube.com/channel/UC4CWBeZnYSHERVvUlrLo9GA
 
 ### streamdata.json 修正
 TwitterID変更: sakanachan_chan → sakanachan_ch
