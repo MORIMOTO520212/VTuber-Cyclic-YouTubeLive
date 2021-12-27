@@ -2,7 +2,7 @@ import os, json, settings
 #   Database Addition
 #   streamdata.jsonへ新しいキーを追加する
 #   追加したいキーと内容を入力してください
-KEY = ""
+KEY = "twitterUserId"
 VALUE = ""
 #   {"KEY": "VALUE"}
 #
