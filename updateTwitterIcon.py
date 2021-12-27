@@ -1,14 +1,17 @@
 # updateTwitterIcon.py
-# ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。
-# Created : 2020/10/29
+# Description: ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。
+# Created: 2020.10.29
+# Update: 2021.12.27
+# Author: YUMA.morimoto
 import os, json, settings, tweepy, datetime
+from module import twitter_user_id as tui
 from time import sleep
 
 # 動作環境
 if os.name == "nt": OS = "windows"
 if os.name == "posix": OS = "linux"
-# 更新間隔(秒)
-delay = 3600*12 # 12時間
+# 更新間隔（秒）
+delay = 3600*12 # 12時間待機
 # クロールの分割
 segment = 0
 
@@ -16,64 +19,81 @@ print("updateTwitterIcon.py")
 print("ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。")
 print("Created : 2020/10/29")
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
-print("tweepy API...")
+print("load tweepy API...")
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth_handler=auth)
 
 print("complete.")
 
-# スタートアップメッセージ
-now = datetime.datetime.now()
-open(settings.messageLogPath(OS), "a").write("{} ---- run updateTwitterIcon.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+def writeLog(type, msg):
+    now = datetime.datetime.now()
+    if 'message' == type:
+        open(settings.messageLogPath(OS), "a").write(
+            f'{now.strftime("%Y/%m/%d %H:%M:%S")} [UTI] ' + msg)
+    if 'error' == type:
+        open(settings.errorLogPath(OS), "a").write(
+            f'{now.strftime("%Y/%m/%d %H:%M:%S")} [UTI] ' + msg)
 
 def main():
     global segment
     try:
-        with open(settings.streamDataPath(OS), "r") as f:
+        with open(settings.streamDataPath(OS), "r") as f: # streamdata.json 読み込み
             streamdata = json.load(f)
 
-        channelKeys = list(streamdata.keys()) # channel id list
+        channelKeys = list(streamdata.keys()) # Channel Id リスト
 
-        # channel id 2分割
+        # Channel Id 2分割
+        #（Twitterが凍結する可能性があるので2分割で時間を空けてチェックする）
         if 0 == segment:
             channelKeys = channelKeys[:int(len(list(streamdata.keys()))/2)]
-            segment = 1
+            segment ^= 1 # 反転
         elif 1 == segment:
             channelKeys = channelKeys[int(len(list(streamdata.keys()))/2):]
-            segment = 0
+            segment ^= 1
 
         for channelId in channelKeys:
             now = datetime.datetime.now()
             usrRoot = streamdata[channelId]
-            if usrRoot["active_badge"]:
+            if usrRoot["active_badge"]: # Active Badge が有効なアカウントの場合
                 try:
-                    print(usrRoot["userName"])
-                    userStatus = api.get_user(usrRoot["twitterId"])
+                    print(usrRoot["userName"]) # ユーザー名表示
+                    userStatus = api.get_user(usrRoot["twitterId"]) # ユーザー情報取得
                     photo = userStatus.profile_image_url_https
                     photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
+
                     if photo != usrRoot["photo"]:
-                        usrRoot["photo"] = photo
-                        usrRoot["iconUpdateCount"] += 1
-                        # 最終アイコンアップデート日
-                        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S")
+                        usrRoot["photo"] = photo        # アイコン更新
+                        usrRoot["iconUpdateCount"] += 1 # アップデート回数更新
+                        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S") # 最終アイコンアップデート日更新
                         
-                        message = "{} [UTI] {}さんのアイコンデータを更新しました.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), usrRoot["userName"])
-                        open(settings.messageLogPath(OS), "a").write(message)
+                        writeLog('message', f'{usrRoot["userName"]}さんのアイコンデータを更新しました.\n')
                         print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
+
                 except Exception as e:
                     if "User not found" in str(e): # Twitterアカウントが見つからなかった場合
-                        message = "{} [UTI] \"{}\" {}さんのTwitterのアカウントが見つかりませんでした.\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), channelId, usrRoot["userName"])
-                        open(settings.messageLogPath(OS), "a").write(message)
-                        print(message)
+                        writeLog('message', f'\"{channelId}\" {usrRoot["userName"]}さんのTwitterのアカウントが見つかりませんでした.\n')
+
+                        twitterId = tui.searchTwitterId(usrRoot["twitterUserId"]) # ユーザーIDからTwitterIDを検索
+                        if twitterId: # twitterIdの取得に成功した場合
+                            writeLog('message', f'{twitterId} TwitterIdの取得に成功しました.')
+                            print(twitterId,"TwitterIdの取得に成功しました.")
+                        else:
+                            writeLog('message', f'{usrRoot["twitterId"]} アカウントが存在しません.')
+                            print(usrRoot["twitterId"], "アカウントが存在しません.")
+
                     else:
-                        open(settings.errorLogPath(OS), "a").write("{} [UTI] {}".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(e)))
+                        writeLog('error', str(e))
                 sleep(1)
         return streamdata
+        
     except Exception as e:
         print(str(e))
         open(".semaphore", "w").write("1")
         exit()
+
+# スタートアップメッセージ
+writeLog('message', '---- run updateTwitterIcon.py ----\n')
 
 while True:
     # セマフォ確認
@@ -87,7 +107,7 @@ while True:
         with open(settings.streamDataPath(OS), "w") as f:
             json.dump(streamdata, f, indent=4) # 保存
         now = datetime.datetime.now()
-        open(settings.messageLogPath(OS), "a").write("{} [UTI] アイコンアップデート完了.\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+        writeLog('message', 'アイコンアップデート完了.\n')
 
         open(".semaphore", "w").write("1")
         print("待機中...")
