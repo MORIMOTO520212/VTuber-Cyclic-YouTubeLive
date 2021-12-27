@@ -167,9 +167,16 @@ https://www.youtube.com/channel/UCGWuFFzyiCWoP-e426DoqZg
 https://www.youtube.com/channel/UCqMtUZ2VHZS2lvi-fwh9icA
 星五レア
 https://www.youtube.com/channel/UC4CWBeZnYSHERVvUlrLo9GA
+絵都えとら
+https://www.youtube.com/channel/UCwY13RnqWK4FNFeHGrK96Gw
+ばっち
+https://www.youtube.com/channel/UCGQafo6W2ZI5MiSTHKfOF4w
 
 ### streamdata.json 修正
-TwitterID変更: sakanachan_chan → sakanachan_ch
+TwitterID変更:
+sakanachan_chan → sakanachan_ch
+72525Listiv2 → 72525Osaka2
+nemu_ru08 → nemumi_ruth
 
 ### NOTE   
 - VTuber採掘所でハイライト動画が再生されない  
