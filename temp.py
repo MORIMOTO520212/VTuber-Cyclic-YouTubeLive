@@ -1,5 +1,5 @@
 from module import twitter_user_id as tui
-import settings, json
+import json
 
 with open('database/streamdata.json', 'r') as f:
     streamData = json.load(f)

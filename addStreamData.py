@@ -1,4 +1,5 @@
 import os, json, tweepy, settings, datetime
+from module import twitter_user_id as tui
 
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath() # settings.py -> tweepyKeyPath()
 
@@ -23,7 +24,7 @@ for channelId in data:
 
 print("登録済ライバー数："+str(len(userName)))
 
-def add(in_userName, in_twitterId, photo, channelId):
+def add(in_userName, in_twitterId, photo, channelId, twitterUserId):
     userData = {}
     now = datetime.datetime.now()
     userData["userName"]  = in_userName
@@ -44,6 +45,7 @@ def add(in_userName, in_twitterId, photo, channelId):
     userData["games"]  = []
     userData["collab"] = []
     userData["active_badge"] = True
+    userData["twitterUserId"] = twitterUserId
     data[channelId] = userData
     userName.append(in_userName)
 
@@ -65,8 +67,13 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
             except:
                 print("ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
                 photo = input("TwitterアイコンURL：")
+            
+            twitterUserId = tui.getTwitterUserId(in_twitterId)
+            if not twitterUserId:
+                print("Twitter User Idがidtwi.comから取得できませんでした。")
+                twitterUserId = input("Twitter User Idを手動で入力してください >")
 
-            add(in_userName, in_twitterId, photo, channelId)
+            add(in_userName, in_twitterId, photo, channelId, twitterUserId)
             print()
 
         except KeyboardInterrupt:
