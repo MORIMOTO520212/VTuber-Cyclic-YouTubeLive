@@ -1,7 +1,7 @@
 var e_message_log = document.getElementById("message_log");
 var e_error_log   = document.getElementById("error_log");
 
-/* get log */
+/* ログ取得 */
 function messageLog(log){
     console.log("get message log.");
     e_message_log.innerText = "- message log -" + log;

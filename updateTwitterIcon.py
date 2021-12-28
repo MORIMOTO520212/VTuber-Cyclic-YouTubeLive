@@ -76,10 +76,10 @@ def main():
 
                         twitterId = tui.searchTwitterId(usrRoot["twitterUserId"]) # ユーザーIDからTwitterIDを検索
                         if twitterId: # twitterIdの取得に成功した場合
-                            writeLog('message', f'{twitterId} TwitterIdの取得に成功しました.')
+                            writeLog('message', f'{twitterId} TwitterIdの取得に成功しました.\n')
                             print(twitterId,"TwitterIdの取得に成功しました.")
                         else:
-                            writeLog('message', f'{usrRoot["twitterId"]} アカウントが存在しません.')
+                            writeLog('message', f'{usrRoot["twitterId"]} アカウントが存在しません.\n')
                             print(usrRoot["twitterId"], "アカウントが存在しません.")
 
                     else:

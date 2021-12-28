@@ -31,7 +31,7 @@ def idChangeDataPath(os):
 
 # メッセージログの場所
 def messageLogPath(os):
-    'messageLogPath(str) <- windows, linux'
+    'messageLogPath(str) <- `windows`, `linux`'
     if os == "windows":
         return "message.log"
     if os == "linux":
@@ -40,16 +40,24 @@ def messageLogPath(os):
 
 # エラーログの場所
 def errorLogPath(os):
-    'errorLogPath(str) <- windows, linux'
+    'errorLogPath(str) <- `windows`, `linux`'
     if os == "windows":
         return "error.log"
     if os == "linux":
         return "/var/www/html/log/error.log"
     return False
 
+# ストリーミングログの場所
+def streamingLogPath(os):
+    'streamingLogPath(str) <- `windows`, `linux`'
+    if os == "windows":
+        return "log/streaming"
+    if os == "linux":
+        return "/var/www/html/log/streaming"
+
 # Chromeのプロファイルの場所（streamingSearchChrome.pyを使う場合）
 def chromeProfilePath(os):
-    'chromeProfilePath(str) <- windows, linux'
+    'chromeProfilePath(str) <- `windows`, `linux`'
     if os == "windows":
         return "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
     if os == "linux":
@@ -58,7 +66,7 @@ def chromeProfilePath(os):
 
 # Firefoxのプロファイルの場所
 def firefoxProfilePath(os):
-    'firefoxProfilePath(str) <- windows, linux'
+    'firefoxProfilePath(str) <- `windows`, `linux`'
     if os == "windows":
         return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
     if os == "linux":

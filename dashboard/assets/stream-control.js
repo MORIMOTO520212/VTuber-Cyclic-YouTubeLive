@@ -1,13 +1,9 @@
-/* * * * * * * * * * * * * * * * * * *
-
-    VTuber Cyclic Live Streaming 
-    update: 2020/10/13
-    GitHub:
-    Twitter: @Medaka_bridle
-
-* * * * * * * * * * * * * * * * * * */
-
-
+/* * * * * * * * * * * *
+    stream-control.js 
+    create: 2020.10.13
+    update: 2021.12.28
+    author: YUMA.morimoto
+* * * * * * * * * * * * */
 
 var streamingChannel    = "";
 var element_youtube     = document.getElementById("youtube");
@@ -24,7 +20,8 @@ var element_counter         = document.getElementById("counter");
 var element_embed_verify    = document.getElementById("embedVerify");
 var element_visual_main     = document.getElementById("visual_main");
 
-/* Streaming Update 5.0s */
+/* 配信中のチャンネル一覧を表示する */
+// Update: 5.0s
 var streamings;
 var usrCounter;
 function intervalStreamingData(){
@@ -48,7 +45,7 @@ intervalStreamingData();
 setInterval(intervalStreamingData, 5000);
 
 
-/* Streaming */
+/* ミニプレーヤー */
 var videoId;
 function setYouTube(channelId){
     console.log("setYouTube");
@@ -97,7 +94,7 @@ function onPlayerStateChange(event) {
     apiCheck = true;
 }
 
-/* embed verify */
+/* 埋め込み検証 */
 function embed_verify() {
     channelId = element_embed_verify.value;
     channelId = channelId.replace("https://www.youtube.com/channel/", "");
@@ -106,32 +103,41 @@ function embed_verify() {
 
 
 
-/* stream data editor */
+/* streamData.json表示 */
 var streamData;
 var streamElementSource;
 function StreamData(jsonData){
-    stremData = jsonData;
+    streamData = jsonData;
     streamElementSource = "<p>{</p>";
-    Object.keys(stremData).forEach(channelId => {
-        let userName = stremData[channelId]["userName"];
-        let twitterId = stremData[channelId]["twitterId"];
-        let photo = stremData[channelId]["photo"];
-        streamElementSource += '\
-        <div class="channelId">\
-            <input type="text" id="" style="width:'+channelId.length*8+'px" value="'+ channelId +'"><p>: {</p></div>\
-            <div class="elem2 userName">\
-                <p>"userName": </p>\
-                <input type="text" id="" style="width:'+userName.length*15+'px" value="'+ userName +'">\
-            </div>\
-            <div class="elem2 twitterId">\
-                <p>"twitterId": </p>\
-                <input type="text" id="" style="width:'+twitterId.length*8+'px" value=\"'+ twitterId +'">\
-            </div>\
-            <div class="elem2 photo">\
-                <p>"photo": </p>\
-                <input type="text" id="" style="width:255px" value="'+ photo +'">\
-            </div>\
-            <p class="ct">},</p>';
+    Object.keys(streamData).forEach(channelId => {
+        let userName = streamData[channelId]["userName"];
+        let twitterId = streamData[channelId]["twitterId"];
+        let photo = streamData[channelId]["photo"];
+        let twitterUserId = streamData[channelId]["twitterUserId"];
+        // twitter User Idが見つからなかった場合はundefinedを入れる
+        if(twitterUserId==undefined) twitterUserId = "undefined";
+        streamElementSource += `
+        <div class="channelId">
+            <input type="text" id="" style="width:${channelId.length*8}px" value="${channelId}">
+            <p>: {</p>
+        </div>
+        <div class="elem2 userName">
+            <p>"userName": </p>
+            <input type="text" id="" style="width:${userName.length*15}px" value="${userName}">
+        </div>
+        <div class="elem2 twitterId">
+            <p>"twitterId": </p>
+            <input type="text" id="" style="width:${twitterId.length*8}px" value="${twitterId}">
+        </div>
+        <div class="elem2 photo">
+            <p>"photo": </p>
+            <input type="text" id="" style="width:255px" value="${photo}">
+        </div>
+        <div class="elem2 twitterUserId">
+            <p>twitterUserId: </p>
+            <input type="text" id="" style="width:${twitterUserId.length*5}px" value="${twitterUserId}">
+        </div>
+        <p class="ct">},</p>`;
     });
     streamElementSource += "<p>}</p>";
     element_visual_main.innerHTML = streamElementSource;
