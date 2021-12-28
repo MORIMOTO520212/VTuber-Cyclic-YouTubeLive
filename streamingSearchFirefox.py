@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
-import os, json, settings, datetime
+import re, os, json, time, settings, datetime
 
 print("ライブ配信サーチ\n3分ごとに更新します。終了するにはCtril + Cを押してください。")
 
@@ -221,7 +221,8 @@ def updateStatus(usrRoot, play):
 
 def collab(videoTitle):
     '動画のタイトルからコラボを検出する'
-    collab_list = []
+    collab_list = [] # コラボしたアカウントリスト
+    status_collab = False # コラボが検出されればTrue
     for channelId in streamdata.keys():
         userName = streamdata[channelId]["userName"]
         namef_L = namef_R = False
@@ -238,6 +239,7 @@ def collab(videoTitle):
                     namef_R = True
             if namef_L == True and namef_R == True:
                 collab_list.append(channelId)
+                status_collab = True
 
     for channelId_collab in collab_list: # channelId_collab 追加するアカウント
 
@@ -248,6 +250,7 @@ def collab(videoTitle):
                     if cc_other == cccheck: break
                 else: # コラボライバーを配列に記録
                     streamdata[channelId_collab]["collab"].append(cc_other)
+    return status_collab
 
 def activBadgeCheck():
     'アクティブバッジを更新する'
@@ -257,6 +260,55 @@ def activBadgeCheck():
         active_badge = streamingData_before[i]["active_badge"]
         streamdata[channelId]["active_badge"] = active_badge
         i += 1
+
+def streamingLog(streamingChannels):
+    # リアルタイムログの記録
+    print("write streaming log.")
+    now = datetime.datetime.now() # 年月日
+    fileName = settings.streamingLogPath(OS) + f'/streamingLog_{now.strftime("%Y%m%d")}.json'
+
+    is_file = os.path.isfile(fileName)
+    if is_file:
+        with open(fileName, 'r') as f:
+            streamingLogData = json.load(f)
+    else:
+        streamingLogData = []
+
+    newDict = {}
+    newDict["timestamp"] = int(time.time())   # 記録時間
+    newDict["users"] = len(streamingChannels) # 配信者数
+    newDict["details"] = []
+
+    for channel in streamingChannels:
+        channelId  = channel["channelId"]     # チャンネルID
+        videoTitle = channel["videoTitle"]
+        pattern    = "(?<=【).+?(?=】)"
+
+        res = re.findall(pattern, videoTitle) #【】内の文字列
+        if res:
+            videoTag = res[0]
+        else:
+            videoTag = False
+
+        play = channel["play"] # プレイゲーム名　無効な場合はFalse
+        if play:
+            productName = play["product"]
+        else:
+            productName = False
+            
+        newDict["details"].append({
+            "channelId": channelId,
+            "videoTag": videoTag,
+            "streamingNumber": channel["streamingNumber"], # 同時接続者数
+            "livePoint": channel["livePoint"], # ライブポイント
+            "play": productName,
+        })
+
+    streamingLogData.append(newDict)
+
+    with open(fileName, 'w') as f:
+        json.dump(streamingLogData, f, indent=4)
+
 
 while True:
     # セマフォ確認
@@ -304,7 +356,7 @@ while True:
 
                         play = playGame(videoTitle)
 
-                        collab(videoTitle)
+                        status_collab = collab(videoTitle)
 
                         streamingChannels.append({ # ストリーミングに追加
                             "channelId": channelId,
@@ -327,11 +379,11 @@ while True:
                         # ライバーステータス更新
                         updateStatus(usrRoot, play)
 
-
         if streamingChannels != []: # 配信者がいた場合
             print("sort channel.")
-            sort()
-            activBadgeCheck()
+            sort() # 並び替え
+            activBadgeCheck() # 有効ユーザーの確認
+            streamingLog(streamingChannels) # リアルタイムログ記録
 
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 

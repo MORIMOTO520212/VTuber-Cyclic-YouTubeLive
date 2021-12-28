@@ -9,7 +9,7 @@ def streamDataPath(os):
         return "database/streamdata.json"
     if os == "linux":
         return "/var/www/html/database/streamdata.json"
-    return False
+    return "false"
 
 # ストリーミングデータの場所
 def streamingDataPath(os):
@@ -18,7 +18,7 @@ def streamingDataPath(os):
         return "assets/streaming.json"
     if os == "linux":
         return "/var/www/html/assets/streaming.json"
-    return False
+    return "false"
 
 # ユーザーID変換データの場所
 def idChangeDataPath(os):
@@ -27,7 +27,7 @@ def idChangeDataPath(os):
         return "database/idChangeData.json"
     if os == "linux":
         return "/var/www/html/database/idChangeData.json"
-    return False
+    return "false"
 
 # メッセージログの場所
 def messageLogPath(os):
@@ -36,7 +36,7 @@ def messageLogPath(os):
         return "message.log"
     if os == "linux":
         return "/var/www/html/log/message.log"
-    return False
+    return "false"
 
 # エラーログの場所
 def errorLogPath(os):
@@ -45,7 +45,7 @@ def errorLogPath(os):
         return "error.log"
     if os == "linux":
         return "/var/www/html/log/error.log"
-    return False
+    return "false"
 
 # ストリーミングログの場所
 def streamingLogPath(os):
@@ -54,6 +54,7 @@ def streamingLogPath(os):
         return "log/streaming"
     if os == "linux":
         return "/var/www/html/log/streaming"
+    return "false"
 
 # Chromeのプロファイルの場所（streamingSearchChrome.pyを使う場合）
 def chromeProfilePath(os):
@@ -62,7 +63,7 @@ def chromeProfilePath(os):
         return "C:\\Users\\kante\\AppData\\Local\\Google\\Chrome\\User Data2"
     if os == "linux":
         return ""
-    return False
+    return "false"
 
 # Firefoxのプロファイルの場所
 def firefoxProfilePath(os):
@@ -71,7 +72,7 @@ def firefoxProfilePath(os):
         return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
     if os == "linux":
         return "firefox-profile"
-    return False
+    return "false"
 
 # Firefoxブラウザーの場所
 def firefoxBinaryPath(os):
@@ -80,7 +81,7 @@ def firefoxBinaryPath(os):
         return "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
     if os == "linux":
         return ""
-    return False
+    return "false"
 
 # ゲームデータの場所
 def gamesDataPath(os):
@@ -89,7 +90,7 @@ def gamesDataPath(os):
         return "database/games.json"
     if os == "linux":
         return "/var/www/html/database/games.json"
-    return False
+    return "false"
 
 # Tweepy
 def tweepyKeyPath():
