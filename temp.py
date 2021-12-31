@@ -1,3 +1,4 @@
+# TwitterUserIdを登録する
 from module import twitter_user_id as tui
 import json
 
