@@ -46,7 +46,7 @@
     }
     div.top{ display: none; }
     div.control{
-        margin-top: 0;
+        margin: 0 10px;
         height: unset;
     }
     div.control .game-filter{ width: 215px; }

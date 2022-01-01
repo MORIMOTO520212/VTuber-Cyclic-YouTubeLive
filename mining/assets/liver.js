@@ -87,7 +87,7 @@ function liverViewer(filtering_game, sortAudience) {
         }
         source += "<hr>";
     }
-    HappyNewYear();
+    //HappyNewYear();
 
     for(var i=0;  i < streamings.length; i++){
         /* ゲームフィルターが有効な場合、線を引いて分割 */
