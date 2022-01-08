@@ -299,9 +299,10 @@ def streamingLog(streamingChannels):
         newDict["details"].append({
             "channelId": channelId,
             "videoTag": videoTag,
+            "videoTitle": videoTitle,
             "streamingNumber": channel["streamingNumber"], # 同時接続者数
             "livePoint": channel["livePoint"], # ライブポイント
-            "play": productName,
+            "play": productName
         })
 
     streamingLogData.append(newDict)
