@@ -71,6 +71,7 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
             twitterUserId = tui.getTwitterUserId(in_twitterId)
             if not twitterUserId:
                 print("Twitter User Idがidtwi.comから取得できませんでした。")
+                print("Twitter ID:",in_twitterId)
                 twitterUserId = input("Twitter User Idを手動で入力してください >")
 
             add(in_userName, in_twitterId, photo, channelId, twitterUserId)
@@ -99,7 +100,13 @@ else:
             except:
                 print(in_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
                 photo = input("TwitterアイコンURL：")
-            
+
+            twitterUserId = tui.getTwitterUserId(in_twitterId)
+            if not twitterUserId:
+                print("Twitter User Idがidtwi.comから取得できませんでした。")
+                print("Twitter ID:",in_twitterId)
+                twitterUserId = input("Twitter User Idを手動で入力してください >")
+
             i += 1 # 3 ChannelId
             print(in_userName)
             print(in_twitterId)
@@ -109,7 +116,7 @@ else:
             if in_userName in userName:
                 print(in_userName, "既に登録済みのユーザーです。")
             else:
-                add(in_userName, in_twitterId, photo, channels[i])
+                add(in_userName, in_twitterId, photo, channels[i], twitterUserId)
             i += 1
     except KeyboardInterrupt:
         input("\nエンターキーを押して終了します。")
