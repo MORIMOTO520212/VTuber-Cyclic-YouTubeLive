@@ -7,7 +7,7 @@ with open('database/streamdata.json', 'r') as f:
 
 try:
     for channelId in streamData.keys():
-        try: _tui = streamData[channelId]["twitterUserId"]
+        try: _dummy = streamData[channelId]["twitterUserId"]
         except:
             twitterUserId = tui.getTwitterUserId(streamData[channelId]["twitterId"])
             print(streamData[channelId]["userName"], twitterUserId)

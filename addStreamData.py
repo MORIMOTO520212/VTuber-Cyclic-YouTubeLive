@@ -1,5 +1,4 @@
 import os, json, tweepy, settings, datetime
-from module import twitter_user_id as tui
 
 consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath() # settings.py -> tweepyKeyPath()
 
@@ -62,17 +61,13 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
 
             try: # TweepyでTwitterアイコン取得
                 userStatus = api.get_user(in_twitterId)
+                twitterUserId = userStatus.id_str
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
             except:
-                print("ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
+                print("ユーザー情報が取得できませんでした。手動で登録してください。")
                 photo = input("TwitterアイコンURL：")
-            
-            twitterUserId = tui.getTwitterUserId(in_twitterId)
-            if not twitterUserId:
-                print("Twitter User Idがidtwi.comから取得できませんでした。")
-                print("Twitter ID:",in_twitterId)
-                twitterUserId = input("Twitter User Idを手動で入力してください >")
+                twitterUserId = input("ユーザーID：")
 
             add(in_userName, in_twitterId, photo, channelId, twitterUserId)
             print()
@@ -95,17 +90,13 @@ else:
             # TweepyでTwitterアイコン取得
             try:
                 userStatus = api.get_user(in_twitterId)
+                twitterUserId = userStatus.id_str
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
             except:
                 print(in_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
                 photo = input("TwitterアイコンURL：")
-
-            twitterUserId = tui.getTwitterUserId(in_twitterId)
-            if not twitterUserId:
-                print("Twitter User Idがidtwi.comから取得できませんでした。")
-                print("Twitter ID:",in_twitterId)
-                twitterUserId = input("Twitter User Idを手動で入力してください >")
+                twitterUserId = input("ユーザーID：")
 
             i += 1 # 3 ChannelId
             print(in_userName)
@@ -114,7 +105,7 @@ else:
             print("-------------------------------------------")
 
             if in_userName in userName:
-                print(in_userName, "既に登録済みのユーザーです。")
+                print(in_userName, "は、既に登録済みのユーザーです。")
             else:
                 add(in_userName, in_twitterId, photo, channels[i], twitterUserId)
             i += 1
