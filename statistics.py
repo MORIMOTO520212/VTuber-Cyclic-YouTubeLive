@@ -1,4 +1,4 @@
-import sys, json, glob
+import sys, json, glob, datetime
 
 with open("database/streamdata.json", "r") as f:
     streamData = json.load(f)
@@ -70,3 +70,32 @@ if "videoTag" == args[1]:
     with open('videoTag_ranking.csv', 'w', encoding='utf-8') as f:
         f.write(csvData)
     print("complete!")
+
+
+# 曜日ごとの配信者数ランキング
+if "users" == args[1]:
+    streamings = glob.glob('log/streaming/*')
+
+    data_day_of_week = {
+        "Mon": [], "Tue": [], "Wed": [],
+        "Thu": [], "Fri": [], "Sat": [],
+        "Sun": []
+    }
+
+    for streaming in streamings:
+        with open(streaming, 'r') as f:
+            data = json.load(f)
+        
+        for record in data:
+            timestamp = record['timestamp']
+            dt = datetime.datetime.fromtimestamp(timestamp)
+            day_of_week = dt.strftime('%a') # day of week
+            data_day_of_week[day_of_week].append(record['users'])
+    csvData = ""
+    for day in data_day_of_week.keys():
+        day_lst = data_day_of_week[day]
+        users = sum(day_lst)/len(day_lst)
+        csvData += f"\"{day}\",{round(users)}\n"
+
+    with open('stream_ranking.csv', 'w', encoding='utf-8') as f:
+        f.write(csvData)
