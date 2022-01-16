@@ -311,6 +311,17 @@ def streamingLog(streamingChannels):
     with open(fileName, 'w') as f:
         json.dump(streamingLogData, f, indent=4)
 
+def convertChannelId(userId):
+    'ユーザーIDからチャンネルIDに変換する\n\n引数：userId\n\n戻り値：channelId or False'
+    channelId = userId_to_channelId.convert_channelId(userId)
+    if channelId == False: # 取得できなかった
+        print("チャンネルID自動取得できませんでした："+userId)
+        writeLog('message', "チャンネルID自動取得できませんでした："+userId)
+        return False
+    else: # 取得できた
+        print("チャンネルID自動取得："+userId)
+        writeLog('message', "チャンネルID自動取得："+userId)
+        return channelId
 
 while True:
     # セマフォ確認
@@ -336,26 +347,21 @@ while True:
             channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl = search(detail)
 
             if streamingNow == "ライブ配信中" or streamingNow == "LIVE NOW":
-                # 登録済か未登録か
-                for channelIdData in streamdata.keys():
-                    if channelIdData == channelId:
-                        break
-                else:
+                # streamData未登録の場合
+                if channelId not in list(streamdata.keys()):
                     try:
                         # ユーザーIDでチャンネルIDが取得できた場合
                         channelId = idChangeData[channelId]
                     except:
-                        userId = channelId
-                        print("チャンネルID自動取得："+userId)
-                        writeLog('message', "チャンネルID自動取得："+userId)
-                        channelId = userId_to_channelId.convert_channelId(userId)
-                        if channelId == False: # 取得できなかった
-                            channelId = 'unregistered'
-                        else: # 取得できた
-                            idChangeData[userId] = channelId
-                            with open(settings.idChangeDataPath(OS), "w") as f:
-                                json.dump(idChangeData, f, indent=2)
-
+                        if 24 != len(channelId): # channelIdではなかった場合
+                            userId = channelId
+                            channelId = convertChannelId(userId)
+                            if channelId == False:
+                                channelId = 'unregistered'
+                            else:
+                                idChangeData[userId] = channelId
+                                with open(settings.idChangeDataPath(OS), "w") as f:
+                                    json.dump(idChangeData, f, indent=2)
 
                 if channelId != 'unregistered': # 登録済みユーザーのみ
                     
