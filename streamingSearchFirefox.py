@@ -1,6 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from time import sleep
+from module import userId_to_channelId
 import re, os, json, time, settings, datetime
 
 print("ライブ配信サーチ\n3分ごとに更新します。終了するにはCtril + Cを押してください。")
@@ -340,15 +341,26 @@ while True:
                     if channelIdData == channelId:
                         break
                 else:
-                    try: channelId = idChangeData[channelId] # ユーザーIDでチャンネルIDが取得できた場合
+                    try:
+                        # ユーザーIDでチャンネルIDが取得できた場合
+                        channelId = idChangeData[channelId]
                     except:
-                        print("未登録のライバー："+channelId)
-                        writeLog('message', f'未登録のライバー：\"{channelId}\"\n')
-                        channelId = 'unregistered'
+                        userId = channelId
+                        print("チャンネルID自動取得："+userId)
+                        writeLog('message', "チャンネルID自動取得："+userId)
+                        channelId = userId_to_channelId.convert_channelId(userId)
+                        if channelId == False: # 取得できなかった
+                            channelId = 'unregistered'
+                        else: # 取得できた
+                            idChangeData[userId] = channelId
+                            with open(settings.idChangeDataPath(OS), "w") as f:
+                                json.dump(idChangeData, f, indent=2)
+
 
                 if channelId != 'unregistered': # 登録済みユーザーのみ
                     
-                    if channelId not in str(streamingChannels): # 同じユーザーを2度取得している場合がある
+                    # スクレイピングで同じユーザーを2度取得している場合がある
+                    if channelId not in str(streamingChannels):
                         try:
                             usrRoot = streamdata[channelId]
                         except:
@@ -357,7 +369,7 @@ while True:
 
                         play = playGame(videoTitle)
 
-                        status_collab = collab(videoTitle)
+                        collab(videoTitle)
 
                         streamingChannels.append({ # ストリーミングに追加
                             "channelId": channelId,
@@ -382,7 +394,7 @@ while True:
 
         if streamingChannels != []: # 配信者がいた場合
             print("sort channel.")
-            sort() # 並び替え
+            sort() # streamingChannelsを並び替える
             activBadgeCheck() # 有効ユーザーの確認
             streamingLog(streamingChannels) # リアルタイムログ記録
 
@@ -394,7 +406,7 @@ while True:
             json.dump(streamingData, f)
 
         with open(settings.streamDataPath(OS), 'w') as f:
-            json.dump(streamdata, f, indent=4)
+            json.dump(streamdata, f, indent=2)
 
         # 3分間待機
         open(".semaphore", "w").write("1")
