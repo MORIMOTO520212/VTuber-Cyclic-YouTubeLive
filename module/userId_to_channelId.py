@@ -1,7 +1,7 @@
 # userId_to_channelId.py
 # create: 2022.01.16
 # author: YUMA.morimoto
-# description: 
+# description: ユーザーIDからチャンネルIDに変換する
 
 import re, requests
 

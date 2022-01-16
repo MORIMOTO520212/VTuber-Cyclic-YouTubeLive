@@ -69,7 +69,7 @@ def chromeProfilePath(os):
 def firefoxProfilePath(os):
     'firefoxProfilePath(str) <- `windows`, `linux`'
     if os == "windows":
-        return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\testProfile"
+        return "C:\\Users\\kante\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\5vq40w5z.default-esr"
     if os == "linux":
         return "firefox-profile"
     return "false"

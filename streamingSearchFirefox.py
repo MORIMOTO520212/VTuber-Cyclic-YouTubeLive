@@ -432,5 +432,9 @@ while True:
             driver.quit()
             exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
 
+        if "指定されたパスが見つかりません。" in str(e):
+            open(".semaphore", "w").write('1')
+            exit("指定されたドライバーのプロフィールパスが見つかりませんでした。\n終了します。")
+
         writeLog('error', f'{str(e)}\n')
         open(".semaphore", "w").write("1")
