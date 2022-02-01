@@ -94,8 +94,8 @@ def gamesDataPath(os):
 
 # Tweepy
 def tweepyKeyPath():
-    consumer_key    = 'fOr1fbI9mCK1ztiqbEIMlHfLV'
-    consumer_secret = 'PdVL9Fb166jY7VMjXuA8EkjN4mWNlkEFI6XT3mTIEbqkVDGwMb'
-    access_key      = '4634604300-uYOEizJIhTQWMan2pLtfK9r73nXK5BK0h4rlwf3'
-    access_secret   = '54Dqdt8Kx7CoVKq2XqOSoTsKkTI7liPtpPugaZjGrTbRK'
-    return consumer_key, consumer_secret, access_key, access_secret
+    consumer_key    = 'tTzGX4lHinRIIKf24TusQ3KeS'
+    consumer_secret = 'IbWR0O6pgbSg0eESuc6BrbAmg8p2fCm5B55KB4bnvQqhmArnQa'
+    access_key      = '' # 必要なし
+    access_secret   = '' # 必要なし
+    return consumer_key, consumer_secret

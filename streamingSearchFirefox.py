@@ -327,10 +327,10 @@ while True:
     # セマフォ確認
     while True:
         if "0" == open(".semaphore", "r").read():
-            print("処理待機")
+            print("処理待機 60s...")
             sleep(60)
         else: break
-    open(".semaphore", "w").write("0")
+    open(".semaphore", "w").write("0") # ブロック開始
     try:
         streamingChannels = [] # 取得したデータを書き込む
         streamingData     = [] # 書き込み用

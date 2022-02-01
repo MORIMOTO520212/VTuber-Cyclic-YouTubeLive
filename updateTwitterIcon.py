@@ -16,13 +16,12 @@ delay = 3600*12 # 12時間待機
 segment = 0
 
 print("updateTwitterIcon.py")
-print("ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します。")
+print("ライバーのTwitterアイコンを定期的にチェックし、URLの有効期限が切れていた場合更新します.")
 print("Created : 2020/10/29")
-consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath()
+consumer_key, consumer_secret = settings.tweepyKeyPath()
 print("load tweepy API...")
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
-api = tweepy.API(auth_handler=auth)
+auth = tweepy.OAuth2AppHandler(consumer_key, consumer_secret)
+api = tweepy.API(auth)
 
 print("complete.")
 
@@ -55,17 +54,17 @@ def main():
         for channelId in channelKeys:
             now = datetime.datetime.now()
             usrRoot = streamdata[channelId]
-            if usrRoot["active_badge"]: # Active Badge が有効なアカウントの場合
+            if usrRoot['active_badge']: # Active Badge が有効なアカウントの場合
                 try:
                     print(usrRoot["userName"]) # ユーザー名表示
-                    userStatus = api.get_user(usrRoot["twitterId"]) # ユーザー情報取得
+                    userStatus = api.get_user(screen_name=usrRoot["twitterId"]) # ユーザー情報取得
                     photo = userStatus.profile_image_url_https
                     photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
 
                     if photo != usrRoot["photo"]:
-                        usrRoot["photo"] = photo        # アイコン更新
-                        usrRoot["iconUpdateCount"] += 1 # アップデート回数更新
-                        usrRoot["lastIconUpdateDate"] = now.strftime("%Y/%m/%d %H:%M:%S") # 最終アイコンアップデート日更新
+                        usrRoot['photo'] = photo        # アイコン更新
+                        usrRoot['iconUpdateCount'] += 1 # アップデート回数更新
+                        usrRoot['lastIconUpdateDate'] = now.strftime("%Y/%m/%d %H:%M:%S") # 最終アイコンアップデート日更新
                         
                         writeLog('message', f'{usrRoot["userName"]}さんのアイコンデータを更新しました.\n')
                         print(usrRoot["userName"]+"さんのアイコンデータを更新しました.")
@@ -75,15 +74,21 @@ def main():
                         writeLog('message', f'\"{channelId}\" {usrRoot["userName"]}さんのTwitterのアカウントが見つかりませんでした.\n')
 
                         twitterId = tui.searchTwitterId(usrRoot["twitterUserId"]) # ユーザーIDからTwitterIDを検索
-                        if twitterId: # twitterIdの取得に成功した場合
+
+                        # twitterIdの取得に成功したかどうか
+                        if twitterId:
                             writeLog('message', f'{twitterId} TwitterIdの取得に成功しました.\n')
                             print(twitterId,"TwitterIdの取得に成功しました.")
+                            usrRoot['twitterId'] = twitterId                # TwitterIDを更新
                         else:
-                            writeLog('message', f'{usrRoot["twitterId"]} アカウントが存在しません.\n')
-                            print(usrRoot["twitterId"], "アカウントが存在しません.")
+                            writeLog('message', f'{usrRoot["twitterId"]} アカウントが削除されました.\n')
+                            print(usrRoot["twitterId"], "アカウントが削除されました.")
+
+                    elif "Invalid expired token" in str(e):
+                        writeLog('error', "トークンが失効しました. トークンを更新してください.\n")
 
                     else:
-                        writeLog('error', str(e))
+                        writeLog('error', str(e)+"\n")
                 sleep(1)
         return streamdata
         
@@ -98,9 +103,11 @@ writeLog('message', '---- run updateTwitterIcon.py ----\n')
 while True:
     # セマフォ確認
     while True:
-        if "0" == open(".semaphore", "r").read(): sleep(60)
+        if "0" == open(".semaphore", "r").read():
+            print("処理待機 60s...")
+            sleep(60)
         else: break
-    open(".semaphore", "w").write("0")
+    open(".semaphore", "w").write("0") # ブロック開始
 
     try:
         streamdata = main() # 更新したデータを返す
@@ -109,7 +116,8 @@ while True:
         now = datetime.datetime.now()
         writeLog('message', 'アイコンアップデート完了.\n')
 
-        open(".semaphore", "w").write("1")
+        open(".semaphore", "w").write("1") # ブロック終了
+
         print("待機中...")
         sleep(delay)
     except KeyboardInterrupt:
