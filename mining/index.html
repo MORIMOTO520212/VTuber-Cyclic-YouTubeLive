@@ -76,62 +76,64 @@
         </div>
         <div id="jquery-ui-draggable" class="ui-widget-content" style="display:none">
             <div class="ui-widget-header"></div>
-            <div class="yt-status">
+            <div class="window">
+                <div class="yt-status">
 
-                <div class="block">
-                    <p>動画タイトル</p>
-                    <p id="videoTitle">[ videoTitle ]</p>
-                </div>
-                <div class="block">
-                    <div class="list"><p>ユーザー名</p></div>
-                    <div class="list"><p id="userName">[ userName ]</p></div>
-                </div>
-                <div class="block">
-                    <div class="list"><p>Twitter ID</p></div>
-                    <div class="list"><p id="twitterId">[ twitterId ]</p></div>
-                </div>
-                <div class="block">
-                    <div class="list"><p>Channel ID</p></div>
-                    <div class="list"><p id="channelId">[ channelId ]</p></div>
-                </div>
+                    <div class="block">
+                        <p>動画タイトル</p>
+                        <p id="videoTitle">[ videoTitle ]</p>
+                    </div>
+                    <div class="block">
+                        <div class="list"><p>ユーザー名</p></div>
+                        <div class="list"><p id="userName">[ userName ]</p></div>
+                    </div>
+                    <div class="block">
+                        <div class="list"><p>Twitter ID</p></div>
+                        <div class="list"><p id="twitterId">[ twitterId ]</p></div>
+                    </div>
+                    <div class="block">
+                        <div class="list"><p>Channel ID</p></div>
+                        <div class="list"><p id="channelId">[ channelId ]</p></div>
+                    </div>
 
-                <div id="playgame" class="block" style="display:none;width:100%;">
-                    <p id="playgame_name">プレイ中のゲーム</p>
-                    <a id="playgame_link" href target="_blank" rel="noopener">
-                        <img id="playgame_photo" src>
-                    </a>
-                </div>
+                    <div id="playgame" class="block" style="display:none;width:100%;">
+                        <p id="playgame_name">プレイ中のゲーム</p>
+                        <a id="playgame_link" href target="_blank" rel="noopener">
+                            <img id="playgame_photo" src>
+                        </a>
+                    </div>
 
-                <div class="list"><p>同時接続者数</p></div>
-                <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>
+                    <div class="list"><p>同時接続者数</p></div>
+                    <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>
 
-                <div class="list"><p>ライブポイント</p></div>
-                <div class="list"><p id="livePoint">[ livePoint ]</p></div>
+                    <div class="list"><p>ライブポイント</p></div>
+                    <div class="list"><p id="livePoint">[ livePoint ]</p></div>
 
-                <div class="list" style="border: none;">
-                    <div class="ty-logo"><a id="twitterId_link" href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
-                    <div class="ty-logo"><a id="youtubeId_link" href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
-                </div>
+                    <div class="list" style="border: none;">
+                        <div class="ty-logo"><a id="twitterId_link" href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
+                        <div class="ty-logo"><a id="youtubeId_link" href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
+                    </div>
 
-                <div class="list chatbtn">
-                    <div class="btn">
-                        <a href="javascript:underChatform()"></a>
-                        <p id="underChatBtn">チャット欄を表示</p>
+                    <div class="list chatbtn">
+                        <div class="btn">
+                            <a href="javascript:underChatform()"></a>
+                            <p id="underChatBtn">チャット欄を表示</p>
+                        </div>
+                    </div>
+
+                    <div id="underChat" style="display:none">
+                        <iframe id="underChatform" frameborder="0" src="" allowfullscreen></iframe>
                     </div>
                 </div>
-
-                <div id="underChat" style="display:none">
-                    <iframe id="underChatform" frameborder="0" src="" allowfullscreen></iframe>
+                <div class="yt-main">
+                    <div class="ytplayer"><iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+                    <div class="yt-details">
+                        <canvas id="myChart" width="4" height="2"></canvas>
+                    </div>
                 </div>
-            </div>
-            <div class="yt-main">
-                <div class="ytplayer"><iframe id="youtube" class="youtube" width="1280" height="720" src="https://www.youtube.com/embed/live_stream?channel=&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-                <div class="yt-details">
-                    <canvas id="myChart" width="4" height="2"></canvas>
+                <div class="yt-chat">
+                    <iframe id="chatform" frameborder="0" src="" allowfullscreen></iframe>
                 </div>
-            </div>
-            <div class="yt-chat">
-                <iframe id="chatform" frameborder="0" src="" allowfullscreen></iframe>
             </div>
         </div>
         <script src="assets/liver.js"></script>
