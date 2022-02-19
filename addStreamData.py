@@ -1,10 +1,9 @@
 import os, json, tweepy, settings, datetime
 
-consumer_key, consumer_secret, access_key, access_secret = settings.tweepyKeyPath() # settings.py -> tweepyKeyPath()
-
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
-api = tweepy.API(auth_handler=auth)
+consumer_key, consumer_secret = settings.tweepyKeyPath()
+print("load tweepy API...")
+auth = tweepy.OAuth2AppHandler(consumer_key, consumer_secret)
+api = tweepy.API(auth)
 
 print(" - VTuberの情報をストリームデータに追加します。 -\nCtrl + Cで終了します。")
 print("自動登録する場合はchannels.txtファイルを作成し、名前, TwitterID, チャンネルIDの順に改行を入れて保存してください。\n")
@@ -60,7 +59,7 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
                 continue
 
             try: # TweepyでTwitterアイコン取得
-                userStatus = api.get_user(in_twitterId)
+                userStatus = api.get_user(screen_name=in_twitterId)
                 twitterUserId = userStatus.id_str
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
@@ -89,7 +88,7 @@ else:
             in_twitterId = channels[i]
             # TweepyでTwitterアイコン取得
             try:
-                userStatus = api.get_user(in_twitterId)
+                userStatus = api.get_user(screen_name=in_twitterId)
                 twitterUserId = userStatus.id_str
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")

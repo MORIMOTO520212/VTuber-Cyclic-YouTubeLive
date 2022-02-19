@@ -25,7 +25,8 @@ with open(settings.streamingDataPath(OS), "w") as f:
 # スタートアップメッセージ
 print("complete!")
 now = datetime.datetime.now()
-open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n".format(now.strftime("%Y/%m/%d %H:%M:%S")))
+open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox.py ----\n"
+.format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
 driver = None
 streamingData_before = []
@@ -45,10 +46,20 @@ def loadDataFiles():
 
 def writeLog(type, msg):
     now = datetime.datetime.now()
+
     if "message" == type:
-        open(settings.messageLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
+        msgLogPath = settings.messageLogPath(OS)
+
     if "error" == type:
-        open(settings.errorLogPath(OS), "a").write("{} [SSF] {}\n".format(now.strftime("%Y/%m/%d %H:%M:%S"), str(msg)))
+        msgLogPath = settings.errorLogPath(OS)
+
+    print("{} [SSF] {}\n".format(
+        now.strftime("%Y/%m/%d %H:%M:%S"),
+        str(msg)))
+
+    open(msgLogPath, "a").write("{} [SSF] {}\n".format(
+        now.strftime("%Y/%m/%d %H:%M:%S"),
+        str(msg)))
 
 def getSource():
     'YouTubeからデータをスクレイピングする'
@@ -57,27 +68,28 @@ def getSource():
     print("getSource: driver get.")
     # ヘッドレスモードでユーザープロファイルを使う
     Options = webdriver.FirefoxOptions()
-    Options.headless = True #Options.set_headless() Linuxでは非推奨
+    Options.headless = True # Options.set_headless() Linuxでは非推奨
     PROFILE_PATH = settings.firefoxProfilePath(OS)
     Options.profile = PROFILE_PATH
     driver = webdriver.Firefox(options=Options) # ドライバー起動 firefox_optionsはLinuxでは非推奨
     driver.get("https://www.youtube.com/feed/subscriptions")
+    sleep(10)
 
     # 2つ目のチャンネルブロックを取得するために最下部までスクロール
     print("getSource: window scroll.")
+
     driver.execute_script("window.scrollTo(0, 5000);")
     soup = ""
     for _ in range(5): # スクロールの検出とソースの取得　タイムアウト時間最大50秒
         sleep(10)
         source = driver.page_source
         soup = BeautifulSoup(source, 'html.parser')
-        channelbrock = soup.find_all("ytd-item-section-renderer", class_=["style-scope", "ytd-section-list-renderer"])
-        if 2 == len(channelbrock): break
+        channelblock = driver.find_elements_by_css_selector('#contents > ytd-item-section-renderer')
+        if 2 == len(channelblock): break
         else:
             driver.save_screenshot("screenshot.png")
-            print("再試行{}：2つのチャンネルブロックのロードが完了しませんでした。".format(str(_+1)))
-            writeLog('error', f'{str(_+1)}：2つのチャンネルブロックのロードが完了しませんでした。\n')
-            driver.execute_script("window.scrollTo(0, 1000);")
+            writeLog('error', f"再試行{str(_+1)}：2つ目のチャンネルブロックのロードが完了しませんでした.")
+            driver.execute_script("window.scrollTo(0, 5000);")
 
     print("getSource: find all div tag.")
     details = soup.find_all("div", id="details")
@@ -315,11 +327,9 @@ def convertChannelId(userId):
     'ユーザーIDからチャンネルIDに変換する\n\n引数：userId\n\n戻り値：channelId or False'
     channelId = userId_to_channelId.convert_channelId(userId)
     if channelId == False: # 取得できなかった
-        print("チャンネルID自動取得できませんでした："+userId)
         writeLog('message', "チャンネルID自動取得できませんでした："+userId)
         return False
     else: # 取得できた
-        print("チャンネルID自動取得："+userId)
         writeLog('message', "チャンネルID自動取得："+userId)
         return channelId
 
