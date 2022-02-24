@@ -16,7 +16,7 @@ channelIds = streamData.keys()
 args = sys.argv
 
 # ライブポイント状況
-if "livePointStatus" == args[1]:
+if "lp" == args[1]:
     csvData = ""
     for channelId in channelIds:
         livePointStatus = streamData[channelId]["livePointStatus"]
@@ -27,14 +27,14 @@ if "livePointStatus" == args[1]:
 
 
 # アイコンアップデート状況
-if "iconUpdateCount" == args[1]:
+if "iu" == args[1]:
     for channelId in channelIds:
         print(streamData[channelId]["iconUpdateCount"])
     print("complete!")
 
 
 # ゲームランキング
-if "games" == args[1]:
+if "g" == args[1]:
     gameLst = {}
     for channelId in channelIds:
         games = streamData[channelId]["games"]
@@ -53,14 +53,14 @@ if "games" == args[1]:
 
 
 # コラボ人数状況
-if "collab" == args[1]:
+if "c" == args[1]:
     for channelId in channelIds:
         print(len(streamData[channelId]["collab"]))
     print("complete!")
 
 
 # 動画タイトルの【】内に入れている単語ランキング
-if "videoTag" == args[1]:
+if "vt" == args[1]:
     streamingsPath = glob.glob('log/streaming/*')
     videoTags = {}
     for streamingPath in streamingsPath:
@@ -83,7 +83,7 @@ if "videoTag" == args[1]:
 
 
 # 曜日ごとの配信者数ランキング
-if "users" == args[1]:
+if "u" == args[1]:
     streamings = glob.glob('log/streaming/*')
 
     data_day_of_week = {
@@ -112,7 +112,7 @@ if "users" == args[1]:
 
 
 # 時間帯別視聴者数推移
-if "timeUserNum" == args[1]:
+if "tu" == args[1]:
     streamings = glob.glob('log/streaming/*')
 
     data_hour = {
@@ -152,7 +152,7 @@ if "timeUserNum" == args[1]:
 
 
 # 曜日別視聴者数推移
-if "dayUserNum" == args[1]:
+if "du" == args[1]:
     streamings = glob.glob('log/streaming/*')
 
     data_day_of_week = {
@@ -184,3 +184,42 @@ if "dayUserNum" == args[1]:
     for dowKey in data_day_of_week.keys():
         streamingNumberAve = sum(data_day_of_week[dowKey]) / len(data_day_of_week[dowKey])
         print(f"{dowKey},{streamingNumberAve}")
+
+
+# 指定した日時に配信していたチャンネルを取り出す
+# 例）2022年02月20日00時02分のチャンネルを取り出す場合
+# 　　>glp 2022.02.20.00.02
+if "glp" == args[1]:
+    channelIds = []
+    setTime = args[2]
+    setTime = setTime.split('.')
+    print("set time length:", len(setTime))
+    fileName = f"log/streaming/streamingLog_{setTime[0]+setTime[1]+setTime[2]}.json"
+
+    with open(fileName, 'r') as f:
+        data = json.load(f)
+    print("open file:", fileName)
+    
+    for d in data:
+        timestamp = d['timestamp']
+        dt = datetime.datetime.fromtimestamp(timestamp)
+
+        if dt.strftime('%Y.%m.%d.%H') == f"{setTime[0]}.{setTime[1]}.{setTime[2]}.{setTime[3]}":
+            print("search:", dt.strftime('%Y.%m.%d.%H.%M'))
+
+        if 4 == len(setTime): # 年月日時までの場合
+            if dt.strftime('%Y.%m.%d.%H') == args[2]:
+                for user in d['details']:
+                    if not (user['channelId'] in channelIds):
+                        channelIds.append(user['channelId'])
+
+        if 5 == len(setTime): # 年月日時分までの場合
+            if dt.strftime('%Y.%m.%d.%H.%M') == args[2]:
+                for user in d['details']:
+                    if not (user['channelId'] in channelIds):
+                        channelIds.append(user['channelId'])
+    
+    for chId in channelIds:
+        print(chId)
+    else:
+        print("complete.")
