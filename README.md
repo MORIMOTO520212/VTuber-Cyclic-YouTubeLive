@@ -1,6 +1,6 @@
 # VTuber Cyclic YouTubeLive
 
-### Vtuberのライブ配信を巡回しながらライブ配信します。  
+## Vtuberのライブ配信を巡回しながらライブ配信します。  
 
 ### 開発環境
 Windows10  
@@ -19,13 +19,13 @@ GCPでサイトを公開し、データは自宅のサーバーで管理して�
 長時間配信者はアイコンの位置が上に来ます  
 ライブ配信化 - コメントの30%が特定のVTuber名になるとその配信に切り替わる。（2度続けて同じVTuberは配信しない）実装予定なし  
 
-### 外部設計  
+## 外部設計  
 使用言語：HTML, CSS  
 
-### 内部設計  
+## 内部設計  
 使用言語：HTML5, CSS, JS, Python, PHP, JSON  
 
-### ファイル説明  
+## ファイル説明  
 - .semaphore - streamdata.jsonの排他制御を行います。これはstreamingSearchFirefox.pyとupdateTwitterIcon.pyが利用します。  
 - index.html - ストリーミングファイル  
 - streamtest.html - チャンネルが埋め込み許可をしているかどうかを調べます。  
@@ -117,7 +117,7 @@ GCPでサイトを公開し、データは自宅のサーバーで管理して�
     - work.md - 作業内容を記載する。  
     - work.py - 作業用Pythonファイル。
 
-### 記録データ一覧
+## 記録データ一覧
 - streamdata.json
     - ユーザー名
     - Twitter ID
@@ -135,51 +135,35 @@ GCPでサイトを公開し、データは自宅のサーバーで管理して�
     - コラボデータ（YouTubeチャンネルリスト）
     - アクティブバッジ（Boolean値）
 
-### GeckoDriver
+## GeckoDriver
 公式ドキュメント：https://developer.mozilla.org/en-US/docs/Web/WebDriver  
 GitHub: https://github.com/mozilla/geckodriver  
 GitHub Release: https://github.com/mozilla/geckodriver/releases  
 場所：/usr/local/bin  
 現使用バージョン：geckodriver 0.30.0 (d372710b98a6 2021-09-16 10:29 +0300) - Linux64  
 
-### バージョン確認
+## バージョン確認
 ```
 geckodriver --version
 ```
 
-### 権限更新
+## 権限更新
 ```
 $sudo chown xsusa:xsusa geckodriver
 ```
 
-### プロファイルの設定
+## プロファイルの設定
 1. firefoxを立ち上げてYouTubeにログイン
 2. about:profilesでプロファイルにアクセス
 3. プロファイルのフォルダにアクセスして「cookies.sqlite」と「places.sqlite」をコピー
 4. サーバー上にfirefox-profileディレクトリを作成しそこへペースト
 
-### 削除チャンネル
-羽衣みらい
-https://www.youtube.com/channel/UCHQM4sdkSoszo0wlHhwM4Gg
-イオス・セレスティア
-https://www.youtube.com/channel/UCGWuFFzyiCWoP-e426DoqZg
-ぬりたくる
-https://www.youtube.com/channel/UCqMtUZ2VHZS2lvi-fwh9icA
-星五レア
-https://www.youtube.com/channel/UC4CWBeZnYSHERVvUlrLo9GA
-絵都えとら
-https://www.youtube.com/channel/UCwY13RnqWK4FNFeHGrK96Gw
-ばっち
-https://www.youtube.com/channel/UCGQafo6W2ZI5MiSTHKfOF4w
+## 削除チャンネル
 
-### streamdata.json 修正
-TwitterID変更:
-sakanachan_chan → sakanachan_ch
-72525Listiv2 → 72525Osaka2
-nemu_ru08 → nemumi_ruth
+## streamdata.json 修正
 
-### NOTE   
-- VTuber採掘所でハイライト動画が再生されない  
+## NOTE   
+- 動画まとめを作るために、ログプログラムにvideoIdを追加する
 - idChangeData.jsonを参照する場合、すべて大文字にして小文字大文字判別しない  
 - twitter DM -> 黄昏にゃこさんはチャンネル登録者数が1000人未満にもかかわらず、配信中の埋め込みが許可されている。   
     恐らく皆さんも、エンコーダに張り付けるストリームキーを固定するために、  
@@ -199,7 +183,7 @@ nemu_ru08 → nemumi_ruth
     - フィルターをもう少し増やす
 
 
-### 再生不可のご連絡
+## 再生不可のご連絡
 失礼します。
 VTuber配信巡回ウェブアプリ公式です。
 VTuber採掘所にご登録頂いてありがとうございます。
@@ -208,24 +192,25 @@ YouTube配信時に埋め込み許可をオンにしていない配信者をサ�
 引き続き掲載する場合は、埋め込み許可をオンにしてください。（次回からは自動的にオンになります）
 
 手順
-YouTube Studio > 
+YouTube Studio > 配信設定にて、動画の埋め込みを「許可する」に変更する。
 
-### サーバー再稼働
-自宅サーバーを立ち上げる  
-Apache2立ち上げ  
-screen -S ngrok  
-ngrok http 80  
-screen -S streamingSearchFirefox  
-python3 streamingSearchFirefox.py  
-screen -S updateTwitterIcon  
-python3 updateTwitterIcon.py  
-getData.phpのngrokアドレス更新  
-GCP VMインスタンスを立ち上げる  
-Apache2立ち上げ  
-getData.phpの書き換え  
-お名前ドットコムでDNS更新  
+## サーバー再稼働
+1. 自宅サーバーを立ち上げる  
+2. Apache2立ち上げ  
+3. screen -S ngrok  
+4. ngrok http 80  
+5. screen -S streamingSearchFirefox  
+6. python3 streamingSearchFirefox.py  
+7. screen -S updateTwitterIcon  
+8. python3 updateTwitterIcon.py  
+9. getData.phpのngrokアドレス更新  
+10. GCP VMインスタンスを立ち上げる  
+11. Apache2立ち上げ  
+12. getData.phpの書き換え  
+13. お名前ドットコムでDNS更新（静的IPにすれば更新しなくてもよい）  
 
-### 作業
-・SEOでどんな対策ができるか  
-・このサイトがどのような構造になっているか  
-・WBS（スケジュール管理表）を作る  
+## 作業
+- 自動構築・自動稼働できるようにプログラムを組む  
+- SEOでどんな対策ができるか  
+- このサイトがどのような構造になっているか  
+- WBS（スケジュール管理表）を作る  

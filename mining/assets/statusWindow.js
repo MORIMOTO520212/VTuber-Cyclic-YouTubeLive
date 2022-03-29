@@ -1,22 +1,24 @@
-var ctx = document.getElementById("myChart");
-var element_youtube = document.getElementById("youtube");
+var ctx                = document.getElementById("myChart");
+var element_youtube      = document.getElementById("youtube");
 var element_statusWindow = document.getElementById("jquery-ui-draggable");
-var element_mask = document.getElementById("mask");
-var element_chatform = document.getElementById("chatform");
-var e_underChatform = document.getElementById("underChatform");
-var e_underChat = document.getElementById("underChat");
-var e_underChatBtn = document.getElementById("underChatBtn");
-var element_channelId = document.getElementById("channelId");
-var element_userName = document.getElementById("userName");
-var element_twitterId = document.getElementById("twitterId");
+var element_mask       = document.getElementById("mask");
+var element_chatform   = document.getElementById("chatform");
+var e_underChatform    = document.getElementById("underChatform");
+var e_underChat        = document.getElementById("underChat");
+var e_underChatBtn     = document.getElementById("underChatBtn");
+var element_channelId  = document.getElementById("channelId");
+var element_channellnk = document.getElementById("channellnk");
+var element_userName   = document.getElementById("userName");
+var element_twitterId  = document.getElementById("twitterId");
+var element_twitterlnk = document.getElementById("twitterlnk");
 var element_videoTitle = document.getElementById("videoTitle");
 var element_streamingNumber = document.getElementById("streamingNumber");
-var element_livePoint = document.getElementById("livePoint");
-var element_twitterId_link = document.getElementById("twitterId_link");
-var element_youtubeId_link = document.getElementById("youtubeId_link");
-var element_playgame = document.getElementById("playgame");
-var element_playgame_link = document.getElementById("playgame_link");
-var element_playgame_photo = document.getElementById("playgame_photo");
+var element_livePoint       = document.getElementById("livePoint");
+var element_twitterId_link  = document.getElementById("twitterId_link");
+var element_youtubeId_link  = document.getElementById("youtubeId_link");
+var element_playgame        = document.getElementById("playgame");
+var element_playgame_link   = document.getElementById("playgame_link");
+var element_playgame_photo  = document.getElementById("playgame_photo");
 var videoId = "";
 
 /* status window */
@@ -46,32 +48,47 @@ var chart = new Chart(ctx, {
 var underChat_status = 0;
 
 function status(channelId){
-    // stop youtube interval
-    clearInterval(yt_interval); // stop interval
-    element_yt.setAttribute("src", "../startpage.html"); // set top page
+    // バックグラウンド画面の配信を停止
+    clearInterval(yt_interval);
+    element_yt.setAttribute("src", "../startpage.html");
     console.log("status "+channelId);
-    element_mask.setAttribute("style", "display: block;"); // set mask
-    element_statusWindow.setAttribute("style", ""); // status window on display
+
+    // StatusWindowの表示
+    element_mask.setAttribute("style", "display: block;"); // 画面にマスク
+    element_statusWindow.setAttribute("style", "");
     
+    // StatusWindowの内容を表示
     for(let i=0;  i < streamings.length; i++){
         if(channelId == streamings[i]["channelId"]){
             videoId = streamings[i]["videoId"];
             element_channelId.innerText = channelId;
+
+            // 動画タイトル
+            element_videoTitle.innerText = streamings[i]["videoTitle"];
+            // ユーザー名
             element_userName.innerText = streamings[i]["userName"];
             element_twitterId.innerText = streamings[i]["twitterId"];
-            element_videoTitle.innerText = streamings[i]["videoTitle"];
+            
             element_streamingNumber.innerText = streamings[i]["streamingNumber"];
             element_livePoint.innerText = streamings[i]["livePoint"];
+
+            element_channellnk.setAttribute('href', 'https://www.youtube.com/channel/'+channelId);
+            element_twitterlnk.setAttribute('href', 'https://twitter.com/'+streamings[i]["twitterId"]);
+
+            // プレイ中のゲーム
             if(streamings[i]["play"]){
-                element_playgame.setAttribute("style", "display:block;width:100%;"); // playgame block
+                element_playgame.setAttribute("style", "display:block;width:100%;");
                 element_playgame_link.setAttribute("href", streamings[i]["play"]["url"]);
                 element_playgame_photo.setAttribute("src", streamings[i]["play"]["photo"]);
             }else{
-                element_playgame.setAttribute("style", "display:none;width:100%;"); // playgame hidden
+                element_playgame.setAttribute("style", "display:none;width:100%;");
             }
+
+            // SNSアイコン
             element_twitterId_link.setAttribute("href", "https://twitter.com/"+streamings[i]["twitterId"]);
             element_youtubeId_link.setAttribute("href", "https://www.youtube.com/watch?v="+videoId);
-            // active chart
+
+            // アクティブチャート
             var activeStatus = streamings[i]["livePointStatus"];
             chart.data.datasets[0].data =   [
                 activeStatus["00"], activeStatus["01"], activeStatus["02"], activeStatus["03"], 
@@ -91,7 +108,7 @@ function status(channelId){
 }
 
 function closeStatusWindow(){
-    // start youtube interval
+    // バックグラウンド画面の配信を開始
     randomSetYouTube();
     yt_interval = setInterval(randomSetYouTube, speed);
     console.log("close status window.");

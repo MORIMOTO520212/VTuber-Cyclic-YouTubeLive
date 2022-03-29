@@ -187,39 +187,51 @@ if "du" == args[1]:
 
 
 # 指定した日時に配信していたチャンネルを取り出す
-# 例）2022年02月20日00時02分のチャンネルを取り出す場合
-# 　　>glp 2022.02.20.00.02
+# 範囲指定の場合は時間は書かない
+# 例）2022年02月20日00時のチャンネルを取り出す場合
+# 　　>glp 2022.02.20.00
 if "glp" == args[1]:
-    channelIds = []
+    channelData = []
     setTime = args[2]
     setTime = setTime.split('.')
     print("set time length:", len(setTime))
+    print(f"set time: {setTime[0]}/{setTime[1]}/{setTime[2]}")
     fileName = f"log/streaming/streamingLog_{setTime[0]+setTime[1]+setTime[2]}.json"
 
     with open(fileName, 'r') as f:
         data = json.load(f)
     print("open file:", fileName)
+    print("open file: database/streamdata.json")
     
+    print("----------- candidate -----------")
+
     for d in data:
         timestamp = d['timestamp']
         dt = datetime.datetime.fromtimestamp(timestamp)
 
         if dt.strftime('%Y.%m.%d.%H') == f"{setTime[0]}.{setTime[1]}.{setTime[2]}.{setTime[3]}":
-            print("search:", dt.strftime('%Y.%m.%d.%H.%M'))
+            print("found:", dt.strftime('%Y.%m.%d.%H.%M'))
 
         if 4 == len(setTime): # 年月日時までの場合
             if dt.strftime('%Y.%m.%d.%H') == args[2]:
                 for user in d['details']:
-                    if not (user['channelId'] in channelIds):
-                        channelIds.append(user['channelId'])
+                    if not (user['channelId'] in [chid[2] for chid in channelData]):
+                        channelId = user['channelId']
+                        userName  = streamData[user['channelId']]['userName']
+                        videoTitle = user['videoTitle'][:16]
+                        channelData.append([userName, videoTitle, channelId])
 
         if 5 == len(setTime): # 年月日時分までの場合
             if dt.strftime('%Y.%m.%d.%H.%M') == args[2]:
                 for user in d['details']:
-                    if not (user['channelId'] in channelIds):
-                        channelIds.append(user['channelId'])
+                    if not (user['channelId'] in [chid[2] for chid in channelData]):
+                        channelId = user['channelId']
+                        videoTitle = user['videoTitle'][:16]
+                        userName  = streamData[user['channelId']]['userName']
+                        channelData.append([userName, videoTitle, channelId])
     
-    for chId in channelIds:
-        print(chId)
+    print("----------- channel URL -----------")
+    for chId in channelData:
+        print(f"{chId[0]}\t\t{chId[1]}\t\thttps://www.youtube.com/channel/{chId[2]}")
     else:
         print("complete.")

@@ -22,18 +22,18 @@
         <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="assets/style.css">
         <link rel="stylesheet" type="text/css" href="assets/m-style.css">
-        <meta name="description" content="総勢400名近くのVTuberのライブ配信をリアルタイムに見ることができます。">
+        <meta name="description" content="全国のVTuberのライブ配信をリアルタイムに見ることができます。">
         <meta name="keywords" content="vtuber, vtuber おすすめ">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@xsusa_vtuber">
         <meta name="twitter:title" content="VTuber採掘所">
-        <meta name="twitter:description" content="総勢400名近くのVTuberのライブ配信をリアルタイムに見ることができます。">
+        <meta name="twitter:description" content="全国のVTuberのライブ配信をリアルタイムに見ることができます。">
         <meta name="twitter:image" content="https://xsusa.xyz/vcyclic/Album/mining2_2021_03_10.png">
         <meta property="og:title" content="VTuber採掘所" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="総勢400名近くのVTuberのライブ配信をリアルタイムに見ることができます。" />
+        <meta property="og:description" content="全国のVTuberのライブ配信をリアルタイムに見ることができます。" />
         <meta property="og:url" content="https://xsusa.xyz/vcyclic/mining" />
-        <meta property="og:site_name" content="VTuber配信巡回ウェブアプリケーション" />
+        <meta property="og:site_name" content="VTuber採掘所サイト" />
         <meta property="og:image" content="https://xsusa.xyz/vcyclic/Album/mining2_2021_03_10.png" />
     </head>
     <body>
@@ -71,9 +71,13 @@
                     </ul>
                 </div>
             </div>
+
             <!-- 動画一覧の表示 -->
             <ul id="list"></ul>
+
         </div>
+
+        <!-- StatusWindow -->
         <div id="jquery-ui-draggable" class="ui-widget-content" style="display:none">
             <div class="ui-widget-header"></div>
             <div class="window">
@@ -83,17 +87,28 @@
                         <p>動画タイトル</p>
                         <p id="videoTitle">[ videoTitle ]</p>
                     </div>
+
                     <div class="block">
                         <div class="list"><p>ユーザー名</p></div>
                         <div class="list"><p id="userName">[ userName ]</p></div>
                     </div>
+                    <!-- Twitter Link block -->
                     <div class="block">
                         <div class="list"><p>Twitter ID</p></div>
-                        <div class="list"><p id="twitterId">[ twitterId ]</p></div>
+                        <div class="list">
+                            <a id="twitterlnk" href="#" target="_blank" rel="noopener">
+                                <p id="twitterId">[ twitterId ]</p>
+                            </a>
+                        </div>
                     </div>
+                    <!-- Channel ID block -->
                     <div class="block">
                         <div class="list"><p>Channel ID</p></div>
-                        <div class="list"><p id="channelId">[ channelId ]</p></div>
+                        <div class="list">
+                            <a id="channellnk" href="#" target="_blank" rel="noopener">
+                                <p id="channelId">[ channelId ]</p>
+                            </a>
+                        </div>
                     </div>
 
                     <div id="playgame" class="block" style="display:none;width:100%;">
@@ -107,6 +122,9 @@
                     <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>
 
                     <div class="list"><p>ライブポイント</p></div>
+                    <div class="list"><p id="livePoint">[ livePoint ]</p></div>
+
+                    <div class="list"><p>配信開始時間</p></div>
                     <div class="list"><p id="livePoint">[ livePoint ]</p></div>
 
                     <div class="list" style="border: none;">

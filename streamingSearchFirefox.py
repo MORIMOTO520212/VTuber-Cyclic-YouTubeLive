@@ -17,7 +17,7 @@ true_noise_R = ["先輩", "ちゃん", "】", "・", "/", " ", "　"]
 
 print("動作オペレーティングシステム："+OS)
 
-# streamingDataの初期化
+# streamingData.jsonの初期化 ※必須
 print("cleanup streamingData...")
 with open(settings.streamingDataPath(OS), "w") as f:
     json.dump([], f)
@@ -29,6 +29,7 @@ open(settings.messageLogPath(OS), "a").write("{} ---- run streamingSearchFirefox
 .format(now.strftime("%Y/%m/%d %H:%M:%S")))
 
 driver = None
+streamingData = []
 streamingData_before = []
 idChangeData = streamdata = gamesData = {}
 
@@ -132,14 +133,17 @@ def search(detail):
     return channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl
 
 def sort():
-    'チャンネルデータのソート　新しいデータは末尾に追加する'
-    global streamingChannels, streamingData_before
+    'チャンネルデータのソート　新しいデータは末尾に追加する streaming.jsonに記録'
+    # streamingChannels    - 取得したデータ
+    # streamingData        - streamingChannelsの記録用データ
+    # streamingData_before - streamingData.jsonから取得したデータ
+    global streamingChannels, streamingData, streamingData_before
 
     # 既存のデータが新規のデータに含まれていた場合そのまま書き写す
     for strDa in streamingData_before:
         if strDa["channelId"] in str(streamingChannels):
 
-            # 既存データの視聴者数・ライブポイント・動画タイトルを更新
+            # 既存データの[視聴者数]・[ライブポイント]・[動画タイトル]を更新
             streamingNumber = False
             livePoint       = False
             videoTitle      = False
@@ -153,14 +157,11 @@ def sort():
                 "channelId": strDa["channelId"],
                 "userName": strDa["userName"],
                 "twitterId": strDa["twitterId"],
-                "active_badge": strDa["active_badge"],
+                "liveStartTime": strDa["liveStartTime"],
                 "streamingNumber": streamingNumber,
                 "videoTitle": videoTitle,
                 "photo": strDa["photo"],
                 "livePoint": livePoint,
-                "lastLiveDate": strDa["lastLiveDate"],
-                "iconUpdateCount": strDa["iconUpdateCount"],
-                "lastIconUpdateDate": strDa["lastIconUpdateDate"],
                 "livePointStatus" : strDa["livePointStatus"],
                 "videoId": strDa["videoId"],
                 "play": strDa["play"],
@@ -170,19 +171,17 @@ def sort():
     # 書き込み用データにまだ含まれていない場合末尾に書く
     for strCha in streamingChannels:
         if strCha["channelId"] not in str(streamingData_before):
+            now = datetime.datetime.now()
 
             streamingData.append({ # 現在取得したライバー追加
                 "channelId": strCha["channelId"],
                 "userName": strCha["userName"],
                 "twitterId": strCha["twitterId"],
-                "active_badge": strCha["active_badge"],
+                "liveStartTime": now.strftime("%Y年%m月%d日 %H時%M分"),
                 "streamingNumber": strCha["streamingNumber"],
                 "videoTitle": strCha["videoTitle"],
                 "photo": strCha["photo"],
                 "livePoint": strCha["livePoint"],
-                "lastLiveDate": strCha["lastLiveDate"],
-                "iconUpdateCount": strCha["iconUpdateCount"],
-                "lastIconUpdateDate": strCha["lastIconUpdateDate"],
                 "livePointStatus" : strCha["livePointStatus"],
                 "videoId": strCha["videoId"],
                 "play": strCha["play"],
@@ -212,7 +211,9 @@ def playGame(videoTitle):
     return game
 
 def updateStatus(usrRoot, play):
-    'ユーザーの登録情報を更新する'
+    'ユーザーの登録情報を更新する streamdata.jsonに記録'
+    # usrRoot - streamdata[n]
+
     now = datetime.datetime.now()
     # ライブポイント
     usrRoot["livePoint"] += 1
@@ -266,7 +267,7 @@ def collab(videoTitle):
     return status_collab
 
 def activBadgeCheck():
-    'アクティブバッジを更新する'
+    '配信が確認された場合、アクティブバッジを更新する'
     i=0
     while i < len(streamingData_before):
         channelId = streamingData_before[i]["channelId"]
@@ -391,14 +392,10 @@ while True:
                             "channelId": channelId,
                             "userName": usrRoot["userName"],
                             "twitterId": usrRoot["twitterId"],
-                            "active_badge": usrRoot["active_badge"],
                             "streamingNumber": streamingNumber,
                             "videoTitle": videoTitle,
                             "photo": usrRoot["photo"],
                             "livePoint": usrRoot["livePoint"],
-                            "lastLiveDate": usrRoot["lastLiveDate"],
-                            "iconUpdateCount": usrRoot["iconUpdateCount"],
-                            "lastIconUpdateDate": usrRoot["lastIconUpdateDate"],
                             "livePointStatus" : usrRoot["livePointStatus"],
                             "videoId": videoId,
                             "play": play,
