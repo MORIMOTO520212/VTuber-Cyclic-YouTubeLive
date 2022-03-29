@@ -266,15 +266,6 @@ def collab(videoTitle):
                     streamdata[channelId_collab]["collab"].append(cc_other)
     return status_collab
 
-def activBadgeCheck():
-    '配信が確認された場合、アクティブバッジを更新する'
-    i=0
-    while i < len(streamingData_before):
-        channelId = streamingData_before[i]["channelId"]
-        active_badge = streamingData_before[i]["active_badge"]
-        streamdata[channelId]["active_badge"] = active_badge
-        i += 1
-
 def streamingLog(streamingChannels):
     # リアルタイムログの記録
     print("write streaming log.")
@@ -384,11 +375,11 @@ while True:
                             writeLog('error', f'\"{channelId}\" idChangeDataにしか登録されていません.')
                             continue
 
-                        play = playGame(videoTitle)
+                        play = playGame(videoTitle) # 実行中のゲームの検出
 
-                        collab(videoTitle)
+                        collab(videoTitle)          # 動画内コラボの検出
 
-                        streamingChannels.append({ # ストリーミングに追加
+                        streamingChannels.append({  # ストリーミングに追加
                             "channelId": channelId,
                             "userName": usrRoot["userName"],
                             "twitterId": usrRoot["twitterId"],
@@ -408,7 +399,6 @@ while True:
         if streamingChannels != []: # 配信者がいた場合
             print("sort channel.")
             sort() # streamingChannelsを並び替える
-            activBadgeCheck() # 有効ユーザーの確認
             streamingLog(streamingChannels) # リアルタイムログ記録
 
         print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")

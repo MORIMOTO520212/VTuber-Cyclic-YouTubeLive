@@ -19,6 +19,7 @@ var element_youtubeId_link  = document.getElementById("youtubeId_link");
 var element_playgame        = document.getElementById("playgame");
 var element_playgame_link   = document.getElementById("playgame_link");
 var element_playgame_photo  = document.getElementById("playgame_photo");
+var element_liveStartTime   = document.getElementById("liveStartTime");
 var videoId = "";
 
 /* status window */
@@ -61,20 +62,23 @@ function status(channelId){
     for(let i=0;  i < streamings.length; i++){
         if(channelId == streamings[i]["channelId"]){
             videoId = streamings[i]["videoId"];
-            element_channelId.innerText = channelId;
 
+            // チャンネル ID
+            element_channelId.innerText = channelId;
+            element_channellnk.setAttribute('href', 'https://www.youtube.com/channel/'+channelId);
             // 動画タイトル
             element_videoTitle.innerText = streamings[i]["videoTitle"];
             // ユーザー名
             element_userName.innerText = streamings[i]["userName"];
+            // Twitter ID
             element_twitterId.innerText = streamings[i]["twitterId"];
-            
-            element_streamingNumber.innerText = streamings[i]["streamingNumber"];
-            element_livePoint.innerText = streamings[i]["livePoint"];
-
-            element_channellnk.setAttribute('href', 'https://www.youtube.com/channel/'+channelId);
             element_twitterlnk.setAttribute('href', 'https://twitter.com/'+streamings[i]["twitterId"]);
-
+            // 同時接続者数
+            element_streamingNumber.innerText = streamings[i]["streamingNumber"];
+            // ライブポイント
+            element_livePoint.innerText = streamings[i]["livePoint"];
+            // 配信開始（年はsliceで削った）
+            element_liveStartTime.innerText = streamings[i]["liveStartTime"].slice(5);
             // プレイ中のゲーム
             if(streamings[i]["play"]){
                 element_playgame.setAttribute("style", "display:block;width:100%;");
