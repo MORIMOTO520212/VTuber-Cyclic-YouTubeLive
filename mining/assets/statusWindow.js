@@ -22,25 +22,20 @@ var element_playgame_photo  = document.getElementById("playgame_photo");
 var element_liveStartTime   = document.getElementById("liveStartTime");
 var videoId = "";
 
-/* status window */
-jQuery(function() { // element move draggable
-    jQuery('#jquery-ui-draggable').draggable({
-        handle: 'div'
-    });
-});
 
 var chart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: [
             "00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", 
             "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"
         ],
         datasets: [{
-            label: 'ライブポイント',
+            label: '配信頻度',
             data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-            backgroundColor: 'rgba(255, 98, 132, 0.5)',
             borderColor: 'rgba(255, 56, 99, 1)',
+            backgroundColor: 'rgba(255, 98, 132, 0.5)',
+            fill: true,
             borderWidth: 1
         }]
     }

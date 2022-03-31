@@ -15,13 +15,6 @@
         </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
-        <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
-        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/m-style.css">
         <meta name="description" content="全国のVTuberのライブ配信をリアルタイムに見ることができます。">
         <meta name="keywords" content="vtuber, vtuber おすすめ">
         <meta name="twitter:card" content="summary_large_image">
@@ -35,6 +28,13 @@
         <meta property="og:url" content="https://xsusa.xyz/vcyclic/mining" />
         <meta property="og:site_name" content="VTuber採掘所サイト" />
         <meta property="og:image" content="https://xsusa.xyz/vcyclic/Album/mining2_2021_03_10.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+        <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/m-style.css">
     </head>
     <body>
         <div id="mask" style="display:none"><a href="javascript:closeStatusWindow()"></a></div>
@@ -92,46 +92,51 @@
                         <div class="list"><p>ユーザー名</p></div>
                         <div class="list"><p id="userName">[ userName ]</p></div>
                     </div>
-                    <!-- Twitter Link block -->
+                    <!-- Twitter block -->
                     <div class="block">
-                        <div class="list"><p>Twitter ID</p></div>
+                        <div class="list">
+                            <div class="ty-logo"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></div>
+                        </div>
                         <div class="list">
                             <a id="twitterlnk" href="#" target="_blank" rel="noopener">
                                 <p id="twitterId">[ twitterId ]</p>
                             </a>
                         </div>
                     </div>
-                    <!-- Channel ID block -->
+                    <!-- YouTube block -->
                     <div class="block">
-                        <div class="list"><p>Channel ID</p></div>
+                        <div class="list">
+                            <div class="ty-logo"><img src="assets/yt_icon_rgb.png"></div>
+                        </div>
                         <div class="list">
                             <a id="channellnk" href="#" target="_blank" rel="noopener">
                                 <p id="channelId">[ channelId ]</p>
                             </a>
                         </div>
                     </div>
-
+                    <!-- Streaming Number block -->
+                    <div class="block">
+                        <div class="list"><p>同時接続者数</p></div>
+                        <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>              
+                    </div>
+                    <!-- Live Point block -->
+                    <div class="block">
+                        <div class="list"><p>ライブポイント</p></div>
+                        <div class="list"><p id="livePoint">[ livePoint ]</p></div>
+                    </div>
+                    <!-- Live Start Time block -->
+                    <div class="block">
+                        <div class="list"><p>配信開始</p></div>
+                        <div class="list"><p id="liveStartTime">[ livePoint ]</p></div>
+                    </div>
+                    <!-- Play Game block -->
                     <div id="playgame" class="block" style="display:none;width:100%;">
                         <p id="playgame_name">プレイ中のゲーム</p>
                         <a id="playgame_link" href target="_blank" rel="noopener">
                             <img id="playgame_photo" src>
                         </a>
                     </div>
-
-                    <div class="list"><p>同時接続者数</p></div>
-                    <div class="list"><p id="streamingNumber">[ streamingNumber ]</p></div>
-
-                    <div class="list"><p>ライブポイント</p></div>
-                    <div class="list"><p id="livePoint">[ livePoint ]</p></div>
-
-                    <div class="list"><p>配信開始</p></div>
-                    <div class="list"><p id="liveStartTime">[ livePoint ]</p></div>
-
-                    <div class="list" style="border: none;">
-                        <div class="ty-logo"><a id="twitterId_link" href="[Twitter User URL]" target="_blank" rel="noopener"><img src="assets/Twitter_Logo_WhiteOnBlue.png"></a></div>
-                        <div class="ty-logo"><a id="youtubeId_link" href="[YouTube Channel URL]" target="_blank" rel="noopener"><img src="assets/yt_icon_rgb.png"></a></div>
-                    </div>
-
+                    <!-- Live Chat Button -->
                     <div class="list chatbtn">
                         <div class="btn">
                             <a href="javascript:underChatform()"></a>
@@ -154,6 +159,16 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="f-text">
+                <a href="https://twitter.com/xsusa_vtuber" target="_blank" rel="noopener">お問い合わせ</a>
+            </div>
+            <div class="f-text">
+                <p>©VTuber採掘所</p>
+            </div>
+        </footer>
+
         <script src="assets/liver.js"></script>
         <script src="assets/base.js"></script>
         <script src="assets/statusWindow.js"></script>
