@@ -23,6 +23,7 @@ for channelId in data:
 print("登録済ライバー数："+str(len(userName)))
 
 def add(in_userName, in_twitterId, photo, channelId, twitterUserId):
+    # チャンネル情報を一時保管
     userData = {}
     now = datetime.datetime.now()
     userData["userName"]  = in_userName
@@ -51,7 +52,7 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
     # 手動処理
     while True:
         try:
-            channelId = input("チャンネルID：")
+            in_channelId = input("チャンネルID：")
             in_twitterId = input("Twitter ID：")
             in_userName  = input("ユーザー名：")
             if in_userName in userName:
@@ -64,11 +65,17 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
             except:
-                print("ユーザー情報が取得できませんでした。手動で登録してください。")
+                print("ユーザー情報が取得できませんでした。手動で登録してください。(強制終了：Ctrl+C)")
                 photo = input("TwitterアイコンURL：")
                 twitterUserId = input("ユーザーID：")
 
-            add(in_userName, in_twitterId, photo, channelId, twitterUserId)
+            # 入力チェック
+            if 24 != len(in_channelId):
+                print(in_channelId+" <--- チャンネルIDの入力に不備があります。")
+                print("手動で正しいチャンネルIDを入力してください。(強制終了：Ctrl+C)")
+                in_channelId = input("チャンネルID：")
+
+            add(in_userName, in_twitterId, photo, in_channelId, twitterUserId)
             print()
 
         except KeyboardInterrupt:
@@ -77,15 +84,17 @@ if 1 == int(input("手動で入力する場合は1, リスト形式の場合は2
 else:
     # リスト処理
     try:
-        channeladd = open("channels.txt", "r", encoding="utf-8").read()
-        channels = channeladd.split("\n")
+        with open("channels.txt", "r", encoding="utf-8") as f:
+            channels = f.read().split('\n')
         i = 0
 
         while i < len(channels)-1:
+            # 1 userName
             in_userName = channels[i]
 
             i += 1 # 2 TwitterId
             in_twitterId = channels[i]
+
             # TweepyでTwitterアイコン取得
             try:
                 userStatus = api.get_user(screen_name=in_twitterId)
@@ -93,20 +102,28 @@ else:
                 photo = userStatus.profile_image_url_https
                 photo = photo.replace("_normal.jpg", "_400x400.jpg").replace("_normal.png", "_400x400.png")
             except:
-                print(in_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを登録してください。")
+                print(in_userName, "ユーザー情報が取得できませんでした。手動でアイコンURLを入力してください。(強制終了：Ctrl+C)")
                 photo = input("TwitterアイコンURL：")
                 twitterUserId = input("ユーザーID：")
 
             i += 1 # 3 ChannelId
+            in_channelId = channels[i]
+
+            # 入力チェック
+            if 24 != len(in_channelId):
+                print(in_channelId+" <--- チャンネルIDの入力に不備があります。")
+                print("手動で正しいチャンネルIDを入力してください。(強制終了：Ctrl+C)")
+                in_channelId = input("チャンネルID：")
+
             print(in_userName)
             print(in_twitterId)
-            print(channels[i])
+            print(in_channelId)
             print("-------------------------------------------")
 
             if in_userName in userName:
                 print(in_userName, "は、既に登録済みのユーザーです。")
             else:
-                add(in_userName, in_twitterId, photo, channels[i], twitterUserId)
+                add(in_userName, in_twitterId, photo, in_channelId, twitterUserId)
             i += 1
     except KeyboardInterrupt:
         input("\nエンターキーを押して終了します。")

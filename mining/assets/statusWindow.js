@@ -14,8 +14,6 @@ var element_twitterlnk = document.getElementById("twitterlnk");
 var element_videoTitle = document.getElementById("videoTitle");
 var element_streamingNumber = document.getElementById("streamingNumber");
 var element_livePoint       = document.getElementById("livePoint");
-var element_twitterId_link  = document.getElementById("twitterId_link");
-var element_youtubeId_link  = document.getElementById("youtubeId_link");
 var element_playgame        = document.getElementById("playgame");
 var element_playgame_link   = document.getElementById("playgame_link");
 var element_playgame_photo  = document.getElementById("playgame_photo");
@@ -82,10 +80,6 @@ function status(channelId){
             }else{
                 element_playgame.setAttribute("style", "display:none;width:100%;");
             }
-
-            // SNSアイコン
-            element_twitterId_link.setAttribute("href", "https://twitter.com/"+streamings[i]["twitterId"]);
-            element_youtubeId_link.setAttribute("href", "https://www.youtube.com/watch?v="+videoId);
 
             // アクティブチャート
             var activeStatus = streamings[i]["livePointStatus"];

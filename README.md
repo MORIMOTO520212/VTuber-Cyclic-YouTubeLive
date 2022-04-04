@@ -159,8 +159,8 @@ $sudo chown xsusa:xsusa geckodriver
 4. サーバー上にfirefox-profileディレクトリを作成しそこへペースト
 
 ## 削除チャンネル
-楠木さらら
-https://www.youtube.com/channel/UCkkdEmzZHMp9xqs_F7v1EQQ
+https://www.youtube.com/channel/UCxRRSWkJS6HduvXB5WVBLjg
+https://www.youtube.com/channel/UCmr4qtbzst3g-_fUUgX__R
 
 ## streamdata.json 修正
 

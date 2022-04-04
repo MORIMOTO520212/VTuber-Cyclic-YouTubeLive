@@ -28,6 +28,7 @@ var element_main_videoTitle = document.getElementById("main_videoTitle");
 var element_photo           = document.getElementById("photo");
 var element_speed           = document.getElementById("speed");
 var e_counter               = document.getElementById("counter");
+var e_title                 = document.querySelector("title");
 var streamings;
 var streamDataCheck = false;
 var _chlog = 0;
@@ -39,6 +40,7 @@ function intervalStreamingData(){
             liverViewer("", false); // update liver viewer
             gameFilter();  // update play games list
             e_counter.innerText = streamings.length;
+            e_title.innerText = `VTuber採掘所 (${streamings.length})`;
             _chlog = streamings.length;
         }
     }
