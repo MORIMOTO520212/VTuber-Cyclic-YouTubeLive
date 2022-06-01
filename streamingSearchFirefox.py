@@ -325,113 +325,114 @@ def convertChannelId(userId):
         writeLog('message', "チャンネルID自動取得："+userId)
         return channelId
 
-while True:
-    # セマフォ確認
+if __name__ == '__main__':
     while True:
-        if "0" == open(".semaphore", "r").read():
-            print("処理待機 60s...")
-            sleep(60)
-        else: break
-    open(".semaphore", "w").write("0") # ブロック開始
-    try:
-        streamingChannels = [] # 取得したデータを書き込む
-        streamingData     = [] # 書き込み用
+        # セマフォ確認
+        while True:
+            if "0" == open(".semaphore", "r").read():
+                print("処理待機 60s...")
+                sleep(60)
+            else: break
+        open(".semaphore", "w").write("0") # ブロック開始
+        try:
+            streamingChannels = [] # 取得したデータを書き込む
+            streamingData     = [] # 書き込み用
 
-        print("load data files.")
-        loadDataFiles()
+            print("load data files.")
+            loadDataFiles()
 
-        print("get youtube source.")
-        details = getSource()
+            print("get youtube source.")
+            details = getSource()
 
-        # スクレイピング
-        print("process channels.")
-        for detail in details:
-            channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl = search(detail)
+            # スクレイピング
+            print("process channels.")
+            for detail in details:
+                channelId, streamingNow, streamingNumber, videoTitle, videoId, thumbnailUrl = search(detail)
 
-            if streamingNow == "ライブ配信中" or streamingNow == "LIVE NOW":
-                # streamData未登録の場合
-                if channelId not in list(streamdata.keys()):
-                    try:
-                        # ユーザーIDでチャンネルIDが取得できた場合
-                        channelId = idChangeData[channelId]
-                    except:
-                        if 24 != len(channelId): # channelIdではなかった場合
-                            userId = channelId
-                            channelId = convertChannelId(userId)
-                            if channelId == False:
-                                channelId = 'unregistered'
-                            else:
-                                idChangeData[userId] = channelId
-                                with open(settings.idChangeDataPath(OS), "w") as f:
-                                    json.dump(idChangeData, f, indent=2)
-
-                if channelId != 'unregistered': # 登録済みユーザーのみ
-                    
-                    # スクレイピングで同じユーザーを2度取得している場合がある
-                    if channelId not in str(streamingChannels):
+                if streamingNow == "ライブ" or streamingNow == "LIVE":
+                    # streamData未登録の場合
+                    if channelId not in list(streamdata.keys()):
                         try:
-                            usrRoot = streamdata[channelId]
+                            # ユーザーIDでチャンネルIDが取得できた場合
+                            channelId = idChangeData[channelId]
                         except:
-                            writeLog('error', f'\"{channelId}\" idChangeDataにしか登録されていません.')
-                            continue
+                            if 24 != len(channelId): # channelIdではなかった場合
+                                userId = channelId
+                                channelId = convertChannelId(userId)
+                                if channelId == False:
+                                    channelId = 'unregistered'
+                                else:
+                                    idChangeData[userId] = channelId
+                                    with open(settings.idChangeDataPath(OS), "w") as f:
+                                        json.dump(idChangeData, f, indent=2)
 
-                        play = playGame(videoTitle) # 実行中のゲームの検出
+                    if channelId != 'unregistered': # 登録済みユーザーのみ
+                        
+                        # スクレイピングで同じユーザーを2度取得している場合がある
+                        if channelId not in str(streamingChannels):
+                            try:
+                                usrRoot = streamdata[channelId]
+                            except:
+                                writeLog('error', f'\"{channelId}\" idChangeDataにしか登録されていません.')
+                                continue
 
-                        collab(videoTitle)          # 動画内コラボの検出
+                            play = playGame(videoTitle) # 実行中のゲームの検出
+                            
+                            collab(videoTitle)          # 動画内コラボの検出
 
-                        streamingChannels.append({  # ストリーミングに追加
-                            "channelId": channelId,
-                            "userName": usrRoot["userName"],
-                            "twitterId": usrRoot["twitterId"],
-                            "streamingNumber": streamingNumber,
-                            "videoTitle": videoTitle,
-                            "photo": usrRoot["photo"],
-                            "livePoint": usrRoot["livePoint"],
-                            "livePointStatus" : usrRoot["livePointStatus"],
-                            "videoId": videoId,
-                            "play": play,
-                            "thumbnailUrl": thumbnailUrl
-                        })
+                            streamingChannels.append({  # ストリーミングに追加
+                                "channelId": channelId,
+                                "userName": usrRoot["userName"],
+                                "twitterId": usrRoot["twitterId"],
+                                "streamingNumber": streamingNumber,
+                                "videoTitle": videoTitle,
+                                "photo": usrRoot["photo"],
+                                "livePoint": usrRoot["livePoint"],
+                                "livePointStatus" : usrRoot["livePointStatus"],
+                                "videoId": videoId,
+                                "play": play,
+                                "thumbnailUrl": thumbnailUrl
+                            })
 
-                        # ライバーステータス更新
-                        updateStatus(usrRoot, play)
+                            # ライバーステータス更新
+                            updateStatus(usrRoot, play)
 
-        if streamingChannels != []: # 配信者がいた場合
-            print("sort channel.")
-            sort() # streamingChannelsを並び替える
-            streamingLog(streamingChannels) # リアルタイムログ記録
+            if streamingChannels != []: # 配信者がいた場合
+                print("sort channel.")
+                sort() # streamingChannelsを並び替える
+                streamingLog(streamingChannels) # リアルタイムログ記録
 
-        print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
+            print(f"取得チャンネル数：{len(details)}　配信者数：{len(streamingChannels)}")
 
-        # 書き込み
-        print("write log.")
-        with open(settings.streamingDataPath(OS), 'w') as f:
-            json.dump(streamingData, f)
+            # 書き込み
+            print("write log.")
+            with open(settings.streamingDataPath(OS), 'w') as f:
+                json.dump(streamingData, f)
 
-        with open(settings.streamDataPath(OS), 'w') as f:
-            json.dump(streamdata, f, indent=2)
+            with open(settings.streamDataPath(OS), 'w') as f:
+                json.dump(streamdata, f, indent=2)
 
-        # 3分間待機
-        open(".semaphore", "w").write("1")
-        sleep(delay)
+            # 3分間待機
+            open(".semaphore", "w").write("1")
+            sleep(delay)
 
-    except KeyboardInterrupt:
-        print("キーが押されたので終了します。")
-        open(".semaphore", "w").write("1")
-        driver.quit()
-        break
-    
-    except Exception as e:
-        print("main Error: "+str(e))
-        if "Tried to run command without establishing a connection" in str(e):
-            writeLog('message', 'geckodriverのバージョンが古い可能性があります。\n終了します。')
-            open(".semaphore", "w").write('1')
+        except KeyboardInterrupt:
+            print("キーが押されたので終了します。")
+            open(".semaphore", "w").write("1")
             driver.quit()
-            exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
+            break
+        
+        except Exception as e:
+            print("main Error: "+str(e))
+            if "Tried to run command without establishing a connection" in str(e):
+                writeLog('message', 'geckodriverのバージョンが古い可能性があります。\n終了します。')
+                open(".semaphore", "w").write('1')
+                driver.quit()
+                exit("geckodriverのバージョンが古い可能性があります。\n終了します。")
 
-        if "指定されたパスが見つかりません。" in str(e):
-            open(".semaphore", "w").write('1')
-            exit("指定されたドライバーのプロフィールパスが見つかりませんでした。\n終了します。")
+            if "指定されたパスが見つかりません。" in str(e):
+                open(".semaphore", "w").write('1')
+                exit("指定されたドライバーのプロフィールパスが見つかりませんでした。\n終了します。")
 
-        writeLog('error', f'{str(e)}\n')
-        open(".semaphore", "w").write("1")
+            writeLog('error', f'{str(e)}\n')
+            open(".semaphore", "w").write("1")
