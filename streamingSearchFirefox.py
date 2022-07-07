@@ -90,7 +90,10 @@ def getSource():
         else:
             driver.save_screenshot("screenshot.png")
             writeLog('error', f"再試行{str(_+1)}：2つ目のチャンネルブロックのロードが完了しませんでした.")
-            driver.execute_script("window.scrollTo(0, 5000);")
+            driver.execute_script("window.scrollTo(0, 5000);") # スクロール
+    else:
+        writeLog('error', "YouTubeからログアウトされました。")
+        
 
     print("getSource: find all div tag.")
     details = soup.find_all("div", id="details")

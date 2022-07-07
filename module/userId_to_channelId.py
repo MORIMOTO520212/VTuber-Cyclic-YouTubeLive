@@ -16,3 +16,8 @@ def convert_channelId(user_id):
         return channel_id
     except:
         return False
+
+if __name__ == "__main__":
+    # 確認用
+    res = convert_channelId("/c/Beive60")
+    print(res)
