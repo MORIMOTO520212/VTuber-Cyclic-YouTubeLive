@@ -1,6 +1,6 @@
-# VTuber Cyclic YouTubeLive
+# VTuber採掘所
 
-## Vtuberのライブ配信を巡回しながらライブ配信します。  
+## 個人VTuberのライブ配信をリアルタイムに確認することができます。  
 
 ### 開発環境
 Windows10  
@@ -19,11 +19,11 @@ GCPでサイトを公開し、データは自宅のサーバーで管理して�
 長時間配信者はアイコンの位置が上に来ます  
 ライブ配信化 - コメントの30%が特定のVTuber名になるとその配信に切り替わる。（2度続けて同じVTuberは配信しない）実装予定なし  
 
-## 外部設計  
-使用言語：HTML, CSS  
+## フロントエンド  
+使用言語：HTML, CSS, JavaScript  
 
-## 内部設計  
-使用言語：HTML5, CSS, JS, Python, PHP, JSON  
+## バックエンド
+使用言語：Python, PHP 
 
 ## ファイル説明  
 - .semaphore - streamdata.jsonの排他制御を行います。これはstreamingSearchFirefox.pyとupdateTwitterIcon.pyが利用します。  
@@ -158,9 +158,6 @@ $sudo chown xsusa:xsusa geckodriver
 3. プロファイルのフォルダにアクセスして「cookies.sqlite」と「places.sqlite」をコピー
 4. サーバー上にfirefox-profileディレクトリを作成しそこへペースト
 
-## 削除チャンネル
-https://www.youtube.com/channel/UCxRRSWkJS6HduvXB5WVBLjg
-https://www.youtube.com/channel/UCmr4qtbzst3g-_fUUgX__R
 
 ## streamdata.json 修正
 
